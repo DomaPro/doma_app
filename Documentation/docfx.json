@@ -46,7 +46,7 @@
         ],
         "sitemap":
         {
-            "baseUrl": "https://normanderwan.github.io/DocFxForUnity"
+            "baseUrl": "https://domapro.github.io/doma_app"
         },
         "xref": [ "https://normanderwan.github.io/DocFxForUnity/Unity/xrefmap.yml" ],
         "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ],
