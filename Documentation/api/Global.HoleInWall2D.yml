@@ -20,8 +20,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: HoleInWall2D
     path: ../Assets/Managers/DomaManager.cs
     startLine: 271
@@ -53,8 +53,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: objectWall2D
     path: ../Assets/Managers/DomaManager.cs
     startLine: 273
@@ -88,8 +88,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: mousePosition
     path: ../Assets/Managers/DomaManager.cs
     startLine: 274
@@ -123,8 +123,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: domaElement
     path: ../Assets/Managers/DomaManager.cs
     startLine: 275
@@ -158,8 +158,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Wall2D
     path: ../Assets/Managers/DomaManager.cs
     startLine: 276
@@ -193,8 +193,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Wall3D
     path: ../Assets/Managers/DomaManager.cs
     startLine: 277

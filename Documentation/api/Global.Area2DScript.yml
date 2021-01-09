@@ -21,8 +21,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Area2DScript.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Area2DScript
     path: ../Assets/Scripts/Area2DScript.cs
     startLine: 6
@@ -60,8 +60,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Area2DScript.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: worldPosition
     path: ../Assets/Scripts/Area2DScript.cs
     startLine: 8
@@ -91,8 +91,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Area2DScript.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: plane2D
     path: ../Assets/Scripts/Area2DScript.cs
     startLine: 9
@@ -122,8 +122,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Area2DScript.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: mainCamera
     path: ../Assets/Scripts/Area2DScript.cs
     startLine: 11
@@ -153,8 +153,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Area2DScript.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: image2DCamera
     path: ../Assets/Scripts/Area2DScript.cs
     startLine: 12
@@ -184,8 +184,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Area2DScript.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: box2DView
     path: ../Assets/Scripts/Area2DScript.cs
     startLine: 14
@@ -215,8 +215,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Area2DScript.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: DrawWall
     path: ../Assets/Scripts/Area2DScript.cs
     startLine: 97

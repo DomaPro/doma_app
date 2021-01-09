@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/GableWall.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: GableWall
     path: ../Assets/Managers/Functions/GableWall.cs
     startLine: 6
@@ -58,8 +58,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/GableWall.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: material
     path: ../Assets/Managers/Functions/GableWall.cs
     startLine: 8
@@ -89,8 +89,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/GableWall.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: KneeWall
     path: ../Assets/Managers/Functions/GableWall.cs
     startLine: 17
@@ -120,8 +120,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/GableWall.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: LerpByDistance
     path: ../Assets/Managers/Functions/GableWall.cs
     startLine: 150
@@ -159,8 +159,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/GableWall.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: GetTRSMatrix
     path: ../Assets/Managers/Functions/GableWall.cs
     startLine: 195

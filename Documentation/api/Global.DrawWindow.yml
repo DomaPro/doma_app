@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/DrawWindow.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: DrawWindow
     path: ../Assets/Managers/Functions/DrawWindow.cs
     startLine: 10
@@ -56,8 +56,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/DrawWindow.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: material
     path: ../Assets/Managers/Functions/DrawWindow.cs
     startLine: 12
@@ -87,8 +87,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/DrawWindow.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: getColorArray
     path: ../Assets/Managers/Functions/DrawWindow.cs
     startLine: 296

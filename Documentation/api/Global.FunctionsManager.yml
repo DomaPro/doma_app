@@ -34,8 +34,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: FunctionsManager
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 7
@@ -73,8 +73,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: drawWall2D
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 10
@@ -116,8 +116,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: activateButtonDrawWall2D
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 11
@@ -147,8 +147,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: addHole2D
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 14
@@ -190,8 +190,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: activateButtonAddHole2D
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 15
@@ -221,8 +221,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: drawDoor
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 18
@@ -264,8 +264,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: activateButtonDrawDoor
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 19
@@ -295,8 +295,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: drawWindow
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 22
@@ -338,8 +338,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: activateButtonDrawWindow
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 23
@@ -369,8 +369,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: drawCeiling
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 26
@@ -412,8 +412,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: activateButtonDrawCeiling
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 27
@@ -443,8 +443,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: gableWall
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 30
@@ -486,8 +486,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: activateButtonGableWall
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 31
@@ -517,8 +517,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: DrawWall2D
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 42
@@ -547,8 +547,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: GableWall
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 73
@@ -577,8 +577,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: AddHole2D
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 104
@@ -607,8 +607,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: DrawDoor
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 126
@@ -637,8 +637,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: DrawWindow
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 153
@@ -667,8 +667,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: DrawCeiling
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 175
@@ -697,8 +697,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: ChangeColorButton
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 250

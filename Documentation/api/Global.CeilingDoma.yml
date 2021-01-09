@@ -25,8 +25,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: CeilingDoma
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 6
@@ -58,8 +58,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Name
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 8
@@ -93,8 +93,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Tag
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 9
@@ -128,8 +128,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Number
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 10
@@ -163,8 +163,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Height
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 11
@@ -198,8 +198,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: LevelBottom
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 12
@@ -233,8 +233,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Ceilings
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 13
@@ -268,8 +268,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: .ctor
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 15
@@ -307,8 +307,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: GetLevelBottom
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 27
@@ -339,8 +339,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: GetLevelTop
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 32
@@ -371,8 +371,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: GetLevelMiddle
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 37

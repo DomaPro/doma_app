@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: ExampleData
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
     startLine: 21
@@ -50,8 +50,8 @@ items:
   source:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Triangle
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
     startLine: 21
@@ -82,8 +82,8 @@ items:
   source:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Square
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
     startLine: 21
@@ -114,8 +114,8 @@ items:
   source:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Cross
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
     startLine: 21
@@ -146,8 +146,8 @@ items:
   source:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: SCB_Gotland
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
     startLine: 21

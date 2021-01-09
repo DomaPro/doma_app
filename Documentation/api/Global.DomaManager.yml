@@ -41,8 +41,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: DomaManager
     path: ../Assets/Managers/DomaManager.cs
     startLine: 13
@@ -82,8 +82,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Instance
     path: ../Assets/Managers/DomaManager.cs
     startLine: 16
@@ -119,8 +119,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: box2DContainer
     path: ../Assets/Managers/DomaManager.cs
     startLine: 21
@@ -162,8 +162,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: box3DContainer
     path: ../Assets/Managers/DomaManager.cs
     startLine: 22
@@ -193,8 +193,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: miniBox3DContainer
     path: ../Assets/Managers/DomaManager.cs
     startLine: 23
@@ -224,8 +224,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: cameraFor2DView
     path: ../Assets/Managers/DomaManager.cs
     startLine: 26
@@ -267,8 +267,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: cameraFor3DView
     path: ../Assets/Managers/DomaManager.cs
     startLine: 27
@@ -298,8 +298,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: miniCameraFor3DView
     path: ../Assets/Managers/DomaManager.cs
     startLine: 28
@@ -329,8 +329,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: switchMini3DView
     path: ../Assets/Managers/DomaManager.cs
     startLine: 31
@@ -372,8 +372,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: area2D
     path: ../Assets/Managers/DomaManager.cs
     startLine: 34
@@ -415,8 +415,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: area3D
     path: ../Assets/Managers/DomaManager.cs
     startLine: 35
@@ -446,8 +446,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: ImageToolTipPoint
     path: ../Assets/Managers/DomaManager.cs
     startLine: 38
@@ -489,8 +489,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: mousePosition2D
     path: ../Assets/Managers/DomaManager.cs
     startLine: 43
@@ -520,8 +520,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: HoleInWall2D
     path: ../Assets/Managers/DomaManager.cs
     startLine: 45
@@ -555,8 +555,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: gameObjectCircleTip
     path: ../Assets/Managers/DomaManager.cs
     startLine: 47
@@ -586,8 +586,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: ResetDataFunctionNow
     path: ../Assets/Managers/DomaManager.cs
     startLine: 50
@@ -621,8 +621,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: DomaFloors
     path: ../Assets/Managers/DomaManager.cs
     startLine: 56
@@ -658,8 +658,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: ActiveDomaFloor
     path: ../Assets/Managers/DomaManager.cs
     startLine: 57
@@ -693,8 +693,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: CeilingDomas
     path: ../Assets/Managers/DomaManager.cs
     startLine: 59
@@ -728,8 +728,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: SetActiveFloorById
     path: ../Assets/Managers/DomaManager.cs
     startLine: 115
@@ -764,8 +764,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Show2DObjectsOnTags
     path: ../Assets/Managers/DomaManager.cs
     startLine: 121
@@ -800,8 +800,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: GetAllPoints2DWallsOnTags
     path: ../Assets/Managers/DomaManager.cs
     startLine: 153
@@ -838,8 +838,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: GetWallDomaByGameObject
     path: ../Assets/Managers/DomaManager.cs
     startLine: 168
@@ -873,8 +873,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Enable2DView
     path: ../Assets/Managers/DomaManager.cs
     startLine: 173
@@ -903,8 +903,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Enable3DView
     path: ../Assets/Managers/DomaManager.cs
     startLine: 189
@@ -933,8 +933,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: SwitchMini3DView
     path: ../Assets/Managers/DomaManager.cs
     startLine: 205
@@ -963,8 +963,8 @@ items:
   source:
     remote:
       path: Assets/Managers/DomaManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: GetObjectPositionValue
     path: ../Assets/Managers/DomaManager.cs
     startLine: 223

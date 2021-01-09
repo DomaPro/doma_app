@@ -15,8 +15,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Others/MyClasses.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: MyClasses
     path: ../Assets/Managers/Others/MyClasses.cs
     startLine: 4

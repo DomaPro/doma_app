@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: RefreshWallCornersModel
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 262
@@ -50,8 +50,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: ObjectWall
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 264
@@ -85,8 +85,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/FunctionsManager.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Point
     path: ../Assets/Managers/Functions/FunctionsManager.cs
     startLine: 265

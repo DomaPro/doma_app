@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Models/ObjectPositionValue.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: ObjectPositionValue
     path: ../Assets/Scripts/Models/ObjectPositionValue.cs
     startLine: 3
@@ -52,8 +52,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Models/ObjectPositionValue.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: CentralVector
     path: ../Assets/Scripts/Models/ObjectPositionValue.cs
     startLine: 5
@@ -87,8 +87,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Models/ObjectPositionValue.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: MaxDistanceFromCentral
     path: ../Assets/Scripts/Models/ObjectPositionValue.cs
     startLine: 6
@@ -122,8 +122,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Models/ObjectPositionValue.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: MaxPositionY
     path: ../Assets/Scripts/Models/ObjectPositionValue.cs
     startLine: 7
@@ -157,8 +157,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Models/ObjectPositionValue.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: .ctor
     path: ../Assets/Scripts/Models/ObjectPositionValue.cs
     startLine: 9

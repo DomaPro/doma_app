@@ -16,8 +16,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Others/FloorsDropdown.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: FloorsDropdown
     path: ../Assets/Managers/Others/FloorsDropdown.cs
     startLine: 7
@@ -55,8 +55,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Others/FloorsDropdown.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: SetDropdownIndex
     path: ../Assets/Managers/Others/FloorsDropdown.cs
     startLine: 43

@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/DrawWall2D.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: DrawWall2D
     path: ../Assets/Managers/Functions/DrawWall2D.cs
     startLine: 8
@@ -56,8 +56,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/DrawWall2D.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: material
     path: ../Assets/Managers/Functions/DrawWall2D.cs
     startLine: 10
@@ -87,8 +87,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Functions/DrawWall2D.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: getColorArray
     path: ../Assets/Managers/Functions/DrawWall2D.cs
     startLine: 257

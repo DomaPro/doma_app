@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Containers/DomaContainer.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: DomaContainer
     path: ../Assets/Managers/Containers/DomaContainer.cs
     startLine: 4
@@ -56,8 +56,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Containers/DomaContainer.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Instance
     path: ../Assets/Managers/Containers/DomaContainer.cs
     startLine: 7
@@ -93,8 +93,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Containers/DomaContainer.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: TargetFrameRate
     path: ../Assets/Managers/Containers/DomaContainer.cs
     startLine: 11

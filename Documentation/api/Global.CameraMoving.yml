@@ -17,8 +17,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Cameras/CameraMoving.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: CameraMoving
     path: ../Assets/Scripts/Cameras/CameraMoving.cs
     startLine: 4
@@ -56,8 +56,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Cameras/CameraMoving.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: speedMoving
     path: ../Assets/Scripts/Cameras/CameraMoving.cs
     startLine: 6
@@ -87,8 +87,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Cameras/CameraMoving.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: speedZoom
     path: ../Assets/Scripts/Cameras/CameraMoving.cs
     startLine: 7

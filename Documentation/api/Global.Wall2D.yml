@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Floor/FloorDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Wall2D
     path: ../Assets/Managers/Floor/FloorDoma.cs
     startLine: 79
@@ -52,8 +52,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Floor/FloorDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: StartPoint
     path: ../Assets/Managers/Floor/FloorDoma.cs
     startLine: 82
@@ -87,8 +87,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Floor/FloorDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: EndPoint
     path: ../Assets/Managers/Floor/FloorDoma.cs
     startLine: 83
@@ -122,8 +122,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Floor/FloorDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Wal2DInstance
     path: ../Assets/Managers/Floor/FloorDoma.cs
     startLine: 84
@@ -157,8 +157,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Floor/FloorDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: .ctor
     path: ../Assets/Managers/Floor/FloorDoma.cs
     startLine: 86

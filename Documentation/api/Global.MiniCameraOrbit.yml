@@ -19,8 +19,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Cameras/MiniCameraOrbit.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: MiniCameraOrbit
     path: ../Assets/Scripts/Cameras/MiniCameraOrbit.cs
     startLine: 5
@@ -58,8 +58,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Cameras/MiniCameraOrbit.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: target
     path: ../Assets/Scripts/Cameras/MiniCameraOrbit.cs
     startLine: 7
@@ -89,8 +89,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Cameras/MiniCameraOrbit.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: speedRotationHorizontal
     path: ../Assets/Scripts/Cameras/MiniCameraOrbit.cs
     startLine: 8
@@ -120,8 +120,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Cameras/MiniCameraOrbit.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: distanceCameraToObjects
     path: ../Assets/Scripts/Cameras/MiniCameraOrbit.cs
     startLine: 9
@@ -151,8 +151,8 @@ items:
   source:
     remote:
       path: Assets/Scripts/Cameras/MiniCameraOrbit.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: V3Equal
     path: ../Assets/Scripts/Cameras/MiniCameraOrbit.cs
     startLine: 58

@@ -20,8 +20,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Ceiling3D
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 70
@@ -53,8 +53,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Corners
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 72
@@ -88,8 +88,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Ceiling3DInstance
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 73
@@ -123,8 +123,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Ceiling3DSolidInstance
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 74
@@ -158,8 +158,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: .ctor
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 76
@@ -198,8 +198,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: .ctor
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 83

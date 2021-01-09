@@ -16,8 +16,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Floor/FloorDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: HoleDoma
     path: ../Assets/Managers/Floor/FloorDoma.cs
     startLine: 111
@@ -49,8 +49,8 @@ items:
   source:
     remote:
       path: Assets/Managers/Floor/FloorDoma.cs
-      branch: feature/DOMA-8
-      repo: https://github.com/domapl/Doma.git
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
     id: Wall
     path: ../Assets/Managers/Floor/FloorDoma.cs
     startLine: 113
