@@ -1,0 +1,327 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Area2DScript
+  commentId: T:Global.Area2DScript
+  id: Area2DScript
+  parent: Global
+  children:
+  - Global.Area2DScript.box2DView
+  - Global.Area2DScript.DrawWall
+  - Global.Area2DScript.image2DCamera
+  - Global.Area2DScript.mainCamera
+  - Global.Area2DScript.plane2D
+  - Global.Area2DScript.worldPosition
+  langs:
+  - csharp
+  - vb
+  name: Area2DScript
+  nameWithType: Area2DScript
+  fullName: Area2DScript
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Area2DScript.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Area2DScript
+    path: ../Assets/Scripts/Area2DScript.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class Area2DScript : MonoBehaviour'
+    content.vb: >-
+      Public Class Area2DScript
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Area2DScript.worldPosition
+  commentId: F:Global.Area2DScript.worldPosition
+  id: worldPosition
+  parent: Global.Area2DScript
+  langs:
+  - csharp
+  - vb
+  name: worldPosition
+  nameWithType: Area2DScript.worldPosition
+  fullName: Area2DScript.worldPosition
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Area2DScript.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: worldPosition
+    path: ../Assets/Scripts/Area2DScript.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3 worldPosition
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public worldPosition As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Area2DScript.plane2D
+  commentId: F:Global.Area2DScript.plane2D
+  id: plane2D
+  parent: Global.Area2DScript
+  langs:
+  - csharp
+  - vb
+  name: plane2D
+  nameWithType: Area2DScript.plane2D
+  fullName: Area2DScript.plane2D
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Area2DScript.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: plane2D
+    path: ../Assets/Scripts/Area2DScript.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject plane2D
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public plane2D As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Area2DScript.mainCamera
+  commentId: F:Global.Area2DScript.mainCamera
+  id: mainCamera
+  parent: Global.Area2DScript
+  langs:
+  - csharp
+  - vb
+  name: mainCamera
+  nameWithType: Area2DScript.mainCamera
+  fullName: Area2DScript.mainCamera
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Area2DScript.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: mainCamera
+    path: ../Assets/Scripts/Area2DScript.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Camera mainCamera
+    return:
+      type: UnityEngine.Camera
+    content.vb: Public mainCamera As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Area2DScript.image2DCamera
+  commentId: F:Global.Area2DScript.image2DCamera
+  id: image2DCamera
+  parent: Global.Area2DScript
+  langs:
+  - csharp
+  - vb
+  name: image2DCamera
+  nameWithType: Area2DScript.image2DCamera
+  fullName: Area2DScript.image2DCamera
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Area2DScript.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: image2DCamera
+    path: ../Assets/Scripts/Area2DScript.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Camera image2DCamera
+    return:
+      type: UnityEngine.Camera
+    content.vb: Public image2DCamera As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Area2DScript.box2DView
+  commentId: F:Global.Area2DScript.box2DView
+  id: box2DView
+  parent: Global.Area2DScript
+  langs:
+  - csharp
+  - vb
+  name: box2DView
+  nameWithType: Area2DScript.box2DView
+  fullName: Area2DScript.box2DView
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Area2DScript.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: box2DView
+    path: ../Assets/Scripts/Area2DScript.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public RawImage box2DView
+    return:
+      type: UnityEngine.UI.RawImage
+    content.vb: Public box2DView As RawImage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Area2DScript.DrawWall
+  commentId: M:Global.Area2DScript.DrawWall
+  id: DrawWall
+  parent: Global.Area2DScript
+  langs:
+  - csharp
+  - vb
+  name: DrawWall()
+  nameWithType: Area2DScript.DrawWall()
+  fullName: Area2DScript.DrawWall()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Area2DScript.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: DrawWall
+    path: ../Assets/Scripts/Area2DScript.cs
+    startLine: 97
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void DrawWall()
+    content.vb: Public Sub DrawWall
+  overload: Global.Area2DScript.DrawWall*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine.Camera
+  commentId: T:UnityEngine.Camera
+  parent: UnityEngine
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: UnityEngine.Camera
+- uid: UnityEngine.UI.RawImage
+  commentId: T:UnityEngine.UI.RawImage
+  parent: UnityEngine.UI
+  isExternal: true
+  name: RawImage
+  nameWithType: RawImage
+  fullName: UnityEngine.UI.RawImage
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+- uid: Global.Area2DScript.DrawWall*
+  commentId: Overload:Global.Area2DScript.DrawWall
+  name: DrawWall
+  nameWithType: Area2DScript.DrawWall
+  fullName: Area2DScript.DrawWall

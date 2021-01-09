@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.FloorsDropdown
+  commentId: T:Global.FloorsDropdown
+  id: FloorsDropdown
+  parent: Global
+  children:
+  - Global.FloorsDropdown.SetDropdownIndex(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: FloorsDropdown
+  nameWithType: FloorsDropdown
+  fullName: FloorsDropdown
+  type: Class
+  source:
+    remote:
+      path: Assets/Managers/Others/FloorsDropdown.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: FloorsDropdown
+    path: ../Assets/Managers/Others/FloorsDropdown.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class FloorsDropdown : MonoBehaviour'
+    content.vb: >-
+      Public Class FloorsDropdown
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.FloorsDropdown.SetDropdownIndex(System.Int32)
+  commentId: M:Global.FloorsDropdown.SetDropdownIndex(System.Int32)
+  id: SetDropdownIndex(System.Int32)
+  parent: Global.FloorsDropdown
+  langs:
+  - csharp
+  - vb
+  name: SetDropdownIndex(Int32)
+  nameWithType: FloorsDropdown.SetDropdownIndex(Int32)
+  fullName: FloorsDropdown.SetDropdownIndex(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Others/FloorsDropdown.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: SetDropdownIndex
+    path: ../Assets/Managers/Others/FloorsDropdown.cs
+    startLine: 43
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void SetDropdownIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub SetDropdownIndex(index As Integer)
+  overload: Global.FloorsDropdown.SetDropdownIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.FloorsDropdown.SetDropdownIndex*
+  commentId: Overload:Global.FloorsDropdown.SetDropdownIndex
+  name: SetDropdownIndex
+  nameWithType: FloorsDropdown.SetDropdownIndex
+  fullName: FloorsDropdown.SetDropdownIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

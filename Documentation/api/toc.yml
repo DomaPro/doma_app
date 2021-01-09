@@ -1,0 +1,79 @@
+### YamlMime:TableOfContent
+- uid: Global
+  name: Global
+  items:
+  - uid: Global.AddHole2D
+    name: AddHole2D
+  - uid: Global.Area2DScript
+    name: Area2DScript
+  - uid: Global.CameraManager
+    name: CameraManager
+  - uid: Global.CameraMoving
+    name: CameraMoving
+  - uid: Global.CameraOrbit
+    name: CameraOrbit
+  - uid: Global.Ceiling
+    name: Ceiling
+  - uid: Global.Ceiling2D
+    name: Ceiling2D
+  - uid: Global.Ceiling3D
+    name: Ceiling3D
+  - uid: Global.CeilingDoma
+    name: CeilingDoma
+  - uid: Global.DomaContainer
+    name: DomaContainer
+  - uid: Global.DomaElement
+    name: DomaElement
+  - uid: Global.DomaManager
+    name: DomaManager
+  - uid: Global.DrawCeiling
+    name: DrawCeiling
+  - uid: Global.DrawDoor
+    name: DrawDoor
+  - uid: Global.DrawWall2D
+    name: DrawWall2D
+  - uid: Global.DrawWindow
+    name: DrawWindow
+  - uid: Global.FloorDoma
+    name: FloorDoma
+  - uid: Global.FloorsDropdown
+    name: FloorsDropdown
+  - uid: Global.FunctionsManager
+    name: FunctionsManager
+  - uid: Global.GableWall
+    name: GableWall
+  - uid: Global.HoleDoma
+    name: HoleDoma
+  - uid: Global.HoleInWall2D
+    name: HoleInWall2D
+  - uid: Global.IFunctionDoma
+    name: IFunctionDoma
+  - uid: Global.MainCameraController
+    name: MainCameraController
+  - uid: Global.MiniCameraOrbit
+    name: MiniCameraOrbit
+  - uid: Global.MyClasses
+    name: MyClasses
+  - uid: Global.ObjectPositionValue
+    name: ObjectPositionValue
+  - uid: Global.PolyExtruder
+    name: PolyExtruder
+  - uid: Global.PolyExtruderDemo
+    name: PolyExtruderDemo
+  - uid: Global.PolyExtruderDemo.ExampleData
+    name: PolyExtruderDemo.ExampleData
+  - uid: Global.RefreshWallCornersModel
+    name: RefreshWallCornersModel
+  - uid: Global.Triangulation
+    name: Triangulation
+  - uid: Global.TriangulationTest
+    name: TriangulationTest
+  - uid: Global.Wall2D
+    name: Wall2D
+  - uid: Global.Wall3D
+    name: Wall3D
+  - uid: Global.WallDoma
+    name: WallDoma
+  - uid: Global.WallScript
+    name: WallScript
+  name.vb: ''

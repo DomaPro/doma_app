@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.WallDoma
+  commentId: T:Global.WallDoma
+  id: WallDoma
+  parent: Global
+  children:
+  - Global.WallDoma.#ctor(Wall2D,Wall3D)
+  - Global.WallDoma.Holes
+  - Global.WallDoma.Material
+  - Global.WallDoma.Wall2D
+  - Global.WallDoma.Wall3D
+  langs:
+  - csharp
+  - vb
+  name: WallDoma
+  nameWithType: WallDoma
+  fullName: WallDoma
+  type: Class
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: WallDoma
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 63
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public class WallDoma
+    content.vb: Public Class WallDoma
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.WallDoma.Wall2D
+  commentId: P:Global.WallDoma.Wall2D
+  id: Wall2D
+  parent: Global.WallDoma
+  langs:
+  - csharp
+  - vb
+  name: Wall2D
+  nameWithType: WallDoma.Wall2D
+  fullName: WallDoma.Wall2D
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Wall2D
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 65
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Wall2D Wall2D { get; set; }
+    parameters: []
+    return:
+      type: Global.Wall2D
+    content.vb: Public Property Wall2D As Wall2D
+  overload: Global.WallDoma.Wall2D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.WallDoma.Wall3D
+  commentId: P:Global.WallDoma.Wall3D
+  id: Wall3D
+  parent: Global.WallDoma
+  langs:
+  - csharp
+  - vb
+  name: Wall3D
+  nameWithType: WallDoma.Wall3D
+  fullName: WallDoma.Wall3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Wall3D
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 66
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Wall3D Wall3D { get; set; }
+    parameters: []
+    return:
+      type: Global.Wall3D
+    content.vb: Public Property Wall3D As Wall3D
+  overload: Global.WallDoma.Wall3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.WallDoma.Holes
+  commentId: P:Global.WallDoma.Holes
+  id: Holes
+  parent: Global.WallDoma
+  langs:
+  - csharp
+  - vb
+  name: Holes
+  nameWithType: WallDoma.Holes
+  fullName: WallDoma.Holes
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Holes
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 67
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<HoleDoma> Holes { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{HoleDoma}
+    content.vb: Public Property Holes As List(Of HoleDoma)
+  overload: Global.WallDoma.Holes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.WallDoma.Material
+  commentId: P:Global.WallDoma.Material
+  id: Material
+  parent: Global.WallDoma
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: WallDoma.Material
+  fullName: WallDoma.Material
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Material
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 68
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Material Material { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property Material As Material
+  overload: Global.WallDoma.Material*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.WallDoma.#ctor(Wall2D,Wall3D)
+  commentId: M:Global.WallDoma.#ctor(Wall2D,Wall3D)
+  id: '#ctor(Wall2D,Wall3D)'
+  parent: Global.WallDoma
+  langs:
+  - csharp
+  - vb
+  name: WallDoma(Wall2D, Wall3D)
+  nameWithType: WallDoma.WallDoma(Wall2D, Wall3D)
+  fullName: WallDoma.WallDoma(Wall2D, Wall3D)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: .ctor
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 70
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public WallDoma(Wall2D wall2D, Wall3D wall3D)
+    parameters:
+    - id: wall2D
+      type: Global.Wall2D
+    - id: wall3D
+      type: Global.Wall3D
+    content.vb: Public Sub New(wall2D As Wall2D, wall3D As Wall3D)
+  overload: Global.WallDoma.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.WallDoma.Wall2D*
+  commentId: Overload:Global.WallDoma.Wall2D
+  name: Wall2D
+  nameWithType: WallDoma.Wall2D
+  fullName: WallDoma.Wall2D
+- uid: Global.Wall2D
+  commentId: T:Global.Wall2D
+  name: Wall2D
+  nameWithType: Wall2D
+  fullName: Wall2D
+- uid: Global.WallDoma.Wall3D*
+  commentId: Overload:Global.WallDoma.Wall3D
+  name: Wall3D
+  nameWithType: WallDoma.Wall3D
+  fullName: WallDoma.Wall3D
+- uid: Global.Wall3D
+  commentId: T:Global.Wall3D
+  name: Wall3D
+  nameWithType: Wall3D
+  fullName: Wall3D
+- uid: Global.WallDoma.Holes*
+  commentId: Overload:Global.WallDoma.Holes
+  name: Holes
+  nameWithType: WallDoma.Holes
+  fullName: WallDoma.Holes
+- uid: System.Collections.Generic.List{HoleDoma}
+  commentId: T:System.Collections.Generic.List{HoleDoma}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<HoleDoma>
+  nameWithType: List<HoleDoma>
+  fullName: System.Collections.Generic.List<HoleDoma>
+  nameWithType.vb: List(Of HoleDoma)
+  fullName.vb: System.Collections.Generic.List(Of HoleDoma)
+  name.vb: List(Of HoleDoma)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.HoleDoma
+    name: HoleDoma
+    nameWithType: HoleDoma
+    fullName: HoleDoma
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.HoleDoma
+    name: HoleDoma
+    nameWithType: HoleDoma
+    fullName: HoleDoma
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.WallDoma.Material*
+  commentId: Overload:Global.WallDoma.Material
+  name: Material
+  nameWithType: WallDoma.Material
+  fullName: WallDoma.Material
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.WallDoma.#ctor*
+  commentId: Overload:Global.WallDoma.#ctor
+  name: WallDoma
+  nameWithType: WallDoma.WallDoma
+  fullName: WallDoma.WallDoma

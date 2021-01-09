@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PolyExtruderDemo.ExampleData
+  commentId: T:Global.PolyExtruderDemo.ExampleData
+  id: PolyExtruderDemo.ExampleData
+  parent: Global
+  children:
+  - Global.PolyExtruderDemo.ExampleData.Cross
+  - Global.PolyExtruderDemo.ExampleData.SCB_Gotland
+  - Global.PolyExtruderDemo.ExampleData.Square
+  - Global.PolyExtruderDemo.ExampleData.Triangle
+  langs:
+  - csharp
+  - vb
+  name: PolyExtruderDemo.ExampleData
+  nameWithType: PolyExtruderDemo.ExampleData
+  fullName: PolyExtruderDemo.ExampleData
+  type: Enum
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: ExampleData
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public enum ExampleData
+    content.vb: Public Enum ExampleData
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.PolyExtruderDemo.ExampleData.Triangle
+  commentId: F:Global.PolyExtruderDemo.ExampleData.Triangle
+  id: Triangle
+  parent: Global.PolyExtruderDemo.ExampleData
+  langs:
+  - csharp
+  - vb
+  name: Triangle
+  nameWithType: PolyExtruderDemo.ExampleData.Triangle
+  fullName: PolyExtruderDemo.ExampleData.Triangle
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Triangle
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: Triangle = 0
+    return:
+      type: Global.PolyExtruderDemo.ExampleData
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PolyExtruderDemo.ExampleData.Square
+  commentId: F:Global.PolyExtruderDemo.ExampleData.Square
+  id: Square
+  parent: Global.PolyExtruderDemo.ExampleData
+  langs:
+  - csharp
+  - vb
+  name: Square
+  nameWithType: PolyExtruderDemo.ExampleData.Square
+  fullName: PolyExtruderDemo.ExampleData.Square
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Square
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: Square = 1
+    return:
+      type: Global.PolyExtruderDemo.ExampleData
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PolyExtruderDemo.ExampleData.Cross
+  commentId: F:Global.PolyExtruderDemo.ExampleData.Cross
+  id: Cross
+  parent: Global.PolyExtruderDemo.ExampleData
+  langs:
+  - csharp
+  - vb
+  name: Cross
+  nameWithType: PolyExtruderDemo.ExampleData.Cross
+  fullName: PolyExtruderDemo.ExampleData.Cross
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Cross
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: Cross = 2
+    return:
+      type: Global.PolyExtruderDemo.ExampleData
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PolyExtruderDemo.ExampleData.SCB_Gotland
+  commentId: F:Global.PolyExtruderDemo.ExampleData.SCB_Gotland
+  id: SCB_Gotland
+  parent: Global.PolyExtruderDemo.ExampleData
+  langs:
+  - csharp
+  - vb
+  name: SCB_Gotland
+  nameWithType: PolyExtruderDemo.ExampleData.SCB_Gotland
+  fullName: PolyExtruderDemo.ExampleData.SCB_Gotland
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: SCB_Gotland
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: SCB_Gotland = 3
+    return:
+      type: Global.PolyExtruderDemo.ExampleData
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.PolyExtruderDemo.ExampleData
+  commentId: T:Global.PolyExtruderDemo.ExampleData
+  name: PolyExtruderDemo.ExampleData
+  nameWithType: PolyExtruderDemo.ExampleData
+  fullName: PolyExtruderDemo.ExampleData

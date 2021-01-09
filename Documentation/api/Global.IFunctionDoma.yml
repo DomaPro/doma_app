@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.IFunctionDoma
+  commentId: T:Global.IFunctionDoma
+  id: IFunctionDoma
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IFunctionDoma
+  nameWithType: IFunctionDoma
+  fullName: IFunctionDoma
+  type: Interface
+  source:
+    remote:
+      path: Assets/Managers/Functions/IFunctionDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: IFunctionDoma
+    path: ../Assets/Managers/Functions/IFunctionDoma.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public interface IFunctionDoma
+    content.vb: Public Interface IFunctionDoma
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''

@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GableWall
+  commentId: T:Global.GableWall
+  id: GableWall
+  parent: Global
+  children:
+  - Global.GableWall.GetTRSMatrix(UnityEngine.Transform)
+  - Global.GableWall.KneeWall
+  - Global.GableWall.LerpByDistance(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  - Global.GableWall.material
+  langs:
+  - csharp
+  - vb
+  name: GableWall
+  nameWithType: GableWall
+  fullName: GableWall
+  type: Class
+  source:
+    remote:
+      path: Assets/Managers/Functions/GableWall.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: GableWall
+    path: ../Assets/Managers/Functions/GableWall.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class GableWall : MonoBehaviour'
+    content.vb: >-
+      Public Class GableWall
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.GableWall.material
+  commentId: F:Global.GableWall.material
+  id: material
+  parent: Global.GableWall
+  langs:
+  - csharp
+  - vb
+  name: material
+  nameWithType: GableWall.material
+  fullName: GableWall.material
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/GableWall.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: material
+    path: ../Assets/Managers/Functions/GableWall.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Material material
+    return:
+      type: UnityEngine.Material
+    content.vb: Public material As Material
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GableWall.KneeWall
+  commentId: F:Global.GableWall.KneeWall
+  id: KneeWall
+  parent: Global.GableWall
+  langs:
+  - csharp
+  - vb
+  name: KneeWall
+  nameWithType: GableWall.KneeWall
+  fullName: GableWall.KneeWall
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/GableWall.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: KneeWall
+    path: ../Assets/Managers/Functions/GableWall.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float KneeWall
+    return:
+      type: System.Single
+    content.vb: Public KneeWall As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GableWall.LerpByDistance(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  commentId: M:Global.GableWall.LerpByDistance(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  id: LerpByDistance(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  parent: Global.GableWall
+  langs:
+  - csharp
+  - vb
+  name: LerpByDistance(Vector3, Vector3, Single)
+  nameWithType: GableWall.LerpByDistance(Vector3, Vector3, Single)
+  fullName: GableWall.LerpByDistance(UnityEngine.Vector3, UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Functions/GableWall.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: LerpByDistance
+    path: ../Assets/Managers/Functions/GableWall.cs
+    startLine: 150
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3 LerpByDistance(Vector3 A, Vector3 B, float x)
+    parameters:
+    - id: A
+      type: UnityEngine.Vector3
+    - id: B
+      type: UnityEngine.Vector3
+    - id: x
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Function LerpByDistance(A As Vector3, B As Vector3, x As Single) As Vector3
+  overload: Global.GableWall.LerpByDistance*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GableWall.GetTRSMatrix(UnityEngine.Transform)
+  commentId: M:Global.GableWall.GetTRSMatrix(UnityEngine.Transform)
+  id: GetTRSMatrix(UnityEngine.Transform)
+  parent: Global.GableWall
+  langs:
+  - csharp
+  - vb
+  name: GetTRSMatrix(Transform)
+  nameWithType: GableWall.GetTRSMatrix(Transform)
+  fullName: GableWall.GetTRSMatrix(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Functions/GableWall.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: GetTRSMatrix
+    path: ../Assets/Managers/Functions/GableWall.cs
+    startLine: 195
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Matrix4x4 GetTRSMatrix(Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    return:
+      type: UnityEngine.Matrix4x4
+    content.vb: Public Function GetTRSMatrix(transform As Transform) As Matrix4x4
+  overload: Global.GableWall.GetTRSMatrix*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.GableWall.LerpByDistance*
+  commentId: Overload:Global.GableWall.LerpByDistance
+  name: LerpByDistance
+  nameWithType: GableWall.LerpByDistance
+  fullName: GableWall.LerpByDistance
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: Global.GableWall.GetTRSMatrix*
+  commentId: Overload:Global.GableWall.GetTRSMatrix
+  name: GetTRSMatrix
+  nameWithType: GableWall.GetTRSMatrix
+  fullName: GableWall.GetTRSMatrix
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: UnityEngine.Matrix4x4
+  commentId: T:UnityEngine.Matrix4x4
+  parent: UnityEngine
+  isExternal: true
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: UnityEngine.Matrix4x4

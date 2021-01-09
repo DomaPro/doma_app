@@ -1,0 +1,837 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.FunctionsManager
+  commentId: T:Global.FunctionsManager
+  id: FunctionsManager
+  parent: Global
+  children:
+  - Global.FunctionsManager.activateButtonAddHole2D
+  - Global.FunctionsManager.activateButtonDrawCeiling
+  - Global.FunctionsManager.activateButtonDrawDoor
+  - Global.FunctionsManager.activateButtonDrawWall2D
+  - Global.FunctionsManager.activateButtonDrawWindow
+  - Global.FunctionsManager.activateButtonGableWall
+  - Global.FunctionsManager.addHole2D
+  - Global.FunctionsManager.AddHole2D
+  - Global.FunctionsManager.ChangeColorButton(UnityEngine.UI.Button,UnityEngine.Color)
+  - Global.FunctionsManager.drawCeiling
+  - Global.FunctionsManager.DrawCeiling
+  - Global.FunctionsManager.drawDoor
+  - Global.FunctionsManager.DrawDoor
+  - Global.FunctionsManager.drawWall2D
+  - Global.FunctionsManager.DrawWall2D
+  - Global.FunctionsManager.drawWindow
+  - Global.FunctionsManager.DrawWindow
+  - Global.FunctionsManager.gableWall
+  - Global.FunctionsManager.GableWall
+  langs:
+  - csharp
+  - vb
+  name: FunctionsManager
+  nameWithType: FunctionsManager
+  fullName: FunctionsManager
+  type: Class
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: FunctionsManager
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class FunctionsManager : MonoBehaviour'
+    content.vb: >-
+      Public Class FunctionsManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.FunctionsManager.drawWall2D
+  commentId: F:Global.FunctionsManager.drawWall2D
+  id: drawWall2D
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: drawWall2D
+  nameWithType: FunctionsManager.drawWall2D
+  fullName: FunctionsManager.drawWall2D
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: drawWall2D
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Header("Wall")]
+
+      public GameObject drawWall2D
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Header("Wall")>
+
+      Public drawWall2D As GameObject
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Wall
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.activateButtonDrawWall2D
+  commentId: F:Global.FunctionsManager.activateButtonDrawWall2D
+  id: activateButtonDrawWall2D
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: activateButtonDrawWall2D
+  nameWithType: FunctionsManager.activateButtonDrawWall2D
+  fullName: FunctionsManager.activateButtonDrawWall2D
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: activateButtonDrawWall2D
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Button activateButtonDrawWall2D
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: Public activateButtonDrawWall2D As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.addHole2D
+  commentId: F:Global.FunctionsManager.addHole2D
+  id: addHole2D
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: addHole2D
+  nameWithType: FunctionsManager.addHole2D
+  fullName: FunctionsManager.addHole2D
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: addHole2D
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Header("Hole")]
+
+      public GameObject addHole2D
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Header("Hole")>
+
+      Public addHole2D As GameObject
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Hole
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.activateButtonAddHole2D
+  commentId: F:Global.FunctionsManager.activateButtonAddHole2D
+  id: activateButtonAddHole2D
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: activateButtonAddHole2D
+  nameWithType: FunctionsManager.activateButtonAddHole2D
+  fullName: FunctionsManager.activateButtonAddHole2D
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: activateButtonAddHole2D
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Button activateButtonAddHole2D
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: Public activateButtonAddHole2D As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.drawDoor
+  commentId: F:Global.FunctionsManager.drawDoor
+  id: drawDoor
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: drawDoor
+  nameWithType: FunctionsManager.drawDoor
+  fullName: FunctionsManager.drawDoor
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: drawDoor
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Header("Door")]
+
+      public GameObject drawDoor
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Header("Door")>
+
+      Public drawDoor As GameObject
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Door
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.activateButtonDrawDoor
+  commentId: F:Global.FunctionsManager.activateButtonDrawDoor
+  id: activateButtonDrawDoor
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: activateButtonDrawDoor
+  nameWithType: FunctionsManager.activateButtonDrawDoor
+  fullName: FunctionsManager.activateButtonDrawDoor
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: activateButtonDrawDoor
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 19
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Button activateButtonDrawDoor
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: Public activateButtonDrawDoor As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.drawWindow
+  commentId: F:Global.FunctionsManager.drawWindow
+  id: drawWindow
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: drawWindow
+  nameWithType: FunctionsManager.drawWindow
+  fullName: FunctionsManager.drawWindow
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: drawWindow
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Header("Window")]
+
+      public GameObject drawWindow
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Header("Window")>
+
+      Public drawWindow As GameObject
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Window
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.activateButtonDrawWindow
+  commentId: F:Global.FunctionsManager.activateButtonDrawWindow
+  id: activateButtonDrawWindow
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: activateButtonDrawWindow
+  nameWithType: FunctionsManager.activateButtonDrawWindow
+  fullName: FunctionsManager.activateButtonDrawWindow
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: activateButtonDrawWindow
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Button activateButtonDrawWindow
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: Public activateButtonDrawWindow As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.drawCeiling
+  commentId: F:Global.FunctionsManager.drawCeiling
+  id: drawCeiling
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: drawCeiling
+  nameWithType: FunctionsManager.drawCeiling
+  fullName: FunctionsManager.drawCeiling
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: drawCeiling
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 26
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Header("Ceiling")]
+
+      public GameObject drawCeiling
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Header("Ceiling")>
+
+      Public drawCeiling As GameObject
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Ceiling
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.activateButtonDrawCeiling
+  commentId: F:Global.FunctionsManager.activateButtonDrawCeiling
+  id: activateButtonDrawCeiling
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: activateButtonDrawCeiling
+  nameWithType: FunctionsManager.activateButtonDrawCeiling
+  fullName: FunctionsManager.activateButtonDrawCeiling
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: activateButtonDrawCeiling
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Button activateButtonDrawCeiling
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: Public activateButtonDrawCeiling As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.gableWall
+  commentId: F:Global.FunctionsManager.gableWall
+  id: gableWall
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: gableWall
+  nameWithType: FunctionsManager.gableWall
+  fullName: FunctionsManager.gableWall
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: gableWall
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 30
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Header("Gable Wall")]
+
+      public GameObject gableWall
+    return:
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <Header("Gable Wall")>
+
+      Public gableWall As GameObject
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Gable Wall
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.activateButtonGableWall
+  commentId: F:Global.FunctionsManager.activateButtonGableWall
+  id: activateButtonGableWall
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: activateButtonGableWall
+  nameWithType: FunctionsManager.activateButtonGableWall
+  fullName: FunctionsManager.activateButtonGableWall
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: activateButtonGableWall
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 31
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Button activateButtonGableWall
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: Public activateButtonGableWall As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.DrawWall2D
+  commentId: M:Global.FunctionsManager.DrawWall2D
+  id: DrawWall2D
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: DrawWall2D()
+  nameWithType: FunctionsManager.DrawWall2D()
+  fullName: FunctionsManager.DrawWall2D()
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: DrawWall2D
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 42
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void DrawWall2D()
+    content.vb: Public Sub DrawWall2D
+  overload: Global.FunctionsManager.DrawWall2D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.GableWall
+  commentId: M:Global.FunctionsManager.GableWall
+  id: GableWall
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: GableWall()
+  nameWithType: FunctionsManager.GableWall()
+  fullName: FunctionsManager.GableWall()
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: GableWall
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 73
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void GableWall()
+    content.vb: Public Sub GableWall
+  overload: Global.FunctionsManager.GableWall*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.AddHole2D
+  commentId: M:Global.FunctionsManager.AddHole2D
+  id: AddHole2D
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: AddHole2D()
+  nameWithType: FunctionsManager.AddHole2D()
+  fullName: FunctionsManager.AddHole2D()
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: AddHole2D
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 104
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void AddHole2D()
+    content.vb: Public Sub AddHole2D
+  overload: Global.FunctionsManager.AddHole2D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.DrawDoor
+  commentId: M:Global.FunctionsManager.DrawDoor
+  id: DrawDoor
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: DrawDoor()
+  nameWithType: FunctionsManager.DrawDoor()
+  fullName: FunctionsManager.DrawDoor()
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: DrawDoor
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 126
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void DrawDoor()
+    content.vb: Public Sub DrawDoor
+  overload: Global.FunctionsManager.DrawDoor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.DrawWindow
+  commentId: M:Global.FunctionsManager.DrawWindow
+  id: DrawWindow
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: DrawWindow()
+  nameWithType: FunctionsManager.DrawWindow()
+  fullName: FunctionsManager.DrawWindow()
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: DrawWindow
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 153
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void DrawWindow()
+    content.vb: Public Sub DrawWindow
+  overload: Global.FunctionsManager.DrawWindow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.DrawCeiling
+  commentId: M:Global.FunctionsManager.DrawCeiling
+  id: DrawCeiling
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: DrawCeiling()
+  nameWithType: FunctionsManager.DrawCeiling()
+  fullName: FunctionsManager.DrawCeiling()
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: DrawCeiling
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 175
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void DrawCeiling()
+    content.vb: Public Sub DrawCeiling
+  overload: Global.FunctionsManager.DrawCeiling*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionsManager.ChangeColorButton(UnityEngine.UI.Button,UnityEngine.Color)
+  commentId: M:Global.FunctionsManager.ChangeColorButton(UnityEngine.UI.Button,UnityEngine.Color)
+  id: ChangeColorButton(UnityEngine.UI.Button,UnityEngine.Color)
+  parent: Global.FunctionsManager
+  langs:
+  - csharp
+  - vb
+  name: ChangeColorButton(Button, Color)
+  nameWithType: FunctionsManager.ChangeColorButton(Button, Color)
+  fullName: FunctionsManager.ChangeColorButton(UnityEngine.UI.Button, UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Functions/FunctionsManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: ChangeColorButton
+    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    startLine: 250
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void ChangeColorButton(Button button, Color color)
+    parameters:
+    - id: button
+      type: UnityEngine.UI.Button
+    - id: color
+      type: UnityEngine.Color
+    content.vb: Public Sub ChangeColorButton(button As Button, color As Color)
+  overload: Global.FunctionsManager.ChangeColorButton*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine.UI.Button
+  commentId: T:UnityEngine.UI.Button
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UI.Button
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+- uid: Global.FunctionsManager.DrawWall2D*
+  commentId: Overload:Global.FunctionsManager.DrawWall2D
+  name: DrawWall2D
+  nameWithType: FunctionsManager.DrawWall2D
+  fullName: FunctionsManager.DrawWall2D
+- uid: Global.FunctionsManager.GableWall*
+  commentId: Overload:Global.FunctionsManager.GableWall
+  name: GableWall
+  nameWithType: FunctionsManager.GableWall
+  fullName: FunctionsManager.GableWall
+- uid: Global.FunctionsManager.AddHole2D*
+  commentId: Overload:Global.FunctionsManager.AddHole2D
+  name: AddHole2D
+  nameWithType: FunctionsManager.AddHole2D
+  fullName: FunctionsManager.AddHole2D
+- uid: Global.FunctionsManager.DrawDoor*
+  commentId: Overload:Global.FunctionsManager.DrawDoor
+  name: DrawDoor
+  nameWithType: FunctionsManager.DrawDoor
+  fullName: FunctionsManager.DrawDoor
+- uid: Global.FunctionsManager.DrawWindow*
+  commentId: Overload:Global.FunctionsManager.DrawWindow
+  name: DrawWindow
+  nameWithType: FunctionsManager.DrawWindow
+  fullName: FunctionsManager.DrawWindow
+- uid: Global.FunctionsManager.DrawCeiling*
+  commentId: Overload:Global.FunctionsManager.DrawCeiling
+  name: DrawCeiling
+  nameWithType: FunctionsManager.DrawCeiling
+  fullName: FunctionsManager.DrawCeiling
+- uid: Global.FunctionsManager.ChangeColorButton*
+  commentId: Overload:Global.FunctionsManager.ChangeColorButton
+  name: ChangeColorButton
+  nameWithType: FunctionsManager.ChangeColorButton
+  fullName: FunctionsManager.ChangeColorButton
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color

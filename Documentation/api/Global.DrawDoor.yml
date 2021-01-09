@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DrawDoor
+  commentId: T:Global.DrawDoor
+  id: DrawDoor
+  parent: Global
+  children:
+  - Global.DrawDoor.getColorArray(System.Int32,UnityEngine.Color)
+  - Global.DrawDoor.material
+  langs:
+  - csharp
+  - vb
+  name: DrawDoor
+  nameWithType: DrawDoor
+  fullName: DrawDoor
+  type: Class
+  source:
+    remote:
+      path: Assets/Managers/Functions/DrawDoor.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: DrawDoor
+    path: ../Assets/Managers/Functions/DrawDoor.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class DrawDoor : MonoBehaviour'
+    content.vb: >-
+      Public Class DrawDoor
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DrawDoor.material
+  commentId: F:Global.DrawDoor.material
+  id: material
+  parent: Global.DrawDoor
+  langs:
+  - csharp
+  - vb
+  name: material
+  nameWithType: DrawDoor.material
+  fullName: DrawDoor.material
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Functions/DrawDoor.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: material
+    path: ../Assets/Managers/Functions/DrawDoor.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Material material
+    return:
+      type: UnityEngine.Material
+    content.vb: Public material As Material
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DrawDoor.getColorArray(System.Int32,UnityEngine.Color)
+  commentId: M:Global.DrawDoor.getColorArray(System.Int32,UnityEngine.Color)
+  id: getColorArray(System.Int32,UnityEngine.Color)
+  parent: Global.DrawDoor
+  langs:
+  - csharp
+  - vb
+  name: getColorArray(Int32, Color)
+  nameWithType: DrawDoor.getColorArray(Int32, Color)
+  fullName: DrawDoor.getColorArray(System.Int32, UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Functions/DrawDoor.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: getColorArray
+    path: ../Assets/Managers/Functions/DrawDoor.cs
+    startLine: 272
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Color3f[] getColorArray(int length, Color c)
+    parameters:
+    - id: length
+      type: System.Int32
+    - id: c
+      type: UnityEngine.Color
+    return:
+      type: Net3dBool.Color3f[]
+    content.vb: Public Function getColorArray(length As Integer, c As Color) As Color3f()
+  overload: Global.DrawDoor.getColorArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: Global.DrawDoor.getColorArray*
+  commentId: Overload:Global.DrawDoor.getColorArray
+  name: getColorArray
+  nameWithType: DrawDoor.getColorArray
+  fullName: DrawDoor.getColorArray
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: Net3dBool.Color3f[]
+  isExternal: true
+  name: Color3f[]
+  nameWithType: Color3f[]
+  fullName: Net3dBool.Color3f[]
+  nameWithType.vb: Color3f()
+  fullName.vb: Net3dBool.Color3f()
+  name.vb: Color3f()
+  spec.csharp:
+  - uid: Net3dBool.Color3f
+    name: Color3f
+    nameWithType: Color3f
+    fullName: Net3dBool.Color3f
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Net3dBool.Color3f
+    name: Color3f
+    nameWithType: Color3f
+    fullName: Net3dBool.Color3f
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,406 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PolyExtruderDemo
+  commentId: T:Global.PolyExtruderDemo
+  id: PolyExtruderDemo
+  parent: Global
+  children:
+  - Global.PolyExtruderDemo.enableMovement
+  - Global.PolyExtruderDemo.exampleData
+  - Global.PolyExtruderDemo.extrusionHeight
+  - Global.PolyExtruderDemo.is3D
+  - Global.PolyExtruderDemo.MeshDataCross
+  - Global.PolyExtruderDemo.MeshDataGotland
+  - Global.PolyExtruderDemo.MeshDataSquare
+  - Global.PolyExtruderDemo.MeshDataTriangle
+  langs:
+  - csharp
+  - vb
+  name: PolyExtruderDemo
+  nameWithType: PolyExtruderDemo
+  fullName: PolyExtruderDemo
+  type: Class
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: PolyExtruderDemo
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class PolyExtruderDemo : MonoBehaviour'
+    content.vb: >-
+      Public Class PolyExtruderDemo
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PolyExtruderDemo.exampleData
+  commentId: F:Global.PolyExtruderDemo.exampleData
+  id: exampleData
+  parent: Global.PolyExtruderDemo
+  langs:
+  - csharp
+  - vb
+  name: exampleData
+  nameWithType: PolyExtruderDemo.exampleData
+  fullName: PolyExtruderDemo.exampleData
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: exampleData
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public PolyExtruderDemo.ExampleData exampleData
+    return:
+      type: Global.PolyExtruderDemo.ExampleData
+    content.vb: Public exampleData As PolyExtruderDemo.ExampleData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PolyExtruderDemo.is3D
+  commentId: F:Global.PolyExtruderDemo.is3D
+  id: is3D
+  parent: Global.PolyExtruderDemo
+  langs:
+  - csharp
+  - vb
+  name: is3D
+  nameWithType: PolyExtruderDemo.is3D
+  fullName: PolyExtruderDemo.is3D
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: is3D
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public bool is3D
+    return:
+      type: System.Boolean
+    content.vb: Public is3D As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PolyExtruderDemo.enableMovement
+  commentId: F:Global.PolyExtruderDemo.enableMovement
+  id: enableMovement
+  parent: Global.PolyExtruderDemo
+  langs:
+  - csharp
+  - vb
+  name: enableMovement
+  nameWithType: PolyExtruderDemo.enableMovement
+  fullName: PolyExtruderDemo.enableMovement
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: enableMovement
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 26
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public bool enableMovement
+    return:
+      type: System.Boolean
+    content.vb: Public enableMovement As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PolyExtruderDemo.extrusionHeight
+  commentId: F:Global.PolyExtruderDemo.extrusionHeight
+  id: extrusionHeight
+  parent: Global.PolyExtruderDemo
+  langs:
+  - csharp
+  - vb
+  name: extrusionHeight
+  nameWithType: PolyExtruderDemo.extrusionHeight
+  fullName: PolyExtruderDemo.extrusionHeight
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: extrusionHeight
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float extrusionHeight
+    return:
+      type: System.Single
+    content.vb: Public extrusionHeight As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PolyExtruderDemo.MeshDataTriangle
+  commentId: F:Global.PolyExtruderDemo.MeshDataTriangle
+  id: MeshDataTriangle
+  parent: Global.PolyExtruderDemo
+  langs:
+  - csharp
+  - vb
+  name: MeshDataTriangle
+  nameWithType: PolyExtruderDemo.MeshDataTriangle
+  fullName: PolyExtruderDemo.MeshDataTriangle
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: MeshDataTriangle
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 76
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static Vector2[] MeshDataTriangle
+    return:
+      type: UnityEngine.Vector2[]
+    content.vb: Public Shared MeshDataTriangle As Vector2()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.PolyExtruderDemo.MeshDataSquare
+  commentId: F:Global.PolyExtruderDemo.MeshDataSquare
+  id: MeshDataSquare
+  parent: Global.PolyExtruderDemo
+  langs:
+  - csharp
+  - vb
+  name: MeshDataSquare
+  nameWithType: PolyExtruderDemo.MeshDataSquare
+  fullName: PolyExtruderDemo.MeshDataSquare
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: MeshDataSquare
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 83
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static Vector2[] MeshDataSquare
+    return:
+      type: UnityEngine.Vector2[]
+    content.vb: Public Shared MeshDataSquare As Vector2()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.PolyExtruderDemo.MeshDataCross
+  commentId: F:Global.PolyExtruderDemo.MeshDataCross
+  id: MeshDataCross
+  parent: Global.PolyExtruderDemo
+  langs:
+  - csharp
+  - vb
+  name: MeshDataCross
+  nameWithType: PolyExtruderDemo.MeshDataCross
+  fullName: PolyExtruderDemo.MeshDataCross
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: MeshDataCross
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 92
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static Vector2[] MeshDataCross
+    return:
+      type: UnityEngine.Vector2[]
+    content.vb: Public Shared MeshDataCross As Vector2()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.PolyExtruderDemo.MeshDataGotland
+  commentId: F:Global.PolyExtruderDemo.MeshDataGotland
+  id: MeshDataGotland
+  parent: Global.PolyExtruderDemo
+  langs:
+  - csharp
+  - vb
+  name: MeshDataGotland
+  nameWithType: PolyExtruderDemo.MeshDataGotland
+  fullName: PolyExtruderDemo.MeshDataGotland
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: MeshDataGotland
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    startLine: 111
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static Vector2[] MeshDataGotland
+    return:
+      type: UnityEngine.Vector2[]
+    content.vb: Public Shared MeshDataGotland As Vector2()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.PolyExtruderDemo.ExampleData
+  commentId: T:Global.PolyExtruderDemo.ExampleData
+  name: PolyExtruderDemo.ExampleData
+  nameWithType: PolyExtruderDemo.ExampleData
+  fullName: PolyExtruderDemo.ExampleData
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEngine.Vector2[]
+  isExternal: true
+  name: Vector2[]
+  nameWithType: Vector2[]
+  fullName: UnityEngine.Vector2[]
+  nameWithType.vb: Vector2()
+  fullName.vb: UnityEngine.Vector2()
+  name.vb: Vector2()
+  spec.csharp:
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

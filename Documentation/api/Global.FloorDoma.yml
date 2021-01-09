@@ -1,0 +1,734 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.FloorDoma
+  commentId: T:Global.FloorDoma
+  id: FloorDoma
+  parent: Global
+  children:
+  - Global.FloorDoma.#ctor(System.String,System.Int32,System.Single,System.Single)
+  - Global.FloorDoma.GetAllObjects2DWalls
+  - Global.FloorDoma.GetAllPoints2DWalls
+  - Global.FloorDoma.GetLevelBottom
+  - Global.FloorDoma.GetLevelMiddle
+  - Global.FloorDoma.GetLevelTop
+  - Global.FloorDoma.Height
+  - Global.FloorDoma.LevelBottom
+  - Global.FloorDoma.Name
+  - Global.FloorDoma.Number
+  - Global.FloorDoma.Tag
+  - Global.FloorDoma.Walls
+  langs:
+  - csharp
+  - vb
+  name: FloorDoma
+  nameWithType: FloorDoma
+  fullName: FloorDoma
+  type: Class
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: FloorDoma
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public class FloorDoma
+    content.vb: Public Class FloorDoma
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.FloorDoma.Name
+  commentId: P:Global.FloorDoma.Name
+  id: Name
+  parent: Global.FloorDoma
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FloorDoma.Name
+  fullName: FloorDoma.Name
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Name
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Global.FloorDoma.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.FloorDoma.Tag
+  commentId: P:Global.FloorDoma.Tag
+  id: Tag
+  parent: Global.FloorDoma
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: FloorDoma.Tag
+  fullName: FloorDoma.Tag
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Tag
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Tag { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tag As String
+  overload: Global.FloorDoma.Tag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.FloorDoma.Number
+  commentId: P:Global.FloorDoma.Number
+  id: Number
+  parent: Global.FloorDoma
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: FloorDoma.Number
+  fullName: FloorDoma.Number
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Number
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int Number { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Number As Integer
+  overload: Global.FloorDoma.Number*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.FloorDoma.Height
+  commentId: P:Global.FloorDoma.Height
+  id: Height
+  parent: Global.FloorDoma
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: FloorDoma.Height
+  fullName: FloorDoma.Height
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Height
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float Height { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Height As Single
+  overload: Global.FloorDoma.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.FloorDoma.LevelBottom
+  commentId: P:Global.FloorDoma.LevelBottom
+  id: LevelBottom
+  parent: Global.FloorDoma
+  langs:
+  - csharp
+  - vb
+  name: LevelBottom
+  nameWithType: FloorDoma.LevelBottom
+  fullName: FloorDoma.LevelBottom
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: LevelBottom
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float LevelBottom { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property LevelBottom As Single
+  overload: Global.FloorDoma.LevelBottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.FloorDoma.Walls
+  commentId: P:Global.FloorDoma.Walls
+  id: Walls
+  parent: Global.FloorDoma
+  langs:
+  - csharp
+  - vb
+  name: Walls
+  nameWithType: FloorDoma.Walls
+  fullName: FloorDoma.Walls
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Walls
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<WallDoma> Walls { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{WallDoma}
+    content.vb: Public Property Walls As List(Of WallDoma)
+  overload: Global.FloorDoma.Walls*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.FloorDoma.#ctor(System.String,System.Int32,System.Single,System.Single)
+  commentId: M:Global.FloorDoma.#ctor(System.String,System.Int32,System.Single,System.Single)
+  id: '#ctor(System.String,System.Int32,System.Single,System.Single)'
+  parent: Global.FloorDoma
+  langs:
+  - csharp
+  - vb
+  name: FloorDoma(String, Int32, Single, Single)
+  nameWithType: FloorDoma.FloorDoma(String, Int32, Single, Single)
+  fullName: FloorDoma.FloorDoma(System.String, System.Int32, System.Single, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: .ctor
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public FloorDoma(string name, int number, float height, float levelBottom)
+    parameters:
+    - id: name
+      type: System.String
+    - id: number
+      type: System.Int32
+    - id: height
+      type: System.Single
+    - id: levelBottom
+      type: System.Single
+    content.vb: Public Sub New(name As String, number As Integer, height As Single, levelBottom As Single)
+  overload: Global.FloorDoma.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FloorDoma.GetAllObjects2DWalls
+  commentId: M:Global.FloorDoma.GetAllObjects2DWalls
+  id: GetAllObjects2DWalls
+  parent: Global.FloorDoma
+  langs:
+  - csharp
+  - vb
+  name: GetAllObjects2DWalls()
+  nameWithType: FloorDoma.GetAllObjects2DWalls()
+  fullName: FloorDoma.GetAllObjects2DWalls()
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: GetAllObjects2DWalls
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 28
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<GameObject> GetAllObjects2DWalls()
+    return:
+      type: System.Collections.Generic.List{UnityEngine.GameObject}
+    content.vb: Public Function GetAllObjects2DWalls As List(Of GameObject)
+  overload: Global.FloorDoma.GetAllObjects2DWalls*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FloorDoma.GetAllPoints2DWalls
+  commentId: M:Global.FloorDoma.GetAllPoints2DWalls
+  id: GetAllPoints2DWalls
+  parent: Global.FloorDoma
+  langs:
+  - csharp
+  - vb
+  name: GetAllPoints2DWalls()
+  nameWithType: FloorDoma.GetAllPoints2DWalls()
+  fullName: FloorDoma.GetAllPoints2DWalls()
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: GetAllPoints2DWalls
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 34
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<Vector3> GetAllPoints2DWalls()
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Vector3}
+    content.vb: Public Function GetAllPoints2DWalls As List(Of Vector3)
+  overload: Global.FloorDoma.GetAllPoints2DWalls*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FloorDoma.GetLevelBottom
+  commentId: M:Global.FloorDoma.GetLevelBottom
+  id: GetLevelBottom
+  parent: Global.FloorDoma
+  langs:
+  - csharp
+  - vb
+  name: GetLevelBottom()
+  nameWithType: FloorDoma.GetLevelBottom()
+  fullName: FloorDoma.GetLevelBottom()
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: GetLevelBottom
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 47
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float GetLevelBottom()
+    return:
+      type: System.Single
+    content.vb: Public Function GetLevelBottom As Single
+  overload: Global.FloorDoma.GetLevelBottom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FloorDoma.GetLevelTop
+  commentId: M:Global.FloorDoma.GetLevelTop
+  id: GetLevelTop
+  parent: Global.FloorDoma
+  langs:
+  - csharp
+  - vb
+  name: GetLevelTop()
+  nameWithType: FloorDoma.GetLevelTop()
+  fullName: FloorDoma.GetLevelTop()
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: GetLevelTop
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 52
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float GetLevelTop()
+    return:
+      type: System.Single
+    content.vb: Public Function GetLevelTop As Single
+  overload: Global.FloorDoma.GetLevelTop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FloorDoma.GetLevelMiddle
+  commentId: M:Global.FloorDoma.GetLevelMiddle
+  id: GetLevelMiddle
+  parent: Global.FloorDoma
+  langs:
+  - csharp
+  - vb
+  name: GetLevelMiddle()
+  nameWithType: FloorDoma.GetLevelMiddle()
+  fullName: FloorDoma.GetLevelMiddle()
+  type: Method
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: GetLevelMiddle
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 57
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float GetLevelMiddle()
+    return:
+      type: System.Single
+    content.vb: Public Function GetLevelMiddle As Single
+  overload: Global.FloorDoma.GetLevelMiddle*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.FloorDoma.Name*
+  commentId: Overload:Global.FloorDoma.Name
+  name: Name
+  nameWithType: FloorDoma.Name
+  fullName: FloorDoma.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.FloorDoma.Tag*
+  commentId: Overload:Global.FloorDoma.Tag
+  name: Tag
+  nameWithType: FloorDoma.Tag
+  fullName: FloorDoma.Tag
+- uid: Global.FloorDoma.Number*
+  commentId: Overload:Global.FloorDoma.Number
+  name: Number
+  nameWithType: FloorDoma.Number
+  fullName: FloorDoma.Number
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.FloorDoma.Height*
+  commentId: Overload:Global.FloorDoma.Height
+  name: Height
+  nameWithType: FloorDoma.Height
+  fullName: FloorDoma.Height
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.FloorDoma.LevelBottom*
+  commentId: Overload:Global.FloorDoma.LevelBottom
+  name: LevelBottom
+  nameWithType: FloorDoma.LevelBottom
+  fullName: FloorDoma.LevelBottom
+- uid: Global.FloorDoma.Walls*
+  commentId: Overload:Global.FloorDoma.Walls
+  name: Walls
+  nameWithType: FloorDoma.Walls
+  fullName: FloorDoma.Walls
+- uid: System.Collections.Generic.List{WallDoma}
+  commentId: T:System.Collections.Generic.List{WallDoma}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<WallDoma>
+  nameWithType: List<WallDoma>
+  fullName: System.Collections.Generic.List<WallDoma>
+  nameWithType.vb: List(Of WallDoma)
+  fullName.vb: System.Collections.Generic.List(Of WallDoma)
+  name.vb: List(Of WallDoma)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.WallDoma
+    name: WallDoma
+    nameWithType: WallDoma
+    fullName: WallDoma
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.WallDoma
+    name: WallDoma
+    nameWithType: WallDoma
+    fullName: WallDoma
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.FloorDoma.#ctor*
+  commentId: Overload:Global.FloorDoma.#ctor
+  name: FloorDoma
+  nameWithType: FloorDoma.FloorDoma
+  fullName: FloorDoma.FloorDoma
+- uid: Global.FloorDoma.GetAllObjects2DWalls*
+  commentId: Overload:Global.FloorDoma.GetAllObjects2DWalls
+  name: GetAllObjects2DWalls
+  nameWithType: FloorDoma.GetAllObjects2DWalls
+  fullName: FloorDoma.GetAllObjects2DWalls
+- uid: System.Collections.Generic.List{UnityEngine.GameObject}
+  commentId: T:System.Collections.Generic.List{UnityEngine.GameObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: System.Collections.Generic.List<UnityEngine.GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.FloorDoma.GetAllPoints2DWalls*
+  commentId: Overload:Global.FloorDoma.GetAllPoints2DWalls
+  name: GetAllPoints2DWalls
+  nameWithType: FloorDoma.GetAllPoints2DWalls
+  fullName: FloorDoma.GetAllPoints2DWalls
+- uid: System.Collections.Generic.List{UnityEngine.Vector3}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Vector3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Vector3>
+  nameWithType: List<Vector3>
+  fullName: System.Collections.Generic.List<UnityEngine.Vector3>
+  nameWithType.vb: List(Of Vector3)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Vector3)
+  name.vb: List(Of Vector3)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.FloorDoma.GetLevelBottom*
+  commentId: Overload:Global.FloorDoma.GetLevelBottom
+  name: GetLevelBottom
+  nameWithType: FloorDoma.GetLevelBottom
+  fullName: FloorDoma.GetLevelBottom
+- uid: Global.FloorDoma.GetLevelTop*
+  commentId: Overload:Global.FloorDoma.GetLevelTop
+  name: GetLevelTop
+  nameWithType: FloorDoma.GetLevelTop
+  fullName: FloorDoma.GetLevelTop
+- uid: Global.FloorDoma.GetLevelMiddle*
+  commentId: Overload:Global.FloorDoma.GetLevelMiddle
+  name: GetLevelMiddle
+  nameWithType: FloorDoma.GetLevelMiddle
+  fullName: FloorDoma.GetLevelMiddle

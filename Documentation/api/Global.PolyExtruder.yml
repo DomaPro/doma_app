@@ -1,0 +1,427 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PolyExtruder
+  commentId: T:Global.PolyExtruder
+  id: PolyExtruder
+  parent: Global
+  children:
+  - Global.PolyExtruder.createPrism(System.String,System.Single,UnityEngine.Vector2[],UnityEngine.Color32,System.Boolean)
+  - Global.PolyExtruder.polygonArea
+  - Global.PolyExtruder.polygonCentroid
+  - Global.PolyExtruder.prismColor
+  - Global.PolyExtruder.prismName
+  - Global.PolyExtruder.updateColor(UnityEngine.Color32)
+  - Global.PolyExtruder.updateHeight(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: PolyExtruder
+  nameWithType: PolyExtruder
+  fullName: PolyExtruder
+  type: Class
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: PolyExtruder
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+    startLine: 34
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class PolyExtruder : MonoBehaviour'
+    content.vb: >-
+      Public Class PolyExtruder
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PolyExtruder.prismName
+  commentId: F:Global.PolyExtruder.prismName
+  id: prismName
+  parent: Global.PolyExtruder
+  langs:
+  - csharp
+  - vb
+  name: prismName
+  nameWithType: PolyExtruder.prismName
+  fullName: PolyExtruder.prismName
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: prismName
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+    startLine: 39
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string prismName
+    return:
+      type: System.String
+    content.vb: Public prismName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PolyExtruder.prismColor
+  commentId: F:Global.PolyExtruder.prismColor
+  id: prismColor
+  parent: Global.PolyExtruder
+  langs:
+  - csharp
+  - vb
+  name: prismColor
+  nameWithType: PolyExtruder.prismColor
+  fullName: PolyExtruder.prismColor
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: prismColor
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+    startLine: 42
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Color32 prismColor
+    return:
+      type: UnityEngine.Color32
+    content.vb: Public prismColor As Color32
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PolyExtruder.polygonArea
+  commentId: F:Global.PolyExtruder.polygonArea
+  id: polygonArea
+  parent: Global.PolyExtruder
+  langs:
+  - csharp
+  - vb
+  name: polygonArea
+  nameWithType: PolyExtruder.polygonArea
+  fullName: PolyExtruder.polygonArea
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: polygonArea
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+    startLine: 45
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float polygonArea
+    return:
+      type: System.Single
+    content.vb: Public polygonArea As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PolyExtruder.polygonCentroid
+  commentId: F:Global.PolyExtruder.polygonCentroid
+  id: polygonCentroid
+  parent: Global.PolyExtruder
+  langs:
+  - csharp
+  - vb
+  name: polygonCentroid
+  nameWithType: PolyExtruder.polygonCentroid
+  fullName: PolyExtruder.polygonCentroid
+  type: Field
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: polygonCentroid
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+    startLine: 46
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector2 polygonCentroid
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public polygonCentroid As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PolyExtruder.createPrism(System.String,System.Single,UnityEngine.Vector2[],UnityEngine.Color32,System.Boolean)
+  commentId: M:Global.PolyExtruder.createPrism(System.String,System.Single,UnityEngine.Vector2[],UnityEngine.Color32,System.Boolean)
+  id: createPrism(System.String,System.Single,UnityEngine.Vector2[],UnityEngine.Color32,System.Boolean)
+  parent: Global.PolyExtruder
+  langs:
+  - csharp
+  - vb
+  name: createPrism(String, Single, Vector2[], Color32, Boolean)
+  nameWithType: PolyExtruder.createPrism(String, Single, Vector2[], Color32, Boolean)
+  fullName: PolyExtruder.createPrism(System.String, System.Single, UnityEngine.Vector2[], UnityEngine.Color32, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: createPrism
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+    startLine: 82
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nCreate a prism based on the input parameters.\n"
+  example: []
+  syntax:
+    content: public void createPrism(string prismName, float height, Vector2[] vertices, Color32 color, bool is3D)
+    parameters:
+    - id: prismName
+      type: System.String
+      description: Name of the prism within the Unity scene.
+    - id: height
+      type: System.Single
+      description: Height of the prism (= distance along the y-axis between bottom and top mesh).
+    - id: vertices
+      type: UnityEngine.Vector2[]
+      description: Vector2 Array representing the input data of the polygon.
+    - id: color
+      type: UnityEngine.Color32
+      description: Color of the prism&apos;s material.
+    - id: is3D
+      type: System.Boolean
+      description: Set to<code>true</code> if polygon extrusion should be applied (= 3D prism), or <code>false</code> if it is only the (2D) polygon.
+    content.vb: Public Sub createPrism(prismName As String, height As Single, vertices As Vector2(), color As Color32, is3D As Boolean)
+  overload: Global.PolyExtruder.createPrism*
+  nameWithType.vb: PolyExtruder.createPrism(String, Single, Vector2(), Color32, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: PolyExtruder.createPrism(System.String, System.Single, UnityEngine.Vector2(), UnityEngine.Color32, System.Boolean)
+  name.vb: createPrism(String, Single, Vector2(), Color32, Boolean)
+- uid: Global.PolyExtruder.updateHeight(System.Single)
+  commentId: M:Global.PolyExtruder.updateHeight(System.Single)
+  id: updateHeight(System.Single)
+  parent: Global.PolyExtruder
+  langs:
+  - csharp
+  - vb
+  name: updateHeight(Single)
+  nameWithType: PolyExtruder.updateHeight(Single)
+  fullName: PolyExtruder.updateHeight(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: updateHeight
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+    startLine: 432
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nFunction to update the height of the prism.\n"
+  example: []
+  syntax:
+    content: public void updateHeight(float height)
+    parameters:
+    - id: height
+      type: System.Single
+      description: Distance between bottom and top (polygon) mesh (= length of extrusion).
+    content.vb: Public Sub updateHeight(height As Single)
+  overload: Global.PolyExtruder.updateHeight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PolyExtruder.updateColor(UnityEngine.Color32)
+  commentId: M:Global.PolyExtruder.updateColor(UnityEngine.Color32)
+  id: updateColor(UnityEngine.Color32)
+  parent: Global.PolyExtruder
+  langs:
+  - csharp
+  - vb
+  name: updateColor(Color32)
+  nameWithType: PolyExtruder.updateColor(Color32)
+  fullName: PolyExtruder.updateColor(UnityEngine.Color32)
+  type: Method
+  source:
+    remote:
+      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: updateColor
+    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
+    startLine: 446
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: "\nFunction to update the color of the prism material (default material attached during prism creation proces: Diffuse).\n"
+  example: []
+  syntax:
+    content: public void updateColor(Color32 color)
+    parameters:
+    - id: color
+      type: UnityEngine.Color32
+      description: Color32 variable representing the new color of the prism meshes.
+    content.vb: Public Sub updateColor(color As Color32)
+  overload: Global.PolyExtruder.updateColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.Color32
+  commentId: T:UnityEngine.Color32
+  parent: UnityEngine
+  isExternal: true
+  name: Color32
+  nameWithType: Color32
+  fullName: UnityEngine.Color32
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: Global.PolyExtruder.createPrism*
+  commentId: Overload:Global.PolyExtruder.createPrism
+  name: createPrism
+  nameWithType: PolyExtruder.createPrism
+  fullName: PolyExtruder.createPrism
+- uid: UnityEngine.Vector2[]
+  isExternal: true
+  name: Vector2[]
+  nameWithType: Vector2[]
+  fullName: UnityEngine.Vector2[]
+  nameWithType.vb: Vector2()
+  fullName.vb: UnityEngine.Vector2()
+  name.vb: Vector2()
+  spec.csharp:
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.PolyExtruder.updateHeight*
+  commentId: Overload:Global.PolyExtruder.updateHeight
+  name: updateHeight
+  nameWithType: PolyExtruder.updateHeight
+  fullName: PolyExtruder.updateHeight
+- uid: Global.PolyExtruder.updateColor*
+  commentId: Overload:Global.PolyExtruder.updateColor
+  name: updateColor
+  nameWithType: PolyExtruder.updateColor
+  fullName: PolyExtruder.updateColor

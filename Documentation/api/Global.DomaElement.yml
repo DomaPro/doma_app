@@ -1,0 +1,425 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DomaElement
+  commentId: T:Global.DomaElement
+  id: DomaElement
+  parent: Global
+  children:
+  - Global.DomaElement.#ctor(UnityEngine.GameObject,UnityEngine.GameObject,Net3dBool.Solid,System.Collections.Generic.List{UnityEngine.Vector3},System.Collections.Generic.List{UnityEngine.Vector3})
+  - Global.DomaElement.DomaObject2D
+  - Global.DomaElement.DomaObject3D
+  - Global.DomaElement.DomaObject3DSolid
+  - Global.DomaElement.Points2D
+  - Global.DomaElement.Points3D
+  langs:
+  - csharp
+  - vb
+  name: DomaElement
+  nameWithType: DomaElement
+  fullName: DomaElement
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Models/DomaElement.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: DomaElement
+    path: ../Assets/Scripts/Models/DomaElement.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public class DomaElement
+    content.vb: Public Class DomaElement
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DomaElement.DomaObject2D
+  commentId: P:Global.DomaElement.DomaObject2D
+  id: DomaObject2D
+  parent: Global.DomaElement
+  langs:
+  - csharp
+  - vb
+  name: DomaObject2D
+  nameWithType: DomaElement.DomaObject2D
+  fullName: DomaElement.DomaObject2D
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Models/DomaElement.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: DomaObject2D
+    path: ../Assets/Scripts/Models/DomaElement.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject DomaObject2D { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property DomaObject2D As GameObject
+  overload: Global.DomaElement.DomaObject2D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DomaElement.DomaObject3D
+  commentId: P:Global.DomaElement.DomaObject3D
+  id: DomaObject3D
+  parent: Global.DomaElement
+  langs:
+  - csharp
+  - vb
+  name: DomaObject3D
+  nameWithType: DomaElement.DomaObject3D
+  fullName: DomaElement.DomaObject3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Models/DomaElement.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: DomaObject3D
+    path: ../Assets/Scripts/Models/DomaElement.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject DomaObject3D { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property DomaObject3D As GameObject
+  overload: Global.DomaElement.DomaObject3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DomaElement.DomaObject3DSolid
+  commentId: P:Global.DomaElement.DomaObject3DSolid
+  id: DomaObject3DSolid
+  parent: Global.DomaElement
+  langs:
+  - csharp
+  - vb
+  name: DomaObject3DSolid
+  nameWithType: DomaElement.DomaObject3DSolid
+  fullName: DomaElement.DomaObject3DSolid
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Models/DomaElement.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: DomaObject3DSolid
+    path: ../Assets/Scripts/Models/DomaElement.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Solid DomaObject3DSolid { get; set; }
+    parameters: []
+    return:
+      type: Net3dBool.Solid
+    content.vb: Public Property DomaObject3DSolid As Solid
+  overload: Global.DomaElement.DomaObject3DSolid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DomaElement.Points2D
+  commentId: P:Global.DomaElement.Points2D
+  id: Points2D
+  parent: Global.DomaElement
+  langs:
+  - csharp
+  - vb
+  name: Points2D
+  nameWithType: DomaElement.Points2D
+  fullName: DomaElement.Points2D
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Models/DomaElement.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Points2D
+    path: ../Assets/Scripts/Models/DomaElement.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<Vector3> Points2D { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Vector3}
+    content.vb: Public Property Points2D As List(Of Vector3)
+  overload: Global.DomaElement.Points2D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DomaElement.Points3D
+  commentId: P:Global.DomaElement.Points3D
+  id: Points3D
+  parent: Global.DomaElement
+  langs:
+  - csharp
+  - vb
+  name: Points3D
+  nameWithType: DomaElement.Points3D
+  fullName: DomaElement.Points3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Models/DomaElement.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Points3D
+    path: ../Assets/Scripts/Models/DomaElement.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<Vector3> Points3D { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Vector3}
+    content.vb: Public Property Points3D As List(Of Vector3)
+  overload: Global.DomaElement.Points3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DomaElement.#ctor(UnityEngine.GameObject,UnityEngine.GameObject,Net3dBool.Solid,System.Collections.Generic.List{UnityEngine.Vector3},System.Collections.Generic.List{UnityEngine.Vector3})
+  commentId: M:Global.DomaElement.#ctor(UnityEngine.GameObject,UnityEngine.GameObject,Net3dBool.Solid,System.Collections.Generic.List{UnityEngine.Vector3},System.Collections.Generic.List{UnityEngine.Vector3})
+  id: '#ctor(UnityEngine.GameObject,UnityEngine.GameObject,Net3dBool.Solid,System.Collections.Generic.List{UnityEngine.Vector3},System.Collections.Generic.List{UnityEngine.Vector3})'
+  parent: Global.DomaElement
+  langs:
+  - csharp
+  - vb
+  name: DomaElement(GameObject, GameObject, Solid, List<Vector3>, List<Vector3>)
+  nameWithType: DomaElement.DomaElement(GameObject, GameObject, Solid, List<Vector3>, List<Vector3>)
+  fullName: DomaElement.DomaElement(UnityEngine.GameObject, UnityEngine.GameObject, Net3dBool.Solid, System.Collections.Generic.List<UnityEngine.Vector3>, System.Collections.Generic.List<UnityEngine.Vector3>)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Scripts/Models/DomaElement.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: .ctor
+    path: ../Assets/Scripts/Models/DomaElement.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DomaElement(GameObject domaObject2D, GameObject domaObject3D, Solid domaObject3DSolid, List<Vector3> points2D, List<Vector3> points3D)
+    parameters:
+    - id: domaObject2D
+      type: UnityEngine.GameObject
+    - id: domaObject3D
+      type: UnityEngine.GameObject
+    - id: domaObject3DSolid
+      type: Net3dBool.Solid
+    - id: points2D
+      type: System.Collections.Generic.List{UnityEngine.Vector3}
+    - id: points3D
+      type: System.Collections.Generic.List{UnityEngine.Vector3}
+    content.vb: Public Sub New(domaObject2D As GameObject, domaObject3D As GameObject, domaObject3DSolid As Solid, points2D As List(Of Vector3), points3D As List(Of Vector3))
+  overload: Global.DomaElement.#ctor*
+  nameWithType.vb: DomaElement.DomaElement(GameObject, GameObject, Solid, List(Of Vector3), List(Of Vector3))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DomaElement.DomaElement(UnityEngine.GameObject, UnityEngine.GameObject, Net3dBool.Solid, System.Collections.Generic.List(Of UnityEngine.Vector3), System.Collections.Generic.List(Of UnityEngine.Vector3))
+  name.vb: DomaElement(GameObject, GameObject, Solid, List(Of Vector3), List(Of Vector3))
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.DomaElement.DomaObject2D*
+  commentId: Overload:Global.DomaElement.DomaObject2D
+  name: DomaObject2D
+  nameWithType: DomaElement.DomaObject2D
+  fullName: DomaElement.DomaObject2D
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.DomaElement.DomaObject3D*
+  commentId: Overload:Global.DomaElement.DomaObject3D
+  name: DomaObject3D
+  nameWithType: DomaElement.DomaObject3D
+  fullName: DomaElement.DomaObject3D
+- uid: Global.DomaElement.DomaObject3DSolid*
+  commentId: Overload:Global.DomaElement.DomaObject3DSolid
+  name: DomaObject3DSolid
+  nameWithType: DomaElement.DomaObject3DSolid
+  fullName: DomaElement.DomaObject3DSolid
+- uid: Net3dBool.Solid
+  commentId: T:Net3dBool.Solid
+  parent: Net3dBool
+  name: Solid
+  nameWithType: Solid
+  fullName: Net3dBool.Solid
+- uid: Net3dBool
+  commentId: N:Net3dBool
+  name: Net3dBool
+  nameWithType: Net3dBool
+  fullName: Net3dBool
+- uid: Global.DomaElement.Points2D*
+  commentId: Overload:Global.DomaElement.Points2D
+  name: Points2D
+  nameWithType: DomaElement.Points2D
+  fullName: DomaElement.Points2D
+- uid: System.Collections.Generic.List{UnityEngine.Vector3}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Vector3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Vector3>
+  nameWithType: List<Vector3>
+  fullName: System.Collections.Generic.List<UnityEngine.Vector3>
+  nameWithType.vb: List(Of Vector3)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Vector3)
+  name.vb: List(Of Vector3)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.DomaElement.Points3D*
+  commentId: Overload:Global.DomaElement.Points3D
+  name: Points3D
+  nameWithType: DomaElement.Points3D
+  fullName: DomaElement.Points3D
+- uid: Global.DomaElement.#ctor*
+  commentId: Overload:Global.DomaElement.#ctor
+  name: DomaElement
+  nameWithType: DomaElement.DomaElement
+  fullName: DomaElement.DomaElement

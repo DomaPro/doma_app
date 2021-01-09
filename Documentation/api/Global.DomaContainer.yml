@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DomaContainer
+  commentId: T:Global.DomaContainer
+  id: DomaContainer
+  parent: Global
+  children:
+  - Global.DomaContainer.Instance
+  - Global.DomaContainer.TargetFrameRate
+  langs:
+  - csharp
+  - vb
+  name: DomaContainer
+  nameWithType: DomaContainer
+  fullName: DomaContainer
+  type: Class
+  source:
+    remote:
+      path: Assets/Managers/Containers/DomaContainer.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: DomaContainer
+    path: ../Assets/Managers/Containers/DomaContainer.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class DomaContainer : MonoBehaviour'
+    content.vb: >-
+      Public Class DomaContainer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DomaContainer.Instance
+  commentId: P:Global.DomaContainer.Instance
+  id: Instance
+  parent: Global.DomaContainer
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: DomaContainer.Instance
+  fullName: DomaContainer.Instance
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Containers/DomaContainer.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Instance
+    path: ../Assets/Managers/Containers/DomaContainer.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static DomaContainer Instance { get; }
+    parameters: []
+    return:
+      type: Global.DomaContainer
+    content.vb: Public Shared ReadOnly Property Instance As DomaContainer
+  overload: Global.DomaContainer.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.DomaContainer.TargetFrameRate
+  commentId: F:Global.DomaContainer.TargetFrameRate
+  id: TargetFrameRate
+  parent: Global.DomaContainer
+  langs:
+  - csharp
+  - vb
+  name: TargetFrameRate
+  nameWithType: DomaContainer.TargetFrameRate
+  fullName: DomaContainer.TargetFrameRate
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Containers/DomaContainer.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: TargetFrameRate
+    path: ../Assets/Managers/Containers/DomaContainer.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int TargetFrameRate
+    return:
+      type: System.Int32
+    content.vb: Public TargetFrameRate As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.DomaContainer.Instance*
+  commentId: Overload:Global.DomaContainer.Instance
+  name: Instance
+  nameWithType: DomaContainer.Instance
+  fullName: DomaContainer.Instance
+- uid: Global.DomaContainer
+  commentId: T:Global.DomaContainer
+  name: DomaContainer
+  nameWithType: DomaContainer
+  fullName: DomaContainer
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

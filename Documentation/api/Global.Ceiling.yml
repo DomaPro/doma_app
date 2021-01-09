@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Ceiling
+  commentId: T:Global.Ceiling
+  id: Ceiling
+  parent: Global
+  children:
+  - Global.Ceiling.#ctor(Ceiling2D,Ceiling3D)
+  - Global.Ceiling.Ceiling2D
+  - Global.Ceiling.Ceiling3D
+  - Global.Ceiling.Material
+  langs:
+  - csharp
+  - vb
+  name: Ceiling
+  nameWithType: Ceiling
+  fullName: Ceiling
+  type: Class
+  source:
+    remote:
+      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Ceiling
+    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    startLine: 43
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public class Ceiling
+    content.vb: Public Class Ceiling
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Ceiling.Ceiling2D
+  commentId: P:Global.Ceiling.Ceiling2D
+  id: Ceiling2D
+  parent: Global.Ceiling
+  langs:
+  - csharp
+  - vb
+  name: Ceiling2D
+  nameWithType: Ceiling.Ceiling2D
+  fullName: Ceiling.Ceiling2D
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Ceiling2D
+    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    startLine: 45
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Ceiling2D Ceiling2D { get; set; }
+    parameters: []
+    return:
+      type: Global.Ceiling2D
+    content.vb: Public Property Ceiling2D As Ceiling2D
+  overload: Global.Ceiling.Ceiling2D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.Ceiling.Ceiling3D
+  commentId: P:Global.Ceiling.Ceiling3D
+  id: Ceiling3D
+  parent: Global.Ceiling
+  langs:
+  - csharp
+  - vb
+  name: Ceiling3D
+  nameWithType: Ceiling.Ceiling3D
+  fullName: Ceiling.Ceiling3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Ceiling3D
+    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    startLine: 46
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Ceiling3D Ceiling3D { get; set; }
+    parameters: []
+    return:
+      type: Global.Ceiling3D
+    content.vb: Public Property Ceiling3D As Ceiling3D
+  overload: Global.Ceiling.Ceiling3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.Ceiling.Material
+  commentId: P:Global.Ceiling.Material
+  id: Material
+  parent: Global.Ceiling
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: Ceiling.Material
+  fullName: Ceiling.Material
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Material
+    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    startLine: 48
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Material Material { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property Material As Material
+  overload: Global.Ceiling.Material*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.Ceiling.#ctor(Ceiling2D,Ceiling3D)
+  commentId: M:Global.Ceiling.#ctor(Ceiling2D,Ceiling3D)
+  id: '#ctor(Ceiling2D,Ceiling3D)'
+  parent: Global.Ceiling
+  langs:
+  - csharp
+  - vb
+  name: Ceiling(Ceiling2D, Ceiling3D)
+  nameWithType: Ceiling.Ceiling(Ceiling2D, Ceiling3D)
+  fullName: Ceiling.Ceiling(Ceiling2D, Ceiling3D)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: .ctor
+    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    startLine: 50
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Ceiling(Ceiling2D ceiling2D, Ceiling3D ceiling3D)
+    parameters:
+    - id: ceiling2D
+      type: Global.Ceiling2D
+    - id: ceiling3D
+      type: Global.Ceiling3D
+    content.vb: Public Sub New(ceiling2D As Ceiling2D, ceiling3D As Ceiling3D)
+  overload: Global.Ceiling.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Ceiling.Ceiling2D*
+  commentId: Overload:Global.Ceiling.Ceiling2D
+  name: Ceiling2D
+  nameWithType: Ceiling.Ceiling2D
+  fullName: Ceiling.Ceiling2D
+- uid: Global.Ceiling2D
+  commentId: T:Global.Ceiling2D
+  name: Ceiling2D
+  nameWithType: Ceiling2D
+  fullName: Ceiling2D
+- uid: Global.Ceiling.Ceiling3D*
+  commentId: Overload:Global.Ceiling.Ceiling3D
+  name: Ceiling3D
+  nameWithType: Ceiling.Ceiling3D
+  fullName: Ceiling.Ceiling3D
+- uid: Global.Ceiling3D
+  commentId: T:Global.Ceiling3D
+  name: Ceiling3D
+  nameWithType: Ceiling3D
+  fullName: Ceiling3D
+- uid: Global.Ceiling.Material*
+  commentId: Overload:Global.Ceiling.Material
+  name: Material
+  nameWithType: Ceiling.Material
+  fullName: Ceiling.Material
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.Ceiling.#ctor*
+  commentId: Overload:Global.Ceiling.#ctor
+  name: Ceiling
+  nameWithType: Ceiling.Ceiling
+  fullName: Ceiling.Ceiling

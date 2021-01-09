@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CameraMoving
+  commentId: T:Global.CameraMoving
+  id: CameraMoving
+  parent: Global
+  children:
+  - Global.CameraMoving.speedMoving
+  - Global.CameraMoving.speedZoom
+  langs:
+  - csharp
+  - vb
+  name: CameraMoving
+  nameWithType: CameraMoving
+  fullName: CameraMoving
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/CameraMoving.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: CameraMoving
+    path: ../Assets/Scripts/Cameras/CameraMoving.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class CameraMoving : MonoBehaviour'
+    content.vb: >-
+      Public Class CameraMoving
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CameraMoving.speedMoving
+  commentId: F:Global.CameraMoving.speedMoving
+  id: speedMoving
+  parent: Global.CameraMoving
+  langs:
+  - csharp
+  - vb
+  name: speedMoving
+  nameWithType: CameraMoving.speedMoving
+  fullName: CameraMoving.speedMoving
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/CameraMoving.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: speedMoving
+    path: ../Assets/Scripts/Cameras/CameraMoving.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float speedMoving
+    return:
+      type: System.Single
+    content.vb: Public speedMoving As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CameraMoving.speedZoom
+  commentId: F:Global.CameraMoving.speedZoom
+  id: speedZoom
+  parent: Global.CameraMoving
+  langs:
+  - csharp
+  - vb
+  name: speedZoom
+  nameWithType: CameraMoving.speedZoom
+  fullName: CameraMoving.speedZoom
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/CameraMoving.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: speedZoom
+    path: ../Assets/Scripts/Cameras/CameraMoving.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float speedZoom
+    return:
+      type: System.Single
+    content.vb: Public speedZoom As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

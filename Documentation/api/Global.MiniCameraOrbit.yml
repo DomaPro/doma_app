@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MiniCameraOrbit
+  commentId: T:Global.MiniCameraOrbit
+  id: MiniCameraOrbit
+  parent: Global
+  children:
+  - Global.MiniCameraOrbit.distanceCameraToObjects
+  - Global.MiniCameraOrbit.speedRotationHorizontal
+  - Global.MiniCameraOrbit.target
+  - Global.MiniCameraOrbit.V3Equal(UnityEngine.Vector3,UnityEngine.Vector3)
+  langs:
+  - csharp
+  - vb
+  name: MiniCameraOrbit
+  nameWithType: MiniCameraOrbit
+  fullName: MiniCameraOrbit
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/MiniCameraOrbit.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: MiniCameraOrbit
+    path: ../Assets/Scripts/Cameras/MiniCameraOrbit.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class MiniCameraOrbit : MonoBehaviour'
+    content.vb: >-
+      Public Class MiniCameraOrbit
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MiniCameraOrbit.target
+  commentId: F:Global.MiniCameraOrbit.target
+  id: target
+  parent: Global.MiniCameraOrbit
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: MiniCameraOrbit.target
+  fullName: MiniCameraOrbit.target
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/MiniCameraOrbit.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: target
+    path: ../Assets/Scripts/Cameras/MiniCameraOrbit.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject target
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public target As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniCameraOrbit.speedRotationHorizontal
+  commentId: F:Global.MiniCameraOrbit.speedRotationHorizontal
+  id: speedRotationHorizontal
+  parent: Global.MiniCameraOrbit
+  langs:
+  - csharp
+  - vb
+  name: speedRotationHorizontal
+  nameWithType: MiniCameraOrbit.speedRotationHorizontal
+  fullName: MiniCameraOrbit.speedRotationHorizontal
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/MiniCameraOrbit.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: speedRotationHorizontal
+    path: ../Assets/Scripts/Cameras/MiniCameraOrbit.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float speedRotationHorizontal
+    return:
+      type: System.Single
+    content.vb: Public speedRotationHorizontal As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniCameraOrbit.distanceCameraToObjects
+  commentId: F:Global.MiniCameraOrbit.distanceCameraToObjects
+  id: distanceCameraToObjects
+  parent: Global.MiniCameraOrbit
+  langs:
+  - csharp
+  - vb
+  name: distanceCameraToObjects
+  nameWithType: MiniCameraOrbit.distanceCameraToObjects
+  fullName: MiniCameraOrbit.distanceCameraToObjects
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/MiniCameraOrbit.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: distanceCameraToObjects
+    path: ../Assets/Scripts/Cameras/MiniCameraOrbit.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float distanceCameraToObjects
+    return:
+      type: System.Single
+    content.vb: Public distanceCameraToObjects As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniCameraOrbit.V3Equal(UnityEngine.Vector3,UnityEngine.Vector3)
+  commentId: M:Global.MiniCameraOrbit.V3Equal(UnityEngine.Vector3,UnityEngine.Vector3)
+  id: V3Equal(UnityEngine.Vector3,UnityEngine.Vector3)
+  parent: Global.MiniCameraOrbit
+  langs:
+  - csharp
+  - vb
+  name: V3Equal(Vector3, Vector3)
+  nameWithType: MiniCameraOrbit.V3Equal(Vector3, Vector3)
+  fullName: MiniCameraOrbit.V3Equal(UnityEngine.Vector3, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/MiniCameraOrbit.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: V3Equal
+    path: ../Assets/Scripts/Cameras/MiniCameraOrbit.cs
+    startLine: 58
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public bool V3Equal(Vector3 a, Vector3 b)
+    parameters:
+    - id: a
+      type: UnityEngine.Vector3
+    - id: b
+      type: UnityEngine.Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Function V3Equal(a As Vector3, b As Vector3) As Boolean
+  overload: Global.MiniCameraOrbit.V3Equal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.MiniCameraOrbit.V3Equal*
+  commentId: Overload:Global.MiniCameraOrbit.V3Equal
+  name: V3Equal
+  nameWithType: MiniCameraOrbit.V3Equal
+  fullName: MiniCameraOrbit.V3Equal
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

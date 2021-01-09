@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CameraOrbit
+  commentId: T:Global.CameraOrbit
+  id: CameraOrbit
+  parent: Global
+  children:
+  - Global.CameraOrbit.speedRotationHorizontal
+  - Global.CameraOrbit.speedRotationVertical
+  - Global.CameraOrbit.speedZoom
+  - Global.CameraOrbit.target
+  langs:
+  - csharp
+  - vb
+  name: CameraOrbit
+  nameWithType: CameraOrbit
+  fullName: CameraOrbit
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/CameraOrbit.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: CameraOrbit
+    path: ../Assets/Scripts/Cameras/CameraOrbit.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class CameraOrbit : MonoBehaviour'
+    content.vb: >-
+      Public Class CameraOrbit
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CameraOrbit.target
+  commentId: F:Global.CameraOrbit.target
+  id: target
+  parent: Global.CameraOrbit
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: CameraOrbit.target
+  fullName: CameraOrbit.target
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/CameraOrbit.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: target
+    path: ../Assets/Scripts/Cameras/CameraOrbit.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject target
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public target As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CameraOrbit.speedRotationHorizontal
+  commentId: F:Global.CameraOrbit.speedRotationHorizontal
+  id: speedRotationHorizontal
+  parent: Global.CameraOrbit
+  langs:
+  - csharp
+  - vb
+  name: speedRotationHorizontal
+  nameWithType: CameraOrbit.speedRotationHorizontal
+  fullName: CameraOrbit.speedRotationHorizontal
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/CameraOrbit.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: speedRotationHorizontal
+    path: ../Assets/Scripts/Cameras/CameraOrbit.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float speedRotationHorizontal
+    return:
+      type: System.Single
+    content.vb: Public speedRotationHorizontal As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CameraOrbit.speedRotationVertical
+  commentId: F:Global.CameraOrbit.speedRotationVertical
+  id: speedRotationVertical
+  parent: Global.CameraOrbit
+  langs:
+  - csharp
+  - vb
+  name: speedRotationVertical
+  nameWithType: CameraOrbit.speedRotationVertical
+  fullName: CameraOrbit.speedRotationVertical
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/CameraOrbit.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: speedRotationVertical
+    path: ../Assets/Scripts/Cameras/CameraOrbit.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float speedRotationVertical
+    return:
+      type: System.Single
+    content.vb: Public speedRotationVertical As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CameraOrbit.speedZoom
+  commentId: F:Global.CameraOrbit.speedZoom
+  id: speedZoom
+  parent: Global.CameraOrbit
+  langs:
+  - csharp
+  - vb
+  name: speedZoom
+  nameWithType: CameraOrbit.speedZoom
+  fullName: CameraOrbit.speedZoom
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/CameraOrbit.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: speedZoom
+    path: ../Assets/Scripts/Cameras/CameraOrbit.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float speedZoom
+    return:
+      type: System.Single
+    content.vb: Public speedZoom As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

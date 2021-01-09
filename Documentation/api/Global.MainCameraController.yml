@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MainCameraController
+  commentId: T:Global.MainCameraController
+  id: MainCameraController
+  parent: Global
+  children:
+  - Global.MainCameraController.portalCamera
+  - Global.MainCameraController.texture2DView
+  langs:
+  - csharp
+  - vb
+  name: MainCameraController
+  nameWithType: MainCameraController
+  fullName: MainCameraController
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/MainCameraController.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: MainCameraController
+    path: ../Assets/Scripts/Cameras/MainCameraController.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class MainCameraController : MonoBehaviour'
+    content.vb: >-
+      Public Class MainCameraController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MainCameraController.portalCamera
+  commentId: F:Global.MainCameraController.portalCamera
+  id: portalCamera
+  parent: Global.MainCameraController
+  langs:
+  - csharp
+  - vb
+  name: portalCamera
+  nameWithType: MainCameraController.portalCamera
+  fullName: MainCameraController.portalCamera
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/MainCameraController.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: portalCamera
+    path: ../Assets/Scripts/Cameras/MainCameraController.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Camera portalCamera
+    return:
+      type: UnityEngine.Camera
+    content.vb: Public portalCamera As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MainCameraController.texture2DView
+  commentId: F:Global.MainCameraController.texture2DView
+  id: texture2DView
+  parent: Global.MainCameraController
+  langs:
+  - csharp
+  - vb
+  name: texture2DView
+  nameWithType: MainCameraController.texture2DView
+  fullName: MainCameraController.texture2DView
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Cameras/MainCameraController.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: texture2DView
+    path: ../Assets/Scripts/Cameras/MainCameraController.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public RawImage texture2DView
+    return:
+      type: UnityEngine.UI.RawImage
+    content.vb: Public texture2DView As RawImage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Camera
+  commentId: T:UnityEngine.Camera
+  parent: UnityEngine
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: UnityEngine.Camera
+- uid: UnityEngine.UI.RawImage
+  commentId: T:UnityEngine.UI.RawImage
+  parent: UnityEngine.UI
+  isExternal: true
+  name: RawImage
+  nameWithType: RawImage
+  fullName: UnityEngine.UI.RawImage
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI

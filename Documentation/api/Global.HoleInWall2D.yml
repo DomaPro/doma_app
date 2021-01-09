@@ -1,0 +1,297 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.HoleInWall2D
+  commentId: T:Global.HoleInWall2D
+  id: HoleInWall2D
+  parent: Global
+  children:
+  - Global.HoleInWall2D.domaElement
+  - Global.HoleInWall2D.mousePosition
+  - Global.HoleInWall2D.objectWall2D
+  - Global.HoleInWall2D.Wall2D
+  - Global.HoleInWall2D.Wall3D
+  langs:
+  - csharp
+  - vb
+  name: HoleInWall2D
+  nameWithType: HoleInWall2D
+  fullName: HoleInWall2D
+  type: Class
+  source:
+    remote:
+      path: Assets/Managers/DomaManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: HoleInWall2D
+    path: ../Assets/Managers/DomaManager.cs
+    startLine: 271
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public class HoleInWall2D
+    content.vb: Public Class HoleInWall2D
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.HoleInWall2D.objectWall2D
+  commentId: P:Global.HoleInWall2D.objectWall2D
+  id: objectWall2D
+  parent: Global.HoleInWall2D
+  langs:
+  - csharp
+  - vb
+  name: objectWall2D
+  nameWithType: HoleInWall2D.objectWall2D
+  fullName: HoleInWall2D.objectWall2D
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/DomaManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: objectWall2D
+    path: ../Assets/Managers/DomaManager.cs
+    startLine: 273
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject objectWall2D { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property objectWall2D As GameObject
+  overload: Global.HoleInWall2D.objectWall2D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.HoleInWall2D.mousePosition
+  commentId: P:Global.HoleInWall2D.mousePosition
+  id: mousePosition
+  parent: Global.HoleInWall2D
+  langs:
+  - csharp
+  - vb
+  name: mousePosition
+  nameWithType: HoleInWall2D.mousePosition
+  fullName: HoleInWall2D.mousePosition
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/DomaManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: mousePosition
+    path: ../Assets/Managers/DomaManager.cs
+    startLine: 274
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3 mousePosition { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property mousePosition As Vector3
+  overload: Global.HoleInWall2D.mousePosition*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.HoleInWall2D.domaElement
+  commentId: P:Global.HoleInWall2D.domaElement
+  id: domaElement
+  parent: Global.HoleInWall2D
+  langs:
+  - csharp
+  - vb
+  name: domaElement
+  nameWithType: HoleInWall2D.domaElement
+  fullName: HoleInWall2D.domaElement
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/DomaManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: domaElement
+    path: ../Assets/Managers/DomaManager.cs
+    startLine: 275
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DomaElement domaElement { get; set; }
+    parameters: []
+    return:
+      type: Global.DomaElement
+    content.vb: Public Property domaElement As DomaElement
+  overload: Global.HoleInWall2D.domaElement*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.HoleInWall2D.Wall2D
+  commentId: P:Global.HoleInWall2D.Wall2D
+  id: Wall2D
+  parent: Global.HoleInWall2D
+  langs:
+  - csharp
+  - vb
+  name: Wall2D
+  nameWithType: HoleInWall2D.Wall2D
+  fullName: HoleInWall2D.Wall2D
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/DomaManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Wall2D
+    path: ../Assets/Managers/DomaManager.cs
+    startLine: 276
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Wall2D Wall2D { get; set; }
+    parameters: []
+    return:
+      type: Global.Wall2D
+    content.vb: Public Property Wall2D As Wall2D
+  overload: Global.HoleInWall2D.Wall2D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.HoleInWall2D.Wall3D
+  commentId: P:Global.HoleInWall2D.Wall3D
+  id: Wall3D
+  parent: Global.HoleInWall2D
+  langs:
+  - csharp
+  - vb
+  name: Wall3D
+  nameWithType: HoleInWall2D.Wall3D
+  fullName: HoleInWall2D.Wall3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Managers/DomaManager.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Wall3D
+    path: ../Assets/Managers/DomaManager.cs
+    startLine: 277
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Wall3D Wall3D { get; set; }
+    parameters: []
+    return:
+      type: Global.Wall3D
+    content.vb: Public Property Wall3D As Wall3D
+  overload: Global.HoleInWall2D.Wall3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.HoleInWall2D.objectWall2D*
+  commentId: Overload:Global.HoleInWall2D.objectWall2D
+  name: objectWall2D
+  nameWithType: HoleInWall2D.objectWall2D
+  fullName: HoleInWall2D.objectWall2D
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.HoleInWall2D.mousePosition*
+  commentId: Overload:Global.HoleInWall2D.mousePosition
+  name: mousePosition
+  nameWithType: HoleInWall2D.mousePosition
+  fullName: HoleInWall2D.mousePosition
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: Global.HoleInWall2D.domaElement*
+  commentId: Overload:Global.HoleInWall2D.domaElement
+  name: domaElement
+  nameWithType: HoleInWall2D.domaElement
+  fullName: HoleInWall2D.domaElement
+- uid: Global.DomaElement
+  commentId: T:Global.DomaElement
+  name: DomaElement
+  nameWithType: DomaElement
+  fullName: DomaElement
+- uid: Global.HoleInWall2D.Wall2D*
+  commentId: Overload:Global.HoleInWall2D.Wall2D
+  name: Wall2D
+  nameWithType: HoleInWall2D.Wall2D
+  fullName: HoleInWall2D.Wall2D
+- uid: Global.Wall2D
+  commentId: T:Global.Wall2D
+  name: Wall2D
+  nameWithType: Wall2D
+  fullName: Wall2D
+- uid: Global.HoleInWall2D.Wall3D*
+  commentId: Overload:Global.HoleInWall2D.Wall3D
+  name: Wall3D
+  nameWithType: HoleInWall2D.Wall3D
+  fullName: HoleInWall2D.Wall3D
+- uid: Global.Wall3D
+  commentId: T:Global.Wall3D
+  name: Wall3D
+  nameWithType: Wall3D
+  fullName: Wall3D

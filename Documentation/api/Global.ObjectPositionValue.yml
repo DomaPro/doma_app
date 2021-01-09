@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ObjectPositionValue
+  commentId: T:Global.ObjectPositionValue
+  id: ObjectPositionValue
+  parent: Global
+  children:
+  - Global.ObjectPositionValue.#ctor(UnityEngine.Vector3,System.Single,System.Single)
+  - Global.ObjectPositionValue.CentralVector
+  - Global.ObjectPositionValue.MaxDistanceFromCentral
+  - Global.ObjectPositionValue.MaxPositionY
+  langs:
+  - csharp
+  - vb
+  name: ObjectPositionValue
+  nameWithType: ObjectPositionValue
+  fullName: ObjectPositionValue
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Models/ObjectPositionValue.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: ObjectPositionValue
+    path: ../Assets/Scripts/Models/ObjectPositionValue.cs
+    startLine: 3
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public class ObjectPositionValue
+    content.vb: Public Class ObjectPositionValue
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ObjectPositionValue.CentralVector
+  commentId: P:Global.ObjectPositionValue.CentralVector
+  id: CentralVector
+  parent: Global.ObjectPositionValue
+  langs:
+  - csharp
+  - vb
+  name: CentralVector
+  nameWithType: ObjectPositionValue.CentralVector
+  fullName: ObjectPositionValue.CentralVector
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Models/ObjectPositionValue.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: CentralVector
+    path: ../Assets/Scripts/Models/ObjectPositionValue.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3 CentralVector { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property CentralVector As Vector3
+  overload: Global.ObjectPositionValue.CentralVector*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.ObjectPositionValue.MaxDistanceFromCentral
+  commentId: P:Global.ObjectPositionValue.MaxDistanceFromCentral
+  id: MaxDistanceFromCentral
+  parent: Global.ObjectPositionValue
+  langs:
+  - csharp
+  - vb
+  name: MaxDistanceFromCentral
+  nameWithType: ObjectPositionValue.MaxDistanceFromCentral
+  fullName: ObjectPositionValue.MaxDistanceFromCentral
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Models/ObjectPositionValue.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: MaxDistanceFromCentral
+    path: ../Assets/Scripts/Models/ObjectPositionValue.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float MaxDistanceFromCentral { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MaxDistanceFromCentral As Single
+  overload: Global.ObjectPositionValue.MaxDistanceFromCentral*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.ObjectPositionValue.MaxPositionY
+  commentId: P:Global.ObjectPositionValue.MaxPositionY
+  id: MaxPositionY
+  parent: Global.ObjectPositionValue
+  langs:
+  - csharp
+  - vb
+  name: MaxPositionY
+  nameWithType: ObjectPositionValue.MaxPositionY
+  fullName: ObjectPositionValue.MaxPositionY
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/Models/ObjectPositionValue.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: MaxPositionY
+    path: ../Assets/Scripts/Models/ObjectPositionValue.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float MaxPositionY { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MaxPositionY As Single
+  overload: Global.ObjectPositionValue.MaxPositionY*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.ObjectPositionValue.#ctor(UnityEngine.Vector3,System.Single,System.Single)
+  commentId: M:Global.ObjectPositionValue.#ctor(UnityEngine.Vector3,System.Single,System.Single)
+  id: '#ctor(UnityEngine.Vector3,System.Single,System.Single)'
+  parent: Global.ObjectPositionValue
+  langs:
+  - csharp
+  - vb
+  name: ObjectPositionValue(Vector3, Single, Single)
+  nameWithType: ObjectPositionValue.ObjectPositionValue(Vector3, Single, Single)
+  fullName: ObjectPositionValue.ObjectPositionValue(UnityEngine.Vector3, System.Single, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Scripts/Models/ObjectPositionValue.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: .ctor
+    path: ../Assets/Scripts/Models/ObjectPositionValue.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public ObjectPositionValue(Vector3 centralVector, float maxDistanceFromCentral, float maxPositionY)
+    parameters:
+    - id: centralVector
+      type: UnityEngine.Vector3
+    - id: maxDistanceFromCentral
+      type: System.Single
+    - id: maxPositionY
+      type: System.Single
+    content.vb: Public Sub New(centralVector As Vector3, maxDistanceFromCentral As Single, maxPositionY As Single)
+  overload: Global.ObjectPositionValue.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ObjectPositionValue.CentralVector*
+  commentId: Overload:Global.ObjectPositionValue.CentralVector
+  name: CentralVector
+  nameWithType: ObjectPositionValue.CentralVector
+  fullName: ObjectPositionValue.CentralVector
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.ObjectPositionValue.MaxDistanceFromCentral*
+  commentId: Overload:Global.ObjectPositionValue.MaxDistanceFromCentral
+  name: MaxDistanceFromCentral
+  nameWithType: ObjectPositionValue.MaxDistanceFromCentral
+  fullName: ObjectPositionValue.MaxDistanceFromCentral
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.ObjectPositionValue.MaxPositionY*
+  commentId: Overload:Global.ObjectPositionValue.MaxPositionY
+  name: MaxPositionY
+  nameWithType: ObjectPositionValue.MaxPositionY
+  fullName: ObjectPositionValue.MaxPositionY
+- uid: Global.ObjectPositionValue.#ctor*
+  commentId: Overload:Global.ObjectPositionValue.#ctor
+  name: ObjectPositionValue
+  nameWithType: ObjectPositionValue.ObjectPositionValue
+  fullName: ObjectPositionValue.ObjectPositionValue

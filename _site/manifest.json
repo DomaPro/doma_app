@@ -1,0 +1,623 @@
+{
+  "sitemap": {
+    "baseUrl": "https://normanderwan.github.io/DocFxForUnity/"
+  },
+  "homepages": [],
+  "source_base_path": "C:/Users/kamin/Doma/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AddHole2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AddHole2D.html",
+          "hash": "yHy50i0gq3FGliQpSpxq+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Area2DScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Area2DScript.html",
+          "hash": "PP8gw1VpUJyphyQSpsp1VA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CameraManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CameraManager.html",
+          "hash": "fHSe/oOnTo7VRoiLV7dX8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CameraMoving.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CameraMoving.html",
+          "hash": "aIZVWVxhZzSQlLFchn2QQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CameraOrbit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CameraOrbit.html",
+          "hash": "FAOBndOnv5VrRsS8MZo1gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Ceiling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Ceiling.html",
+          "hash": "oWHrvG2cBa1xrJzcBjbG7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Ceiling2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Ceiling2D.html",
+          "hash": "iVBiTk8rBIjjlLHfP7Jg4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Ceiling3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Ceiling3D.html",
+          "hash": "hss/KKmedgxuke2X9xbKzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CeilingDoma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CeilingDoma.html",
+          "hash": "+QSlm3Cm3Zf92aQfoO2nzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DomaContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DomaContainer.html",
+          "hash": "8jLEudtoa409Rh++lJg7QQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DomaElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DomaElement.html",
+          "hash": "i+6curGRtCI9hl+IpwVvUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DomaManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DomaManager.html",
+          "hash": "+lW176sUAyiSAaYQqBClKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DrawCeiling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DrawCeiling.html",
+          "hash": "JMNWjVVK/cTuYWHS6/ZBFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DrawDoor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DrawDoor.html",
+          "hash": "bwb0qrXLyaXRWI8kIxjISQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DrawWall2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DrawWall2D.html",
+          "hash": "4X+78MKOdJMw04CKtmegSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DrawWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DrawWindow.html",
+          "hash": "nSfEIwdQFMPh+8ZftRl16w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FloorDoma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FloorDoma.html",
+          "hash": "K+7rJeDm8tvrS/klKNROfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FloorsDropdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FloorsDropdown.html",
+          "hash": "TTNSsLTHQvBZp/jTWSF1jQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FunctionsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FunctionsManager.html",
+          "hash": "RGC7iRGOWk3A7gbgW9aJ8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GableWall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GableWall.html",
+          "hash": "AxxmwLXBxGewj+2B4Pfc5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.HoleDoma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.HoleDoma.html",
+          "hash": "nLSgzJFcf+qByzw70mrrqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.HoleInWall2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.HoleInWall2D.html",
+          "hash": "0WAnigZ+/e2VttTx+sxmCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IFunctionDoma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IFunctionDoma.html",
+          "hash": "o6+agA0yuPr3YgydydQeVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MainCameraController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MainCameraController.html",
+          "hash": "wQIl5dj2I6wAQMZBbsZsMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MiniCameraOrbit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MiniCameraOrbit.html",
+          "hash": "pPY3hbImn9RWWSaUjTiKDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MyClasses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MyClasses.html",
+          "hash": "aqx/8zoycv0H6JlTxjqx2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ObjectPositionValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ObjectPositionValue.html",
+          "hash": "EBTyDLiIPLNvRqtSCSZh3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PolyExtruder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PolyExtruder.html",
+          "hash": "hmu7VXIN9B+ZGPrrKQspAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PolyExtruderDemo.ExampleData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PolyExtruderDemo.ExampleData.html",
+          "hash": "cWVICj6n3+LRIvxcB8GNZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PolyExtruderDemo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PolyExtruderDemo.html",
+          "hash": "4HRTjpnvsypjx8H38NNgCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.RefreshWallCornersModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.RefreshWallCornersModel.html",
+          "hash": "xz98KzmY7i9dIDIYYWwdVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Triangulation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Triangulation.html",
+          "hash": "ddf5J9PiCbx6aRfxywFwfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TriangulationTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TriangulationTest.html",
+          "hash": "GCOEbPJpand1x2WHWR/fPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Wall2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Wall2D.html",
+          "hash": "ovQloRr/HOrnF+nPgjjGWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Wall3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Wall3D.html",
+          "hash": "eMFKweuP7LsJ6fpRw5plXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.WallDoma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.WallDoma.html",
+          "hash": "+gIdxDf0SKWtbS7NaPdYdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.WallScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.WallScript.html",
+          "hash": "+RXPpflEwFHRK1AlWNyynw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html",
+          "hash": "ZXGbEjrblDLKuDigF8lizw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "JGqOT7o7S31esBekwCy9jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "bwED5Xnd1Xf1MWw2Qe4zxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/coniunctis.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/coniunctis.html",
+          "hash": "S8ht2LJjxqnLAdd96ZH+Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/etiam.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/etiam.html",
+          "hash": "DdGpZHHtGWlHpRH4WIuGQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "2q0qq03gpYNjYV8lSAAcVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleManual.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleManual.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleScriptingApi.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleScriptingApi.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "M8FaMcuvInEzB8I/V171Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 38,
+          "skipped_file_count": 36
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

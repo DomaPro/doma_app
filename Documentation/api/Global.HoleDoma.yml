@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.HoleDoma
+  commentId: T:Global.HoleDoma
+  id: HoleDoma
+  parent: Global
+  children:
+  - Global.HoleDoma.Wall
+  langs:
+  - csharp
+  - vb
+  name: HoleDoma
+  nameWithType: HoleDoma
+  fullName: HoleDoma
+  type: Class
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: HoleDoma
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 111
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public class HoleDoma
+    content.vb: Public Class HoleDoma
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.HoleDoma.Wall
+  commentId: F:Global.HoleDoma.Wall
+  id: Wall
+  parent: Global.HoleDoma
+  langs:
+  - csharp
+  - vb
+  name: Wall
+  nameWithType: HoleDoma.Wall
+  fullName: HoleDoma.Wall
+  type: Field
+  source:
+    remote:
+      path: Assets/Managers/Floor/FloorDoma.cs
+      branch: feature/DOMA-8
+      repo: https://github.com/domapl/Doma.git
+    id: Wall
+    path: ../Assets/Managers/Floor/FloorDoma.cs
+    startLine: 113
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject Wall
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Wall As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
