@@ -2,7 +2,7 @@
   "api/Global.AddHole2D.html": {
     "href": "api/Global.AddHole2D.html",
     "title": "Class AddHole2D | Doma",
-    "keywords": "Class AddHole2D Dodawanie otwórów do ścian 2D oraz 3D HHH 3 DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour AddHole2D Namespace : Global Assembly : Assembly-CSharp.dll Syntax public class AddHole2D : MonoBehaviour Fields | Improve this Doc View Source material Declaration public Material material Field Value Type Description UnityEngine.Material Methods | Improve this Doc View Source getColorArray(Int32, Color) Declaration public Color3f[] getColorArray(int length, Color c) Parameters Type Name Description Int32 length UnityEngine.Color c Returns Type Description Net3dBool.Color3f []"
+    "keywords": "Class AddHole2D Dodawanie otwórów do ścian 2D oraz 3D Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour AddHole2D Namespace : Global Assembly : Assembly-CSharp.dll Syntax public class AddHole2D : MonoBehaviour Fields | Improve this Doc View Source material Przypisanie materiału dla obiektu z otworem Declaration public Material material Field Value Type Description UnityEngine.Material Methods | Improve this Doc View Source getColorArray(Int32, Color) Declaration public Color3f[] getColorArray(int length, Color c) Parameters Type Name Description Int32 length UnityEngine.Color c Returns Type Description Net3dBool.Color3f []"
   },
   "api/Global.Area2DScript.html": {
     "href": "api/Global.Area2DScript.html",
@@ -112,7 +112,7 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | Doma",
-    "keywords": "Namespace Global Classes AddHole2D Dodawanie otwórów do ścian 2D oraz 3D HHH 3 DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD Area2DScript CameraManager CameraMoving CameraOrbit Ceiling Ceiling2D Ceiling3D CeilingDoma DomaContainer DomaElement DomaManager Główny Manager aplikacji Zawiera wszystkie informacje o... DrawCeiling DrawDoor DrawWall2D DrawWindow FloorDoma FloorsDropdown FunctionsManager GableWall HoleDoma HoleInWall2D MainCameraController MiniCameraOrbit MyClasses ObjectPositionValue PolyExtruder PolyExtruderDemo RefreshWallCornersModel Triangulation TriangulationTest Wall2D Wall3D WallDoma WallScript Interfaces IFunctionDoma Enums PolyExtruderDemo.ExampleData"
+    "keywords": "Namespace Global Classes AddHole2D Dodawanie otwórów do ścian 2D oraz 3D Area2DScript CameraManager CameraMoving CameraOrbit Ceiling Ceiling2D Ceiling3D CeilingDoma DomaContainer DomaElement DomaManager Główny Manager aplikacji Zawiera wszystkie informacje o... DrawCeiling DrawDoor DrawWall2D DrawWindow FloorDoma FloorsDropdown FunctionsManager GableWall HoleDoma HoleInWall2D MainCameraController MiniCameraOrbit MyClasses ObjectPositionValue PolyExtruder PolyExtruderDemo RefreshWallCornersModel Triangulation TriangulationTest Wall2D Wall3D WallDoma WallScript Interfaces IFunctionDoma Enums PolyExtruderDemo.ExampleData"
   },
   "api/Global.IFunctionDoma.html": {
     "href": "api/Global.IFunctionDoma.html",

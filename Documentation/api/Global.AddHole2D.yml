@@ -21,11 +21,11 @@ items:
       repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: AddHole2D
     path: ../Assets/Managers/Functions/AddHole2D.cs
-    startLine: 12
+    startLine: 11
   assemblies:
   - Assembly-CSharp
   namespace: Global
-  summary: "\nDodawanie otwórów do ścian 2D oraz 3D HHH 3\nDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD\n"
+  summary: "\nDodawanie otwórów do ścian 2D oraz 3D\n"
   example: []
   syntax:
     content: 'public class AddHole2D : MonoBehaviour'
@@ -62,10 +62,12 @@ items:
       repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: material
     path: ../Assets/Managers/Functions/AddHole2D.cs
-    startLine: 14
+    startLine: 16
   assemblies:
   - Assembly-CSharp
   namespace: Global
+  summary: "\nPrzypisanie materiału dla obiektu z otworem\n"
+  example: []
   syntax:
     content: public Material material
     return:
@@ -93,7 +95,7 @@ items:
       repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: getColorArray
     path: ../Assets/Managers/Functions/AddHole2D.cs
-    startLine: 244
+    startLine: 246
   assemblies:
   - Assembly-CSharp
   namespace: Global

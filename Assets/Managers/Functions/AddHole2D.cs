@@ -7,11 +7,13 @@ using System;
 using System.Linq;
 
 /// <summary>
-/// Dodawanie otwórów do ścian 2D oraz 3D HHH 3
-/// DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+/// Dodawanie otwórów do ścian 2D oraz 3D
 /// </summary>
 public class AddHole2D : MonoBehaviour
 {
+    /// <summary>
+    /// Przypisanie materiału dla obiektu z otworem
+    /// </summary>
     public Material material;
 
     DomaManager domaManager;
