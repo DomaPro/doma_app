@@ -7,7 +7,7 @@ using System;
 using System.Linq;
 
 /// <summary>
-/// Dodawanie otwórów do ścian 2D oraz 3D HHH
+/// Dodawanie otwórów do ścian 2D oraz 3D HHH 3
 /// </summary>
 public class AddHole2D : MonoBehaviour
 {
