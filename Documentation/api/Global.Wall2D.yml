@@ -20,7 +20,7 @@ items:
     remote:
       path: Assets/Managers/Floor/FloorDoma.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: Wall2D
     path: ../Assets/Managers/Floor/FloorDoma.cs
     startLine: 79
@@ -53,7 +53,7 @@ items:
     remote:
       path: Assets/Managers/Floor/FloorDoma.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: StartPoint
     path: ../Assets/Managers/Floor/FloorDoma.cs
     startLine: 82
@@ -88,7 +88,7 @@ items:
     remote:
       path: Assets/Managers/Floor/FloorDoma.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: EndPoint
     path: ../Assets/Managers/Floor/FloorDoma.cs
     startLine: 83
@@ -123,7 +123,7 @@ items:
     remote:
       path: Assets/Managers/Floor/FloorDoma.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: Wal2DInstance
     path: ../Assets/Managers/Floor/FloorDoma.cs
     startLine: 84
@@ -158,7 +158,7 @@ items:
     remote:
       path: Assets/Managers/Floor/FloorDoma.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: .ctor
     path: ../Assets/Managers/Floor/FloorDoma.cs
     startLine: 86

@@ -25,7 +25,7 @@ items:
     remote:
       path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: CameraManager
     path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
     startLine: 4
@@ -64,7 +64,7 @@ items:
     remote:
       path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: target
     path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
     startLine: 7
@@ -107,7 +107,7 @@ items:
     remote:
       path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: cameraOffset
     path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
     startLine: 10
@@ -150,7 +150,7 @@ items:
     remote:
       path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: lookAtOffset
     path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
     startLine: 11
@@ -181,7 +181,7 @@ items:
     remote:
       path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: moveSpeed
     path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
     startLine: 14
@@ -224,7 +224,7 @@ items:
     remote:
       path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: rotateSpeed
     path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
     startLine: 15
@@ -255,7 +255,7 @@ items:
     remote:
       path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: startingZoom
     path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
     startLine: 18
@@ -298,7 +298,7 @@ items:
     remote:
       path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: zoomSpeed
     path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
     startLine: 19
@@ -329,7 +329,7 @@ items:
     remote:
       path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: nearZoomLimit
     path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
     startLine: 20
@@ -360,7 +360,7 @@ items:
     remote:
       path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
       branch: master
-      repo: https://doma_app:b845e29ff7e9ff88954066a82a9e6e4f188b9b9f@github.com/DomaPro/doma_app.git
+      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
     id: farZoomLimit
     path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
     startLine: 21
