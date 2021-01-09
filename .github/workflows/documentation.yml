@@ -3,7 +3,7 @@ name: Example documentation
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   # Build the documentation
@@ -22,7 +22,6 @@ jobs:
         run: |
           cp README.md Documentation/index.md
           docfx Documentation/docfx.json
-
       # Upload the generated documentation
       - name: Upload site artifact
         uses: actions/upload-artifact@v1
