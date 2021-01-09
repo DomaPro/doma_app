@@ -6,6 +6,9 @@ using Net3dBool;
 using System;
 using System.Linq;
 
+/// <summary>
+/// Dodawanie otwórów do ścian 2D oraz 3D
+/// </summary>
 public class AddHole2D : MonoBehaviour
 {
     public Material material;
