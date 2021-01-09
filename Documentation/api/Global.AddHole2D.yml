@@ -18,7 +18,7 @@ items:
     remote:
       path: Assets/Managers/Functions/AddHole2D.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: AddHole2D
     path: ../Assets/Managers/Functions/AddHole2D.cs
     startLine: 11
@@ -59,14 +59,14 @@ items:
     remote:
       path: Assets/Managers/Functions/AddHole2D.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: material
     path: ../Assets/Managers/Functions/AddHole2D.cs
     startLine: 16
   assemblies:
   - Assembly-CSharp
   namespace: Global
-  summary: "\nPrzypisanie materiału dla obiektu z otworem\n"
+  summary: "\nPrzypisanie materiału dla obiektu z otworem (np. okiennym)\n"
   example: []
   syntax:
     content: public Material material
@@ -92,7 +92,7 @@ items:
     remote:
       path: Assets/Managers/Functions/AddHole2D.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: getColorArray
     path: ../Assets/Managers/Functions/AddHole2D.cs
     startLine: 246

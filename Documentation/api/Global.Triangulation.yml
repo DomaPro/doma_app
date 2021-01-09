@@ -17,7 +17,7 @@ items:
     remote:
       path: Assets/nicoversity/polyextrude/_libraries/Triangle.NET/Triangulation.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: Triangulation
     path: ../Assets/nicoversity/polyextrude/_libraries/Triangle.NET/Triangulation.cs
     startLine: 23
@@ -50,7 +50,7 @@ items:
     remote:
       path: Assets/nicoversity/polyextrude/_libraries/Triangle.NET/Triangulation.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: triangulate
     path: ../Assets/nicoversity/polyextrude/_libraries/Triangle.NET/Triangulation.cs
     startLine: 36

@@ -12,7 +12,7 @@ using System.Linq;
 public class AddHole2D : MonoBehaviour
 {
     /// <summary>
-    /// Przypisanie materiału dla obiektu z otworem
+    /// Przypisanie materiału dla obiektu z otworem (np. okiennym)
     /// </summary>
     public Material material;
 
@@ -24,7 +24,7 @@ public class AddHole2D : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("AddHole2D STARTED");
+        Debug.Log("AddHole2D STARTED Function");
 
         domaManager = DomaManager.Instance;
 

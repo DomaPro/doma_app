@@ -23,7 +23,7 @@ items:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: PolyExtruder
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
     startLine: 34
@@ -62,7 +62,7 @@ items:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: prismName
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
     startLine: 39
@@ -93,7 +93,7 @@ items:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: prismColor
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
     startLine: 42
@@ -124,7 +124,7 @@ items:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: polygonArea
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
     startLine: 45
@@ -155,7 +155,7 @@ items:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: polygonCentroid
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
     startLine: 46
@@ -186,7 +186,7 @@ items:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: createPrism
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
     startLine: 82
@@ -237,7 +237,7 @@ items:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: updateHeight
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
     startLine: 432
@@ -273,7 +273,7 @@ items:
     remote:
       path: Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: updateColor
     path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruder.cs
     startLine: 446

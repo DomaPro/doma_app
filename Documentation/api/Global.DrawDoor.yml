@@ -18,7 +18,7 @@ items:
     remote:
       path: Assets/Managers/Functions/DrawDoor.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: DrawDoor
     path: ../Assets/Managers/Functions/DrawDoor.cs
     startLine: 9
@@ -57,7 +57,7 @@ items:
     remote:
       path: Assets/Managers/Functions/DrawDoor.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: material
     path: ../Assets/Managers/Functions/DrawDoor.cs
     startLine: 11
@@ -88,7 +88,7 @@ items:
     remote:
       path: Assets/Managers/Functions/DrawDoor.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: getColorArray
     path: ../Assets/Managers/Functions/DrawDoor.cs
     startLine: 272

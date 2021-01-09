@@ -19,7 +19,7 @@ items:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: Ceiling2D
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 57
@@ -52,7 +52,7 @@ items:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: Corners
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 59
@@ -87,7 +87,7 @@ items:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: Ceiling2DInstance
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 61
@@ -122,7 +122,7 @@ items:
     remote:
       path: Assets/Managers/Ceiling/CeilingDoma.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: .ctor
     path: ../Assets/Managers/Ceiling/CeilingDoma.cs
     startLine: 63

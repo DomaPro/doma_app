@@ -22,7 +22,7 @@ items:
     remote:
       path: Assets/Scripts/Models/DomaElement.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: DomaElement
     path: ../Assets/Scripts/Models/DomaElement.cs
     startLine: 5
@@ -55,7 +55,7 @@ items:
     remote:
       path: Assets/Scripts/Models/DomaElement.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: DomaObject2D
     path: ../Assets/Scripts/Models/DomaElement.cs
     startLine: 7
@@ -90,7 +90,7 @@ items:
     remote:
       path: Assets/Scripts/Models/DomaElement.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: DomaObject3D
     path: ../Assets/Scripts/Models/DomaElement.cs
     startLine: 8
@@ -125,7 +125,7 @@ items:
     remote:
       path: Assets/Scripts/Models/DomaElement.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: DomaObject3DSolid
     path: ../Assets/Scripts/Models/DomaElement.cs
     startLine: 9
@@ -160,7 +160,7 @@ items:
     remote:
       path: Assets/Scripts/Models/DomaElement.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: Points2D
     path: ../Assets/Scripts/Models/DomaElement.cs
     startLine: 10
@@ -195,7 +195,7 @@ items:
     remote:
       path: Assets/Scripts/Models/DomaElement.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: Points3D
     path: ../Assets/Scripts/Models/DomaElement.cs
     startLine: 11
@@ -230,7 +230,7 @@ items:
     remote:
       path: Assets/Scripts/Models/DomaElement.cs
       branch: master
-      repo: https://doma_app:f1fe86723715ccbc7613afd67d521fe7c3e73db3@github.com/DomaPro/doma_app.git
+      repo: https://github.com/DomaPro/doma_app.git
     id: .ctor
     path: ../Assets/Scripts/Models/DomaElement.cs
     startLine: 13
