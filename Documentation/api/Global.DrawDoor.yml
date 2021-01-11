@@ -16,11 +16,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Managers/Functions/DrawDoor.cs
+      path: Assets/Code/Scripts/Managers/Functions/DrawDoor.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DrawDoor
-    path: ../Assets/Managers/Functions/DrawDoor.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/DrawDoor.cs
     startLine: 9
   assemblies:
   - Assembly-CSharp
@@ -55,11 +55,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/DrawDoor.cs
+      path: Assets/Code/Scripts/Managers/Functions/DrawDoor.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: material
-    path: ../Assets/Managers/Functions/DrawDoor.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/DrawDoor.cs
     startLine: 11
   assemblies:
   - Assembly-CSharp
@@ -86,11 +86,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/DrawDoor.cs
+      path: Assets/Code/Scripts/Managers/Functions/DrawDoor.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: getColorArray
-    path: ../Assets/Managers/Functions/DrawDoor.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/DrawDoor.cs
     startLine: 272
   assemblies:
   - Assembly-CSharp

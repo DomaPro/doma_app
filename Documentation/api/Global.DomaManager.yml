@@ -40,11 +40,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DomaManager
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 13
   assemblies:
   - Assembly-CSharp
@@ -81,11 +81,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Instance
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 16
   assemblies:
   - Assembly-CSharp
@@ -118,11 +118,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: box2DContainer
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 21
   assemblies:
   - Assembly-CSharp
@@ -161,11 +161,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: box3DContainer
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 22
   assemblies:
   - Assembly-CSharp
@@ -192,11 +192,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: miniBox3DContainer
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 23
   assemblies:
   - Assembly-CSharp
@@ -223,11 +223,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: cameraFor2DView
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 26
   assemblies:
   - Assembly-CSharp
@@ -266,11 +266,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: cameraFor3DView
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 27
   assemblies:
   - Assembly-CSharp
@@ -297,11 +297,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: miniCameraFor3DView
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 28
   assemblies:
   - Assembly-CSharp
@@ -328,11 +328,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: switchMini3DView
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 31
   assemblies:
   - Assembly-CSharp
@@ -371,11 +371,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: area2D
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 34
   assemblies:
   - Assembly-CSharp
@@ -414,11 +414,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: area3D
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 35
   assemblies:
   - Assembly-CSharp
@@ -445,11 +445,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: ImageToolTipPoint
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 38
   assemblies:
   - Assembly-CSharp
@@ -488,11 +488,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: mousePosition2D
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 43
   assemblies:
   - Assembly-CSharp
@@ -519,11 +519,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: HoleInWall2D
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 45
   assemblies:
   - Assembly-CSharp
@@ -554,11 +554,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: gameObjectCircleTip
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 47
   assemblies:
   - Assembly-CSharp
@@ -585,11 +585,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: ResetDataFunctionNow
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 50
   assemblies:
   - Assembly-CSharp
@@ -620,11 +620,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DomaFloors
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 56
   assemblies:
   - Assembly-CSharp
@@ -657,11 +657,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: ActiveDomaFloor
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 57
   assemblies:
   - Assembly-CSharp
@@ -692,11 +692,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: CeilingDomas
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 59
   assemblies:
   - Assembly-CSharp
@@ -727,11 +727,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: SetActiveFloorById
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 115
   assemblies:
   - Assembly-CSharp
@@ -763,11 +763,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Show2DObjectsOnTags
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 121
   assemblies:
   - Assembly-CSharp
@@ -799,11 +799,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: GetAllPoints2DWallsOnTags
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 153
   assemblies:
   - Assembly-CSharp
@@ -837,11 +837,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: GetWallDomaByGameObject
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 168
   assemblies:
   - Assembly-CSharp
@@ -872,11 +872,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Enable2DView
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 173
   assemblies:
   - Assembly-CSharp
@@ -902,11 +902,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Enable3DView
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 189
   assemblies:
   - Assembly-CSharp
@@ -932,11 +932,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: SwitchMini3DView
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 205
   assemblies:
   - Assembly-CSharp
@@ -962,11 +962,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: GetObjectPositionValue
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 223
   assemblies:
   - Assembly-CSharp

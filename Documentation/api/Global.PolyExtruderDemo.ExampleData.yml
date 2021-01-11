@@ -18,11 +18,11 @@ items:
   type: Enum
   source:
     remote:
-      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      path: Assets/Code/External/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: ExampleData
-    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    path: ../Assets/Code/External/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
     startLine: 21
   assemblies:
   - Assembly-CSharp
@@ -49,11 +49,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      path: Assets/Code/External/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Triangle
-    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    path: ../Assets/Code/External/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
     startLine: 21
   assemblies:
   - Assembly-CSharp
@@ -81,11 +81,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      path: Assets/Code/External/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Square
-    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    path: ../Assets/Code/External/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
     startLine: 21
   assemblies:
   - Assembly-CSharp
@@ -113,11 +113,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      path: Assets/Code/External/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Cross
-    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    path: ../Assets/Code/External/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
     startLine: 21
   assemblies:
   - Assembly-CSharp
@@ -145,11 +145,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+      path: Assets/Code/External/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: SCB_Gotland
-    path: ../Assets/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
+    path: ../Assets/Code/External/nicoversity/polyextrude/_scripts/PolyExtruderDemo.cs
     startLine: 21
   assemblies:
   - Assembly-CSharp

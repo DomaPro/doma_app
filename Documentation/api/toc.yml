@@ -2,8 +2,8 @@
 - uid: Global
   name: Global
   items:
-  - uid: Global.AddHole2D
-    name: AddHole2D
+  - uid: Global.AddHole
+    name: AddHole
   - uid: Global.Area2DScript
     name: Area2DScript
   - uid: Global.CameraManager
@@ -30,8 +30,8 @@
     name: DrawCeiling
   - uid: Global.DrawDoor
     name: DrawDoor
-  - uid: Global.DrawWall2D
-    name: DrawWall2D
+  - uid: Global.DrawWall
+    name: DrawWall
   - uid: Global.DrawWindow
     name: DrawWindow
   - uid: Global.FloorDoma
@@ -52,8 +52,6 @@
     name: MainCameraController
   - uid: Global.MiniCameraOrbit
     name: MiniCameraOrbit
-  - uid: Global.MyClasses
-    name: MyClasses
   - uid: Global.ObjectPositionValue
     name: ObjectPositionValue
   - uid: Global.PolyExtruder

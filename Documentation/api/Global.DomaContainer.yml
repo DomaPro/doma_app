@@ -16,11 +16,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Managers/Containers/DomaContainer.cs
+      path: Assets/Code/Scripts/Containers/DomaContainer.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DomaContainer
-    path: ../Assets/Managers/Containers/DomaContainer.cs
+    path: ../Assets/Code/Scripts/Containers/DomaContainer.cs
     startLine: 4
   assemblies:
   - Assembly-CSharp
@@ -55,11 +55,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Containers/DomaContainer.cs
+      path: Assets/Code/Scripts/Containers/DomaContainer.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Instance
-    path: ../Assets/Managers/Containers/DomaContainer.cs
+    path: ../Assets/Code/Scripts/Containers/DomaContainer.cs
     startLine: 7
   assemblies:
   - Assembly-CSharp
@@ -92,11 +92,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Containers/DomaContainer.cs
+      path: Assets/Code/Scripts/Containers/DomaContainer.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: TargetFrameRate
-    path: ../Assets/Managers/Containers/DomaContainer.cs
+    path: ../Assets/Code/Scripts/Containers/DomaContainer.cs
     startLine: 11
   assemblies:
   - Assembly-CSharp

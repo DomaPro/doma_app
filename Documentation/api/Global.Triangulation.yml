@@ -15,11 +15,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/nicoversity/polyextrude/_libraries/Triangle.NET/Triangulation.cs
+      path: Assets/Code/External/nicoversity/polyextrude/_libraries/Triangle.NET/Triangulation.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Triangulation
-    path: ../Assets/nicoversity/polyextrude/_libraries/Triangle.NET/Triangulation.cs
+    path: ../Assets/Code/External/nicoversity/polyextrude/_libraries/Triangle.NET/Triangulation.cs
     startLine: 23
   assemblies:
   - Assembly-CSharp
@@ -48,11 +48,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/nicoversity/polyextrude/_libraries/Triangle.NET/Triangulation.cs
+      path: Assets/Code/External/nicoversity/polyextrude/_libraries/Triangle.NET/Triangulation.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: triangulate
-    path: ../Assets/nicoversity/polyextrude/_libraries/Triangle.NET/Triangulation.cs
+    path: ../Assets/Code/External/nicoversity/polyextrude/_libraries/Triangle.NET/Triangulation.cs
     startLine: 36
   assemblies:
   - Assembly-CSharp

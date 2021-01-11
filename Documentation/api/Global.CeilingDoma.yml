@@ -24,11 +24,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: CeilingDoma
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 6
   assemblies:
   - Assembly-CSharp
@@ -57,11 +57,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Name
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 8
   assemblies:
   - Assembly-CSharp
@@ -92,11 +92,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Tag
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 9
   assemblies:
   - Assembly-CSharp
@@ -127,11 +127,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Number
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 10
   assemblies:
   - Assembly-CSharp
@@ -162,11 +162,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Height
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 11
   assemblies:
   - Assembly-CSharp
@@ -197,11 +197,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: LevelBottom
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 12
   assemblies:
   - Assembly-CSharp
@@ -232,11 +232,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Ceilings
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 13
   assemblies:
   - Assembly-CSharp
@@ -267,11 +267,11 @@ items:
   type: Constructor
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: .ctor
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 15
   assemblies:
   - Assembly-CSharp
@@ -306,11 +306,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: GetLevelBottom
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 27
   assemblies:
   - Assembly-CSharp
@@ -338,11 +338,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: GetLevelTop
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 32
   assemblies:
   - Assembly-CSharp
@@ -370,11 +370,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: GetLevelMiddle
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 37
   assemblies:
   - Assembly-CSharp

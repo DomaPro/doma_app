@@ -18,11 +18,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Ceiling
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 43
   assemblies:
   - Assembly-CSharp
@@ -51,11 +51,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Ceiling2D
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 45
   assemblies:
   - Assembly-CSharp
@@ -86,11 +86,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Ceiling3D
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 46
   assemblies:
   - Assembly-CSharp
@@ -121,11 +121,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Material
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 48
   assemblies:
   - Assembly-CSharp
@@ -156,11 +156,11 @@ items:
   type: Constructor
   source:
     remote:
-      path: Assets/Managers/Ceiling/CeilingDoma.cs
+      path: Assets/Code/Scripts/Models/CeilingDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: .ctor
-    path: ../Assets/Managers/Ceiling/CeilingDoma.cs
+    path: ../Assets/Code/Scripts/Models/CeilingDoma.cs
     startLine: 50
   assemblies:
   - Assembly-CSharp

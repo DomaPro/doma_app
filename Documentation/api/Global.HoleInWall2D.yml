@@ -19,11 +19,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: HoleInWall2D
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 271
   assemblies:
   - Assembly-CSharp
@@ -52,11 +52,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: objectWall2D
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 273
   assemblies:
   - Assembly-CSharp
@@ -87,11 +87,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: mousePosition
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 274
   assemblies:
   - Assembly-CSharp
@@ -122,11 +122,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: domaElement
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 275
   assemblies:
   - Assembly-CSharp
@@ -157,11 +157,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Wall2D
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 276
   assemblies:
   - Assembly-CSharp
@@ -192,11 +192,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/DomaManager.cs
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Wall3D
-    path: ../Assets/Managers/DomaManager.cs
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
     startLine: 277
   assemblies:
   - Assembly-CSharp

@@ -14,11 +14,11 @@ items:
   type: Interface
   source:
     remote:
-      path: Assets/Managers/Functions/IFunctionDoma.cs
+      path: Assets/Code/Scripts/Managers/Functions/IFunctionDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: IFunctionDoma
-    path: ../Assets/Managers/Functions/IFunctionDoma.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/IFunctionDoma.cs
     startLine: 4
   assemblies:
   - Assembly-CSharp

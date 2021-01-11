@@ -23,11 +23,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+      path: Assets/Code/Scripts/Cameras/CameraManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: CameraManager
-    path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraManager.cs
     startLine: 4
   assemblies:
   - Assembly-CSharp
@@ -62,11 +62,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+      path: Assets/Code/Scripts/Cameras/CameraManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: target
-    path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraManager.cs
     startLine: 7
   assemblies:
   - Assembly-CSharp
@@ -105,11 +105,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+      path: Assets/Code/Scripts/Cameras/CameraManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: cameraOffset
-    path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraManager.cs
     startLine: 10
   assemblies:
   - Assembly-CSharp
@@ -148,11 +148,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+      path: Assets/Code/Scripts/Cameras/CameraManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: lookAtOffset
-    path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraManager.cs
     startLine: 11
   assemblies:
   - Assembly-CSharp
@@ -179,11 +179,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+      path: Assets/Code/Scripts/Cameras/CameraManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: moveSpeed
-    path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraManager.cs
     startLine: 14
   assemblies:
   - Assembly-CSharp
@@ -222,11 +222,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+      path: Assets/Code/Scripts/Cameras/CameraManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: rotateSpeed
-    path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraManager.cs
     startLine: 15
   assemblies:
   - Assembly-CSharp
@@ -253,11 +253,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+      path: Assets/Code/Scripts/Cameras/CameraManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: startingZoom
-    path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraManager.cs
     startLine: 18
   assemblies:
   - Assembly-CSharp
@@ -296,11 +296,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+      path: Assets/Code/Scripts/Cameras/CameraManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: zoomSpeed
-    path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraManager.cs
     startLine: 19
   assemblies:
   - Assembly-CSharp
@@ -327,11 +327,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+      path: Assets/Code/Scripts/Cameras/CameraManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: nearZoomLimit
-    path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraManager.cs
     startLine: 20
   assemblies:
   - Assembly-CSharp
@@ -358,11 +358,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+      path: Assets/Code/Scripts/Cameras/CameraManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: farZoomLimit
-    path: ../Assets/Scripts/Cameras/CameraFor3DView/CameraManager.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraManager.cs
     startLine: 21
   assemblies:
   - Assembly-CSharp

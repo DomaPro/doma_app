@@ -16,11 +16,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Managers/Functions/DrawCeiling.cs
+      path: Assets/Code/Scripts/Managers/Functions/DrawCeiling.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DrawCeiling
-    path: ../Assets/Managers/Functions/DrawCeiling.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/DrawCeiling.cs
     startLine: 6
   assemblies:
   - Assembly-CSharp
@@ -55,11 +55,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/DrawCeiling.cs
+      path: Assets/Code/Scripts/Managers/Functions/DrawCeiling.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: material
-    path: ../Assets/Managers/Functions/DrawCeiling.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/DrawCeiling.cs
     startLine: 14
   assemblies:
   - Assembly-CSharp
@@ -86,11 +86,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/DrawCeiling.cs
+      path: Assets/Code/Scripts/Managers/Functions/DrawCeiling.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: GetTRSMatrix
-    path: ../Assets/Managers/Functions/DrawCeiling.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/DrawCeiling.cs
     startLine: 160
   assemblies:
   - Assembly-CSharp

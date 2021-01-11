@@ -5,20 +5,20 @@ items:
   id: FunctionsManager
   parent: Global
   children:
-  - Global.FunctionsManager.activateButtonAddHole2D
+  - Global.FunctionsManager.activateButtonAddHole
   - Global.FunctionsManager.activateButtonDrawCeiling
   - Global.FunctionsManager.activateButtonDrawDoor
-  - Global.FunctionsManager.activateButtonDrawWall2D
+  - Global.FunctionsManager.activateButtonDrawWall
   - Global.FunctionsManager.activateButtonDrawWindow
   - Global.FunctionsManager.activateButtonGableWall
-  - Global.FunctionsManager.addHole2D
+  - Global.FunctionsManager.addHole
   - Global.FunctionsManager.AddHole2D
   - Global.FunctionsManager.ChangeColorButton(UnityEngine.UI.Button,UnityEngine.Color)
   - Global.FunctionsManager.drawCeiling
   - Global.FunctionsManager.DrawCeiling
   - Global.FunctionsManager.drawDoor
   - Global.FunctionsManager.DrawDoor
-  - Global.FunctionsManager.drawWall2D
+  - Global.FunctionsManager.drawWall
   - Global.FunctionsManager.DrawWall2D
   - Global.FunctionsManager.drawWindow
   - Global.FunctionsManager.DrawWindow
@@ -33,11 +33,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: FunctionsManager
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 7
   assemblies:
   - Assembly-CSharp
@@ -59,24 +59,24 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Global.FunctionsManager.drawWall2D
-  commentId: F:Global.FunctionsManager.drawWall2D
-  id: drawWall2D
+- uid: Global.FunctionsManager.drawWall
+  commentId: F:Global.FunctionsManager.drawWall
+  id: drawWall
   parent: Global.FunctionsManager
   langs:
   - csharp
   - vb
-  name: drawWall2D
-  nameWithType: FunctionsManager.drawWall2D
-  fullName: FunctionsManager.drawWall2D
+  name: drawWall
+  nameWithType: FunctionsManager.drawWall
+  fullName: FunctionsManager.drawWall
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
-    id: drawWall2D
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    id: drawWall
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 10
   assemblies:
   - Assembly-CSharp
@@ -85,13 +85,13 @@ items:
     content: >-
       [Header("Wall")]
 
-      public GameObject drawWall2D
+      public GameObject drawWall
     return:
       type: UnityEngine.GameObject
     content.vb: >-
       <Header("Wall")>
 
-      Public drawWall2D As GameObject
+      Public drawWall As GameObject
   attributes:
   - type: UnityEngine.HeaderAttribute
     ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
@@ -102,55 +102,55 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Global.FunctionsManager.activateButtonDrawWall2D
-  commentId: F:Global.FunctionsManager.activateButtonDrawWall2D
-  id: activateButtonDrawWall2D
+- uid: Global.FunctionsManager.activateButtonDrawWall
+  commentId: F:Global.FunctionsManager.activateButtonDrawWall
+  id: activateButtonDrawWall
   parent: Global.FunctionsManager
   langs:
   - csharp
   - vb
-  name: activateButtonDrawWall2D
-  nameWithType: FunctionsManager.activateButtonDrawWall2D
-  fullName: FunctionsManager.activateButtonDrawWall2D
+  name: activateButtonDrawWall
+  nameWithType: FunctionsManager.activateButtonDrawWall
+  fullName: FunctionsManager.activateButtonDrawWall
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
-    id: activateButtonDrawWall2D
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    id: activateButtonDrawWall
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 11
   assemblies:
   - Assembly-CSharp
   namespace: Global
   syntax:
-    content: public Button activateButtonDrawWall2D
+    content: public Button activateButtonDrawWall
     return:
       type: UnityEngine.UI.Button
-    content.vb: Public activateButtonDrawWall2D As Button
+    content.vb: Public activateButtonDrawWall As Button
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Global.FunctionsManager.addHole2D
-  commentId: F:Global.FunctionsManager.addHole2D
-  id: addHole2D
+- uid: Global.FunctionsManager.addHole
+  commentId: F:Global.FunctionsManager.addHole
+  id: addHole
   parent: Global.FunctionsManager
   langs:
   - csharp
   - vb
-  name: addHole2D
-  nameWithType: FunctionsManager.addHole2D
-  fullName: FunctionsManager.addHole2D
+  name: addHole
+  nameWithType: FunctionsManager.addHole
+  fullName: FunctionsManager.addHole
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
-    id: addHole2D
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    id: addHole
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 14
   assemblies:
   - Assembly-CSharp
@@ -159,13 +159,13 @@ items:
     content: >-
       [Header("Hole")]
 
-      public GameObject addHole2D
+      public GameObject addHole
     return:
       type: UnityEngine.GameObject
     content.vb: >-
       <Header("Hole")>
 
-      Public addHole2D As GameObject
+      Public addHole As GameObject
   attributes:
   - type: UnityEngine.HeaderAttribute
     ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
@@ -176,33 +176,33 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Global.FunctionsManager.activateButtonAddHole2D
-  commentId: F:Global.FunctionsManager.activateButtonAddHole2D
-  id: activateButtonAddHole2D
+- uid: Global.FunctionsManager.activateButtonAddHole
+  commentId: F:Global.FunctionsManager.activateButtonAddHole
+  id: activateButtonAddHole
   parent: Global.FunctionsManager
   langs:
   - csharp
   - vb
-  name: activateButtonAddHole2D
-  nameWithType: FunctionsManager.activateButtonAddHole2D
-  fullName: FunctionsManager.activateButtonAddHole2D
+  name: activateButtonAddHole
+  nameWithType: FunctionsManager.activateButtonAddHole
+  fullName: FunctionsManager.activateButtonAddHole
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
-    id: activateButtonAddHole2D
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    id: activateButtonAddHole
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 15
   assemblies:
   - Assembly-CSharp
   namespace: Global
   syntax:
-    content: public Button activateButtonAddHole2D
+    content: public Button activateButtonAddHole
     return:
       type: UnityEngine.UI.Button
-    content.vb: Public activateButtonAddHole2D As Button
+    content.vb: Public activateButtonAddHole As Button
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -220,11 +220,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: drawDoor
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 18
   assemblies:
   - Assembly-CSharp
@@ -263,11 +263,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: activateButtonDrawDoor
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 19
   assemblies:
   - Assembly-CSharp
@@ -294,11 +294,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: drawWindow
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 22
   assemblies:
   - Assembly-CSharp
@@ -337,11 +337,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: activateButtonDrawWindow
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 23
   assemblies:
   - Assembly-CSharp
@@ -368,11 +368,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: drawCeiling
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 26
   assemblies:
   - Assembly-CSharp
@@ -411,11 +411,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: activateButtonDrawCeiling
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 27
   assemblies:
   - Assembly-CSharp
@@ -442,11 +442,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: gableWall
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 30
   assemblies:
   - Assembly-CSharp
@@ -485,11 +485,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: activateButtonGableWall
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 31
   assemblies:
   - Assembly-CSharp
@@ -516,11 +516,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DrawWall2D
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 42
   assemblies:
   - Assembly-CSharp
@@ -546,11 +546,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: GableWall
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 73
   assemblies:
   - Assembly-CSharp
@@ -576,11 +576,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: AddHole2D
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 104
   assemblies:
   - Assembly-CSharp
@@ -606,11 +606,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DrawDoor
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 126
   assemblies:
   - Assembly-CSharp
@@ -636,11 +636,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DrawWindow
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 153
   assemblies:
   - Assembly-CSharp
@@ -666,11 +666,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DrawCeiling
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 175
   assemblies:
   - Assembly-CSharp
@@ -696,11 +696,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: ChangeColorButton
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 250
   assemblies:
   - Assembly-CSharp

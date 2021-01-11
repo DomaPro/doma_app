@@ -1,34 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Global.DrawWall2D
-  commentId: T:Global.DrawWall2D
-  id: DrawWall2D
+- uid: Global.DrawWall
+  commentId: T:Global.DrawWall
+  id: DrawWall
   parent: Global
   children:
-  - Global.DrawWall2D.getColorArray(System.Int32,UnityEngine.Color)
-  - Global.DrawWall2D.material
+  - Global.DrawWall.getColorArray(System.Int32,UnityEngine.Color)
+  - Global.DrawWall.material
   langs:
   - csharp
   - vb
-  name: DrawWall2D
-  nameWithType: DrawWall2D
-  fullName: DrawWall2D
+  name: DrawWall
+  nameWithType: DrawWall
+  fullName: DrawWall
   type: Class
   source:
     remote:
-      path: Assets/Managers/Functions/DrawWall2D.cs
+      path: Assets/Code/Scripts/Managers/Functions/DrawWall.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
-    id: DrawWall2D
-    path: ../Assets/Managers/Functions/DrawWall2D.cs
+    id: DrawWall
+    path: ../Assets/Code/Scripts/Managers/Functions/DrawWall.cs
     startLine: 8
   assemblies:
   - Assembly-CSharp
   namespace: Global
   syntax:
-    content: 'public class DrawWall2D : MonoBehaviour'
+    content: 'public class DrawWall : MonoBehaviour'
     content.vb: >-
-      Public Class DrawWall2D
+      Public Class DrawWall
           Inherits MonoBehaviour
   inheritance:
   - System.Object
@@ -42,24 +42,24 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Global.DrawWall2D.material
-  commentId: F:Global.DrawWall2D.material
+- uid: Global.DrawWall.material
+  commentId: F:Global.DrawWall.material
   id: material
-  parent: Global.DrawWall2D
+  parent: Global.DrawWall
   langs:
   - csharp
   - vb
   name: material
-  nameWithType: DrawWall2D.material
-  fullName: DrawWall2D.material
+  nameWithType: DrawWall.material
+  fullName: DrawWall.material
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/DrawWall2D.cs
+      path: Assets/Code/Scripts/Managers/Functions/DrawWall.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: material
-    path: ../Assets/Managers/Functions/DrawWall2D.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/DrawWall.cs
     startLine: 10
   assemblies:
   - Assembly-CSharp
@@ -73,24 +73,24 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Global.DrawWall2D.getColorArray(System.Int32,UnityEngine.Color)
-  commentId: M:Global.DrawWall2D.getColorArray(System.Int32,UnityEngine.Color)
+- uid: Global.DrawWall.getColorArray(System.Int32,UnityEngine.Color)
+  commentId: M:Global.DrawWall.getColorArray(System.Int32,UnityEngine.Color)
   id: getColorArray(System.Int32,UnityEngine.Color)
-  parent: Global.DrawWall2D
+  parent: Global.DrawWall
   langs:
   - csharp
   - vb
   name: getColorArray(Int32, Color)
-  nameWithType: DrawWall2D.getColorArray(Int32, Color)
-  fullName: DrawWall2D.getColorArray(System.Int32, UnityEngine.Color)
+  nameWithType: DrawWall.getColorArray(Int32, Color)
+  fullName: DrawWall.getColorArray(System.Int32, UnityEngine.Color)
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/DrawWall2D.cs
+      path: Assets/Code/Scripts/Managers/Functions/DrawWall.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: getColorArray
-    path: ../Assets/Managers/Functions/DrawWall2D.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/DrawWall.cs
     startLine: 257
   assemblies:
   - Assembly-CSharp
@@ -105,7 +105,7 @@ items:
     return:
       type: Net3dBool.Color3f[]
     content.vb: Public Function getColorArray(length As Integer, c As Color) As Color3f()
-  overload: Global.DrawWall2D.getColorArray*
+  overload: Global.DrawWall.getColorArray*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -172,11 +172,11 @@ references:
   name: Material
   nameWithType: Material
   fullName: UnityEngine.Material
-- uid: Global.DrawWall2D.getColorArray*
-  commentId: Overload:Global.DrawWall2D.getColorArray
+- uid: Global.DrawWall.getColorArray*
+  commentId: Overload:Global.DrawWall.getColorArray
   name: getColorArray
-  nameWithType: DrawWall2D.getColorArray
-  fullName: DrawWall2D.getColorArray
+  nameWithType: DrawWall.getColorArray
+  fullName: DrawWall.getColorArray
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System

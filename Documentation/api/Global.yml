@@ -3,7 +3,7 @@ items:
 - uid: Global
   id: Global
   children:
-  - Global.AddHole2D
+  - Global.AddHole
   - Global.Area2DScript
   - Global.CameraManager
   - Global.CameraMoving
@@ -17,7 +17,7 @@ items:
   - Global.DomaManager
   - Global.DrawCeiling
   - Global.DrawDoor
-  - Global.DrawWall2D
+  - Global.DrawWall
   - Global.DrawWindow
   - Global.FloorDoma
   - Global.FloorsDropdown
@@ -28,7 +28,6 @@ items:
   - Global.IFunctionDoma
   - Global.MainCameraController
   - Global.MiniCameraOrbit
-  - Global.MyClasses
   - Global.ObjectPositionValue
   - Global.PolyExtruder
   - Global.PolyExtruderDemo
@@ -58,11 +57,11 @@ references:
   name: FloorsDropdown
   nameWithType: FloorsDropdown
   fullName: FloorsDropdown
-- uid: Global.AddHole2D
-  commentId: T:Global.AddHole2D
-  name: AddHole2D
-  nameWithType: AddHole2D
-  fullName: AddHole2D
+- uid: Global.AddHole
+  commentId: T:Global.AddHole
+  name: AddHole
+  nameWithType: AddHole
+  fullName: AddHole
 - uid: Global.WallScript
   commentId: T:Global.WallScript
   name: WallScript
@@ -93,11 +92,11 @@ references:
   name: DrawCeiling
   nameWithType: DrawCeiling
   fullName: DrawCeiling
-- uid: Global.DrawWall2D
-  commentId: T:Global.DrawWall2D
-  name: DrawWall2D
-  nameWithType: DrawWall2D
-  fullName: DrawWall2D
+- uid: Global.DrawWall
+  commentId: T:Global.DrawWall
+  name: DrawWall
+  nameWithType: DrawWall
+  fullName: DrawWall
 - uid: Global.TriangulationTest
   commentId: T:Global.TriangulationTest
   name: TriangulationTest
@@ -113,11 +112,6 @@ references:
   name: CameraOrbit
   nameWithType: CameraOrbit
   fullName: CameraOrbit
-- uid: Global.MyClasses
-  commentId: T:Global.MyClasses
-  name: MyClasses
-  nameWithType: MyClasses
-  fullName: MyClasses
 - uid: Global.IFunctionDoma
   commentId: T:Global.IFunctionDoma
   name: IFunctionDoma

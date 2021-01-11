@@ -16,11 +16,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Scripts/Cameras/MainCameraController.cs
+      path: Assets/Code/Scripts/Cameras/MainCameraController.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: MainCameraController
-    path: ../Assets/Scripts/Cameras/MainCameraController.cs
+    path: ../Assets/Code/Scripts/Cameras/MainCameraController.cs
     startLine: 6
   assemblies:
   - Assembly-CSharp
@@ -55,11 +55,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/MainCameraController.cs
+      path: Assets/Code/Scripts/Cameras/MainCameraController.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: portalCamera
-    path: ../Assets/Scripts/Cameras/MainCameraController.cs
+    path: ../Assets/Code/Scripts/Cameras/MainCameraController.cs
     startLine: 8
   assemblies:
   - Assembly-CSharp
@@ -86,11 +86,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/MainCameraController.cs
+      path: Assets/Code/Scripts/Cameras/MainCameraController.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: texture2DView
-    path: ../Assets/Scripts/Cameras/MainCameraController.cs
+    path: ../Assets/Code/Scripts/Cameras/MainCameraController.cs
     startLine: 9
   assemblies:
   - Assembly-CSharp

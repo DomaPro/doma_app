@@ -18,11 +18,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Managers/Functions/GableWall.cs
+      path: Assets/Code/Scripts/Managers/Functions/GableWall.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: GableWall
-    path: ../Assets/Managers/Functions/GableWall.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/GableWall.cs
     startLine: 6
   assemblies:
   - Assembly-CSharp
@@ -57,11 +57,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/GableWall.cs
+      path: Assets/Code/Scripts/Managers/Functions/GableWall.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: material
-    path: ../Assets/Managers/Functions/GableWall.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/GableWall.cs
     startLine: 8
   assemblies:
   - Assembly-CSharp
@@ -88,11 +88,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/GableWall.cs
+      path: Assets/Code/Scripts/Managers/Functions/GableWall.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: KneeWall
-    path: ../Assets/Managers/Functions/GableWall.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/GableWall.cs
     startLine: 17
   assemblies:
   - Assembly-CSharp
@@ -119,11 +119,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/GableWall.cs
+      path: Assets/Code/Scripts/Managers/Functions/GableWall.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: LerpByDistance
-    path: ../Assets/Managers/Functions/GableWall.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/GableWall.cs
     startLine: 150
   assemblies:
   - Assembly-CSharp
@@ -158,11 +158,11 @@ items:
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/GableWall.cs
+      path: Assets/Code/Scripts/Managers/Functions/GableWall.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: GetTRSMatrix
-    path: ../Assets/Managers/Functions/GableWall.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/GableWall.cs
     startLine: 195
   assemblies:
   - Assembly-CSharp

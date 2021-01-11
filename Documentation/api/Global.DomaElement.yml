@@ -20,11 +20,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Scripts/Models/DomaElement.cs
+      path: Assets/Code/Scripts/Models/DomaElement.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DomaElement
-    path: ../Assets/Scripts/Models/DomaElement.cs
+    path: ../Assets/Code/Scripts/Models/DomaElement.cs
     startLine: 5
   assemblies:
   - Assembly-CSharp
@@ -53,11 +53,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Scripts/Models/DomaElement.cs
+      path: Assets/Code/Scripts/Models/DomaElement.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DomaObject2D
-    path: ../Assets/Scripts/Models/DomaElement.cs
+    path: ../Assets/Code/Scripts/Models/DomaElement.cs
     startLine: 7
   assemblies:
   - Assembly-CSharp
@@ -88,11 +88,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Scripts/Models/DomaElement.cs
+      path: Assets/Code/Scripts/Models/DomaElement.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DomaObject3D
-    path: ../Assets/Scripts/Models/DomaElement.cs
+    path: ../Assets/Code/Scripts/Models/DomaElement.cs
     startLine: 8
   assemblies:
   - Assembly-CSharp
@@ -123,11 +123,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Scripts/Models/DomaElement.cs
+      path: Assets/Code/Scripts/Models/DomaElement.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: DomaObject3DSolid
-    path: ../Assets/Scripts/Models/DomaElement.cs
+    path: ../Assets/Code/Scripts/Models/DomaElement.cs
     startLine: 9
   assemblies:
   - Assembly-CSharp
@@ -158,11 +158,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Scripts/Models/DomaElement.cs
+      path: Assets/Code/Scripts/Models/DomaElement.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Points2D
-    path: ../Assets/Scripts/Models/DomaElement.cs
+    path: ../Assets/Code/Scripts/Models/DomaElement.cs
     startLine: 10
   assemblies:
   - Assembly-CSharp
@@ -193,11 +193,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Scripts/Models/DomaElement.cs
+      path: Assets/Code/Scripts/Models/DomaElement.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Points3D
-    path: ../Assets/Scripts/Models/DomaElement.cs
+    path: ../Assets/Code/Scripts/Models/DomaElement.cs
     startLine: 11
   assemblies:
   - Assembly-CSharp
@@ -228,11 +228,11 @@ items:
   type: Constructor
   source:
     remote:
-      path: Assets/Scripts/Models/DomaElement.cs
+      path: Assets/Code/Scripts/Models/DomaElement.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: .ctor
-    path: ../Assets/Scripts/Models/DomaElement.cs
+    path: ../Assets/Code/Scripts/Models/DomaElement.cs
     startLine: 13
   assemblies:
   - Assembly-CSharp

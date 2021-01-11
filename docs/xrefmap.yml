@@ -9,31 +9,31 @@ references:
   fullName.vb: ''
   nameWithType: Global
   nameWithType.vb: ''
-- uid: Global.AddHole2D
-  name: AddHole2D
-  href: api/Global.AddHole2D.html
-  commentId: T:Global.AddHole2D
-  fullName: AddHole2D
-  nameWithType: AddHole2D
-- uid: Global.AddHole2D.getColorArray(System.Int32,UnityEngine.Color)
+- uid: Global.AddHole
+  name: AddHole
+  href: api/Global.AddHole.html
+  commentId: T:Global.AddHole
+  fullName: AddHole
+  nameWithType: AddHole
+- uid: Global.AddHole.getColorArray(System.Int32,UnityEngine.Color)
   name: getColorArray(Int32, Color)
-  href: api/Global.AddHole2D.html#Global_AddHole2D_getColorArray_System_Int32_UnityEngine_Color_
-  commentId: M:Global.AddHole2D.getColorArray(System.Int32,UnityEngine.Color)
-  fullName: AddHole2D.getColorArray(System.Int32, UnityEngine.Color)
-  nameWithType: AddHole2D.getColorArray(Int32, Color)
-- uid: Global.AddHole2D.getColorArray*
+  href: api/Global.AddHole.html#Global_AddHole_getColorArray_System_Int32_UnityEngine_Color_
+  commentId: M:Global.AddHole.getColorArray(System.Int32,UnityEngine.Color)
+  fullName: AddHole.getColorArray(System.Int32, UnityEngine.Color)
+  nameWithType: AddHole.getColorArray(Int32, Color)
+- uid: Global.AddHole.getColorArray*
   name: getColorArray
-  href: api/Global.AddHole2D.html#Global_AddHole2D_getColorArray_
-  commentId: Overload:Global.AddHole2D.getColorArray
+  href: api/Global.AddHole.html#Global_AddHole_getColorArray_
+  commentId: Overload:Global.AddHole.getColorArray
   isSpec: "True"
-  fullName: AddHole2D.getColorArray
-  nameWithType: AddHole2D.getColorArray
-- uid: Global.AddHole2D.material
+  fullName: AddHole.getColorArray
+  nameWithType: AddHole.getColorArray
+- uid: Global.AddHole.material
   name: material
-  href: api/Global.AddHole2D.html#Global_AddHole2D_material
-  commentId: F:Global.AddHole2D.material
-  fullName: AddHole2D.material
-  nameWithType: AddHole2D.material
+  href: api/Global.AddHole.html#Global_AddHole_material
+  commentId: F:Global.AddHole.material
+  fullName: AddHole.material
+  nameWithType: AddHole.material
 - uid: Global.Area2DScript
   name: Area2DScript
   href: api/Global.Area2DScript.html
@@ -928,31 +928,31 @@ references:
   commentId: F:Global.DrawDoor.material
   fullName: DrawDoor.material
   nameWithType: DrawDoor.material
-- uid: Global.DrawWall2D
-  name: DrawWall2D
-  href: api/Global.DrawWall2D.html
-  commentId: T:Global.DrawWall2D
-  fullName: DrawWall2D
-  nameWithType: DrawWall2D
-- uid: Global.DrawWall2D.getColorArray(System.Int32,UnityEngine.Color)
+- uid: Global.DrawWall
+  name: DrawWall
+  href: api/Global.DrawWall.html
+  commentId: T:Global.DrawWall
+  fullName: DrawWall
+  nameWithType: DrawWall
+- uid: Global.DrawWall.getColorArray(System.Int32,UnityEngine.Color)
   name: getColorArray(Int32, Color)
-  href: api/Global.DrawWall2D.html#Global_DrawWall2D_getColorArray_System_Int32_UnityEngine_Color_
-  commentId: M:Global.DrawWall2D.getColorArray(System.Int32,UnityEngine.Color)
-  fullName: DrawWall2D.getColorArray(System.Int32, UnityEngine.Color)
-  nameWithType: DrawWall2D.getColorArray(Int32, Color)
-- uid: Global.DrawWall2D.getColorArray*
+  href: api/Global.DrawWall.html#Global_DrawWall_getColorArray_System_Int32_UnityEngine_Color_
+  commentId: M:Global.DrawWall.getColorArray(System.Int32,UnityEngine.Color)
+  fullName: DrawWall.getColorArray(System.Int32, UnityEngine.Color)
+  nameWithType: DrawWall.getColorArray(Int32, Color)
+- uid: Global.DrawWall.getColorArray*
   name: getColorArray
-  href: api/Global.DrawWall2D.html#Global_DrawWall2D_getColorArray_
-  commentId: Overload:Global.DrawWall2D.getColorArray
+  href: api/Global.DrawWall.html#Global_DrawWall_getColorArray_
+  commentId: Overload:Global.DrawWall.getColorArray
   isSpec: "True"
-  fullName: DrawWall2D.getColorArray
-  nameWithType: DrawWall2D.getColorArray
-- uid: Global.DrawWall2D.material
+  fullName: DrawWall.getColorArray
+  nameWithType: DrawWall.getColorArray
+- uid: Global.DrawWall.material
   name: material
-  href: api/Global.DrawWall2D.html#Global_DrawWall2D_material
-  commentId: F:Global.DrawWall2D.material
-  fullName: DrawWall2D.material
-  nameWithType: DrawWall2D.material
+  href: api/Global.DrawWall.html#Global_DrawWall_material
+  commentId: F:Global.DrawWall.material
+  fullName: DrawWall.material
+  nameWithType: DrawWall.material
 - uid: Global.DrawWindow
   name: DrawWindow
   href: api/Global.DrawWindow.html
@@ -1165,12 +1165,12 @@ references:
   commentId: T:Global.FunctionsManager
   fullName: FunctionsManager
   nameWithType: FunctionsManager
-- uid: Global.FunctionsManager.activateButtonAddHole2D
-  name: activateButtonAddHole2D
-  href: api/Global.FunctionsManager.html#Global_FunctionsManager_activateButtonAddHole2D
-  commentId: F:Global.FunctionsManager.activateButtonAddHole2D
-  fullName: FunctionsManager.activateButtonAddHole2D
-  nameWithType: FunctionsManager.activateButtonAddHole2D
+- uid: Global.FunctionsManager.activateButtonAddHole
+  name: activateButtonAddHole
+  href: api/Global.FunctionsManager.html#Global_FunctionsManager_activateButtonAddHole
+  commentId: F:Global.FunctionsManager.activateButtonAddHole
+  fullName: FunctionsManager.activateButtonAddHole
+  nameWithType: FunctionsManager.activateButtonAddHole
 - uid: Global.FunctionsManager.activateButtonDrawCeiling
   name: activateButtonDrawCeiling
   href: api/Global.FunctionsManager.html#Global_FunctionsManager_activateButtonDrawCeiling
@@ -1183,12 +1183,12 @@ references:
   commentId: F:Global.FunctionsManager.activateButtonDrawDoor
   fullName: FunctionsManager.activateButtonDrawDoor
   nameWithType: FunctionsManager.activateButtonDrawDoor
-- uid: Global.FunctionsManager.activateButtonDrawWall2D
-  name: activateButtonDrawWall2D
-  href: api/Global.FunctionsManager.html#Global_FunctionsManager_activateButtonDrawWall2D
-  commentId: F:Global.FunctionsManager.activateButtonDrawWall2D
-  fullName: FunctionsManager.activateButtonDrawWall2D
-  nameWithType: FunctionsManager.activateButtonDrawWall2D
+- uid: Global.FunctionsManager.activateButtonDrawWall
+  name: activateButtonDrawWall
+  href: api/Global.FunctionsManager.html#Global_FunctionsManager_activateButtonDrawWall
+  commentId: F:Global.FunctionsManager.activateButtonDrawWall
+  fullName: FunctionsManager.activateButtonDrawWall
+  nameWithType: FunctionsManager.activateButtonDrawWall
 - uid: Global.FunctionsManager.activateButtonDrawWindow
   name: activateButtonDrawWindow
   href: api/Global.FunctionsManager.html#Global_FunctionsManager_activateButtonDrawWindow
@@ -1201,12 +1201,12 @@ references:
   commentId: F:Global.FunctionsManager.activateButtonGableWall
   fullName: FunctionsManager.activateButtonGableWall
   nameWithType: FunctionsManager.activateButtonGableWall
-- uid: Global.FunctionsManager.addHole2D
-  name: addHole2D
-  href: api/Global.FunctionsManager.html#Global_FunctionsManager_addHole2D
-  commentId: F:Global.FunctionsManager.addHole2D
-  fullName: FunctionsManager.addHole2D
-  nameWithType: FunctionsManager.addHole2D
+- uid: Global.FunctionsManager.addHole
+  name: addHole
+  href: api/Global.FunctionsManager.html#Global_FunctionsManager_addHole
+  commentId: F:Global.FunctionsManager.addHole
+  fullName: FunctionsManager.addHole
+  nameWithType: FunctionsManager.addHole
 - uid: Global.FunctionsManager.AddHole2D
   name: AddHole2D()
   href: api/Global.FunctionsManager.html#Global_FunctionsManager_AddHole2D
@@ -1271,12 +1271,12 @@ references:
   isSpec: "True"
   fullName: FunctionsManager.DrawDoor
   nameWithType: FunctionsManager.DrawDoor
-- uid: Global.FunctionsManager.drawWall2D
-  name: drawWall2D
-  href: api/Global.FunctionsManager.html#Global_FunctionsManager_drawWall2D
-  commentId: F:Global.FunctionsManager.drawWall2D
-  fullName: FunctionsManager.drawWall2D
-  nameWithType: FunctionsManager.drawWall2D
+- uid: Global.FunctionsManager.drawWall
+  name: drawWall
+  href: api/Global.FunctionsManager.html#Global_FunctionsManager_drawWall
+  commentId: F:Global.FunctionsManager.drawWall
+  fullName: FunctionsManager.drawWall
+  nameWithType: FunctionsManager.drawWall
 - uid: Global.FunctionsManager.DrawWall2D
   name: DrawWall2D()
   href: api/Global.FunctionsManager.html#Global_FunctionsManager_DrawWall2D
@@ -1516,12 +1516,6 @@ references:
   isSpec: "True"
   fullName: MiniCameraOrbit.V3Equal
   nameWithType: MiniCameraOrbit.V3Equal
-- uid: Global.MyClasses
-  name: MyClasses
-  href: api/Global.MyClasses.html
-  commentId: T:Global.MyClasses
-  fullName: MyClasses
-  nameWithType: MyClasses
 - uid: Global.ObjectPositionValue
   name: ObjectPositionValue
   href: api/Global.ObjectPositionValue.html

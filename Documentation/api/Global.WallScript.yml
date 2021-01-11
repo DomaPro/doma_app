@@ -14,11 +14,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Scripts/Walls/WallScript.cs
+      path: Assets/Code/Scripts/GameObjectScripts/WallScript.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: WallScript
-    path: ../Assets/Scripts/Walls/WallScript.cs
+    path: ../Assets/Code/Scripts/GameObjectScripts/WallScript.cs
     startLine: 5
   assemblies:
   - Assembly-CSharp

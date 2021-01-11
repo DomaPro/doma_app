@@ -16,11 +16,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraMoving.cs
+      path: Assets/Code/Scripts/Cameras/CameraMoving.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: CameraMoving
-    path: ../Assets/Scripts/Cameras/CameraMoving.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraMoving.cs
     startLine: 4
   assemblies:
   - Assembly-CSharp
@@ -55,11 +55,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraMoving.cs
+      path: Assets/Code/Scripts/Cameras/CameraMoving.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: speedMoving
-    path: ../Assets/Scripts/Cameras/CameraMoving.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraMoving.cs
     startLine: 6
   assemblies:
   - Assembly-CSharp
@@ -86,11 +86,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraMoving.cs
+      path: Assets/Code/Scripts/Cameras/CameraMoving.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: speedZoom
-    path: ../Assets/Scripts/Cameras/CameraMoving.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraMoving.cs
     startLine: 7
   assemblies:
   - Assembly-CSharp

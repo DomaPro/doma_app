@@ -1,36 +1,36 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Global.AddHole2D
-  commentId: T:Global.AddHole2D
-  id: AddHole2D
+- uid: Global.AddHole
+  commentId: T:Global.AddHole
+  id: AddHole
   parent: Global
   children:
-  - Global.AddHole2D.getColorArray(System.Int32,UnityEngine.Color)
-  - Global.AddHole2D.material
+  - Global.AddHole.getColorArray(System.Int32,UnityEngine.Color)
+  - Global.AddHole.material
   langs:
   - csharp
   - vb
-  name: AddHole2D
-  nameWithType: AddHole2D
-  fullName: AddHole2D
+  name: AddHole
+  nameWithType: AddHole
+  fullName: AddHole
   type: Class
   source:
     remote:
-      path: Assets/Managers/Functions/AddHole2D.cs
+      path: Assets/Code/Scripts/Managers/Functions/AddHole.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
-    id: AddHole2D
-    path: ../Assets/Managers/Functions/AddHole2D.cs
-    startLine: 11
+    id: AddHole
+    path: ../Assets/Code/Scripts/Managers/Functions/AddHole.cs
+    startLine: 8
   assemblies:
   - Assembly-CSharp
   namespace: Global
   summary: "\nDodawanie otwórów do ścian 2D oraz 3D\n"
   example: []
   syntax:
-    content: 'public class AddHole2D : MonoBehaviour'
+    content: 'public class AddHole : MonoBehaviour'
     content.vb: >-
-      Public Class AddHole2D
+      Public Class AddHole
           Inherits MonoBehaviour
   inheritance:
   - System.Object
@@ -44,25 +44,25 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Global.AddHole2D.material
-  commentId: F:Global.AddHole2D.material
+- uid: Global.AddHole.material
+  commentId: F:Global.AddHole.material
   id: material
-  parent: Global.AddHole2D
+  parent: Global.AddHole
   langs:
   - csharp
   - vb
   name: material
-  nameWithType: AddHole2D.material
-  fullName: AddHole2D.material
+  nameWithType: AddHole.material
+  fullName: AddHole.material
   type: Field
   source:
     remote:
-      path: Assets/Managers/Functions/AddHole2D.cs
+      path: Assets/Code/Scripts/Managers/Functions/AddHole.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: material
-    path: ../Assets/Managers/Functions/AddHole2D.cs
-    startLine: 16
+    path: ../Assets/Code/Scripts/Managers/Functions/AddHole.cs
+    startLine: 13
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -77,25 +77,25 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Global.AddHole2D.getColorArray(System.Int32,UnityEngine.Color)
-  commentId: M:Global.AddHole2D.getColorArray(System.Int32,UnityEngine.Color)
+- uid: Global.AddHole.getColorArray(System.Int32,UnityEngine.Color)
+  commentId: M:Global.AddHole.getColorArray(System.Int32,UnityEngine.Color)
   id: getColorArray(System.Int32,UnityEngine.Color)
-  parent: Global.AddHole2D
+  parent: Global.AddHole
   langs:
   - csharp
   - vb
   name: getColorArray(Int32, Color)
-  nameWithType: AddHole2D.getColorArray(Int32, Color)
-  fullName: AddHole2D.getColorArray(System.Int32, UnityEngine.Color)
+  nameWithType: AddHole.getColorArray(Int32, Color)
+  fullName: AddHole.getColorArray(System.Int32, UnityEngine.Color)
   type: Method
   source:
     remote:
-      path: Assets/Managers/Functions/AddHole2D.cs
+      path: Assets/Code/Scripts/Managers/Functions/AddHole.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: getColorArray
-    path: ../Assets/Managers/Functions/AddHole2D.cs
-    startLine: 246
+    path: ../Assets/Code/Scripts/Managers/Functions/AddHole.cs
+    startLine: 243
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -109,7 +109,7 @@ items:
     return:
       type: Net3dBool.Color3f[]
     content.vb: Public Function getColorArray(length As Integer, c As Color) As Color3f()
-  overload: Global.AddHole2D.getColorArray*
+  overload: Global.AddHole.getColorArray*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -176,11 +176,11 @@ references:
   name: Material
   nameWithType: Material
   fullName: UnityEngine.Material
-- uid: Global.AddHole2D.getColorArray*
-  commentId: Overload:Global.AddHole2D.getColorArray
+- uid: Global.AddHole.getColorArray*
+  commentId: Overload:Global.AddHole.getColorArray
   name: getColorArray
-  nameWithType: AddHole2D.getColorArray
-  fullName: AddHole2D.getColorArray
+  nameWithType: AddHole.getColorArray
+  fullName: AddHole.getColorArray
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System

@@ -18,11 +18,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraOrbit.cs
+      path: Assets/Code/Scripts/Cameras/CameraOrbit.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: CameraOrbit
-    path: ../Assets/Scripts/Cameras/CameraOrbit.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraOrbit.cs
     startLine: 4
   assemblies:
   - Assembly-CSharp
@@ -57,11 +57,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraOrbit.cs
+      path: Assets/Code/Scripts/Cameras/CameraOrbit.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: target
-    path: ../Assets/Scripts/Cameras/CameraOrbit.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraOrbit.cs
     startLine: 6
   assemblies:
   - Assembly-CSharp
@@ -88,11 +88,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraOrbit.cs
+      path: Assets/Code/Scripts/Cameras/CameraOrbit.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: speedRotationHorizontal
-    path: ../Assets/Scripts/Cameras/CameraOrbit.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraOrbit.cs
     startLine: 7
   assemblies:
   - Assembly-CSharp
@@ -119,11 +119,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraOrbit.cs
+      path: Assets/Code/Scripts/Cameras/CameraOrbit.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: speedRotationVertical
-    path: ../Assets/Scripts/Cameras/CameraOrbit.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraOrbit.cs
     startLine: 8
   assemblies:
   - Assembly-CSharp
@@ -150,11 +150,11 @@ items:
   type: Field
   source:
     remote:
-      path: Assets/Scripts/Cameras/CameraOrbit.cs
+      path: Assets/Code/Scripts/Cameras/CameraOrbit.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: speedZoom
-    path: ../Assets/Scripts/Cameras/CameraOrbit.cs
+    path: ../Assets/Code/Scripts/Cameras/CameraOrbit.cs
     startLine: 9
   assemblies:
   - Assembly-CSharp

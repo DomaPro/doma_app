@@ -14,11 +14,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/nicoversity/polyextrude/_libraries/Triangle.NET/TriangulationTest.cs
+      path: Assets/Code/External/nicoversity/polyextrude/_libraries/Triangle.NET/TriangulationTest.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: TriangulationTest
-    path: ../Assets/nicoversity/polyextrude/_libraries/Triangle.NET/TriangulationTest.cs
+    path: ../Assets/Code/External/nicoversity/polyextrude/_libraries/Triangle.NET/TriangulationTest.cs
     startLine: 20
   assemblies:
   - Assembly-CSharp

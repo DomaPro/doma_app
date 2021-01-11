@@ -18,11 +18,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Managers/Floor/FloorDoma.cs
+      path: Assets/Code/Scripts/Models/FloorDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Wall2D
-    path: ../Assets/Managers/Floor/FloorDoma.cs
+    path: ../Assets/Code/Scripts/Models/FloorDoma.cs
     startLine: 79
   assemblies:
   - Assembly-CSharp
@@ -51,11 +51,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Floor/FloorDoma.cs
+      path: Assets/Code/Scripts/Models/FloorDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: StartPoint
-    path: ../Assets/Managers/Floor/FloorDoma.cs
+    path: ../Assets/Code/Scripts/Models/FloorDoma.cs
     startLine: 82
   assemblies:
   - Assembly-CSharp
@@ -86,11 +86,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Floor/FloorDoma.cs
+      path: Assets/Code/Scripts/Models/FloorDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: EndPoint
-    path: ../Assets/Managers/Floor/FloorDoma.cs
+    path: ../Assets/Code/Scripts/Models/FloorDoma.cs
     startLine: 83
   assemblies:
   - Assembly-CSharp
@@ -121,11 +121,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Floor/FloorDoma.cs
+      path: Assets/Code/Scripts/Models/FloorDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Wal2DInstance
-    path: ../Assets/Managers/Floor/FloorDoma.cs
+    path: ../Assets/Code/Scripts/Models/FloorDoma.cs
     startLine: 84
   assemblies:
   - Assembly-CSharp
@@ -156,11 +156,11 @@ items:
   type: Constructor
   source:
     remote:
-      path: Assets/Managers/Floor/FloorDoma.cs
+      path: Assets/Code/Scripts/Models/FloorDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: .ctor
-    path: ../Assets/Managers/Floor/FloorDoma.cs
+    path: ../Assets/Code/Scripts/Models/FloorDoma.cs
     startLine: 86
   assemblies:
   - Assembly-CSharp

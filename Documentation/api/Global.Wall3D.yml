@@ -19,11 +19,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Managers/Floor/FloorDoma.cs
+      path: Assets/Code/Scripts/Models/FloorDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Wall3D
-    path: ../Assets/Managers/Floor/FloorDoma.cs
+    path: ../Assets/Code/Scripts/Models/FloorDoma.cs
     startLine: 94
   assemblies:
   - Assembly-CSharp
@@ -52,11 +52,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Floor/FloorDoma.cs
+      path: Assets/Code/Scripts/Models/FloorDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: StartPoint
-    path: ../Assets/Managers/Floor/FloorDoma.cs
+    path: ../Assets/Code/Scripts/Models/FloorDoma.cs
     startLine: 96
   assemblies:
   - Assembly-CSharp
@@ -87,11 +87,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Floor/FloorDoma.cs
+      path: Assets/Code/Scripts/Models/FloorDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: EndPoint
-    path: ../Assets/Managers/Floor/FloorDoma.cs
+    path: ../Assets/Code/Scripts/Models/FloorDoma.cs
     startLine: 97
   assemblies:
   - Assembly-CSharp
@@ -122,11 +122,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Floor/FloorDoma.cs
+      path: Assets/Code/Scripts/Models/FloorDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Wall3DInstance
-    path: ../Assets/Managers/Floor/FloorDoma.cs
+    path: ../Assets/Code/Scripts/Models/FloorDoma.cs
     startLine: 98
   assemblies:
   - Assembly-CSharp
@@ -157,11 +157,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Floor/FloorDoma.cs
+      path: Assets/Code/Scripts/Models/FloorDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Wall3DSolidInstance
-    path: ../Assets/Managers/Floor/FloorDoma.cs
+    path: ../Assets/Code/Scripts/Models/FloorDoma.cs
     startLine: 99
   assemblies:
   - Assembly-CSharp
@@ -192,11 +192,11 @@ items:
   type: Constructor
   source:
     remote:
-      path: Assets/Managers/Floor/FloorDoma.cs
+      path: Assets/Code/Scripts/Models/FloorDoma.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: .ctor
-    path: ../Assets/Managers/Floor/FloorDoma.cs
+    path: ../Assets/Code/Scripts/Models/FloorDoma.cs
     startLine: 101
   assemblies:
   - Assembly-CSharp

@@ -16,11 +16,11 @@ items:
   type: Class
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: RefreshWallCornersModel
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 262
   assemblies:
   - Assembly-CSharp
@@ -49,11 +49,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: ObjectWall
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 264
   assemblies:
   - Assembly-CSharp
@@ -84,11 +84,11 @@ items:
   type: Property
   source:
     remote:
-      path: Assets/Managers/Functions/FunctionsManager.cs
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
     id: Point
-    path: ../Assets/Managers/Functions/FunctionsManager.cs
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
     startLine: 265
   assemblies:
   - Assembly-CSharp
