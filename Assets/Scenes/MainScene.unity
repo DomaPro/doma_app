@@ -656,7 +656,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3013c43b07a440446821290baa8eb5e3, type: 2}
+  - {fileID: 2100000, guid: 101d9cdd80d1fcb489e978abe7b64dcc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1471,7 +1471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30afef97eee6535419f901bf66414472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 0}
+  material: {fileID: 2100000, guid: 2f081fd96d34c4a4e94e7ef22b694e04, type: 2}
   KneeWall: 0.5
 --- !u!4 &314009810
 Transform:
@@ -2428,7 +2428,7 @@ Transform:
   - {fileID: 53330667}
   - {fileID: 314009810}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &718141341
 GameObject:
@@ -2825,7 +2825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09d2ccb900123cd439610cb9f0d74c24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 3013c43b07a440446821290baa8eb5e3, type: 2}
+  material: {fileID: 2100000, guid: 2f081fd96d34c4a4e94e7ef22b694e04, type: 2}
 --- !u!1 &975492794
 GameObject:
   m_ObjectHideFlags: 0
@@ -3778,7 +3778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af27cc3056bb5284d9d5473796c24e66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 3013c43b07a440446821290baa8eb5e3, type: 2}
+  material: {fileID: 2100000, guid: 2f081fd96d34c4a4e94e7ef22b694e04, type: 2}
 --- !u!1 &1294846046
 GameObject:
   m_ObjectHideFlags: 17
@@ -3838,7 +3838,7 @@ Transform:
   m_Children:
   - {fileID: 88561709}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1315528601
 GameObject:
@@ -4541,7 +4541,7 @@ Transform:
   m_Children:
   - {fileID: 29166243}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1474200424
 GameObject:
@@ -5487,49 +5487,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758101298}
   m_CullTransparentMesh: 0
---- !u!1 &1770359309
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1770359311}
-  - component: {fileID: 1770359310}
-  m_Layer: 0
-  m_Name: WallManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1770359310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1770359309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d6ebc2a64b726a42ba2c87d20e37ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1770359311
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1770359309}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4499.9634, y: 1510.9023, z: -789.216}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1843868565
 GameObject:
   m_ObjectHideFlags: 0
@@ -6293,7 +6250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70628e5f1b7843d44a5d17b03c2242bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 3013c43b07a440446821290baa8eb5e3, type: 2}
+  material: {fileID: 2100000, guid: 2f081fd96d34c4a4e94e7ef22b694e04, type: 2}
 --- !u!1 &2009671654
 GameObject:
   m_ObjectHideFlags: 0
@@ -6580,7 +6537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76db722b6ceb60f4b84ba4ec93bf59a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 3013c43b07a440446821290baa8eb5e3, type: 2}
+  material: {fileID: 2100000, guid: 2f081fd96d34c4a4e94e7ef22b694e04, type: 2}
 --- !u!1 &2113588510
 GameObject:
   m_ObjectHideFlags: 0
