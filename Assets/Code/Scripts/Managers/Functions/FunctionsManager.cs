@@ -8,12 +8,12 @@ using UnityEngine.UI;
 public class FunctionsManager : MonoBehaviour
 {
     [Header("Wall")]
-    public GameObject drawWall2D;
-    public Button activateButtonDrawWall2D;
+    public GameObject drawWall;
+    public Button activateButtonDrawWall;
 
     [Header("Hole")]
-    public GameObject addHole2D;
-    public Button activateButtonAddHole2D;
+    public GameObject addHole;
+    public Button activateButtonAddHole;
 
     [Header("Door")]
     public GameObject drawDoor;
@@ -51,21 +51,21 @@ public class FunctionsManager : MonoBehaviour
             domaManager.Show2DObjectsOnTags(new string[] { lowerActiveFloorTag, activeFloorTag });
         }
 
-        if (activeFunction == drawWall2D)
+        if (activeFunction == drawWall)
         {
-            ChangeColorButton(activateButtonDrawWall2D, Color.white);
+            ChangeColorButton(activateButtonDrawWall, Color.white);
 
             activeFunction = null;
-            drawWall2D.SetActive(false);
+            drawWall.SetActive(false);
 
             Debug.Log("DrawWall2D is Deactivated");
         }
         else
         {
-            ChangeColorButton(activateButtonDrawWall2D, Color.magenta);
+            ChangeColorButton(activateButtonDrawWall, Color.magenta);
 
-            activeFunction = drawWall2D;
-            drawWall2D.SetActive(true);
+            activeFunction = drawWall;
+            drawWall.SetActive(true);
 
             Debug.Log("DrawWall2D is Activated");
         }
@@ -104,21 +104,21 @@ public class FunctionsManager : MonoBehaviour
 
     public void AddHole2D()
     {
-        if (activeFunction == addHole2D)
+        if (activeFunction == addHole)
         {
-            ChangeColorButton(activateButtonAddHole2D, Color.white);
+            ChangeColorButton(activateButtonAddHole, Color.white);
 
             activeFunction = null;
-            addHole2D.SetActive(false);
+            addHole.SetActive(false);
 
             Debug.Log("DrawWall2D is Deactivated");
         }
         else
         {
-            ChangeColorButton(activateButtonAddHole2D, Color.magenta);
+            ChangeColorButton(activateButtonAddHole, Color.magenta);
 
-            activeFunction = addHole2D;
-            addHole2D.SetActive(true);
+            activeFunction = addHole;
+            addHole.SetActive(true);
 
             Debug.Log("DrawWall2D is Activated");
         }

@@ -1471,6 +1471,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30afef97eee6535419f901bf66414472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  KneeWall: 0.5
 --- !u!4 &314009810
 Transform:
   m_ObjectHideFlags: 0
@@ -2396,10 +2398,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 762d18af61c2b634da9a6e48c69468e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drawWall2D: {fileID: 1281117586}
-  activateButtonDrawWall2D: {fileID: 303000878}
-  addHole2D: {fileID: 2045850739}
-  activateButtonAddHole2D: {fileID: 741279528}
+  drawWall: {fileID: 1281117586}
+  activateButtonDrawWall: {fileID: 303000878}
+  addHole: {fileID: 2045850739}
+  activateButtonAddHole: {fileID: 741279528}
   drawDoor: {fileID: 961420649}
   activateButtonDrawDoor: {fileID: 1758101300}
   drawWindow: {fileID: 2007245628}
@@ -3744,7 +3746,7 @@ GameObject:
   - component: {fileID: 1281117587}
   - component: {fileID: 1281117588}
   m_Layer: 0
-  m_Name: DrawWall2D
+  m_Name: DrawWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6546,7 +6548,7 @@ GameObject:
   - component: {fileID: 2045850740}
   - component: {fileID: 2045850741}
   m_Layer: 0
-  m_Name: AddHole2D
+  m_Name: AddHole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

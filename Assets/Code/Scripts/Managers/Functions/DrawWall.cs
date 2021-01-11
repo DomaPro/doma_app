@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class DrawWall2D : MonoBehaviour
+public class DrawWall : MonoBehaviour
 {
     public Material material;
 

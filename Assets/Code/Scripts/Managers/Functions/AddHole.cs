@@ -1,15 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-//using UnityEditor.ProBuilder;
+﻿using System;
+using System.Linq;
 using UnityEngine;
 using Net3dBool;
-using System;
-using System.Linq;
 
 /// <summary>
 /// Dodawanie otwórów do ścian 2D oraz 3D
 /// </summary>
-public class AddHole2D : MonoBehaviour
+public class AddHole : MonoBehaviour
 {
     /// <summary>
     /// Przypisanie materiału dla obiektu z otworem (np. okiennym)
