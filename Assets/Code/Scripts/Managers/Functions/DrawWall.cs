@@ -226,6 +226,13 @@ public class DrawWall : MonoBehaviour
 
         gameObject.transform.parent = area3D.transform;
 
+        // Doda Collider gdy ściana ma długość min. 20 cm
+        if(Vector3.Distance(startPoint, endPoint) > 0.2f)
+        {
+            gameObject.AddComponent<MeshCollider>();
+        }
+
+        gameObject.tag = "Wall";
 
         return new Tuple<GameObject, Solid>(gameObject, obj);
     }

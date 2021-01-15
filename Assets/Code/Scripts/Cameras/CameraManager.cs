@@ -21,6 +21,8 @@ public class CameraManager : MonoBehaviour
     public float nearZoomLimit = 1500f;
     public float farZoomLimit = 2500f;
 
+    public Camera camera3D;
+
     Camera cam;
     Vector3 lastMousePosition;
     Vector3 centralVector;
@@ -42,7 +44,7 @@ public class CameraManager : MonoBehaviour
 
     void Update()
     {
-        if((Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2)) && Input.GetButton("LeftShift"))
+        if ((Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2)) && Input.GetButton("LeftShift"))
         {
             centralVector = domaManager.GetObjectPositionValue(target).CentralVector;
             lastMousePosition = Input.mousePosition;

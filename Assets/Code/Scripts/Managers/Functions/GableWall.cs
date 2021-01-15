@@ -143,6 +143,11 @@ public class GableWall : MonoBehaviour
         meshRenderer.material = material;
         filter.mesh = mesh;
 
+        gableWall.AddComponent<MeshCollider>();
+        gableWall.tag = "Ceiling";
+
+        gableWall.tag = "Wall";
+
         gableWall.transform.Translate(new Vector3(2000, 0, 0), Space.World);
 
         return gableWall;

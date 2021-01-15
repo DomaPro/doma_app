@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -6,12 +7,17 @@ using UnityEngine.UI;
 
 public class MainCameraController : MonoBehaviour
 {
-    public Camera portalCamera; // Camera for 2D View
+    public Camera portalCamera2d; // Camera for 2D View
+    public Camera portalCamera3d; // Camera for 2D View
     public RawImage texture2DView; // Rect on UI with 2D View
+
+    public Material materialSelectedObject;
 
     GameObject mouseCube;
 
     DomaManager domaManager;
+
+    private List<string> tagsToChange;
 
     void Start()
     {
@@ -21,6 +27,8 @@ public class MainCameraController : MonoBehaviour
         mouseCube.name = "MouseCube";
         mouseCube.GetComponent<Renderer>().material.color = Color.blue;
         mouseCube.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+
+        tagsToChange = new List<string>() { "Wall", "Ceiling", "Roof" };
     }
 
     void Update()
@@ -43,8 +51,10 @@ public class MainCameraController : MonoBehaviour
             //var bottomleft = secondCamera.ViewportToWorldPoint(new Vector3(0, 0, secondCamera.nearClipPlane));
             //var bottomRight = secondCamera.ViewportToWorldPoint(new Vector3(1, 0, secondCamera.nearClipPlane));
 
+            domaManager.RectUIMousePositionForSelection = rectUIMousePosition;
+
             // Mouse Position in camera area
-            var positionInCameraRect = portalCamera.ViewportToWorldPoint(new Vector3(rectUIMousePosition.x / portalCamera.pixelWidth, rectUIMousePosition.y / portalCamera.pixelHeight, portalCamera.nearClipPlane));
+            var positionInCameraRect = portalCamera2d.ViewportToWorldPoint(new Vector3(rectUIMousePosition.x / portalCamera2d.pixelWidth, rectUIMousePosition.y / portalCamera2d.pixelHeight, portalCamera2d.nearClipPlane));
 
             var realePositionInCameraRect2D = new Vector3(positionInCameraRect.x, positionInCameraRect.y, 0);
 
@@ -53,6 +63,7 @@ public class MainCameraController : MonoBehaviour
 
             // Cube follow Mouse Position
             mouseCube.transform.position = realePositionInCameraRect2D;
+
         }
     }
 }

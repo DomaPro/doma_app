@@ -11,6 +11,9 @@ TagManager:
   - Floor_3
   - Floor_4
   - Floor_5
+  - Wall
+  - Ceiling
+  - Roof
   layers:
   - Default
   - TransparentFX

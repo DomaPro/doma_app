@@ -127,6 +127,9 @@ public class DrawWindow : MonoBehaviour
 
                 newGameObject.GetComponent<MeshRenderer>().material = material;
 
+                newGameObject.AddComponent<MeshCollider>();
+                newGameObject.tag = "Wall";
+
                 newGameObject.transform.parent = area3D.transform;
             }
         }
@@ -265,6 +268,8 @@ public class DrawWindow : MonoBehaviour
 
         gameObject.transform.parent = area3D.transform;
         gameObject.tag = domaManager.ActiveDomaFloor.Tag;
+
+        gameObject.AddComponent<MeshCollider>();
 
         return new Tuple<GameObject, Solid>(gameObject, obj);
     }

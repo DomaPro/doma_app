@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Security;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 /// <summary>
@@ -50,6 +51,9 @@ public class DomaManager : MonoBehaviour
 
     public bool ResetDataFunctionNow { get; set; } = false;
 
+    public int TypeRoof { get; set; } = 1;
+
+    public bool IsPointerOverUIButton { get; set; } = false;
 
     /// <summary>
     /// Test dokumentacji Doma Piętra
@@ -58,6 +62,12 @@ public class DomaManager : MonoBehaviour
     public FloorDoma ActiveDomaFloor { get; set; }
 
     public List<CeilingDoma> CeilingDomas { get; set; }
+
+    public List<RoofDoma> DomaRoofs { get; set; }
+
+    public SelectedObjectDoma SelectedObject { get; set; } = null;
+
+    public Vector3 RectUIMousePositionForSelection { get; set; }
 
     private void Awake()
     {
@@ -80,6 +90,9 @@ public class DomaManager : MonoBehaviour
         domaContainer = DomaContainer.Instance;
 
         Application.targetFrameRate = domaContainer.TargetFrameRate;
+
+        // Turn off v-sync
+        //QualitySettings.vSyncCount = 2;
 
         Enable2DView();
 
@@ -104,6 +117,8 @@ public class DomaManager : MonoBehaviour
         ActiveDomaFloor = DomaFloors.FirstOrDefault();
 
         CeilingDomas = new List<CeilingDoma>() { ceilingDoma01, ceilingDoma12, ceilingDoma23 };
+
+        DomaRoofs = new List<RoofDoma>();
     }
 
     /// <summary>
@@ -169,6 +184,24 @@ public class DomaManager : MonoBehaviour
     public WallDoma GetWallDomaByGameObject(GameObject gameObject)
     {
         return DomaFloors.SelectMany(x => x.Walls).Where(w => GameObject.ReferenceEquals(w.Wall2D.Wal2DInstance, gameObject)).FirstOrDefault();
+    }
+
+    public WallDoma GetWallDomaByGameObject3D(GameObject gameObject)
+    {
+        return DomaFloors.SelectMany(x => x.Walls).Where(w => GameObject.ReferenceEquals(w.Wall3D.Wall3DInstance, gameObject)).FirstOrDefault();
+    }
+
+    public CeilingDoma GetCeilingDomaByGameObject3D(GameObject gameObject)
+    {
+        foreach (var item in CeilingDomas)
+        {
+            if(item.Ceilings.Any(x => GameObject.ReferenceEquals(x.Ceiling3D.Ceiling3DInstance, gameObject)))
+            {
+                return item;
+            }
+        }
+
+        return null;
     }
 
     public void Enable2DView()

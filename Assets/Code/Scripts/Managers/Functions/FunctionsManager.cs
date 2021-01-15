@@ -31,18 +31,34 @@ public class FunctionsManager : MonoBehaviour
     public GameObject gableWall;
     public Button activateButtonGableWall;
 
+    [Header("Roof")]
+    public GameObject roof;
+    public Button activateButtonRoof;
+
     GameObject activeFunction;
     DomaManager domaManager;
+
+    FloorDoma activeFloorDoma;
+
+    List<FunctionModel> allFunctions;
 
     private void Start()
     {
         domaManager = DomaManager.Instance;
-    }
+        allFunctions = new List<FunctionModel>();
 
+        allFunctions.Add(new FunctionModel(drawWall, activateButtonDrawWall));
+        allFunctions.Add(new FunctionModel(addHole, activateButtonAddHole));
+        allFunctions.Add(new FunctionModel(drawDoor, activateButtonDrawDoor));
+        allFunctions.Add(new FunctionModel(drawWindow, activateButtonDrawWindow));
+        allFunctions.Add(new FunctionModel(drawCeiling, activateButtonDrawCeiling));
+        allFunctions.Add(new FunctionModel(gableWall, activateButtonGableWall));
+        allFunctions.Add(new FunctionModel(roof, activateButtonRoof));
+    }
 
     public void DrawWall2D()
     {
-        FloorDoma activeFloorDoma = domaManager.ActiveDomaFloor;
+        activeFloorDoma = domaManager.ActiveDomaFloor;
         if (activeFloorDoma.Number > 0)
         {
             string activeFloorTag = activeFloorDoma.Tag;
@@ -53,27 +69,17 @@ public class FunctionsManager : MonoBehaviour
 
         if (activeFunction == drawWall)
         {
-            ChangeColorButton(activateButtonDrawWall, Color.white);
-
-            activeFunction = null;
-            drawWall.SetActive(false);
-
-            Debug.Log("DrawWall2D is Deactivated");
+            DeactivateFunction(drawWall, activateButtonDrawWall);
         }
         else
         {
-            ChangeColorButton(activateButtonDrawWall, Color.magenta);
-
-            activeFunction = drawWall;
-            drawWall.SetActive(true);
-
-            Debug.Log("DrawWall2D is Activated");
+            ActivateFunction(drawWall, activateButtonDrawWall);
         }
     }
 
     public void GableWall()
     {
-        FloorDoma activeFloorDoma = domaManager.ActiveDomaFloor;
+        activeFloorDoma = domaManager.ActiveDomaFloor;
         if (activeFloorDoma.Number > 0)
         {
             string activeFloorTag = activeFloorDoma.Tag;
@@ -84,21 +90,32 @@ public class FunctionsManager : MonoBehaviour
 
         if (activeFunction == gableWall)
         {
-            ChangeColorButton(activateButtonGableWall, Color.white);
-
-            activeFunction = null;
-            gableWall.SetActive(false);
-
-            Debug.Log("GableWall is Deactivated");
+            DeactivateFunction(gableWall, activateButtonGableWall);
         }
         else
         {
-            ChangeColorButton(activateButtonGableWall, Color.magenta);
+            ActivateFunction(gableWall, activateButtonGableWall);
+        }
+    }
 
-            activeFunction = gableWall;
-            gableWall.SetActive(true);
+    public void Roof()
+    {
+        activeFloorDoma = domaManager.ActiveDomaFloor;
+        if (activeFloorDoma.Number > 0)
+        {
+            string activeFloorTag = activeFloorDoma.Tag;
+            string lowerActiveFloorTag = domaManager.DomaFloors[activeFloorDoma.Number - 1].Tag;
 
-            Debug.Log("GableWall is Activated");
+            domaManager.Show2DObjectsOnTags(new string[] { lowerActiveFloorTag, activeFloorTag });
+        }
+
+        if (activeFunction == roof)
+        {
+            DeactivateFunction(roof, activateButtonRoof);
+        }
+        else
+        {
+            ActivateFunction(roof, activateButtonRoof);
         }
     }
 
@@ -106,21 +123,11 @@ public class FunctionsManager : MonoBehaviour
     {
         if (activeFunction == addHole)
         {
-            ChangeColorButton(activateButtonAddHole, Color.white);
-
-            activeFunction = null;
-            addHole.SetActive(false);
-
-            Debug.Log("DrawWall2D is Deactivated");
+            DeactivateFunction(addHole, activateButtonAddHole);
         }
         else
         {
-            ChangeColorButton(activateButtonAddHole, Color.magenta);
-
-            activeFunction = addHole;
-            addHole.SetActive(true);
-
-            Debug.Log("DrawWall2D is Activated");
+            ActivateFunction(addHole, activateButtonAddHole);
         }
     }
 
@@ -128,26 +135,16 @@ public class FunctionsManager : MonoBehaviour
     {
         if (activeFunction == drawDoor)
         {
-            ChangeColorButton(activateButtonDrawDoor, Color.white);
-
-            activeFunction = null;
-            drawDoor.SetActive(false);
-
-            Debug.Log("DrawDoor is Deactivated");
+            DeactivateFunction(drawDoor, activateButtonDrawDoor);
         }
         else
         {
-            ChangeColorButton(activateButtonDrawDoor, Color.magenta);
+            //FloorDoma activeFloorDoma = domaManager.ActiveDomaFloor;
+            //string activeFloorTag = activeFloorDoma.Tag;
 
-            activeFunction = drawDoor;
-            drawDoor.SetActive(true);
+            //domaManager.Show2DObjectsOnTags(new string[] { activeFloorTag });
 
-            FloorDoma activeFloorDoma = domaManager.ActiveDomaFloor;
-            string activeFloorTag = activeFloorDoma.Tag;
-
-            domaManager.Show2DObjectsOnTags(new string[] { activeFloorTag });
-
-            Debug.Log("DrawDoor is Activated");
+            ActivateFunction(drawDoor, activateButtonDrawDoor);
         }
     }
 
@@ -155,21 +152,11 @@ public class FunctionsManager : MonoBehaviour
     {
         if (activeFunction == drawWindow)
         {
-            ChangeColorButton(activateButtonDrawWindow, Color.white);
-
-            activeFunction = null;
-            drawWindow.SetActive(false);
-
-            Debug.Log("DrawWindow is Deactivated");
+            DeactivateFunction(drawWindow, activateButtonDrawWindow);
         }
         else
         {
-            ChangeColorButton(activateButtonDrawWindow, Color.magenta);
-
-            activeFunction = drawWindow;
-            drawWindow.SetActive(true);
-
-            Debug.Log("DrawWindow is Activated");
+            ActivateFunction(drawWindow, activateButtonDrawWindow);
         }
     }
 
@@ -188,80 +175,58 @@ public class FunctionsManager : MonoBehaviour
 
         if (activeFunction == drawCeiling)
         {
-            ChangeColorButton(activateButtonDrawCeiling, Color.white);
-
-            activeFunction = null;
-            drawCeiling.SetActive(false);
-
-            Debug.Log("DrawCeiling is Deactivated");
+            DeactivateFunction(drawCeiling, activateButtonDrawCeiling);
         }
         else
         {
-            ChangeColorButton(activateButtonDrawCeiling, Color.magenta);
-
-            activeFunction = drawCeiling;
-            drawCeiling.SetActive(true);
-
-            Debug.Log("DrawCeiling is Activated");
+            ActivateFunction(drawCeiling, activateButtonDrawCeiling);
         }
     }
 
-    //public void RefreshWallCorners()
-    //{
-    //    Debug.Log("RefreshWallCorners");
+    public void SetTypeRoof(int typeRoof)
+    {
+        domaManager.TypeRoof = typeRoof;
+    }
 
-    //    // Wszystkie obiekty 2D wraz z punktem początkowym i końcowym
-    //    List<RefreshWallCornersModel> dict = new List<RefreshWallCornersModel>();
-    //    foreach (var item in domaManager.domaElements)
-    //    {
-    //        foreach (var v in item.Points2D)
-    //        {
-    //            dict.Add(new RefreshWallCornersModel { ObjectWall = item.DomaObject2D, Point = v });
-    //        }
-    //    }
+    public void QuitApp()
+    {
+        Application.Quit();
+    }
 
-    //    foreach (var item in dict)
-    //    {
-    //        Debug.Log("ELEMENT: " + item.ObjectWall.GetInstanceID() + " | " + item.Point.ToString("F10"));
-    //    }
+    void ActivateFunction(GameObject function, Button button)
+    {
+        foreach (var item in allFunctions)
+        {
+            DeactivateFunction(item.GameObject, item.Button);
+        }
 
-    //    // Pętla przez wszystkie obiekty na rysunku 2D (otagować żeby bralo tylko ściany)
-    //    foreach (var item in dict)
-    //    {
-    //        // Znajdź obiekt dla item
-    //        var firstObject = domaManager.domaElements.Where(x => x.DomaObject2D == item.ObjectWall).FirstOrDefault();
+        ChangeColorButton(button, Color.magenta);
+        activeFunction = function;
+        function.SetActive(true);
+    }
 
-    //        // Znajdź inny obiekt, który posiada taki sam punkt
-    //        var secondObjectDict = dict.Where(x => !GameObject.ReferenceEquals(x.ObjectWall, item.ObjectWall) && x.Point == item.Point).FirstOrDefault();
-    //        DomaElement secondObject = null;
-    //        if (secondObjectDict != null)
-    //        {
-    //            secondObject = domaManager.domaElements.Where(x => x.DomaObject2D == secondObjectDict.ObjectWall).FirstOrDefault();
-    //        }
-
-    //        if(firstObject != null && secondObject != null)
-    //        {
-    //            // Tu mamy dostęp do 2 obiektów, które mają wspólny punkt
-    //            Debug.Log("ZestawDanych: " + firstObject.DomaObject2D.GetInstanceID() + " | " + String.Join("; ", firstObject.Points2D.ToArray()) + " ||| " + secondObject.DomaObject2D.GetInstanceID() + " | " + String.Join("; ", secondObject.Points2D.ToArray()));
-    //        }
-    //    }
-    //}
-
+    void DeactivateFunction(GameObject function, Button button)
+    {
+        ChangeColorButton(button, Color.white);
+        activeFunction = null;
+        function.SetActive(false);
+    }
 
     public void ChangeColorButton(Button button, Color color)
     {
         var image = button.GetComponent<Image>();
         image.color = color;
-
-        //ColorBlock colors = button.colors;
-        //colors.normalColor = color;
-        //colors.highlightedColor = Color.gray;
-        //button.colors = colors;
     }
 }
 
-public class RefreshWallCornersModel
+public class FunctionModel
 {
-    public GameObject ObjectWall { get; set; }
-    public Vector3 Point { get; set; }
+    public GameObject GameObject { get; set; }
+    public Button Button { get; set; }
+
+    public FunctionModel(GameObject gameObject, Button button)
+    {
+        GameObject = gameObject;
+        Button = button;
+    }
 }

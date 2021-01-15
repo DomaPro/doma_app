@@ -63,10 +63,6 @@ public class DrawCeiling : MonoBehaviour
                 polygonPoints.Add(domaManager.mousePosition2D);
             }
         }
-        //else if (Input.GetMouseButton(0))
-        //{
-        //    ceilingObject = DrawPolygon();
-        //}
         else if (Input.GetMouseButtonUp(0))
         {
             if (ceilingObject) DestroyImmediate(ceilingObject);
@@ -78,10 +74,10 @@ public class DrawCeiling : MonoBehaviour
         }
         else if (Input.GetMouseButtonDown(1))
         {
-
             // TODO - poprawić rysowanie kolejnych płyt stropowych
 
-            DrawPolygon3D(polygonPoints);
+            var ceiling3D = DrawPolygon3D(polygonPoints);
+            domaManager.CeilingDomas[domaManager.ActiveDomaFloor.Number].Ceilings[0].Ceiling3D.Ceiling3DInstance = ceiling3D;
         }
     }
 
@@ -152,6 +148,9 @@ public class DrawCeiling : MonoBehaviour
         var newObjMeshRenderer = newObj.AddComponent<MeshRenderer>();
         newObjMeshFilter.mesh = mesh;
         newObjMeshRenderer.material = material;
+
+        newObj.AddComponent<MeshCollider>();
+        newObj.tag = "Ceiling";
 
         DestroyImmediate(polyExtruderGO);
 
