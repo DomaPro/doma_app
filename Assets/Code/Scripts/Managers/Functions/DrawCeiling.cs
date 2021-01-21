@@ -1,4 +1,5 @@
 ﻿using Draw2DShapesLite;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,11 +7,8 @@ using UnityEngine;
 
 public class DrawCeiling : MonoBehaviour
 {
-    // Rysuj Polygon Area w części 2D na żywo
-    // - przyciąganie do punktów z niższej kondygnacji
-
-    // W 3D rysuje się bryła 3D o zadanej wysokości
-
+    [Header("Current Status Doma")]
+    public CurrentStatusDoma currentStatusDoma;
 
     public Material material;
     DomaManager domaManager;
@@ -20,15 +18,15 @@ public class DrawCeiling : MonoBehaviour
 
     List<Vector3> polygonPoints;
 
-    FloorDoma activeFloorDoma;
+    DFloor activeFloor;
 
-    GameObject ceilingObject;
+    GameObject ceilingTempObject; // tymczasowy obiekt stropu 2D, podgląd na czas rysowania
 
     // Start is called before the first frame update
     void Start()
     {
         domaManager = DomaManager.Instance;
-        activeFloorDoma = domaManager.ActiveDomaFloor;
+        activeFloor = domaManager.currentStatusDoma.activeFloor;
 
         area3D = GameObject.Find("3DArea");
         area2D = GameObject.Find("2DArea");
@@ -42,8 +40,6 @@ public class DrawCeiling : MonoBehaviour
         if (domaManager.ResetDataFunctionNow)
         {
             polygonPoints.Clear();
-            //polygonPoints = null;
-            //polygonPoints = new List<Vector3>();
             domaManager.ResetDataFunctionNow = false;
         }
 
@@ -52,8 +48,6 @@ public class DrawCeiling : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            print("polygonPoints.Count: " + polygonPoints.Count);
-
             if (nearestPoint != null)
             {
                 polygonPoints.Add((Vector3)nearestPoint);
@@ -65,140 +59,43 @@ public class DrawCeiling : MonoBehaviour
         }
         else if (Input.GetMouseButtonUp(0))
         {
-            if (ceilingObject) DestroyImmediate(ceilingObject);
-            ceilingObject = DrawPolygon();
+            DCeiling dCeiling = new DCeiling(0.2f, domaManager.currentStatusDoma.activeFloor.LevelBottom + domaManager.currentStatusDoma.activeFloor.Height, material, polygonPoints.ToArray());
 
-            var c2D = new Ceiling2D(polygonPoints, ceilingObject);
-            var c3D = new Ceiling3D();
-            domaManager.CeilingDomas[domaManager.ActiveDomaFloor.Number].Ceilings.Add(new Ceiling(c2D, c3D));
+            var refCeilingTempObject = ceilingTempObject;
+            if (refCeilingTempObject != null) DestroyImmediate(refCeilingTempObject);
+
+            ceilingTempObject = dCeiling.DrawCeiling2D();
         }
         else if (Input.GetMouseButtonDown(1))
         {
-            // TODO - poprawić rysowanie kolejnych płyt stropowych
+            DCeiling dCeiling = new DCeiling(0.2f, domaManager.currentStatusDoma.activeFloor.LevelBottom + domaManager.currentStatusDoma.activeFloor.Height, material, polygonPoints.ToArray());
+            dCeiling.DrawCeiling2D();
+            dCeiling.DrawCeiling3D();
 
-            var ceiling3D = DrawPolygon3D(polygonPoints);
-            domaManager.CeilingDomas[domaManager.ActiveDomaFloor.Number].Ceilings[0].Ceiling3D.Ceiling3DInstance = ceiling3D;
+            //var ceiling2D = dCeiling.DrawCeiling2D();
+            //var ceiling3D = dCeiling.DrawCeiling3D();
+
+            //dCeiling.Instance2D = ceiling2D;
+            //dCeiling.Instance3D = ceiling3D;
+
+            domaManager.currentStatusDoma.appSystem.Ceilings.Add(dCeiling);
+
+            DestroyImmediate(ceilingTempObject);
+            ceilingTempObject = null;
         }
-    }
-
-    private GameObject DrawPolygon()
-    {
-        GameObject ceiling = new GameObject();
-        ceiling.name = "Ceiling_" + domaManager.ActiveDomaFloor.Number + (domaManager.ActiveDomaFloor.Number + 1);
-
-        var vertices3D = polygonPoints.ToArray();
-        var vertices2D = vertices3D.Select(v => new Vector2(v.x, v.y)).ToArray();
-
-        var triangulator = new Triangulator(vertices2D);
-        var indices = triangulator.Triangulate();
-
-        var colors = Enumerable.Range(0, vertices3D.Length)
-            .Select(i => Random.ColorHSV())
-            .ToArray();
-
-        var mesh = new Mesh
-        {
-            vertices = vertices3D,
-            triangles = indices,
-            colors = colors
-        };
-
-        mesh.RecalculateNormals();
-        mesh.RecalculateBounds();
-
-        var meshRenderer = ceiling.AddComponent<MeshRenderer>();
-        meshRenderer.material = material;
-
-        var filter = ceiling.AddComponent<MeshFilter>();
-        filter.mesh = mesh;
-
-        return ceiling;
-    }
-
-
-    private GameObject DrawPolygon3D(List<Vector3> polygonPoints3D)
-    {
-        GameObject polyExtruderGO = new GameObject();
-
-        PolyExtruder polyExtruder = polyExtruderGO.AddComponent<PolyExtruder>();
-        polyExtruderGO.name = "TEST EXTRUDER";
-
-        var vertices2D = polygonPoints3D.Select(v => new Vector2(v.x, v.y)).ToArray();
-        polyExtruder.createPrism(polyExtruderGO.name, 0.2f, vertices2D, Color.grey, true);
-
-        print("activeFloorDoma.LevelBottom " + domaManager.ActiveDomaFloor.LevelBottom);
-        print("activeFloorDoma.Height " + domaManager.ActiveDomaFloor.Height);
-
-        polyExtruderGO.transform.Translate(new Vector3(2000, domaManager.ActiveDomaFloor.LevelBottom + domaManager.ActiveDomaFloor.Height, 0), Space.World);
-
-        polyExtruder.prismColor = Color.blue;
-
-        // Combine meshes
-        MeshFilter[] allMesheFilters = polyExtruderGO.GetComponentsInChildren<MeshFilter>();
-
-        var mesh = CombineMeshes(allMesheFilters.ToList());
-
-        GameObject newObj = new GameObject();
-        newObj.name = "STROP";
-        newObj.transform.position = polyExtruderGO.transform.position;
-        newObj.transform.rotation = polyExtruderGO.transform.rotation;
-        newObj.transform.localScale = polyExtruderGO.transform.localScale;
-
-        var newObjMeshFilter = newObj.AddComponent<MeshFilter>();
-        var newObjMeshRenderer = newObj.AddComponent<MeshRenderer>();
-        newObjMeshFilter.mesh = mesh;
-        newObjMeshRenderer.material = material;
-
-        newObj.AddComponent<MeshCollider>();
-        newObj.tag = "Ceiling";
-
-        DestroyImmediate(polyExtruderGO);
-
-        return newObj;
-    }
-
-    public Matrix4x4 GetTRSMatrix(Transform transform)
-    {
-        return Matrix4x4.TRS(transform.localPosition, transform.localRotation, transform.localScale);
-    }
-
-    private Mesh CombineMeshes(List<MeshFilter> allMesheFilters)
-    {
-        Mesh[] meshes = allMesheFilters.Select(x => x.mesh).ToArray();
-
-        // Odwracamy trójkąty w dolnej siatce aby była widoczna od dołu --DOMA -- Niepotrzebne ale wcześniej było konieczne
-        //meshes[0].triangles = meshes[0].triangles.Reverse().ToArray();
-
-        var combine = new CombineInstance[meshes.Length];
-        for (int i = 0; i < meshes.Length; i++)
-        {
-            combine[i].mesh = meshes[i];
-            combine[i].transform = GetTRSMatrix(allMesheFilters[i].transform);
-        }
-
-        var mesh = new Mesh();
-        mesh.CombineMeshes(combine);
-        return mesh;
-    }
-
-    private Vector3 GetPosition3dView(Vector3 position2dView, float Y)
-    {
-        Vector3 position3dView = new Vector3(position2dView.x, Y, position2dView.y);
-        return position3dView;
     }
 
     private Vector3? NearestPoint2D(float distance)
     {
         List<Vector3> listPoints;
-        string nameFloor = "Floor_";
-        var activeDomaFloor = domaManager.ActiveDomaFloor;
-        if (activeDomaFloor.Number > 0)
+        var activeFloor = currentStatusDoma.activeFloor;
+        if (currentStatusDoma.GetFloorIndex(activeFloor.Id) > 0)
         {
-            listPoints = domaManager.GetAllPoints2DWallsOnTags(new string[] { nameFloor + (activeDomaFloor.Number - 1), nameFloor + activeDomaFloor.Number });
+            listPoints = currentStatusDoma.GetPointsForWallsOnFloor(new Guid[] { activeFloor.Id, currentStatusDoma.GetFloorBelow(activeFloor.Id).Id });
         }
         else
         {
-            listPoints = domaManager.GetAllPoints2DWallsOnTags(new string[] { nameFloor + activeDomaFloor.Number });
+            listPoints = currentStatusDoma.GetPointsForWallsOnFloor(new Guid[] { activeFloor.Id });
         }
 
         foreach (var point in listPoints)

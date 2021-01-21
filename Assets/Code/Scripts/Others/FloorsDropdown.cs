@@ -1,12 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class FloorsDropdown : MonoBehaviour
 {
+    [Header("Current Status Doma")]
+    public CurrentStatusDoma currentStatusDoma;
+
     TMP_Dropdown dropDown;
     DomaManager domaManager;
 
@@ -16,16 +17,16 @@ public class FloorsDropdown : MonoBehaviour
         dropDown = GetComponent<TMP_Dropdown>();
 
         dropDown.ClearOptions();
-        dropDown.AddOptions(domaManager.DomaFloors.Select(x => x.Name).ToList());
+        dropDown.AddOptions(currentStatusDoma.appSystem.Floors.Select(x => x.Name).ToList());
 
-        dropDown.onValueChanged.AddListener(delegate {
+        dropDown.onValueChanged.AddListener(delegate
+        {
             dropDownValueChangedHandler(dropDown);
         });
     }
 
     void Update()
-    {
-        
+    {  
     }
 
     void Destroy()
@@ -36,9 +37,7 @@ public class FloorsDropdown : MonoBehaviour
     private void dropDownValueChangedHandler(TMP_Dropdown target)
     {
         domaManager.SetActiveFloorById(target.value);
-        domaManager.Show2DObjectsOnTags(new string[] { "Floor_" + target.value });
-
-        Debug.Log("Selected: " + target.value);
+        currentStatusDoma.ShowWalls2dOnFloors(new Guid[] { currentStatusDoma.activeFloor.Id });
     }
 
     public void SetDropdownIndex(int index)

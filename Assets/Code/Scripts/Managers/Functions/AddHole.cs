@@ -21,8 +21,6 @@ public class AddHole : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("AddHole2D STARTED Function");
-
         domaManager = DomaManager.Instance;
 
         area3D = GameObject.Find("3DArea");
@@ -52,12 +50,8 @@ public class AddHole : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("AddHole2D UPDATED");
-
         if (domaManager.HoleInWall2D != null)
         {
-            Debug.Log("HoleInWall2D != null");
-
             if (!cube.activeSelf) cube.SetActive(true);
 
             cube.transform.position = domaManager.HoleInWall2D.mousePosition;
@@ -71,14 +65,11 @@ public class AddHole : MonoBehaviour
         }
         else
         {
-            Debug.Log("HoleInWall2D == null");
             cube.SetActive(false);
         }
 
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Mouse DOWN!");
-
             Vector3? position = domaManager.HoleInWall2D?.mousePosition;
 
             if (position != null)

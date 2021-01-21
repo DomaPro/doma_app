@@ -7,6 +7,9 @@ using UnityEngine.UI;
 
 public class FunctionsManager : MonoBehaviour
 {
+    [Header("Current Status Doma")]
+    public CurrentStatusDoma currentStatusDoma;
+
     [Header("Wall")]
     public GameObject drawWall;
     public Button activateButtonDrawWall;
@@ -35,10 +38,11 @@ public class FunctionsManager : MonoBehaviour
     public GameObject roof;
     public Button activateButtonRoof;
 
+
     GameObject activeFunction;
     DomaManager domaManager;
 
-    FloorDoma activeFloorDoma;
+    DFloor activeFloor;
 
     List<FunctionModel> allFunctions;
 
@@ -56,36 +60,62 @@ public class FunctionsManager : MonoBehaviour
         allFunctions.Add(new FunctionModel(roof, activateButtonRoof));
     }
 
-    public void DrawWall2D()
+    public void NewDoma()
     {
-        activeFloorDoma = domaManager.ActiveDomaFloor;
-        if (activeFloorDoma.Number > 0)
-        {
-            string activeFloorTag = activeFloorDoma.Tag;
-            string lowerActiveFloorTag = domaManager.DomaFloors[activeFloorDoma.Number - 1].Tag;
+        // Pobierz referencje do wszystkich obiektów
+        var allInstances = domaManager.GetReferencesToInstances();
 
-            domaManager.Show2DObjectsOnTags(new string[] { lowerActiveFloorTag, activeFloorTag });
-        }
+        // Usuń wszystkie instancje obiektów z poprzedniego zestawu || Resztą zajmie się GC
+        domaManager.RemoveAllInstances(allInstances);
 
-        if (activeFunction == drawWall)
+        // Zastąp istniejący AppSystem nowym PUSTYM
+        currentStatusDoma.appSystem = new AppSystem();
+
+        // Ustaw domyślny poziom
+        domaManager.SetActiveFloorById(0);
+
+    }
+
+    public void LoadDoma()
+    {
+        string nameFile = domaManager.fileNameTextBox.text;
+
+        domaManager.LoadData(nameFile);
+    }
+
+    public void SaveDoma()
+    {
+        SaveSystem.SaveObject(currentStatusDoma.appSystem);
+
+        domaManager.ShowSavedFiles();
+    }
+
+    public void DrawWall()
+    {
+        activeFloor = domaManager.currentStatusDoma.activeFloor;
+        if (domaManager.currentStatusDoma.GetFloorIndex(activeFloor.Id) > 0)
         {
-            DeactivateFunction(drawWall, activateButtonDrawWall);
+            domaManager.currentStatusDoma.ShowWalls2dOnFloors(new Guid[] { activeFloor.Id, domaManager.currentStatusDoma.GetFloorBelow(activeFloor.Id).Id });
         }
         else
         {
-            ActivateFunction(drawWall, activateButtonDrawWall);
+            domaManager.currentStatusDoma.ShowWalls2dOnFloors(new Guid[] { activeFloor.Id });
         }
+
+        if (activeFunction == drawWall) DeactivateFunction(drawWall, activateButtonDrawWall);
+        else ActivateFunction(drawWall, activateButtonDrawWall);
     }
 
     public void GableWall()
     {
-        activeFloorDoma = domaManager.ActiveDomaFloor;
-        if (activeFloorDoma.Number > 0)
+        activeFloor = domaManager.currentStatusDoma.activeFloor;
+        if (domaManager.currentStatusDoma.GetFloorIndex(activeFloor.Id) > 0)
         {
-            string activeFloorTag = activeFloorDoma.Tag;
-            string lowerActiveFloorTag = domaManager.DomaFloors[activeFloorDoma.Number - 1].Tag;
-
-            domaManager.Show2DObjectsOnTags(new string[] { lowerActiveFloorTag, activeFloorTag });
+            domaManager.currentStatusDoma.ShowWalls2dOnFloors(new Guid[] { activeFloor.Id, domaManager.currentStatusDoma.GetFloorBelow(activeFloor.Id).Id });
+        }
+        else
+        {
+            domaManager.currentStatusDoma.ShowWalls2dOnFloors(new Guid[] { activeFloor.Id });
         }
 
         if (activeFunction == gableWall)
@@ -100,13 +130,14 @@ public class FunctionsManager : MonoBehaviour
 
     public void Roof()
     {
-        activeFloorDoma = domaManager.ActiveDomaFloor;
-        if (activeFloorDoma.Number > 0)
+        activeFloor = domaManager.currentStatusDoma.activeFloor;
+        if (domaManager.currentStatusDoma.GetFloorIndex(activeFloor.Id) > 0)
         {
-            string activeFloorTag = activeFloorDoma.Tag;
-            string lowerActiveFloorTag = domaManager.DomaFloors[activeFloorDoma.Number - 1].Tag;
-
-            domaManager.Show2DObjectsOnTags(new string[] { lowerActiveFloorTag, activeFloorTag });
+            domaManager.currentStatusDoma.ShowWalls2dOnFloors(new Guid[] { activeFloor.Id, domaManager.currentStatusDoma.GetFloorBelow(activeFloor.Id).Id });
+        }
+        else
+        {
+            domaManager.currentStatusDoma.ShowWalls2dOnFloors(new Guid[] { activeFloor.Id });
         }
 
         if (activeFunction == roof)
@@ -139,11 +170,6 @@ public class FunctionsManager : MonoBehaviour
         }
         else
         {
-            //FloorDoma activeFloorDoma = domaManager.ActiveDomaFloor;
-            //string activeFloorTag = activeFloorDoma.Tag;
-
-            //domaManager.Show2DObjectsOnTags(new string[] { activeFloorTag });
-
             ActivateFunction(drawDoor, activateButtonDrawDoor);
         }
     }
@@ -164,13 +190,14 @@ public class FunctionsManager : MonoBehaviour
     {
         domaManager.ResetDataFunctionNow = true;
 
-        FloorDoma activeFloorDoma = domaManager.ActiveDomaFloor;
-        if (activeFloorDoma.Number > 0)
+        activeFloor = domaManager.currentStatusDoma.activeFloor;
+        if (domaManager.currentStatusDoma.GetFloorIndex(activeFloor.Id) > 0)
         {
-            string activeFloorTag = activeFloorDoma.Tag;
-            string lowerActiveFloorTag = domaManager.DomaFloors[activeFloorDoma.Number - 1].Tag;
-
-            domaManager.Show2DObjectsOnTags(new string[] { lowerActiveFloorTag, activeFloorTag });
+            domaManager.currentStatusDoma.ShowWalls2dOnFloors(new Guid[] { activeFloor.Id, domaManager.currentStatusDoma.GetFloorBelow(activeFloor.Id).Id });
+        }
+        else
+        {
+            domaManager.currentStatusDoma.ShowWalls2dOnFloors(new Guid[] { activeFloor.Id });
         }
 
         if (activeFunction == drawCeiling)

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -39,6 +40,17 @@ public class DomaManager : MonoBehaviour
     [Header("Others")]
     public Sprite ImageToolTipPoint;
 
+    [Header("Current Status Doma")]
+    public CurrentStatusDoma currentStatusDoma;
+
+    [Header("Lights")]
+    public Light lightFor2DView;
+    public Light lightFor3DView;
+    public Light lightForMini3DView;
+
+    public TMPro.TMP_InputField fileNameTextBox;
+    public TMPro.TMP_Text savedFilesTextBox;
+
     private DomaContainer domaContainer;
     private bool activeMiniCameraFor3DView = true;
 
@@ -55,19 +67,11 @@ public class DomaManager : MonoBehaviour
 
     public bool IsPointerOverUIButton { get; set; } = false;
 
-    /// <summary>
-    /// Test dokumentacji Doma Piętra
-    /// </summary>
-    public List<FloorDoma> DomaFloors { get; set; }
-    public FloorDoma ActiveDomaFloor { get; set; }
-
-    public List<CeilingDoma> CeilingDomas { get; set; }
-
-    public List<RoofDoma> DomaRoofs { get; set; }
-
     public SelectedObjectDoma SelectedObject { get; set; } = null;
 
     public Vector3 RectUIMousePositionForSelection { get; set; }
+
+    List<GameObject> referencesToObjectsForRemove;
 
     private void Awake()
     {
@@ -79,6 +83,114 @@ public class DomaManager : MonoBehaviour
         {
             _instance = this;
         }
+    }
+
+    public void RemoveAllInstances(List<GameObject> referencesToObjectsForRemove)
+    {
+        // Usunięcie starych instancji
+        if (referencesToObjectsForRemove != null && referencesToObjectsForRemove.Count > 0)
+        {
+            foreach (var obj in referencesToObjectsForRemove)
+            {
+                DestroyImmediate(obj);
+            }
+        }
+    }
+
+    public List<GameObject> GetReferencesToInstances()
+    {
+        List<GameObject> listObjectsToRemove = new List<GameObject>();
+
+        if (currentStatusDoma.appSystem == null) return null;
+
+        if (currentStatusDoma.appSystem.Walls.Count > 0)
+        {
+            foreach (var wall in currentStatusDoma.appSystem.Walls)
+            {
+                listObjectsToRemove.Add(wall.Instance2D);
+                listObjectsToRemove.Add(wall.Instance3D);
+            }
+        }
+
+        if (currentStatusDoma.appSystem.Ceilings.Count > 0)
+        {
+            foreach (var ceiling in currentStatusDoma.appSystem.Ceilings)
+            {
+                listObjectsToRemove.Add(ceiling.Instance2D);
+                listObjectsToRemove.Add(ceiling.Instance3D);
+            }
+        }
+
+        if (currentStatusDoma.appSystem.Roofs.Count > 0)
+        {
+            foreach (var roof in currentStatusDoma.appSystem.Roofs)
+            {
+                //listObjectsToRemove.Add(roof.Instance2D);
+                listObjectsToRemove.Add(roof.Instance3D);
+            }
+        }
+
+        return listObjectsToRemove;
+    }
+
+    public void LoadData(string nameFile)
+    {
+        SerializeSystem saveSystem = SaveSystem.LoadObject(nameFile);
+
+        referencesToObjectsForRemove = GetReferencesToInstances();
+        currentStatusDoma.appSystem = null;
+
+        if (saveSystem == null)
+        {
+            var startSystem = new AppSystem();
+
+            currentStatusDoma.appSystem = startSystem;
+
+            SetActiveFloorById(0);
+            currentStatusDoma.ShowWalls2dOnFloors(new Guid[] { currentStatusDoma.activeFloor.Id });
+            return;
+        }
+        else
+        {
+            currentStatusDoma.appSystem = new AppSystem(saveSystem);
+            
+            foreach (var wall in currentStatusDoma.appSystem.Walls)
+            {
+                wall.Instance2D = wall.DrawWall2D();
+                wall.Instance3D = wall.DrawWall3D();
+            }
+
+            foreach (var ceiling in currentStatusDoma.appSystem.Ceilings)
+            {
+                ceiling.Instance2D = ceiling.DrawCeiling2D();
+                ceiling.Instance3D = ceiling.DrawCeiling3D();
+            }
+
+            foreach (var roof in currentStatusDoma.appSystem.Roofs)
+            {
+                //roof.Instance2D = roof.DrawRoofType1();
+                roof.Instance3D = roof.DrawRoofType1();
+            }
+
+            SetActiveFloorById(0);
+            currentStatusDoma.ShowWalls2dOnFloors(new Guid[] { currentStatusDoma.appSystem.Floors[0].Id });
+        }
+
+        RemoveAllInstances(referencesToObjectsForRemove);
+    }
+
+    public void ShowSavedFiles()
+    {
+        string val = "";
+        var list = SaveSystem.GetNameAllFiles();
+
+        foreach (var item in list)
+        {
+            val += item;
+            val += "\n";
+        }
+
+        savedFilesTextBox.text = val;
     }
 
     /// <summary>
@@ -94,31 +206,17 @@ public class DomaManager : MonoBehaviour
         // Turn off v-sync
         //QualitySettings.vSyncCount = 2;
 
+        LoadData("domaApp");
+
         Enable2DView();
+
+        ShowSavedFiles();
 
         gameObjectCircleTip = new GameObject("CircleTip");
         newImage = gameObjectCircleTip.AddComponent<SpriteRenderer>();
         newImage.sprite = ImageToolTipPoint;
         gameObjectCircleTip.SetActive(false);
-
-        float floor1H = 2.2f;
-        float floor2H = 3f;
-        float floor3H = 2f;
-
-        float ceilingH = 0.2f;
-
-        FloorDoma floorDoma0 = new FloorDoma("Piwnica", 0, floor1H, -floor1H + 0.2f);
-        CeilingDoma ceilingDoma01 = new CeilingDoma("Strop 1", 0, ceilingH, 0.2f);
-        FloorDoma floorDoma1 = new FloorDoma("Parter", 1, floor2H, 0.2f + ceilingH);
-        CeilingDoma ceilingDoma12 = new CeilingDoma("Strop 2", 1, ceilingH, 0.2f + ceilingH + floor2H);
-        FloorDoma floorDoma2 = new FloorDoma("Piętro I", 2, floor3H, 0.2f + ceilingH + floor2H + ceilingH);
-        CeilingDoma ceilingDoma23 = new CeilingDoma("Strop 3", 3, ceilingH, 0.2f + ceilingH + floor2H + ceilingH + floor3H);
-        DomaFloors = new List<FloorDoma>() { floorDoma0, floorDoma1, floorDoma2 };
-        ActiveDomaFloor = DomaFloors.FirstOrDefault();
-
-        CeilingDomas = new List<CeilingDoma>() { ceilingDoma01, ceilingDoma12, ceilingDoma23 };
-
-        DomaRoofs = new List<RoofDoma>();
+        currentStatusDoma.activeFloor = currentStatusDoma.appSystem.Floors.FirstOrDefault();
     }
 
     /// <summary>
@@ -130,78 +228,7 @@ public class DomaManager : MonoBehaviour
     /// </returns>
     public void SetActiveFloorById(int id)
     {
-        ActiveDomaFloor = DomaFloors[id];
-    }
-
-    // Włączenie widoczności dla wybranych Tagów
-    public void Show2DObjectsOnTags(string[] floorTags)
-    {
-        var allWallObjects2D = DomaFloors.SelectMany(x => x.Walls.Select(w => w.Wall2D.Wal2DInstance)).ToList();
-
-        foreach (var wallObj in allWallObjects2D)
-        {
-            if (floorTags.Contains(wallObj.tag))
-            {
-                wallObj.GetComponent<PolygonCollider2D>().enabled = true;
-
-                wallObj.GetComponent<Renderer>().enabled = true;
-
-                foreach (var child in wallObj.GetComponentsInChildren<Renderer>())
-                {
-                    child.enabled = true;
-                }
-            }
-            else
-            {
-                wallObj.GetComponent<PolygonCollider2D>().enabled = false;
-
-                wallObj.GetComponent<Renderer>().enabled = false;
-
-                foreach (var child in wallObj.GetComponentsInChildren<Renderer>())
-                {
-                    child.enabled = false;
-                }
-            }
-        }
-    }
-
-    // Pobierz wszystkie punkty na rysunku 2D dla wybranych Tagów
-    public List<Vector3> GetAllPoints2DWallsOnTags(string[] floorTags)
-    {
-        var vectors = new HashSet<Vector3>();
-        var allWallObjects2D = DomaFloors.SelectMany(x => x.Walls).ToList();
-
-        foreach (var wall in allWallObjects2D)
-        {
-            vectors.Add(wall.Wall2D.StartPoint);
-            vectors.Add(wall.Wall2D.EndPoint);
-        }
-
-        return vectors.ToList();
-    }
-
-    // Pobierz wszystkie punkty na rysunku 2D dla wybranych Tagów
-    public WallDoma GetWallDomaByGameObject(GameObject gameObject)
-    {
-        return DomaFloors.SelectMany(x => x.Walls).Where(w => GameObject.ReferenceEquals(w.Wall2D.Wal2DInstance, gameObject)).FirstOrDefault();
-    }
-
-    public WallDoma GetWallDomaByGameObject3D(GameObject gameObject)
-    {
-        return DomaFloors.SelectMany(x => x.Walls).Where(w => GameObject.ReferenceEquals(w.Wall3D.Wall3DInstance, gameObject)).FirstOrDefault();
-    }
-
-    public CeilingDoma GetCeilingDomaByGameObject3D(GameObject gameObject)
-    {
-        foreach (var item in CeilingDomas)
-        {
-            if(item.Ceilings.Any(x => GameObject.ReferenceEquals(x.Ceiling3D.Ceiling3DInstance, gameObject)))
-            {
-                return item;
-            }
-        }
-
-        return null;
+        currentStatusDoma.activeFloor = currentStatusDoma.appSystem.Floors[id];
     }
 
     public void Enable2DView()
@@ -216,8 +243,7 @@ public class DomaManager : MonoBehaviour
         miniCameraFor3DView.gameObject.SetActive(activeMiniCameraFor3DView);
         switchMini3DView.gameObject.SetActive(!activeMiniCameraFor3DView);
 
-        //area2D.gameObject.SetActive(true);
-        //area3D.gameObject.SetActive(false);
+        lightForMini3DView.gameObject.SetActive(true);
     }
 
     public void Enable3DView()
@@ -232,8 +258,7 @@ public class DomaManager : MonoBehaviour
         miniCameraFor3DView.gameObject.SetActive(false);
         switchMini3DView.gameObject.SetActive(false);
 
-        //area2D.gameObject.SetActive(false);
-        //area3D.gameObject.SetActive(true);
+        lightForMini3DView.gameObject.SetActive(false);
     }
 
     public void SwitchMini3DView()
@@ -307,6 +332,6 @@ public class HoleInWall2D
     public GameObject objectWall2D { get; set; }
     public Vector3 mousePosition { get; set; }
     public DomaElement domaElement { get; set; }
-    public Wall2D Wall2D { get; set; }
-    public Wall3D Wall3D { get; set; }
+
+    public DWall Wall { get; set; }
 }

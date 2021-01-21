@@ -6,9 +6,10 @@ using UnityEngine;
 public class WallScript : MonoBehaviour
 {
     DomaManager domaManager;
+    CurrentStatusDoma currentStatusDoma;
     PolygonCollider2D _collider;
 
-    WallDoma wallDoma;
+    DWall wall;
 
     bool activeOverlap = false;
     bool endOverlap = true; // pozwala kontrolować tylko jednokrotne wykonanie metody po ucieczce myszki z pola ściany
@@ -17,8 +18,9 @@ public class WallScript : MonoBehaviour
     void Start()
     {
         domaManager = DomaManager.Instance;
+        currentStatusDoma = domaManager.currentStatusDoma;
 
-        wallDoma = domaManager.GetWallDomaByGameObject(gameObject);
+        wall = currentStatusDoma.GetWallByGameObject2D(gameObject);
 
         _collider = GetComponent<PolygonCollider2D>();
     }
@@ -28,15 +30,11 @@ public class WallScript : MonoBehaviour
     {
         if (_collider.OverlapPoint(domaManager.mousePosition2D))
         {
-            print("Point is inside collider : " + gameObject.name);
-
             activeOverlap = true; // Aktywacja śledzenia pozycji na ścianie
             endOverlap = false; // Wyłączenie zakończenia śledzenia
         }
         else
         {
-            print("Point is NOT inside collider : " + gameObject.name);
-
             activeOverlap = false;
         }
 
@@ -59,16 +57,14 @@ public class WallScript : MonoBehaviour
                 {
                     objectWall2D = gameObject,
                     mousePosition = domaManager.mousePosition2D,
-                    Wall2D = wallDoma.Wall2D,
-                    Wall3D = wallDoma.Wall3D
+                    Wall = wall
                 };
             }
             else
             {
                 domaManager.HoleInWall2D.objectWall2D = gameObject;
                 domaManager.HoleInWall2D.mousePosition = domaManager.mousePosition2D;
-                domaManager.HoleInWall2D.Wall2D = wallDoma.Wall2D;
-                domaManager.HoleInWall2D.Wall3D = wallDoma.Wall3D;
+                domaManager.HoleInWall2D.Wall = wall;
             }
         }
     }

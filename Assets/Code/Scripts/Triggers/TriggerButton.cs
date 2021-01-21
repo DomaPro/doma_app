@@ -5,13 +5,11 @@ public class TriggerButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 {
     public void OnPointerEnter(PointerEventData eventData)
     {
-        print("OVER BUTTON ENTER");
         DomaManager.Instance.IsPointerOverUIButton = true;
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        print("OVER BUTTON EXIT");
         DomaManager.Instance.IsPointerOverUIButton = false;
     }
 }

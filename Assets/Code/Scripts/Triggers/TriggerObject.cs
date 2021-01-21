@@ -18,6 +18,6 @@ public class TriggerObject : MonoBehaviour
 
     void OnMouseUpAsButton()
     {
-        print("DZIA£A " + gameObject.name);
+
     }
 }

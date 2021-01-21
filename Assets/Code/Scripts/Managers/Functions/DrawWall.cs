@@ -8,6 +8,10 @@ using UnityEngine;
 
 public class DrawWall : MonoBehaviour
 {
+    [Header("Current Status Doma")]
+    public CurrentStatusDoma currentStatusDoma;
+
+    [Header("Material")]
     public Material material;
 
     DomaManager domaManager;
@@ -23,15 +27,12 @@ public class DrawWall : MonoBehaviour
 
     GameObject tempLineRenderer;
 
-    FloorDoma activeFloorDoma;
+    DFloor activeFloor;
 
     void Start()
     {
-        Debug.Log("DrawWall2D STARTED");
-
         domaManager = DomaManager.Instance;
-
-        activeFloorDoma = domaManager.ActiveDomaFloor;
+        activeFloor = currentStatusDoma.activeFloor;
 
         area3D = GameObject.Find("3DArea");
         area2D = GameObject.Find("2DArea");
@@ -90,19 +91,15 @@ public class DrawWall : MonoBehaviour
             // 3D
             var obj3D = DrawMesh3D(startPoint3dView, endPoint3dView, widthWall, "Mesh3DProBuilder");
 
-            Wall2D wall2D = new Wall2D(startPoint2dView, endPoint2dView, obj2D);
-            Wall3D wall3D = new Wall3D(startPoint3dView, endPoint3dView, obj3D.Item1, obj3D.Item2);
 
-            WallDoma wallDoma = new WallDoma(wall2D, wall3D);
-            FloorDoma floorDoma = domaManager.DomaFloors.Where(x => x.Number == domaManager.ActiveDomaFloor.Number).FirstOrDefault();
-            floorDoma.Walls.Add(wallDoma);
+            // NEW
+            DWall dWall = new DWall(currentStatusDoma.activeFloor.Id, startPoint2dView, endPoint2dView, 0.2f, currentStatusDoma.activeFloor.Height, currentStatusDoma.activeFloor.LevelBottom, material, obj2D, obj3D.Item1);
+            currentStatusDoma.appSystem.Walls.Add(dWall);
         }
     }
 
-    GameObject DrawMesh2D(Vector3 startPoint, Vector3 endPoint, float width, string name)
+    public GameObject DrawMesh2D(Vector3 startPoint, Vector3 endPoint, float width, string name)
     {
-        activeFloorDoma = domaManager.ActiveDomaFloor;
-
         var startP = new Vector2(startPoint.x, startPoint.y);
         var endP = new Vector2(endPoint.x, endPoint.y);
 
@@ -154,17 +151,19 @@ public class DrawWall : MonoBehaviour
 
         polygon.AddComponent<WallScript>();
 
-        polygon.tag = domaManager.ActiveDomaFloor.Tag;
+        polygon.tag = currentStatusDoma.activeFloor.Tag;
+
+        polygon.layer = LayerMask.NameToLayer("2DArea");
 
         return polygon;
     }
 
-    Tuple<GameObject, Solid> DrawMesh3D(Vector3 startPoint, Vector3 endPoint, float width, string name)
+    public Tuple<GameObject, Solid> DrawMesh3D(Vector3 startPoint, Vector3 endPoint, float width, string name)
     {
-        activeFloorDoma = domaManager.ActiveDomaFloor;
-        startPoint = new Vector3(startPoint.x, activeFloorDoma.LevelBottom, startPoint.z);
-        endPoint = new Vector3(endPoint.x, activeFloorDoma.LevelBottom, endPoint.z);
-        float h = activeFloorDoma.Height;
+        activeFloor = currentStatusDoma.activeFloor;
+        startPoint = new Vector3(startPoint.x, activeFloor.LevelBottom, startPoint.z);
+        endPoint = new Vector3(endPoint.x, activeFloor.LevelBottom, endPoint.z);
+        float h = activeFloor.Height;
 
         GameObject gameObject = new GameObject();
         gameObject.name = name;
@@ -227,12 +226,13 @@ public class DrawWall : MonoBehaviour
         gameObject.transform.parent = area3D.transform;
 
         // Doda Collider gdy ściana ma długość min. 20 cm
-        if(Vector3.Distance(startPoint, endPoint) > 0.2f)
+        if (Vector3.Distance(startPoint, endPoint) > 0.2f)
         {
             gameObject.AddComponent<MeshCollider>();
         }
 
         gameObject.tag = "Wall";
+        gameObject.layer = LayerMask.NameToLayer("3DArea");
 
         return new Tuple<GameObject, Solid>(gameObject, obj);
     }
@@ -273,15 +273,14 @@ public class DrawWall : MonoBehaviour
     private Vector3? NearestPoint2D(float distance)
     {
         List<Vector3> listPoints;
-        string nameFloor = "Floor_";
-        var activeDomaFloor = domaManager.ActiveDomaFloor;
-        if (activeDomaFloor.Number > 0)
+        var activeFloor = currentStatusDoma.activeFloor;
+        if (currentStatusDoma.GetFloorIndex(activeFloor.Id) > 0)
         {
-            listPoints = domaManager.GetAllPoints2DWallsOnTags(new string[] { nameFloor + (activeDomaFloor.Number - 1), nameFloor + activeDomaFloor.Number });
+            listPoints = currentStatusDoma.GetPointsForWallsOnFloor(new Guid[] { activeFloor.Id, currentStatusDoma.GetFloorBelow(activeFloor.Id).Id });
         }
         else
         {
-            listPoints = domaManager.GetAllPoints2DWallsOnTags(new string[] { nameFloor + activeDomaFloor.Number });
+            listPoints = currentStatusDoma.GetPointsForWallsOnFloor(new Guid[] { activeFloor.Id });
         }
 
         foreach (var point in listPoints)
