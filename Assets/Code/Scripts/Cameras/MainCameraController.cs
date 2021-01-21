@@ -19,6 +19,8 @@ public class MainCameraController : MonoBehaviour
 
     private List<string> tagsToChange;
 
+    private Vector3 lastPoint;
+
     void Start()
     {
         domaManager = DomaManager.Instance;

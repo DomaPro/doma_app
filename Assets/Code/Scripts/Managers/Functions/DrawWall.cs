@@ -29,6 +29,8 @@ public class DrawWall : MonoBehaviour
 
     DFloor activeFloor;
 
+    private Vector3 lastPoint;
+
     void Start()
     {
         domaManager = DomaManager.Instance;
@@ -43,29 +45,38 @@ public class DrawWall : MonoBehaviour
         tempLineRenderer.GetComponent<LineRenderer>().startWidth = 0.2f;
         tempLineRenderer.GetComponent<LineRenderer>().endWidth = 0.2f;
         tempLineRenderer.transform.parent = area2D.transform;
+
+        lastPoint = Vector3.zero;
     }
 
     void Update()
     {
         var nearestPoint = NearestPoint2D(0.5f);
 
+        // Poszukiwanie punktu do zakończenia rysowania ściany
+        var point = FindPointOn(domaManager.mousePosition2D, lastPoint, nearestPoint, KeyCode.LeftControl);
+
         if (Input.GetMouseButtonDown(0))
         {
             if (nearestPoint != null)
             {
-                startPoint2dView = (Vector3)nearestPoint;
-                startPoint3dView = GetPosition3dView((Vector3)nearestPoint, 2.5f);
+                lastPoint = point;
+                startPoint2dView = point;
+                startPoint3dView = GetPosition3dView(point, 2.5f);
             }
             else
             {
-                startPoint2dView = domaManager.mousePosition2D;
-                startPoint3dView = GetPosition3dView(domaManager.mousePosition2D, 2.5f);
+                lastPoint = point;
+                startPoint2dView = point;
+                startPoint3dView = GetPosition3dView(point, 2.5f);
             }
         }
         else if (Input.GetMouseButton(0))
         {
-            endPoint2dView = domaManager.mousePosition2D;
-            endPoint3dView = GetPosition3dView(domaManager.mousePosition2D, 2.5f);
+            domaManager.lengthWallText.text = System.Math.Round(Vector3.Distance(lastPoint, point), 2).ToString();
+
+            endPoint2dView = point;
+            endPoint3dView = GetPosition3dView(point, 2.5f);
 
             tempLineRenderer.GetComponent<LineRenderer>().SetPosition(0, startPoint2dView);
             tempLineRenderer.GetComponent<LineRenderer>().SetPosition(1, endPoint2dView);
@@ -74,13 +85,15 @@ public class DrawWall : MonoBehaviour
         {
             if (nearestPoint != null)
             {
-                endPoint2dView = (Vector3)nearestPoint;
-                endPoint3dView = GetPosition3dView((Vector3)nearestPoint, 2.5f);
+                lastPoint = point;
+                endPoint2dView = point;
+                endPoint3dView = GetPosition3dView(point, 2.5f);
             }
             else
             {
-                endPoint2dView = domaManager.mousePosition2D;
-                endPoint3dView = GetPosition3dView(domaManager.mousePosition2D, 2.5f);
+                lastPoint = point;
+                endPoint2dView = point;
+                endPoint3dView = GetPosition3dView(point, 2.5f);
             }
 
             // ********************************************************************************
@@ -97,6 +110,82 @@ public class DrawWall : MonoBehaviour
             currentStatusDoma.appSystem.Walls.Add(dWall);
         }
     }
+
+    private Vector3 FindPointOn(Vector3 currentPosition, Vector3 lastPosition, Vector3? existingPosition, KeyCode keyCode)
+    {
+        Vector3 result = currentPosition;
+
+        var distX = Mathf.Abs(currentPosition.x - lastPosition.x);
+        var distY = Mathf.Abs(currentPosition.y - lastPosition.y);
+
+        if (Input.GetKey(keyCode))
+        {
+            if (distX >= distY)
+            {
+                if (Input.GetKey(KeyCode.A))
+                {
+                    if (existingPosition != null)
+                    {
+                        result = new Vector3(lastPosition.x, existingPosition.Value.y, 0);
+                    }
+                    else
+                    {
+                        result = new Vector3(lastPosition.x, currentPosition.y, 0);
+                    }
+                }
+                else
+                {
+                    if (existingPosition != null)
+                    {
+                        result = new Vector3(existingPosition.Value.x, lastPosition.y, 0);
+                    }
+                    else
+                    {
+                        result = new Vector3(currentPosition.x, lastPosition.y, 0);
+                    }
+                }
+            }
+            else
+            {
+                if (Input.GetKey(KeyCode.A))
+                {
+                    if (existingPosition != null)
+                    {
+                        result = new Vector3(existingPosition.Value.x, lastPosition.y, 0);
+                    }
+                    else
+                    {
+                        result = new Vector3(currentPosition.x, lastPosition.y, 0);
+                    }
+                }
+                else
+                {
+                    if (existingPosition != null)
+                    {
+                        result = new Vector3(lastPosition.x, existingPosition.Value.y, 0);
+                    }
+                    else
+                    {
+                        result = new Vector3(lastPosition.x, currentPosition.y, 0);
+                    }
+                }
+            }
+        }
+        else
+        {
+            if (existingPosition != null)
+            {
+                result = existingPosition.Value;
+            }
+            else
+            {
+                result = currentPosition;
+            }
+        }
+
+        return result;
+    }
+
 
     public GameObject DrawMesh2D(Vector3 startPoint, Vector3 endPoint, float width, string name)
     {

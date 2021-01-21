@@ -50,6 +50,7 @@ public class DomaManager : MonoBehaviour
 
     public TMPro.TMP_InputField fileNameTextBox;
     public TMPro.TMP_Text savedFilesTextBox;
+    public TMPro.TMP_Text lengthWallText;
 
     private DomaContainer domaContainer;
     private bool activeMiniCameraFor3DView = true;
