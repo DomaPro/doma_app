@@ -15,7 +15,7 @@ public class GableWall : MonoBehaviour
 
     DFloor activeFloor;
 
-    public float KneeWall = 2.0f;
+    float KneeWall = 0f;
 
     void Start()
     {

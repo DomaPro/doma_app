@@ -109,11 +109,11 @@ public class DRoof: MonoBehaviour
         //var l1 = 0.1f; // okap z boku
         //var l2 = 0.1f; // okap na szczycie
 
-        Height = 2.8f;
+        //Height = 2.8f;
 
         var y1 = 0.5f; // wysokoœæ
-        var l1 = 0.1f; // okap z boku
-        var l2 = 0.1f; // okap na szczycie
+        var l1 = 0.7f; // okap z boku
+        var l2 = 0.7f; // okap na szczycie
 
         // P0'
         var v03n = (vertices2D[0] - vertices2D[3]).normalized;
