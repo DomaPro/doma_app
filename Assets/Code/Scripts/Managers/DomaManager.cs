@@ -24,6 +24,10 @@ public class DomaManager : MonoBehaviour
     public RawImage box2DContainer;
     public RawImage box3DContainer;
     public RawImage miniBox3DContainer;
+    public RenderTexture miniBox3DRenderTexture;
+    public GameObject leftBox;
+    public GameObject topBar;
+    public GameObject bottomBar;
 
     [Header("Cameras")]
     public Camera cameraFor2DView;
@@ -32,6 +36,7 @@ public class DomaManager : MonoBehaviour
 
     [Header("Buttons")]
     public Image switchMini3DView;
+    public Image maxMini3DView;
 
     [Header("Areas")]
     public GameObject area2D;
@@ -51,6 +56,10 @@ public class DomaManager : MonoBehaviour
     public TMPro.TMP_InputField fileNameTextBox;
     public TMPro.TMP_Text savedFilesTextBox;
     public TMPro.TMP_Text lengthWallText;
+
+    public TMPro.TMP_InputField widthInput;
+    public TMPro.TMP_InputField heightInput;
+    public TMPro.TMP_InputField spaceInput;
 
     private DomaContainer domaContainer;
     private bool activeMiniCameraFor3DView = true;
@@ -74,6 +83,8 @@ public class DomaManager : MonoBehaviour
 
     List<GameObject> referencesToObjectsForRemove;
 
+    Dictionary<string,string> DefaultTexturesForObjects { get; set; }
+
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -84,6 +95,37 @@ public class DomaManager : MonoBehaviour
         {
             _instance = this;
         }
+    }
+
+    /// <summary>
+    /// Test dokumentacji
+    /// </summary>
+    void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+        domaContainer = DomaContainer.Instance;
+
+        Application.targetFrameRate = domaContainer.TargetFrameRate;
+
+        // Turn off v-sync
+        //QualitySettings.vSyncCount = 2;
+
+        LoadData("domaApp");
+
+        Enable2DView();
+
+        ShowSavedFiles();
+
+        gameObjectCircleTip = new GameObject("CircleTip");
+        newImage = gameObjectCircleTip.AddComponent<SpriteRenderer>();
+        newImage.sprite = ImageToolTipPoint;
+        gameObjectCircleTip.SetActive(false);
+        currentStatusDoma.activeFloor = currentStatusDoma.appSystem.Floors.FirstOrDefault();
+
+        DefaultTexturesForObjects = new Dictionary<string, string>();
+        DefaultTexturesForObjects.Add("Wall", "Wall");
+        DefaultTexturesForObjects.Add("Ceiling", "TransparencyCeiling");
+        DefaultTexturesForObjects.Add("Roof", "Roof");
     }
 
     public void RemoveAllInstances(List<GameObject> referencesToObjectsForRemove)
@@ -154,7 +196,7 @@ public class DomaManager : MonoBehaviour
         else
         {
             currentStatusDoma.appSystem = new AppSystem(saveSystem);
-            
+
             foreach (var wall in currentStatusDoma.appSystem.Walls)
             {
                 wall.Instance2D = wall.DrawWall2D();
@@ -170,7 +212,7 @@ public class DomaManager : MonoBehaviour
             foreach (var roof in currentStatusDoma.appSystem.Roofs)
             {
                 //roof.Instance2D = roof.DrawRoofType1();
-                roof.Instance3D = roof.DrawRoofType1();
+                roof.Instance3D = roof.DrawRoof3D();
             }
 
             SetActiveFloorById(0);
@@ -192,32 +234,6 @@ public class DomaManager : MonoBehaviour
         }
 
         savedFilesTextBox.text = val;
-    }
-
-    /// <summary>
-    /// Test dokumentacji
-    /// </summary>
-    void Start()
-    {
-        DontDestroyOnLoad(gameObject);
-        domaContainer = DomaContainer.Instance;
-
-        Application.targetFrameRate = domaContainer.TargetFrameRate;
-
-        // Turn off v-sync
-        //QualitySettings.vSyncCount = 2;
-
-        LoadData("domaApp");
-
-        Enable2DView();
-
-        ShowSavedFiles();
-
-        gameObjectCircleTip = new GameObject("CircleTip");
-        newImage = gameObjectCircleTip.AddComponent<SpriteRenderer>();
-        newImage.sprite = ImageToolTipPoint;
-        gameObjectCircleTip.SetActive(false);
-        currentStatusDoma.activeFloor = currentStatusDoma.appSystem.Floors.FirstOrDefault();
     }
 
     /// <summary>
@@ -245,6 +261,25 @@ public class DomaManager : MonoBehaviour
         switchMini3DView.gameObject.SetActive(!activeMiniCameraFor3DView);
 
         lightForMini3DView.gameObject.SetActive(true);
+
+        // Załadowanie tekstur dla 3D
+        foreach (var wall in currentStatusDoma.appSystem.Walls)
+        {
+            if (wall.Instance3D)
+            {
+                var mr = wall.Instance3D.GetComponent<MeshRenderer>();
+                mr.material = wall.Material;
+            }
+        }
+
+        foreach (var ceiling in currentStatusDoma.appSystem.Ceilings)
+        {
+            if (ceiling.Instance3D)
+            {
+                var mr = ceiling.Instance3D.GetComponent<MeshRenderer>();
+                mr.material = ceiling.Material;
+            }
+        }
     }
 
     public void Enable3DView()
@@ -260,6 +295,25 @@ public class DomaManager : MonoBehaviour
         switchMini3DView.gameObject.SetActive(false);
 
         lightForMini3DView.gameObject.SetActive(false);
+
+        // Załadowanie kolorów dla 3D
+        foreach (var wall in currentStatusDoma.appSystem.Walls)
+        {
+            if (wall.Instance3D)
+            {
+                var mr = wall.Instance3D.GetComponent<MeshRenderer>();
+                mr.material = Resources.Load("Materials/" + DefaultTexturesForObjects["Wall"], typeof(Material)) as Material;
+            }
+        }
+
+        foreach (var ceiling in currentStatusDoma.appSystem.Ceilings)
+        {
+            if (ceiling.Instance3D)
+            {
+                var mr = ceiling.Instance3D.GetComponent<MeshRenderer>();
+                mr.material = Resources.Load("Materials/" + DefaultTexturesForObjects["Ceiling"], typeof(Material)) as Material;
+            }
+        }
     }
 
     public void SwitchMini3DView()
@@ -277,6 +331,34 @@ public class DomaManager : MonoBehaviour
             miniBox3DContainer.gameObject.SetActive(true);
             miniCameraFor3DView.gameObject.SetActive(true);
             switchMini3DView.gameObject.SetActive(false);
+        }
+    }
+
+    public void MaxMini3DView()
+    {
+        if (miniBox3DContainer.rectTransform.rect.width == 355)
+        {
+            miniBox3DContainer.GetComponent<RectTransform>().sizeDelta = new Vector2(1920, 1080);
+            miniBox3DContainer.rectTransform.anchoredPosition = new Vector2(0, 0);
+
+            maxMini3DView.GetComponentInChildren<TMPro.TMP_Text>().text = "MIN";
+
+            leftBox.gameObject.SetActive(false);
+            bottomBar.gameObject.SetActive(false);
+            topBar.gameObject.SetActive(false);
+            box2DContainer.gameObject.SetActive(false);
+        }
+        else
+        {
+            miniBox3DContainer.GetComponent<RectTransform>().sizeDelta = new Vector2(355, 200);
+            miniBox3DContainer.rectTransform.anchoredPosition = new Vector2(772.5f, -380);
+
+            maxMini3DView.GetComponentInChildren<TMPro.TMP_Text>().text = "MAX";
+
+            leftBox.gameObject.SetActive(true);
+            bottomBar.gameObject.SetActive(true);
+            topBar.gameObject.SetActive(true);
+            box2DContainer.gameObject.SetActive(true);
         }
     }
 
@@ -301,6 +383,8 @@ public class DomaManager : MonoBehaviour
                 allVertex.Add(item.gameObject.transform.TransformPoint(vert) - parentObject.transform.position);
             }
         }
+
+        if (allVertex.Count == 0) return null;
 
         float maxX = allVertex.Max(v => v.x);
         float minX = allVertex.Min(v => v.x);

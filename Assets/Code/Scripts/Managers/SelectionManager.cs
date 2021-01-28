@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SelectionManager : MonoBehaviour
 {
@@ -67,11 +68,11 @@ public class SelectionManager : MonoBehaviour
                     else
                     {
                         // Reset poprzedniego
-                        if(domaManager.SelectedObject != null && domaManager.SelectedObject.DomaObjectInstance != null)
+                        if (domaManager.SelectedObject != null && domaManager.SelectedObject.DomaObjectInstance != null)
                         {
                             domaManager.SelectedObject.DomaObjectInstance.GetComponent<Renderer>().material = domaManager.SelectedObject.OriginalMaterial;
                         }
-                        
+
                         // Dodanie nowego
                         domaManager.SelectedObject = new SelectedObjectDoma(hit.collider.gameObject);
                         if (tagsToChange.Contains(hit.collider.gameObject.tag))
@@ -79,6 +80,35 @@ public class SelectionManager : MonoBehaviour
                             hit.collider.gameObject.GetComponent<Renderer>().material = materialSelectedObject;
                         }
                     }
+                }
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            print("Add Logo to Wall");
+
+            if (domaManager.SelectedObject != null)
+            {
+                if (domaManager.SelectedObject.DomaObjectInstance.tag == "Wall")
+                {
+                    var wall = currentStatusDoma.GetWallByGameObject3D(domaManager.SelectedObject.DomaObjectInstance);
+                    var wall3D = wall.Instance3D;
+
+                    var startPoint = wall.StartPoint;
+                    var endPoint = wall.EndPoint;
+                    var height = wall.Height;
+
+                    var bisection = (startPoint + endPoint) * 0.5f;
+
+                    var myPoint = new Vector3(bisection.x, bisection.y + height / 2, bisection.z);
+
+                    Texture2D myTexture = Resources.Load("Materials/logo") as Texture2D;
+
+                    GameObject rawImage = new GameObject();
+                    rawImage.transform.localPosition = myPoint;
+
+                    rawImage.AddComponent<RawImage>().texture = myTexture;
                 }
             }
         }

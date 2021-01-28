@@ -21,7 +21,7 @@ public class CameraMoving : MonoBehaviour
         {
             var mousePosition = Input.mousePosition;
 
-            transform.position = new Vector3(transform.position.x + (_lastMousePosition.x - mousePosition.x) * Time.deltaTime * speedMoving, transform.position.y, transform.position.z + (_lastMousePosition.y - mousePosition.y) * Time.deltaTime * speedMoving);
+            transform.position = new Vector3(transform.position.x + (_lastMousePosition.x - mousePosition.x) * Time.deltaTime * speedMoving, transform.position.y + (_lastMousePosition.y - mousePosition.y) * Time.deltaTime * speedMoving, transform.position.z);
         }
 
         // Zoom In/Out

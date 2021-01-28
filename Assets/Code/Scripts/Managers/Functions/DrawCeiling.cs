@@ -10,28 +10,21 @@ public class DrawCeiling : MonoBehaviour
     [Header("Current Status Doma")]
     public CurrentStatusDoma currentStatusDoma;
 
-    public Material material;
     DomaManager domaManager;
 
-    GameObject area3D;
-    GameObject area2D;
+    Material material;
 
     List<Vector3> polygonPoints;
 
-    DFloor activeFloor;
-
     GameObject ceilingTempObject; // tymczasowy obiekt stropu 2D, podgląd na czas rysowania
 
-    // Start is called before the first frame update
     void Start()
     {
         domaManager = DomaManager.Instance;
-        activeFloor = domaManager.currentStatusDoma.activeFloor;
-
-        area3D = GameObject.Find("3DArea");
-        area2D = GameObject.Find("2DArea");
 
         polygonPoints = new List<Vector3>();
+
+        material = Resources.Load("Materials/concrete3_material", typeof(Material)) as Material;
     }
 
     // Update is called once per frame
@@ -71,12 +64,6 @@ public class DrawCeiling : MonoBehaviour
             DCeiling dCeiling = new DCeiling(0.2f, domaManager.currentStatusDoma.activeFloor.LevelBottom + domaManager.currentStatusDoma.activeFloor.Height, material, polygonPoints.ToArray());
             dCeiling.DrawCeiling2D();
             dCeiling.DrawCeiling3D();
-
-            //var ceiling2D = dCeiling.DrawCeiling2D();
-            //var ceiling3D = dCeiling.DrawCeiling3D();
-
-            //dCeiling.Instance2D = ceiling2D;
-            //dCeiling.Instance3D = ceiling3D;
 
             domaManager.currentStatusDoma.appSystem.Ceilings.Add(dCeiling);
 

@@ -116,18 +116,9 @@ namespace Net3dBool
      */
         public Solid getDifference()
         {
-            Debug.WriteLine("Modeller 1111");
             object2.invertInsideFaces();
-            Debug.WriteLine("Modeller 2222");
             Solid result = composeSolid(Face.OUTSIDE, Face.OPPOSITE, Face.INSIDE);
-            Debug.WriteLine("Modeller 3333");
             object2.invertInsideFaces();
-            Debug.WriteLine("Modeller 4444");
-
-            //foreach (var item in result.getIndices())
-            //{
-            //    Debug.WriteLine("Modeller result " + item);
-            //}
             return result;
         }
 

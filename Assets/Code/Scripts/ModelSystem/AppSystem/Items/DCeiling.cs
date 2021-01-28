@@ -118,6 +118,12 @@ public class DCeiling : MonoBehaviour
 
         var mesh = CombineMeshes(allMesheFilters.ToList());
 
+        if (Vertices3D != null && Vertices3D.Length > 0)
+        {
+            mesh.uv = UvCalculator.CalculateUVs(Vertices3D, 1);
+        }
+        mesh.RecalculateNormals();
+
         GameObject newObj = new GameObject();
         newObj.name = Name;
 

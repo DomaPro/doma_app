@@ -144,6 +144,10 @@ public class DWall : MonoBehaviour
         Mesh tmesh = new Mesh();
         tmesh.vertices = Vertices3D;
         tmesh.triangles = Triangles3D;
+        if (Vertices3D != null && Vertices3D.Length > 0)
+        {
+            tmesh.uv = UvCalculator.CalculateUVs(Vertices3D, 1);
+        }
         tmesh.RecalculateNormals();
         mf.mesh = tmesh;
 
@@ -176,9 +180,6 @@ public class DWall : MonoBehaviour
         // Referencja do starej œciany (aby mo¿na by³o usun¹c obiekt)
         var oldWall = Instance3D;
 
-        //DestroyImmediate(Instance3D);
-        //DestroyImmediate(holeObject);
-
         var modeller = new Net3dBool.BooleanModeller(solidWall, solidHole);
 
         Solid tmp = modeller.getDifference();
@@ -187,6 +188,10 @@ public class DWall : MonoBehaviour
         Mesh tmesh = new Mesh();
         tmesh.vertices = GetVertices(tmp);
         tmesh.triangles = tmp.getIndices();
+        if (tmesh.vertices != null && tmesh.vertices.Length > 0)
+        {
+            tmesh.uv = UvCalculator.CalculateUVs(tmesh.vertices, 1);
+        }
         tmesh.colors = GetColorsMesh(tmp);
         tmesh.RecalculateNormals();
         mf.mesh = tmesh;
@@ -291,8 +296,13 @@ public class DWall : MonoBehaviour
         var mesh = new Mesh
         {
             vertices = points.ToArray(),
-            triangles = triangles.ToArray()
+            triangles = triangles.ToArray(),
         };
+
+        if (points.ToArray() != null && points.ToArray().Length > 0)
+        {
+            mesh.uv = UvCalculator.CalculateUVs(points.ToArray(), 1);
+        }
 
         mesh.RecalculateNormals();
         mesh.RecalculateBounds();
@@ -323,7 +333,7 @@ public class DWall : MonoBehaviour
         Quaternion rotation = Quaternion.LookRotation(v, Vector3.up);
         rotation *= Quaternion.Euler(0, 90, 0);
 
-        var holeObject = DrawCube3D(position, rotation, width, height, 1f);
+        var holeObject = DrawCube3D(position, rotation, width, height, width);
         holeObject.transform.parent = Instance3D.transform;
 
         return holeObject;
@@ -337,13 +347,13 @@ public class DWall : MonoBehaviour
         var vertices = cube.GetComponent<MeshFilter>().mesh.vertices;
         for (int i = 0; i < vertices.Length; i++)
         {
-            vertices[i] = new Vector3((vertices[i].x * width) + position.x, (vertices[i].y * height) + position.y, vertices[i].z + position.z);
+            vertices[i] = new Vector3((vertices[i].x * width) + position.x, (vertices[i].y * height) + position.y, (vertices[i].z * width) + position.z);
         }
         cube.GetComponent<MeshFilter>().mesh.vertices = vertices;
 
         cube.name = "HoleCube";
         cube.GetComponent<Renderer>().material.color = Color.black;
-        cube.transform.localScale = new Vector3(width, height, wWall);
+        cube.transform.localScale = new Vector3(width, height, width);
         cube.transform.position = position;
         cube.transform.rotation = rotation;
 

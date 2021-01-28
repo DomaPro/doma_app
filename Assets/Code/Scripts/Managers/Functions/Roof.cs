@@ -7,26 +7,19 @@ public class Roof : MonoBehaviour
     [Header("Current Status Doma")]
     public CurrentStatusDoma currentStatusDoma;
 
-    public Material material;
     DomaManager domaManager;
-
-    GameObject area3D;
-    GameObject area2D;
+    public Material material;
 
     DFloor activeFloor;
 
     public float thickness = 0.3f;
-    public float height = 2.5f;
+    public float height = 4f;
 
     List<Vector3> polygonPoints;
 
     void Start()
     {
         domaManager = DomaManager.Instance;
-        activeFloor = domaManager.currentStatusDoma.activeFloor;
-
-        area3D = GameObject.Find("3DArea");
-        area2D = GameObject.Find("2DArea");
 
         polygonPoints = new List<Vector3>();
     }
@@ -55,11 +48,11 @@ public class Roof : MonoBehaviour
         {
             if (polygonPoints.Count < 4) return;
 
-            DRoof dRoof = new DRoof(height, thickness, activeFloor.LevelBottom + activeFloor.Height, polygonPoints.ToArray(), material);
+            DRoof dRoof = new DRoof(height, thickness, domaManager.currentStatusDoma.activeFloor.LevelBottom + domaManager.currentStatusDoma.activeFloor.Height, polygonPoints.ToArray(), material);
 
             if (domaManager.TypeRoof == 1)
             {
-                dRoof.DrawRoofType1();
+                dRoof.DrawRoofType1_v2();
                 currentStatusDoma.appSystem.Roofs.Add(dRoof);
             }
             else

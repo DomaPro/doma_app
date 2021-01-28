@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 [System.Serializable]
 public class SRoof
@@ -14,6 +15,9 @@ public class SRoof
     public String Material { get; set; }
 
     public List<float[]> Points { get; set; } // 2D
+    public int[] Triangles3D { get; set; }
+    public List<float[]> Vertices3D { get; set; }
+
 
     public SRoof(DRoof dRoof)
     {
@@ -29,6 +33,14 @@ public class SRoof
         foreach (var v in dRoof.Points)
         {
             Points.Add(new float[3] { v.x, v.y, v.z });
+        }
+
+        Triangles3D = dRoof.Instance3D.GetComponent<MeshFilter>().mesh.triangles;
+
+        Vertices3D = new List<float[]>();
+        foreach (var v in dRoof.Instance3D.GetComponent<MeshFilter>().mesh.vertices)
+        {
+            Vertices3D.Add(new float[3] { v.x, v.y, v.z });
         }
     }
 }

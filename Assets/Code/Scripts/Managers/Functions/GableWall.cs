@@ -15,7 +15,7 @@ public class GableWall : MonoBehaviour
 
     DFloor activeFloor;
 
-    public float KneeWall = 0f;
+    public float KneeWall = 2.0f;
 
     void Start()
     {
@@ -35,7 +35,7 @@ public class GableWall : MonoBehaviour
             if (domaManager.HoleInWall2D != null)
             {
                 DWall wall = domaManager.HoleInWall2D.Wall;
-                wall.GableWall3D(0f);
+                wall.GableWall3D(KneeWall);
             }
 
         }

@@ -11,10 +11,11 @@ public class DrawWall : MonoBehaviour
     [Header("Current Status Doma")]
     public CurrentStatusDoma currentStatusDoma;
 
-    [Header("Material")]
-    public Material material;
-
     DomaManager domaManager;
+
+    Material material;
+    Material materialType1;
+    Material materialType2;
 
     Vector3 startPoint2dView;
     Vector3 endPoint2dView;
@@ -33,6 +34,8 @@ public class DrawWall : MonoBehaviour
 
     void Start()
     {
+        print("DrawWall Start()");
+
         domaManager = DomaManager.Instance;
         activeFloor = currentStatusDoma.activeFloor;
 
@@ -47,6 +50,11 @@ public class DrawWall : MonoBehaviour
         tempLineRenderer.transform.parent = area2D.transform;
 
         lastPoint = Vector3.zero;
+
+        materialType1 = Resources.Load("Materials/concrete_block_material", typeof(Material)) as Material;
+        materialType2 = Resources.Load("Materials/airblock_material", typeof(Material)) as Material;
+
+        material = materialType1;
     }
 
     void Update()
@@ -58,18 +66,9 @@ public class DrawWall : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            if (nearestPoint != null)
-            {
-                lastPoint = point;
-                startPoint2dView = point;
-                startPoint3dView = GetPosition3dView(point, 2.5f);
-            }
-            else
-            {
-                lastPoint = point;
-                startPoint2dView = point;
-                startPoint3dView = GetPosition3dView(point, 2.5f);
-            }
+            lastPoint = point;
+            startPoint2dView = point;
+            startPoint3dView = GetPosition3dView(point, 2.5f);
         }
         else if (Input.GetMouseButton(0))
         {
@@ -83,30 +82,40 @@ public class DrawWall : MonoBehaviour
         }
         else if (Input.GetMouseButtonUp(0))
         {
-            if (nearestPoint != null)
+            lastPoint = point;
+            endPoint2dView = point;
+            endPoint3dView = GetPosition3dView(point, 2.5f);
+
+            // ********************************************************************************
+
+            if (domaManager.currentStatusDoma.activeFloor.LevelBottom < 0f)
             {
-                lastPoint = point;
-                endPoint2dView = point;
-                endPoint3dView = GetPosition3dView(point, 2.5f);
+                material = materialType1;
             }
             else
             {
-                lastPoint = point;
-                endPoint2dView = point;
-                endPoint3dView = GetPosition3dView(point, 2.5f);
+                material = materialType2;
             }
 
-            // ********************************************************************************
             float widthWall = 0.2f;
+            float height = currentStatusDoma.activeFloor.Height;
+
+            float h;
+            bool bH = float.TryParse(domaManager.heightInput.text, out h);
+            if (bH) height = h;
+
+            float w;
+            bool bW = float.TryParse(domaManager.widthInput.text, out w);
+            if (bW) widthWall = w;
+
             // 2D
             var obj2D = DrawMesh2D(startPoint2dView, endPoint2dView, widthWall, "Mesh2DPolygon");
 
             // 3D
-            var obj3D = DrawMesh3D(startPoint3dView, endPoint3dView, widthWall, "Mesh3DProBuilder");
-
+            var obj3D = DrawMesh3D(startPoint3dView, endPoint3dView, widthWall, height, "Mesh3DProBuilder");
 
             // NEW
-            DWall dWall = new DWall(currentStatusDoma.activeFloor.Id, startPoint2dView, endPoint2dView, 0.2f, currentStatusDoma.activeFloor.Height, currentStatusDoma.activeFloor.LevelBottom, material, obj2D, obj3D.Item1);
+            DWall dWall = new DWall(currentStatusDoma.activeFloor.Id, startPoint2dView, endPoint2dView, widthWall, height, currentStatusDoma.activeFloor.LevelBottom, material, obj2D, obj3D.Item1);
             currentStatusDoma.appSystem.Walls.Add(dWall);
         }
     }
@@ -247,12 +256,12 @@ public class DrawWall : MonoBehaviour
         return polygon;
     }
 
-    public Tuple<GameObject, Solid> DrawMesh3D(Vector3 startPoint, Vector3 endPoint, float width, string name)
+    public Tuple<GameObject, Solid> DrawMesh3D(Vector3 startPoint, Vector3 endPoint, float width, float height, string name)
     {
         activeFloor = currentStatusDoma.activeFloor;
         startPoint = new Vector3(startPoint.x, activeFloor.LevelBottom, startPoint.z);
         endPoint = new Vector3(endPoint.x, activeFloor.LevelBottom, endPoint.z);
-        float h = activeFloor.Height;
+        float h = height;
 
         GameObject gameObject = new GameObject();
         gameObject.name = name;
@@ -296,14 +305,23 @@ public class DrawWall : MonoBehaviour
 			0, 1, 6
         };
 
-        var obj = new Net3dBool.Solid(points3d, triangles, getColorArray(8, Color.black));
+        // UVs dla tekstury
+        Vector2[] uvs = new Vector2[vertices.Length];
+        for (int i = 0; i < uvs.Length; i++)
+        {
+            uvs[i] = new Vector2(vertices[i].x, vertices[i].y);
+        }
+        
 
+        var obj = new Net3dBool.Solid(points3d, triangles, getColorArray(8, Color.black));
+        
         MeshFilter mf = gameObject.AddComponent<MeshFilter>();
         Mesh tmesh = new Mesh();
 
         tmesh.vertices = GetVertices(obj);
         tmesh.triangles = obj.getIndices();
-        tmesh.colors = GetColorsMesh(obj);
+        tmesh.uv = uvs;
+        //tmesh.colors = GetColorsMesh(obj);
         tmesh.RecalculateNormals();
         mf.mesh = tmesh;
         MeshRenderer mr = gameObject.AddComponent<MeshRenderer>();
