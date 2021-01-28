@@ -1,0 +1,1174 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DWall
+  commentId: T:Global.DWall
+  id: DWall
+  parent: Global
+  children:
+  - Global.DWall.#ctor
+  - Global.DWall.#ctor(SWall)
+  - Global.DWall.#ctor(System.Guid,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,UnityEngine.Material,UnityEngine.GameObject,UnityEngine.GameObject)
+  - Global.DWall.BottomLevel
+  - Global.DWall.DrawHole3D(UnityEngine.Vector3,System.Single,System.Single)
+  - Global.DWall.DrawWall2D
+  - Global.DWall.DrawWall3D
+  - Global.DWall.DrawWallWithHole(UnityEngine.GameObject)
+  - Global.DWall.EndPoint
+  - Global.DWall.FloorId
+  - Global.DWall.GableWall3D(System.Single)
+  - Global.DWall.getColorArray(System.Int32,UnityEngine.Color)
+  - Global.DWall.Height
+  - Global.DWall.Id
+  - Global.DWall.Instance2D
+  - Global.DWall.Instance3D
+  - Global.DWall.Material
+  - Global.DWall.Name
+  - Global.DWall.StartPoint
+  - Global.DWall.Tag
+  - Global.DWall.Triangles3D
+  - Global.DWall.Vertices3D
+  - Global.DWall.Width
+  langs:
+  - csharp
+  - vb
+  name: DWall
+  nameWithType: DWall
+  fullName: DWall
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DWall
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class DWall : MonoBehaviour'
+    content.vb: >-
+      Public Class DWall
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DWall.Id
+  commentId: P:Global.DWall.Id
+  id: Id
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: DWall.Id
+  fullName: DWall.Id
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Id
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: Global.DWall.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.FloorId
+  commentId: P:Global.DWall.FloorId
+  id: FloorId
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: FloorId
+  nameWithType: DWall.FloorId
+  fullName: DWall.FloorId
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: FloorId
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Guid FloorId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property FloorId As Guid
+  overload: Global.DWall.FloorId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.Name
+  commentId: P:Global.DWall.Name
+  id: Name
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DWall.Name
+  fullName: DWall.Name
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Name
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Global.DWall.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.Tag
+  commentId: P:Global.DWall.Tag
+  id: Tag
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: DWall.Tag
+  fullName: DWall.Tag
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Tag
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Tag { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tag As String
+  overload: Global.DWall.Tag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.StartPoint
+  commentId: P:Global.DWall.StartPoint
+  id: StartPoint
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: StartPoint
+  nameWithType: DWall.StartPoint
+  fullName: DWall.StartPoint
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: StartPoint
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3 StartPoint { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property StartPoint As Vector3
+  overload: Global.DWall.StartPoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.EndPoint
+  commentId: P:Global.DWall.EndPoint
+  id: EndPoint
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: EndPoint
+  nameWithType: DWall.EndPoint
+  fullName: DWall.EndPoint
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: EndPoint
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3 EndPoint { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property EndPoint As Vector3
+  overload: Global.DWall.EndPoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.Width
+  commentId: P:Global.DWall.Width
+  id: Width
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: DWall.Width
+  fullName: DWall.Width
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Width
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float Width { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Width As Single
+  overload: Global.DWall.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.Height
+  commentId: P:Global.DWall.Height
+  id: Height
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: DWall.Height
+  fullName: DWall.Height
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Height
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float Height { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Height As Single
+  overload: Global.DWall.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.BottomLevel
+  commentId: P:Global.DWall.BottomLevel
+  id: BottomLevel
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: BottomLevel
+  nameWithType: DWall.BottomLevel
+  fullName: DWall.BottomLevel
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: BottomLevel
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float BottomLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BottomLevel As Single
+  overload: Global.DWall.BottomLevel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.Material
+  commentId: P:Global.DWall.Material
+  id: Material
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: DWall.Material
+  fullName: DWall.Material
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Material
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Material Material { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property Material As Material
+  overload: Global.DWall.Material*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.Instance2D
+  commentId: P:Global.DWall.Instance2D
+  id: Instance2D
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: Instance2D
+  nameWithType: DWall.Instance2D
+  fullName: DWall.Instance2D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Instance2D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject Instance2D { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property Instance2D As GameObject
+  overload: Global.DWall.Instance2D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.Instance3D
+  commentId: P:Global.DWall.Instance3D
+  id: Instance3D
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: Instance3D
+  nameWithType: DWall.Instance3D
+  fullName: DWall.Instance3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Instance3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject Instance3D { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property Instance3D As GameObject
+  overload: Global.DWall.Instance3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.Triangles3D
+  commentId: P:Global.DWall.Triangles3D
+  id: Triangles3D
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: Triangles3D
+  nameWithType: DWall.Triangles3D
+  fullName: DWall.Triangles3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Triangles3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int[] Triangles3D { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property Triangles3D As Integer()
+  overload: Global.DWall.Triangles3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.Vertices3D
+  commentId: P:Global.DWall.Vertices3D
+  id: Vertices3D
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: Vertices3D
+  nameWithType: DWall.Vertices3D
+  fullName: DWall.Vertices3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Vertices3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 26
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3[] Vertices3D { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3[]
+    content.vb: Public Property Vertices3D As Vector3()
+  overload: Global.DWall.Vertices3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.#ctor
+  commentId: M:Global.DWall.#ctor
+  id: '#ctor'
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: DWall()
+  nameWithType: DWall.DWall()
+  fullName: DWall.DWall()
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 28
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DWall()
+    content.vb: Public Sub New
+  overload: Global.DWall.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.#ctor(System.Guid,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,UnityEngine.Material,UnityEngine.GameObject,UnityEngine.GameObject)
+  commentId: M:Global.DWall.#ctor(System.Guid,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,UnityEngine.Material,UnityEngine.GameObject,UnityEngine.GameObject)
+  id: '#ctor(System.Guid,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,UnityEngine.Material,UnityEngine.GameObject,UnityEngine.GameObject)'
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: DWall(Guid, Vector3, Vector3, Single, Single, Single, Material, GameObject, GameObject)
+  nameWithType: DWall.DWall(Guid, Vector3, Vector3, Single, Single, Single, Material, GameObject, GameObject)
+  fullName: DWall.DWall(System.Guid, UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Single, System.Single, UnityEngine.Material, UnityEngine.GameObject, UnityEngine.GameObject)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 33
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DWall(Guid floorId, Vector3 startPoint, Vector3 endPoint, float width, float height, float bottomLevel, Material material, GameObject instance2D = null, GameObject instance3D = null)
+    parameters:
+    - id: floorId
+      type: System.Guid
+    - id: startPoint
+      type: UnityEngine.Vector3
+    - id: endPoint
+      type: UnityEngine.Vector3
+    - id: width
+      type: System.Single
+    - id: height
+      type: System.Single
+    - id: bottomLevel
+      type: System.Single
+    - id: material
+      type: UnityEngine.Material
+    - id: instance2D
+      type: UnityEngine.GameObject
+    - id: instance3D
+      type: UnityEngine.GameObject
+    content.vb: Public Sub New(floorId As Guid, startPoint As Vector3, endPoint As Vector3, width As Single, height As Single, bottomLevel As Single, material As Material, instance2D As GameObject = Nothing, instance3D As GameObject = Nothing)
+  overload: Global.DWall.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.#ctor(SWall)
+  commentId: M:Global.DWall.#ctor(SWall)
+  id: '#ctor(SWall)'
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: DWall(SWall)
+  nameWithType: DWall.DWall(SWall)
+  fullName: DWall.DWall(SWall)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 52
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DWall(SWall sWall)
+    parameters:
+    - id: sWall
+      type: Global.SWall
+    content.vb: Public Sub New(sWall As SWall)
+  overload: Global.DWall.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.DrawWall2D
+  commentId: M:Global.DWall.DrawWall2D
+  id: DrawWall2D
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: DrawWall2D()
+  nameWithType: DWall.DrawWall2D()
+  fullName: DWall.DrawWall2D()
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DrawWall2D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 76
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject DrawWall2D()
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function DrawWall2D As GameObject
+  overload: Global.DWall.DrawWall2D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.DrawWall3D
+  commentId: M:Global.DWall.DrawWall3D
+  id: DrawWall3D
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: DrawWall3D()
+  nameWithType: DWall.DrawWall3D()
+  fullName: DWall.DrawWall3D()
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DrawWall3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 136
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject DrawWall3D()
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function DrawWall3D As GameObject
+  overload: Global.DWall.DrawWall3D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.DrawWallWithHole(UnityEngine.GameObject)
+  commentId: M:Global.DWall.DrawWallWithHole(UnityEngine.GameObject)
+  id: DrawWallWithHole(UnityEngine.GameObject)
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: DrawWallWithHole(GameObject)
+  nameWithType: DWall.DrawWallWithHole(GameObject)
+  fullName: DWall.DrawWallWithHole(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DrawWallWithHole
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 171
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject DrawWallWithHole(GameObject holeObject)
+    parameters:
+    - id: holeObject
+      type: UnityEngine.GameObject
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function DrawWallWithHole(holeObject As GameObject) As GameObject
+  overload: Global.DWall.DrawWallWithHole*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.GableWall3D(System.Single)
+  commentId: M:Global.DWall.GableWall3D(System.Single)
+  id: GableWall3D(System.Single)
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: GableWall3D(Single)
+  nameWithType: DWall.GableWall3D(Single)
+  fullName: DWall.GableWall3D(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GableWall3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 224
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject GableWall3D(float kneeHeight)
+    parameters:
+    - id: kneeHeight
+      type: System.Single
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function GableWall3D(kneeHeight As Single) As GameObject
+  overload: Global.DWall.GableWall3D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.DrawHole3D(UnityEngine.Vector3,System.Single,System.Single)
+  commentId: M:Global.DWall.DrawHole3D(UnityEngine.Vector3,System.Single,System.Single)
+  id: DrawHole3D(UnityEngine.Vector3,System.Single,System.Single)
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: DrawHole3D(Vector3, Single, Single)
+  nameWithType: DWall.DrawHole3D(Vector3, Single, Single)
+  fullName: DWall.DrawHole3D(UnityEngine.Vector3, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DrawHole3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 329
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject DrawHole3D(Vector3 position, float width, float height)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+    - id: width
+      type: System.Single
+    - id: height
+      type: System.Single
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function DrawHole3D(position As Vector3, width As Single, height As Single) As GameObject
+  overload: Global.DWall.DrawHole3D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DWall.getColorArray(System.Int32,UnityEngine.Color)
+  commentId: M:Global.DWall.getColorArray(System.Int32,UnityEngine.Color)
+  id: getColorArray(System.Int32,UnityEngine.Color)
+  parent: Global.DWall
+  langs:
+  - csharp
+  - vb
+  name: getColorArray(Int32, Color)
+  nameWithType: DWall.getColorArray(Int32, Color)
+  fullName: DWall.getColorArray(System.Int32, UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: getColorArray
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DWall.cs
+    startLine: 384
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Color3f[] getColorArray(int length, Color c)
+    parameters:
+    - id: length
+      type: System.Int32
+    - id: c
+      type: UnityEngine.Color
+    return:
+      type: Net3dBool.Color3f[]
+    content.vb: Public Function getColorArray(length As Integer, c As Color) As Color3f()
+  overload: Global.DWall.getColorArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.DWall.Id*
+  commentId: Overload:Global.DWall.Id
+  name: Id
+  nameWithType: DWall.Id
+  fullName: DWall.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Global.DWall.FloorId*
+  commentId: Overload:Global.DWall.FloorId
+  name: FloorId
+  nameWithType: DWall.FloorId
+  fullName: DWall.FloorId
+- uid: Global.DWall.Name*
+  commentId: Overload:Global.DWall.Name
+  name: Name
+  nameWithType: DWall.Name
+  fullName: DWall.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.DWall.Tag*
+  commentId: Overload:Global.DWall.Tag
+  name: Tag
+  nameWithType: DWall.Tag
+  fullName: DWall.Tag
+- uid: Global.DWall.StartPoint*
+  commentId: Overload:Global.DWall.StartPoint
+  name: StartPoint
+  nameWithType: DWall.StartPoint
+  fullName: DWall.StartPoint
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: Global.DWall.EndPoint*
+  commentId: Overload:Global.DWall.EndPoint
+  name: EndPoint
+  nameWithType: DWall.EndPoint
+  fullName: DWall.EndPoint
+- uid: Global.DWall.Width*
+  commentId: Overload:Global.DWall.Width
+  name: Width
+  nameWithType: DWall.Width
+  fullName: DWall.Width
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.DWall.Height*
+  commentId: Overload:Global.DWall.Height
+  name: Height
+  nameWithType: DWall.Height
+  fullName: DWall.Height
+- uid: Global.DWall.BottomLevel*
+  commentId: Overload:Global.DWall.BottomLevel
+  name: BottomLevel
+  nameWithType: DWall.BottomLevel
+  fullName: DWall.BottomLevel
+- uid: Global.DWall.Material*
+  commentId: Overload:Global.DWall.Material
+  name: Material
+  nameWithType: DWall.Material
+  fullName: DWall.Material
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: Global.DWall.Instance2D*
+  commentId: Overload:Global.DWall.Instance2D
+  name: Instance2D
+  nameWithType: DWall.Instance2D
+  fullName: DWall.Instance2D
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Global.DWall.Instance3D*
+  commentId: Overload:Global.DWall.Instance3D
+  name: Instance3D
+  nameWithType: DWall.Instance3D
+  fullName: DWall.Instance3D
+- uid: Global.DWall.Triangles3D*
+  commentId: Overload:Global.DWall.Triangles3D
+  name: Triangles3D
+  nameWithType: DWall.Triangles3D
+  fullName: DWall.Triangles3D
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.DWall.Vertices3D*
+  commentId: Overload:Global.DWall.Vertices3D
+  name: Vertices3D
+  nameWithType: DWall.Vertices3D
+  fullName: DWall.Vertices3D
+- uid: UnityEngine.Vector3[]
+  isExternal: true
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: UnityEngine.Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: UnityEngine.Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.DWall.#ctor*
+  commentId: Overload:Global.DWall.#ctor
+  name: DWall
+  nameWithType: DWall.DWall
+  fullName: DWall.DWall
+- uid: Global.SWall
+  commentId: T:Global.SWall
+  name: SWall
+  nameWithType: SWall
+  fullName: SWall
+- uid: Global.DWall.DrawWall2D*
+  commentId: Overload:Global.DWall.DrawWall2D
+  name: DrawWall2D
+  nameWithType: DWall.DrawWall2D
+  fullName: DWall.DrawWall2D
+- uid: Global.DWall.DrawWall3D*
+  commentId: Overload:Global.DWall.DrawWall3D
+  name: DrawWall3D
+  nameWithType: DWall.DrawWall3D
+  fullName: DWall.DrawWall3D
+- uid: Global.DWall.DrawWallWithHole*
+  commentId: Overload:Global.DWall.DrawWallWithHole
+  name: DrawWallWithHole
+  nameWithType: DWall.DrawWallWithHole
+  fullName: DWall.DrawWallWithHole
+- uid: Global.DWall.GableWall3D*
+  commentId: Overload:Global.DWall.GableWall3D
+  name: GableWall3D
+  nameWithType: DWall.GableWall3D
+  fullName: DWall.GableWall3D
+- uid: Global.DWall.DrawHole3D*
+  commentId: Overload:Global.DWall.DrawHole3D
+  name: DrawHole3D
+  nameWithType: DWall.DrawHole3D
+  fullName: DWall.DrawHole3D
+- uid: Global.DWall.getColorArray*
+  commentId: Overload:Global.DWall.getColorArray
+  name: getColorArray
+  nameWithType: DWall.getColorArray
+  fullName: DWall.getColorArray
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: Net3dBool.Color3f[]
+  isExternal: true
+  name: Color3f[]
+  nameWithType: Color3f[]
+  fullName: Net3dBool.Color3f[]
+  nameWithType.vb: Color3f()
+  fullName.vb: Net3dBool.Color3f()
+  name.vb: Color3f()
+  spec.csharp:
+  - uid: Net3dBool.Color3f
+    name: Color3f
+    nameWithType: Color3f
+    fullName: Net3dBool.Color3f
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Net3dBool.Color3f
+    name: Color3f
+    nameWithType: Color3f
+    fullName: Net3dBool.Color3f
+  - name: ()
+    nameWithType: ()
+    fullName: ()

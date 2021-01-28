@@ -1,0 +1,663 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SRoof
+  commentId: T:Global.SRoof
+  id: SRoof
+  parent: Global
+  children:
+  - Global.SRoof.#ctor(DRoof)
+  - Global.SRoof.Height
+  - Global.SRoof.Id
+  - Global.SRoof.LevelBottom
+  - Global.SRoof.Material
+  - Global.SRoof.Name
+  - Global.SRoof.Points
+  - Global.SRoof.Tag
+  - Global.SRoof.Thickness
+  - Global.SRoof.Triangles3D
+  - Global.SRoof.Vertices3D
+  langs:
+  - csharp
+  - vb
+  name: SRoof
+  nameWithType: SRoof
+  fullName: SRoof
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: SRoof
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SRoof
+    content.vb: >-
+      <Serializable>
+
+      Public Class SRoof
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SRoof.Id
+  commentId: P:Global.SRoof.Id
+  id: Id
+  parent: Global.SRoof
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SRoof.Id
+  fullName: SRoof.Id
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Id
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: Global.SRoof.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SRoof.Name
+  commentId: P:Global.SRoof.Name
+  id: Name
+  parent: Global.SRoof
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SRoof.Name
+  fullName: SRoof.Name
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Name
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Global.SRoof.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SRoof.Tag
+  commentId: P:Global.SRoof.Tag
+  id: Tag
+  parent: Global.SRoof
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: SRoof.Tag
+  fullName: SRoof.Tag
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Tag
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Tag { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tag As String
+  overload: Global.SRoof.Tag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SRoof.Height
+  commentId: P:Global.SRoof.Height
+  id: Height
+  parent: Global.SRoof
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: SRoof.Height
+  fullName: SRoof.Height
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Height
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float Height { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Height As Single
+  overload: Global.SRoof.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SRoof.Thickness
+  commentId: P:Global.SRoof.Thickness
+  id: Thickness
+  parent: Global.SRoof
+  langs:
+  - csharp
+  - vb
+  name: Thickness
+  nameWithType: SRoof.Thickness
+  fullName: SRoof.Thickness
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Thickness
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float Thickness { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Thickness As Single
+  overload: Global.SRoof.Thickness*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SRoof.LevelBottom
+  commentId: P:Global.SRoof.LevelBottom
+  id: LevelBottom
+  parent: Global.SRoof
+  langs:
+  - csharp
+  - vb
+  name: LevelBottom
+  nameWithType: SRoof.LevelBottom
+  fullName: SRoof.LevelBottom
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: LevelBottom
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float LevelBottom { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property LevelBottom As Single
+  overload: Global.SRoof.LevelBottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SRoof.Material
+  commentId: P:Global.SRoof.Material
+  id: Material
+  parent: Global.SRoof
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: SRoof.Material
+  fullName: SRoof.Material
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Material
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Material { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Material As String
+  overload: Global.SRoof.Material*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SRoof.Points
+  commentId: P:Global.SRoof.Points
+  id: Points
+  parent: Global.SRoof
+  langs:
+  - csharp
+  - vb
+  name: Points
+  nameWithType: SRoof.Points
+  fullName: SRoof.Points
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Points
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<float[]> Points { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Single[]}
+    content.vb: Public Property Points As List(Of Single())
+  overload: Global.SRoof.Points*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SRoof.Triangles3D
+  commentId: P:Global.SRoof.Triangles3D
+  id: Triangles3D
+  parent: Global.SRoof
+  langs:
+  - csharp
+  - vb
+  name: Triangles3D
+  nameWithType: SRoof.Triangles3D
+  fullName: SRoof.Triangles3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Triangles3D
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int[] Triangles3D { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property Triangles3D As Integer()
+  overload: Global.SRoof.Triangles3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SRoof.Vertices3D
+  commentId: P:Global.SRoof.Vertices3D
+  id: Vertices3D
+  parent: Global.SRoof
+  langs:
+  - csharp
+  - vb
+  name: Vertices3D
+  nameWithType: SRoof.Vertices3D
+  fullName: SRoof.Vertices3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Vertices3D
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<float[]> Vertices3D { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Single[]}
+    content.vb: Public Property Vertices3D As List(Of Single())
+  overload: Global.SRoof.Vertices3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SRoof.#ctor(DRoof)
+  commentId: M:Global.SRoof.#ctor(DRoof)
+  id: '#ctor(DRoof)'
+  parent: Global.SRoof
+  langs:
+  - csharp
+  - vb
+  name: SRoof(DRoof)
+  nameWithType: SRoof.SRoof(DRoof)
+  fullName: SRoof.SRoof(DRoof)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SRoof.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public SRoof(DRoof dRoof)
+    parameters:
+    - id: dRoof
+      type: Global.DRoof
+    content.vb: Public Sub New(dRoof As DRoof)
+  overload: Global.SRoof.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SRoof.Id*
+  commentId: Overload:Global.SRoof.Id
+  name: Id
+  nameWithType: SRoof.Id
+  fullName: SRoof.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Global.SRoof.Name*
+  commentId: Overload:Global.SRoof.Name
+  name: Name
+  nameWithType: SRoof.Name
+  fullName: SRoof.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.SRoof.Tag*
+  commentId: Overload:Global.SRoof.Tag
+  name: Tag
+  nameWithType: SRoof.Tag
+  fullName: SRoof.Tag
+- uid: Global.SRoof.Height*
+  commentId: Overload:Global.SRoof.Height
+  name: Height
+  nameWithType: SRoof.Height
+  fullName: SRoof.Height
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.SRoof.Thickness*
+  commentId: Overload:Global.SRoof.Thickness
+  name: Thickness
+  nameWithType: SRoof.Thickness
+  fullName: SRoof.Thickness
+- uid: Global.SRoof.LevelBottom*
+  commentId: Overload:Global.SRoof.LevelBottom
+  name: LevelBottom
+  nameWithType: SRoof.LevelBottom
+  fullName: SRoof.LevelBottom
+- uid: Global.SRoof.Material*
+  commentId: Overload:Global.SRoof.Material
+  name: Material
+  nameWithType: SRoof.Material
+  fullName: SRoof.Material
+- uid: Global.SRoof.Points*
+  commentId: Overload:Global.SRoof.Points
+  name: Points
+  nameWithType: SRoof.Points
+  fullName: SRoof.Points
+- uid: System.Collections.Generic.List{System.Single[]}
+  commentId: T:System.Collections.Generic.List{System.Single[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Single[]>
+  nameWithType: List<Single[]>
+  fullName: System.Collections.Generic.List<System.Single[]>
+  nameWithType.vb: List(Of Single())
+  fullName.vb: System.Collections.Generic.List(Of System.Single())
+  name.vb: List(Of Single())
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.SRoof.Triangles3D*
+  commentId: Overload:Global.SRoof.Triangles3D
+  name: Triangles3D
+  nameWithType: SRoof.Triangles3D
+  fullName: SRoof.Triangles3D
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.SRoof.Vertices3D*
+  commentId: Overload:Global.SRoof.Vertices3D
+  name: Vertices3D
+  nameWithType: SRoof.Vertices3D
+  fullName: SRoof.Vertices3D
+- uid: Global.SRoof.#ctor*
+  commentId: Overload:Global.SRoof.#ctor
+  name: SRoof
+  nameWithType: SRoof.SRoof
+  fullName: SRoof.SRoof
+- uid: Global.DRoof
+  commentId: T:Global.DRoof
+  name: DRoof
+  nameWithType: DRoof
+  fullName: DRoof

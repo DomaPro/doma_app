@@ -1,0 +1,401 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ShowObjectsOnFloorDropdown
+  commentId: T:Global.ShowObjectsOnFloorDropdown
+  id: ShowObjectsOnFloorDropdown
+  parent: Global
+  children:
+  - Global.ShowObjectsOnFloorDropdown.currentStatusDoma
+  - Global.ShowObjectsOnFloorDropdown.EnableAllWalls(System.Boolean)
+  - Global.ShowObjectsOnFloorDropdown.EnableCeilings(System.Boolean)
+  - Global.ShowObjectsOnFloorDropdown.EnableRoofs(System.Boolean)
+  - Global.ShowObjectsOnFloorDropdown.EnableWallsById(System.Guid)
+  - Global.ShowObjectsOnFloorDropdown.SetDropdownIndex(System.Int32)
+  - Global.ShowObjectsOnFloorDropdown.ShowObjectsOnFloors(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ShowObjectsOnFloorDropdown
+  nameWithType: ShowObjectsOnFloorDropdown
+  fullName: ShowObjectsOnFloorDropdown
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: ShowObjectsOnFloorDropdown
+    path: ../Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class ShowObjectsOnFloorDropdown : MonoBehaviour'
+    content.vb: >-
+      Public Class ShowObjectsOnFloorDropdown
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ShowObjectsOnFloorDropdown.currentStatusDoma
+  commentId: F:Global.ShowObjectsOnFloorDropdown.currentStatusDoma
+  id: currentStatusDoma
+  parent: Global.ShowObjectsOnFloorDropdown
+  langs:
+  - csharp
+  - vb
+  name: currentStatusDoma
+  nameWithType: ShowObjectsOnFloorDropdown.currentStatusDoma
+  fullName: ShowObjectsOnFloorDropdown.currentStatusDoma
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: currentStatusDoma
+    path: ../Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Header("Current Status Doma")]
+
+      public CurrentStatusDoma currentStatusDoma
+    return:
+      type: Global.CurrentStatusDoma
+    content.vb: >-
+      <Header("Current Status Doma")>
+
+      Public currentStatusDoma As CurrentStatusDoma
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Current Status Doma
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShowObjectsOnFloorDropdown.SetDropdownIndex(System.Int32)
+  commentId: M:Global.ShowObjectsOnFloorDropdown.SetDropdownIndex(System.Int32)
+  id: SetDropdownIndex(System.Int32)
+  parent: Global.ShowObjectsOnFloorDropdown
+  langs:
+  - csharp
+  - vb
+  name: SetDropdownIndex(Int32)
+  nameWithType: ShowObjectsOnFloorDropdown.SetDropdownIndex(Int32)
+  fullName: ShowObjectsOnFloorDropdown.SetDropdownIndex(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: SetDropdownIndex
+    path: ../Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+    startLine: 41
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void SetDropdownIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub SetDropdownIndex(index As Integer)
+  overload: Global.ShowObjectsOnFloorDropdown.SetDropdownIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShowObjectsOnFloorDropdown.ShowObjectsOnFloors(System.Int32)
+  commentId: M:Global.ShowObjectsOnFloorDropdown.ShowObjectsOnFloors(System.Int32)
+  id: ShowObjectsOnFloors(System.Int32)
+  parent: Global.ShowObjectsOnFloorDropdown
+  langs:
+  - csharp
+  - vb
+  name: ShowObjectsOnFloors(Int32)
+  nameWithType: ShowObjectsOnFloorDropdown.ShowObjectsOnFloors(Int32)
+  fullName: ShowObjectsOnFloorDropdown.ShowObjectsOnFloors(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: ShowObjectsOnFloors
+    path: ../Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+    startLine: 54
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void ShowObjectsOnFloors(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub ShowObjectsOnFloors(index As Integer)
+  overload: Global.ShowObjectsOnFloorDropdown.ShowObjectsOnFloors*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShowObjectsOnFloorDropdown.EnableWallsById(System.Guid)
+  commentId: M:Global.ShowObjectsOnFloorDropdown.EnableWallsById(System.Guid)
+  id: EnableWallsById(System.Guid)
+  parent: Global.ShowObjectsOnFloorDropdown
+  langs:
+  - csharp
+  - vb
+  name: EnableWallsById(Guid)
+  nameWithType: ShowObjectsOnFloorDropdown.EnableWallsById(Guid)
+  fullName: ShowObjectsOnFloorDropdown.EnableWallsById(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: EnableWallsById
+    path: ../Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+    startLine: 75
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void EnableWallsById(Guid gloorId)
+    parameters:
+    - id: gloorId
+      type: System.Guid
+    content.vb: Public Sub EnableWallsById(gloorId As Guid)
+  overload: Global.ShowObjectsOnFloorDropdown.EnableWallsById*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShowObjectsOnFloorDropdown.EnableAllWalls(System.Boolean)
+  commentId: M:Global.ShowObjectsOnFloorDropdown.EnableAllWalls(System.Boolean)
+  id: EnableAllWalls(System.Boolean)
+  parent: Global.ShowObjectsOnFloorDropdown
+  langs:
+  - csharp
+  - vb
+  name: EnableAllWalls(Boolean)
+  nameWithType: ShowObjectsOnFloorDropdown.EnableAllWalls(Boolean)
+  fullName: ShowObjectsOnFloorDropdown.EnableAllWalls(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: EnableAllWalls
+    path: ../Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+    startLine: 95
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void EnableAllWalls(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    content.vb: Public Sub EnableAllWalls(value As Boolean)
+  overload: Global.ShowObjectsOnFloorDropdown.EnableAllWalls*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShowObjectsOnFloorDropdown.EnableCeilings(System.Boolean)
+  commentId: M:Global.ShowObjectsOnFloorDropdown.EnableCeilings(System.Boolean)
+  id: EnableCeilings(System.Boolean)
+  parent: Global.ShowObjectsOnFloorDropdown
+  langs:
+  - csharp
+  - vb
+  name: EnableCeilings(Boolean)
+  nameWithType: ShowObjectsOnFloorDropdown.EnableCeilings(Boolean)
+  fullName: ShowObjectsOnFloorDropdown.EnableCeilings(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: EnableCeilings
+    path: ../Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+    startLine: 111
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void EnableCeilings(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    content.vb: Public Sub EnableCeilings(value As Boolean)
+  overload: Global.ShowObjectsOnFloorDropdown.EnableCeilings*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShowObjectsOnFloorDropdown.EnableRoofs(System.Boolean)
+  commentId: M:Global.ShowObjectsOnFloorDropdown.EnableRoofs(System.Boolean)
+  id: EnableRoofs(System.Boolean)
+  parent: Global.ShowObjectsOnFloorDropdown
+  langs:
+  - csharp
+  - vb
+  name: EnableRoofs(Boolean)
+  nameWithType: ShowObjectsOnFloorDropdown.EnableRoofs(Boolean)
+  fullName: ShowObjectsOnFloorDropdown.EnableRoofs(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: EnableRoofs
+    path: ../Assets/Code/Scripts/Others/ShowObjectsOnFloorDropdown.cs
+    startLine: 127
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void EnableRoofs(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+    content.vb: Public Sub EnableRoofs(value As Boolean)
+  overload: Global.ShowObjectsOnFloorDropdown.EnableRoofs*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.CurrentStatusDoma
+  commentId: T:Global.CurrentStatusDoma
+  name: CurrentStatusDoma
+  nameWithType: CurrentStatusDoma
+  fullName: CurrentStatusDoma
+- uid: Global.ShowObjectsOnFloorDropdown.SetDropdownIndex*
+  commentId: Overload:Global.ShowObjectsOnFloorDropdown.SetDropdownIndex
+  name: SetDropdownIndex
+  nameWithType: ShowObjectsOnFloorDropdown.SetDropdownIndex
+  fullName: ShowObjectsOnFloorDropdown.SetDropdownIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.ShowObjectsOnFloorDropdown.ShowObjectsOnFloors*
+  commentId: Overload:Global.ShowObjectsOnFloorDropdown.ShowObjectsOnFloors
+  name: ShowObjectsOnFloors
+  nameWithType: ShowObjectsOnFloorDropdown.ShowObjectsOnFloors
+  fullName: ShowObjectsOnFloorDropdown.ShowObjectsOnFloors
+- uid: Global.ShowObjectsOnFloorDropdown.EnableWallsById*
+  commentId: Overload:Global.ShowObjectsOnFloorDropdown.EnableWallsById
+  name: EnableWallsById
+  nameWithType: ShowObjectsOnFloorDropdown.EnableWallsById
+  fullName: ShowObjectsOnFloorDropdown.EnableWallsById
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Global.ShowObjectsOnFloorDropdown.EnableAllWalls*
+  commentId: Overload:Global.ShowObjectsOnFloorDropdown.EnableAllWalls
+  name: EnableAllWalls
+  nameWithType: ShowObjectsOnFloorDropdown.EnableAllWalls
+  fullName: ShowObjectsOnFloorDropdown.EnableAllWalls
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.ShowObjectsOnFloorDropdown.EnableCeilings*
+  commentId: Overload:Global.ShowObjectsOnFloorDropdown.EnableCeilings
+  name: EnableCeilings
+  nameWithType: ShowObjectsOnFloorDropdown.EnableCeilings
+  fullName: ShowObjectsOnFloorDropdown.EnableCeilings
+- uid: Global.ShowObjectsOnFloorDropdown.EnableRoofs*
+  commentId: Overload:Global.ShowObjectsOnFloorDropdown.EnableRoofs
+  name: EnableRoofs
+  nameWithType: ShowObjectsOnFloorDropdown.EnableRoofs
+  fullName: ShowObjectsOnFloorDropdown.EnableRoofs

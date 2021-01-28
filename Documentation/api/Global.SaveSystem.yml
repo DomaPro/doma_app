@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SaveSystem
+  commentId: T:Global.SaveSystem
+  id: SaveSystem
+  parent: Global
+  children:
+  - Global.SaveSystem.GetNameAllFiles
+  - Global.SaveSystem.LoadObject(System.String)
+  - Global.SaveSystem.SaveObject(AppSystem)
+  langs:
+  - csharp
+  - vb
+  name: SaveSystem
+  nameWithType: SaveSystem
+  fullName: SaveSystem
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SaveSystem.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: SaveSystem
+    path: ../Assets/Code/Scripts/ModelSystem/SaveSystem.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static class SaveSystem
+    content.vb: Public Module SaveSystem
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.SaveSystem.SaveObject(AppSystem)
+  commentId: M:Global.SaveSystem.SaveObject(AppSystem)
+  id: SaveObject(AppSystem)
+  parent: Global.SaveSystem
+  langs:
+  - csharp
+  - vb
+  name: SaveObject(AppSystem)
+  nameWithType: SaveSystem.SaveObject(AppSystem)
+  fullName: SaveSystem.SaveObject(AppSystem)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SaveSystem.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: SaveObject
+    path: ../Assets/Code/Scripts/ModelSystem/SaveSystem.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static void SaveObject(AppSystem appSystem)
+    parameters:
+    - id: appSystem
+      type: Global.AppSystem
+    content.vb: Public Shared Sub SaveObject(appSystem As AppSystem)
+  overload: Global.SaveSystem.SaveObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SaveSystem.LoadObject(System.String)
+  commentId: M:Global.SaveSystem.LoadObject(System.String)
+  id: LoadObject(System.String)
+  parent: Global.SaveSystem
+  langs:
+  - csharp
+  - vb
+  name: LoadObject(String)
+  nameWithType: SaveSystem.LoadObject(String)
+  fullName: SaveSystem.LoadObject(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SaveSystem.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: LoadObject
+    path: ../Assets/Code/Scripts/ModelSystem/SaveSystem.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static SerializeSystem LoadObject(string nameFile)
+    parameters:
+    - id: nameFile
+      type: System.String
+    return:
+      type: Global.SerializeSystem
+    content.vb: Public Shared Function LoadObject(nameFile As String) As SerializeSystem
+  overload: Global.SaveSystem.LoadObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SaveSystem.GetNameAllFiles
+  commentId: M:Global.SaveSystem.GetNameAllFiles
+  id: GetNameAllFiles
+  parent: Global.SaveSystem
+  langs:
+  - csharp
+  - vb
+  name: GetNameAllFiles()
+  nameWithType: SaveSystem.GetNameAllFiles()
+  fullName: SaveSystem.GetNameAllFiles()
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SaveSystem.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GetNameAllFiles
+    path: ../Assets/Code/Scripts/ModelSystem/SaveSystem.cs
+    startLine: 45
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static string[] GetNameAllFiles()
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetNameAllFiles As String()
+  overload: Global.SaveSystem.GetNameAllFiles*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SaveSystem.SaveObject*
+  commentId: Overload:Global.SaveSystem.SaveObject
+  name: SaveObject
+  nameWithType: SaveSystem.SaveObject
+  fullName: SaveSystem.SaveObject
+- uid: Global.AppSystem
+  commentId: T:Global.AppSystem
+  name: AppSystem
+  nameWithType: AppSystem
+  fullName: AppSystem
+- uid: Global.SaveSystem.LoadObject*
+  commentId: Overload:Global.SaveSystem.LoadObject
+  name: LoadObject
+  nameWithType: SaveSystem.LoadObject
+  fullName: SaveSystem.LoadObject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.SerializeSystem
+  commentId: T:Global.SerializeSystem
+  name: SerializeSystem
+  nameWithType: SerializeSystem
+  fullName: SerializeSystem
+- uid: Global.SaveSystem.GetNameAllFiles*
+  commentId: Overload:Global.SaveSystem.GetNameAllFiles
+  name: GetNameAllFiles
+  nameWithType: SaveSystem.GetNameAllFiles
+  fullName: SaveSystem.GetNameAllFiles
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

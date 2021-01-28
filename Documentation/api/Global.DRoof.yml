@@ -1,0 +1,917 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DRoof
+  commentId: T:Global.DRoof
+  id: DRoof
+  parent: Global
+  children:
+  - Global.DRoof.#ctor(SRoof)
+  - Global.DRoof.#ctor(System.Single,System.Single,System.Single,UnityEngine.Vector3[],UnityEngine.Material)
+  - Global.DRoof.DrawRoof3D
+  - Global.DRoof.DrawRoofType1
+  - Global.DRoof.DrawRoofType1_v2
+  - Global.DRoof.DrawRoofType2
+  - Global.DRoof.Height
+  - Global.DRoof.Id
+  - Global.DRoof.Instance2D
+  - Global.DRoof.Instance3D
+  - Global.DRoof.LevelBottom
+  - Global.DRoof.Material
+  - Global.DRoof.Name
+  - Global.DRoof.Points
+  - Global.DRoof.Tag
+  - Global.DRoof.Thickness
+  - Global.DRoof.Triangles3D
+  - Global.DRoof.Vertices3D
+  langs:
+  - csharp
+  - vb
+  name: DRoof
+  nameWithType: DRoof
+  fullName: DRoof
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DRoof
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class DRoof : MonoBehaviour'
+    content.vb: >-
+      Public Class DRoof
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DRoof.Id
+  commentId: P:Global.DRoof.Id
+  id: Id
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: DRoof.Id
+  fullName: DRoof.Id
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Id
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: Global.DRoof.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.Name
+  commentId: P:Global.DRoof.Name
+  id: Name
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DRoof.Name
+  fullName: DRoof.Name
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Name
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Global.DRoof.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.Tag
+  commentId: P:Global.DRoof.Tag
+  id: Tag
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: DRoof.Tag
+  fullName: DRoof.Tag
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Tag
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Tag { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tag As String
+  overload: Global.DRoof.Tag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.Height
+  commentId: P:Global.DRoof.Height
+  id: Height
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: DRoof.Height
+  fullName: DRoof.Height
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Height
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float Height { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Height As Single
+  overload: Global.DRoof.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.Thickness
+  commentId: P:Global.DRoof.Thickness
+  id: Thickness
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: Thickness
+  nameWithType: DRoof.Thickness
+  fullName: DRoof.Thickness
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Thickness
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float Thickness { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Thickness As Single
+  overload: Global.DRoof.Thickness*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.LevelBottom
+  commentId: P:Global.DRoof.LevelBottom
+  id: LevelBottom
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: LevelBottom
+  nameWithType: DRoof.LevelBottom
+  fullName: DRoof.LevelBottom
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: LevelBottom
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float LevelBottom { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property LevelBottom As Single
+  overload: Global.DRoof.LevelBottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.Material
+  commentId: P:Global.DRoof.Material
+  id: Material
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: DRoof.Material
+  fullName: DRoof.Material
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Material
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Material Material { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property Material As Material
+  overload: Global.DRoof.Material*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.Points
+  commentId: P:Global.DRoof.Points
+  id: Points
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: Points
+  nameWithType: DRoof.Points
+  fullName: DRoof.Points
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Points
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3[] Points { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3[]
+    content.vb: Public Property Points As Vector3()
+  overload: Global.DRoof.Points*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.Triangles3D
+  commentId: P:Global.DRoof.Triangles3D
+  id: Triangles3D
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: Triangles3D
+  nameWithType: DRoof.Triangles3D
+  fullName: DRoof.Triangles3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Triangles3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 19
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int[] Triangles3D { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property Triangles3D As Integer()
+  overload: Global.DRoof.Triangles3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.Vertices3D
+  commentId: P:Global.DRoof.Vertices3D
+  id: Vertices3D
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: Vertices3D
+  nameWithType: DRoof.Vertices3D
+  fullName: DRoof.Vertices3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Vertices3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3[] Vertices3D { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3[]
+    content.vb: Public Property Vertices3D As Vector3()
+  overload: Global.DRoof.Vertices3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.Instance2D
+  commentId: P:Global.DRoof.Instance2D
+  id: Instance2D
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: Instance2D
+  nameWithType: DRoof.Instance2D
+  fullName: DRoof.Instance2D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Instance2D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject Instance2D { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property Instance2D As GameObject
+  overload: Global.DRoof.Instance2D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.Instance3D
+  commentId: P:Global.DRoof.Instance3D
+  id: Instance3D
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: Instance3D
+  nameWithType: DRoof.Instance3D
+  fullName: DRoof.Instance3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Instance3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject Instance3D { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property Instance3D As GameObject
+  overload: Global.DRoof.Instance3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.#ctor(System.Single,System.Single,System.Single,UnityEngine.Vector3[],UnityEngine.Material)
+  commentId: M:Global.DRoof.#ctor(System.Single,System.Single,System.Single,UnityEngine.Vector3[],UnityEngine.Material)
+  id: '#ctor(System.Single,System.Single,System.Single,UnityEngine.Vector3[],UnityEngine.Material)'
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: DRoof(Single, Single, Single, Vector3[], Material)
+  nameWithType: DRoof.DRoof(Single, Single, Single, Vector3[], Material)
+  fullName: DRoof.DRoof(System.Single, System.Single, System.Single, UnityEngine.Vector3[], UnityEngine.Material)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DRoof(float height, float thickness, float levelBottom, Vector3[] points, Material material)
+    parameters:
+    - id: height
+      type: System.Single
+    - id: thickness
+      type: System.Single
+    - id: levelBottom
+      type: System.Single
+    - id: points
+      type: UnityEngine.Vector3[]
+    - id: material
+      type: UnityEngine.Material
+    content.vb: Public Sub New(height As Single, thickness As Single, levelBottom As Single, points As Vector3(), material As Material)
+  overload: Global.DRoof.#ctor*
+  nameWithType.vb: DRoof.DRoof(Single, Single, Single, Vector3(), Material)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DRoof.DRoof(System.Single, System.Single, System.Single, UnityEngine.Vector3(), UnityEngine.Material)
+  name.vb: DRoof(Single, Single, Single, Vector3(), Material)
+- uid: Global.DRoof.#ctor(SRoof)
+  commentId: M:Global.DRoof.#ctor(SRoof)
+  id: '#ctor(SRoof)'
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: DRoof(SRoof)
+  nameWithType: DRoof.DRoof(SRoof)
+  fullName: DRoof.DRoof(SRoof)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 37
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DRoof(SRoof sRoof)
+    parameters:
+    - id: sRoof
+      type: Global.SRoof
+    content.vb: Public Sub New(sRoof As SRoof)
+  overload: Global.DRoof.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.DrawRoof3D
+  commentId: M:Global.DRoof.DrawRoof3D
+  id: DrawRoof3D
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: DrawRoof3D()
+  nameWithType: DRoof.DrawRoof3D()
+  fullName: DRoof.DrawRoof3D()
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DrawRoof3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 64
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject DrawRoof3D()
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function DrawRoof3D As GameObject
+  overload: Global.DRoof.DrawRoof3D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.DrawRoofType1_v2
+  commentId: M:Global.DRoof.DrawRoofType1_v2
+  id: DrawRoofType1_v2
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: DrawRoofType1_v2()
+  nameWithType: DRoof.DrawRoofType1_v2()
+  fullName: DRoof.DrawRoofType1_v2()
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DrawRoofType1_v2
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 95
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject DrawRoofType1_v2()
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function DrawRoofType1_v2 As GameObject
+  overload: Global.DRoof.DrawRoofType1_v2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.DrawRoofType1
+  commentId: M:Global.DRoof.DrawRoofType1
+  id: DrawRoofType1
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: DrawRoofType1()
+  nameWithType: DRoof.DrawRoofType1()
+  fullName: DRoof.DrawRoofType1()
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DrawRoofType1
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 223
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject DrawRoofType1()
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function DrawRoofType1 As GameObject
+  overload: Global.DRoof.DrawRoofType1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DRoof.DrawRoofType2
+  commentId: M:Global.DRoof.DrawRoofType2
+  id: DrawRoofType2
+  parent: Global.DRoof
+  langs:
+  - csharp
+  - vb
+  name: DrawRoofType2()
+  nameWithType: DRoof.DrawRoofType2()
+  fullName: DRoof.DrawRoofType2()
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DrawRoofType2
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DRoof.cs
+    startLine: 306
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject DrawRoofType2()
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function DrawRoofType2 As GameObject
+  overload: Global.DRoof.DrawRoofType2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.DRoof.Id*
+  commentId: Overload:Global.DRoof.Id
+  name: Id
+  nameWithType: DRoof.Id
+  fullName: DRoof.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Global.DRoof.Name*
+  commentId: Overload:Global.DRoof.Name
+  name: Name
+  nameWithType: DRoof.Name
+  fullName: DRoof.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.DRoof.Tag*
+  commentId: Overload:Global.DRoof.Tag
+  name: Tag
+  nameWithType: DRoof.Tag
+  fullName: DRoof.Tag
+- uid: Global.DRoof.Height*
+  commentId: Overload:Global.DRoof.Height
+  name: Height
+  nameWithType: DRoof.Height
+  fullName: DRoof.Height
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.DRoof.Thickness*
+  commentId: Overload:Global.DRoof.Thickness
+  name: Thickness
+  nameWithType: DRoof.Thickness
+  fullName: DRoof.Thickness
+- uid: Global.DRoof.LevelBottom*
+  commentId: Overload:Global.DRoof.LevelBottom
+  name: LevelBottom
+  nameWithType: DRoof.LevelBottom
+  fullName: DRoof.LevelBottom
+- uid: Global.DRoof.Material*
+  commentId: Overload:Global.DRoof.Material
+  name: Material
+  nameWithType: DRoof.Material
+  fullName: DRoof.Material
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: Global.DRoof.Points*
+  commentId: Overload:Global.DRoof.Points
+  name: Points
+  nameWithType: DRoof.Points
+  fullName: DRoof.Points
+- uid: UnityEngine.Vector3[]
+  isExternal: true
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: UnityEngine.Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: UnityEngine.Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.DRoof.Triangles3D*
+  commentId: Overload:Global.DRoof.Triangles3D
+  name: Triangles3D
+  nameWithType: DRoof.Triangles3D
+  fullName: DRoof.Triangles3D
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.DRoof.Vertices3D*
+  commentId: Overload:Global.DRoof.Vertices3D
+  name: Vertices3D
+  nameWithType: DRoof.Vertices3D
+  fullName: DRoof.Vertices3D
+- uid: Global.DRoof.Instance2D*
+  commentId: Overload:Global.DRoof.Instance2D
+  name: Instance2D
+  nameWithType: DRoof.Instance2D
+  fullName: DRoof.Instance2D
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Global.DRoof.Instance3D*
+  commentId: Overload:Global.DRoof.Instance3D
+  name: Instance3D
+  nameWithType: DRoof.Instance3D
+  fullName: DRoof.Instance3D
+- uid: Global.DRoof.#ctor*
+  commentId: Overload:Global.DRoof.#ctor
+  name: DRoof
+  nameWithType: DRoof.DRoof
+  fullName: DRoof.DRoof
+- uid: Global.SRoof
+  commentId: T:Global.SRoof
+  name: SRoof
+  nameWithType: SRoof
+  fullName: SRoof
+- uid: Global.DRoof.DrawRoof3D*
+  commentId: Overload:Global.DRoof.DrawRoof3D
+  name: DrawRoof3D
+  nameWithType: DRoof.DrawRoof3D
+  fullName: DRoof.DrawRoof3D
+- uid: Global.DRoof.DrawRoofType1_v2*
+  commentId: Overload:Global.DRoof.DrawRoofType1_v2
+  name: DrawRoofType1_v2
+  nameWithType: DRoof.DrawRoofType1_v2
+  fullName: DRoof.DrawRoofType1_v2
+- uid: Global.DRoof.DrawRoofType1*
+  commentId: Overload:Global.DRoof.DrawRoofType1
+  name: DrawRoofType1
+  nameWithType: DRoof.DrawRoofType1
+  fullName: DRoof.DrawRoofType1
+- uid: Global.DRoof.DrawRoofType2*
+  commentId: Overload:Global.DRoof.DrawRoofType2
+  name: DrawRoofType2
+  nameWithType: DRoof.DrawRoofType2
+  fullName: DRoof.DrawRoofType2

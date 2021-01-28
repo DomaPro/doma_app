@@ -1,0 +1,367 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DFloor
+  commentId: T:Global.DFloor
+  id: DFloor
+  parent: Global
+  children:
+  - Global.DFloor.#ctor(SFloor)
+  - Global.DFloor.#ctor(System.String,System.String,System.Single,System.Single)
+  - Global.DFloor.Height
+  - Global.DFloor.Id
+  - Global.DFloor.LevelBottom
+  - Global.DFloor.Name
+  - Global.DFloor.Tag
+  langs:
+  - csharp
+  - vb
+  name: DFloor
+  nameWithType: DFloor
+  fullName: DFloor
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DFloor
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+    startLine: 3
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public class DFloor
+    content.vb: Public Class DFloor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DFloor.Id
+  commentId: P:Global.DFloor.Id
+  id: Id
+  parent: Global.DFloor
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: DFloor.Id
+  fullName: DFloor.Id
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Id
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: Global.DFloor.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DFloor.Name
+  commentId: P:Global.DFloor.Name
+  id: Name
+  parent: Global.DFloor
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DFloor.Name
+  fullName: DFloor.Name
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Name
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Global.DFloor.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DFloor.Tag
+  commentId: P:Global.DFloor.Tag
+  id: Tag
+  parent: Global.DFloor
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: DFloor.Tag
+  fullName: DFloor.Tag
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Tag
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Tag { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tag As String
+  overload: Global.DFloor.Tag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DFloor.Height
+  commentId: P:Global.DFloor.Height
+  id: Height
+  parent: Global.DFloor
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: DFloor.Height
+  fullName: DFloor.Height
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Height
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float Height { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Height As Single
+  overload: Global.DFloor.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DFloor.LevelBottom
+  commentId: P:Global.DFloor.LevelBottom
+  id: LevelBottom
+  parent: Global.DFloor
+  langs:
+  - csharp
+  - vb
+  name: LevelBottom
+  nameWithType: DFloor.LevelBottom
+  fullName: DFloor.LevelBottom
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: LevelBottom
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float LevelBottom { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property LevelBottom As Single
+  overload: Global.DFloor.LevelBottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DFloor.#ctor(System.String,System.String,System.Single,System.Single)
+  commentId: M:Global.DFloor.#ctor(System.String,System.String,System.Single,System.Single)
+  id: '#ctor(System.String,System.String,System.Single,System.Single)'
+  parent: Global.DFloor
+  langs:
+  - csharp
+  - vb
+  name: DFloor(String, String, Single, Single)
+  nameWithType: DFloor.DFloor(String, String, Single, Single)
+  fullName: DFloor.DFloor(System.String, System.String, System.Single, System.Single)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DFloor(string name, string tag, float height, float levelBottom)
+    parameters:
+    - id: name
+      type: System.String
+    - id: tag
+      type: System.String
+    - id: height
+      type: System.Single
+    - id: levelBottom
+      type: System.Single
+    content.vb: Public Sub New(name As String, tag As String, height As Single, levelBottom As Single)
+  overload: Global.DFloor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DFloor.#ctor(SFloor)
+  commentId: M:Global.DFloor.#ctor(SFloor)
+  id: '#ctor(SFloor)'
+  parent: Global.DFloor
+  langs:
+  - csharp
+  - vb
+  name: DFloor(SFloor)
+  nameWithType: DFloor.DFloor(SFloor)
+  fullName: DFloor.DFloor(SFloor)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DFloor.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DFloor(SFloor sFloor)
+    parameters:
+    - id: sFloor
+      type: Global.SFloor
+    content.vb: Public Sub New(sFloor As SFloor)
+  overload: Global.DFloor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.DFloor.Id*
+  commentId: Overload:Global.DFloor.Id
+  name: Id
+  nameWithType: DFloor.Id
+  fullName: DFloor.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Global.DFloor.Name*
+  commentId: Overload:Global.DFloor.Name
+  name: Name
+  nameWithType: DFloor.Name
+  fullName: DFloor.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.DFloor.Tag*
+  commentId: Overload:Global.DFloor.Tag
+  name: Tag
+  nameWithType: DFloor.Tag
+  fullName: DFloor.Tag
+- uid: Global.DFloor.Height*
+  commentId: Overload:Global.DFloor.Height
+  name: Height
+  nameWithType: DFloor.Height
+  fullName: DFloor.Height
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.DFloor.LevelBottom*
+  commentId: Overload:Global.DFloor.LevelBottom
+  name: LevelBottom
+  nameWithType: DFloor.LevelBottom
+  fullName: DFloor.LevelBottom
+- uid: Global.DFloor.#ctor*
+  commentId: Overload:Global.DFloor.#ctor
+  name: DFloor
+  nameWithType: DFloor.DFloor
+  fullName: DFloor.DFloor
+- uid: Global.SFloor
+  commentId: T:Global.SFloor
+  name: SFloor
+  nameWithType: SFloor
+  fullName: SFloor

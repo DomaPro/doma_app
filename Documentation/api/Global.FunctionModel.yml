@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.FunctionModel
+  commentId: T:Global.FunctionModel
+  id: FunctionModel
+  parent: Global
+  children:
+  - Global.FunctionModel.#ctor(UnityEngine.GameObject,UnityEngine.UI.Button)
+  - Global.FunctionModel.Button
+  - Global.FunctionModel.GameObject
+  langs:
+  - csharp
+  - vb
+  name: FunctionModel
+  nameWithType: FunctionModel
+  fullName: FunctionModel
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: FunctionModel
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
+    startLine: 248
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public class FunctionModel
+    content.vb: Public Class FunctionModel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.FunctionModel.GameObject
+  commentId: P:Global.FunctionModel.GameObject
+  id: GameObject
+  parent: Global.FunctionModel
+  langs:
+  - csharp
+  - vb
+  name: GameObject
+  nameWithType: FunctionModel.GameObject
+  fullName: FunctionModel.GameObject
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GameObject
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
+    startLine: 250
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject GameObject { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property GameObject As GameObject
+  overload: Global.FunctionModel.GameObject*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionModel.Button
+  commentId: P:Global.FunctionModel.Button
+  id: Button
+  parent: Global.FunctionModel
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: FunctionModel.Button
+  fullName: FunctionModel.Button
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Button
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
+    startLine: 251
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Button Button { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: Public Property Button As Button
+  overload: Global.FunctionModel.Button*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.FunctionModel.#ctor(UnityEngine.GameObject,UnityEngine.UI.Button)
+  commentId: M:Global.FunctionModel.#ctor(UnityEngine.GameObject,UnityEngine.UI.Button)
+  id: '#ctor(UnityEngine.GameObject,UnityEngine.UI.Button)'
+  parent: Global.FunctionModel
+  langs:
+  - csharp
+  - vb
+  name: FunctionModel(GameObject, Button)
+  nameWithType: FunctionModel.FunctionModel(GameObject, Button)
+  fullName: FunctionModel.FunctionModel(UnityEngine.GameObject, UnityEngine.UI.Button)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/Managers/Functions/FunctionsManager.cs
+    startLine: 253
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public FunctionModel(GameObject gameObject, Button button)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    - id: button
+      type: UnityEngine.UI.Button
+    content.vb: Public Sub New(gameObject As GameObject, button As Button)
+  overload: Global.FunctionModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.FunctionModel.GameObject*
+  commentId: Overload:Global.FunctionModel.GameObject
+  name: GameObject
+  nameWithType: FunctionModel.GameObject
+  fullName: FunctionModel.GameObject
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.FunctionModel.Button*
+  commentId: Overload:Global.FunctionModel.Button
+  name: Button
+  nameWithType: FunctionModel.Button
+  fullName: FunctionModel.Button
+- uid: UnityEngine.UI.Button
+  commentId: T:UnityEngine.UI.Button
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UI.Button
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+- uid: Global.FunctionModel.#ctor*
+  commentId: Overload:Global.FunctionModel.#ctor
+  name: FunctionModel
+  nameWithType: FunctionModel.FunctionModel
+  fullName: FunctionModel.FunctionModel

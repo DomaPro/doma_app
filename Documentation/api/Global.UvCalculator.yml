@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UvCalculator
+  commentId: T:Global.UvCalculator
+  id: UvCalculator
+  parent: Global
+  children:
+  - Global.UvCalculator.CalculateUVs(UnityEngine.Vector3[],System.Single)
+  langs:
+  - csharp
+  - vb
+  name: UvCalculator
+  nameWithType: UvCalculator
+  fullName: UvCalculator
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/Others/UvCalculator.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: UvCalculator
+    path: ../Assets/Code/Scripts/Others/UvCalculator.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public class UvCalculator
+    content.vb: Public Class UvCalculator
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UvCalculator.CalculateUVs(UnityEngine.Vector3[],System.Single)
+  commentId: M:Global.UvCalculator.CalculateUVs(UnityEngine.Vector3[],System.Single)
+  id: CalculateUVs(UnityEngine.Vector3[],System.Single)
+  parent: Global.UvCalculator
+  langs:
+  - csharp
+  - vb
+  name: CalculateUVs(Vector3[], Single)
+  nameWithType: UvCalculator.CalculateUVs(Vector3[], Single)
+  fullName: UvCalculator.CalculateUVs(UnityEngine.Vector3[], System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Others/UvCalculator.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: CalculateUVs
+    path: ../Assets/Code/Scripts/Others/UvCalculator.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static Vector2[] CalculateUVs(Vector3[] v, float scale)
+    parameters:
+    - id: v
+      type: UnityEngine.Vector3[]
+    - id: scale
+      type: System.Single
+    return:
+      type: UnityEngine.Vector2[]
+    content.vb: Public Shared Function CalculateUVs(v As Vector3(), scale As Single) As Vector2()
+  overload: Global.UvCalculator.CalculateUVs*
+  nameWithType.vb: UvCalculator.CalculateUVs(Vector3(), Single)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UvCalculator.CalculateUVs(UnityEngine.Vector3(), System.Single)
+  name.vb: CalculateUVs(Vector3(), Single)
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UvCalculator.CalculateUVs*
+  commentId: Overload:Global.UvCalculator.CalculateUVs
+  name: CalculateUVs
+  nameWithType: UvCalculator.CalculateUVs
+  fullName: UvCalculator.CalculateUVs
+- uid: UnityEngine.Vector3[]
+  isExternal: true
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: UnityEngine.Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: UnityEngine.Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEngine.Vector2[]
+  isExternal: true
+  name: Vector2[]
+  nameWithType: Vector2[]
+  fullName: UnityEngine.Vector2[]
+  nameWithType.vb: Vector2()
+  fullName.vb: UnityEngine.Vector2()
+  name.vb: Vector2()
+  spec.csharp:
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: UnityEngine.Vector2
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

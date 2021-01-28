@@ -21,7 +21,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.AddHole.html",
-          "hash": "eiPBNsn2Bv9t1fh+7EAOrQ=="
+          "hash": "H3B3rW1EK7fW62yJbiC5Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AppSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AppSystem.html",
+          "hash": "lQb465B+gAaYupj7bP55bw=="
         }
       },
       "is_incremental": false,
@@ -45,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.CameraManager.html",
-          "hash": "tdkC0vPXWWq75enDYbFRzQ=="
+          "hash": "OIjF/Isxclbn3DZqdXtW2A=="
         }
       },
       "is_incremental": false,
@@ -77,11 +89,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.Ceiling.yml",
+      "source_relative_path": "api/Global.CurrentStatusDoma.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.Ceiling.html",
-          "hash": "MAA2JLB+/9YqS3g1MoEjgw=="
+          "relative_path": "api/Global.CurrentStatusDoma.html",
+          "hash": "cXBwIcNku0csfQEufCLoBQ=="
         }
       },
       "is_incremental": false,
@@ -89,11 +101,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.Ceiling2D.yml",
+      "source_relative_path": "api/Global.DCeiling.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.Ceiling2D.html",
-          "hash": "v/KWU4iPGcQ4DFlFweBcdA=="
+          "relative_path": "api/Global.DCeiling.html",
+          "hash": "v635hO5wImi5be4YCxH0Cw=="
         }
       },
       "is_incremental": false,
@@ -101,11 +113,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.Ceiling3D.yml",
+      "source_relative_path": "api/Global.DFloor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.Ceiling3D.html",
-          "hash": "C8AVxVS+Lm+uEtxZ6uAeuA=="
+          "relative_path": "api/Global.DFloor.html",
+          "hash": "GRv6sYM00+p8g0YJ5tVS0w=="
         }
       },
       "is_incremental": false,
@@ -113,11 +125,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.CeilingDoma.yml",
+      "source_relative_path": "api/Global.DRoof.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.CeilingDoma.html",
-          "hash": "HRtfUERAT9NPbpdBkGa7qA=="
+          "relative_path": "api/Global.DRoof.html",
+          "hash": "7unVXuBzbmimqblVTg/u9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DWall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DWall.html",
+          "hash": "Pw5oLc5u64MDE4OlD+Pb7A=="
         }
       },
       "is_incremental": false,
@@ -153,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.DomaManager.html",
-          "hash": "NaWwx9Nue6wBSANiQQi7Hw=="
+          "hash": "yPbk2JRHYsDdmKSPknxO3Q=="
         }
       },
       "is_incremental": false,
@@ -165,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.DrawCeiling.html",
-          "hash": "gYjwc43d7PAw4UuXNOqf0Q=="
+          "hash": "pZ7D/jn26zQkb+ZnN6LO3w=="
         }
       },
       "is_incremental": false,
@@ -177,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.DrawDoor.html",
-          "hash": "zdHnGWJeu6+/I2OmGENeuA=="
+          "hash": "ueff7mBB9q/IM5ZioSTP4A=="
         }
       },
       "is_incremental": false,
@@ -189,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.DrawWall.html",
-          "hash": "ttu6QIPWq+JD7F6vwl2+jw=="
+          "hash": "z7u4JccphylzC4jDf2Voxg=="
         }
       },
       "is_incremental": false,
@@ -201,19 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.DrawWindow.html",
-          "hash": "zorDsrXVmL/R0EWAZLUzVQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.FloorDoma.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.FloorDoma.html",
-          "hash": "A+cUPyLqfzX91Unu0IzQOw=="
+          "hash": "7z16p43lNJ1i0+s4d7ju5w=="
         }
       },
       "is_incremental": false,
@@ -225,7 +237,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.FloorsDropdown.html",
-          "hash": "yAzYiQqMTqhD82gvSOtKvA=="
+          "hash": "mVNoOBJZ/pB7+g0JxqDbDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FunctionModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FunctionModel.html",
+          "hash": "7KExFMhgPvIlYzvN2zz9aw=="
         }
       },
       "is_incremental": false,
@@ -237,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.FunctionsManager.html",
-          "hash": "iVca8GpKz58dfdpFchJ/jA=="
+          "hash": "EngGx/klK5jJFykgL5lcAA=="
         }
       },
       "is_incremental": false,
@@ -249,19 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GableWall.html",
-          "hash": "K6PBndfmxJex3s8r8VBWrQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.HoleDoma.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.HoleDoma.html",
-          "hash": "IpcdXeETp4bSUFYVXt7SAw=="
+          "hash": "9ZpC56Jxb7Hg6wBTeKMFuA=="
         }
       },
       "is_incremental": false,
@@ -273,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.HoleInWall2D.html",
-          "hash": "5Rp2cnM3jqX4X3vc98PCMA=="
+          "hash": "1I8oYduYgr8VKPhlXxQCtQ=="
         }
       },
       "is_incremental": false,
@@ -297,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MainCameraController.html",
-          "hash": "OBCP2wLVs42XK8fiC7InMw=="
+          "hash": "N//LfjGSkYMATotjzFIjvw=="
         }
       },
       "is_incremental": false,
@@ -309,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MiniCameraOrbit.html",
-          "hash": "gPTER53GobdTPOH7w6wcXQ=="
+          "hash": "Jl1N9ogKK7c49NZjEd1QTg=="
         }
       },
       "is_incremental": false,
@@ -365,11 +377,131 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.RefreshWallCornersModel.yml",
+      "source_relative_path": "api/Global.Roof.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.RefreshWallCornersModel.html",
-          "hash": "1rX5CUohvwFMftc2eip2zQ=="
+          "relative_path": "api/Global.Roof.html",
+          "hash": "6F2e3mfTnkWYKPyMO9WozA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SCeiling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SCeiling.html",
+          "hash": "oiJlG5pg6YTnaoeHOTGIXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SFloor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SFloor.html",
+          "hash": "RSJAtDIaJ5mUagtbZXhpyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SRoof.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SRoof.html",
+          "hash": "WUCB1nvrT+h2ObQWj0ckyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SWall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SWall.html",
+          "hash": "aBJxYT8Zkjza6nhiJZRk6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SaveSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SaveSystem.html",
+          "hash": "FLVeJJqWiu04ofs58rZvKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SelectedObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SelectedObject.html",
+          "hash": "3Sonx920YEwTQkC/3+ib8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SelectedObjectDoma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SelectedObjectDoma.html",
+          "hash": "2ec1ObC1Hurz3TbCHbn9wA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SelectionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SelectionManager.html",
+          "hash": "bWlsQTkotIJcK5FO2pKytA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SerializeSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SerializeSystem.html",
+          "hash": "GklfHsqZ8lghri6NMEhLGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ShowObjectsOnFloorDropdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ShowObjectsOnFloorDropdown.html",
+          "hash": "LSBBRjTy5R5IDgZq0pFxQA=="
         }
       },
       "is_incremental": false,
@@ -401,11 +533,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.Wall2D.yml",
+      "source_relative_path": "api/Global.TriggerButton.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.Wall2D.html",
-          "hash": "0p6/rdEcDYg65uXKWh1vdA=="
+          "relative_path": "api/Global.TriggerButton.html",
+          "hash": "xCl7HsceI2ea+9LH2zutXg=="
         }
       },
       "is_incremental": false,
@@ -413,11 +545,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.Wall3D.yml",
+      "source_relative_path": "api/Global.TriggerObject.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.Wall3D.html",
-          "hash": "K3+kyFtyweDp15utk8Hlcw=="
+          "relative_path": "api/Global.TriggerObject.html",
+          "hash": "r+K2M1d3nz/3PZK4656asg=="
         }
       },
       "is_incremental": false,
@@ -425,11 +557,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.WallDoma.yml",
+      "source_relative_path": "api/Global.UvCalculator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.WallDoma.html",
-          "hash": "efkTuWKao0i3zdGiPhnemA=="
+          "relative_path": "api/Global.UvCalculator.html",
+          "hash": "kojK9tpfkkATj8E/JLT18w=="
         }
       },
       "is_incremental": false,
@@ -453,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "sf+v2X9YxVrcI8AH9ZbcMg=="
+          "hash": "3T7MvCm4UjLo/SpWzYu59g=="
         }
       },
       "is_incremental": false,
@@ -465,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "45sOzAEQbrJ6lS/QmDb+MQ=="
+          "hash": "rofTbOSt9bAsOmj4ylmXUQ=="
         }
       },
       "is_incremental": false,
@@ -572,8 +704,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 37,
-          "skipped_file_count": 37
+          "total_file_count": 48,
+          "skipped_file_count": 13
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

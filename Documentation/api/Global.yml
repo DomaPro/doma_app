@@ -4,14 +4,14 @@ items:
   id: Global
   children:
   - Global.AddHole
+  - Global.AppSystem
   - Global.Area2DScript
   - Global.CameraManager
   - Global.CameraMoving
   - Global.CameraOrbit
-  - Global.Ceiling
-  - Global.Ceiling2D
-  - Global.Ceiling3D
-  - Global.CeilingDoma
+  - Global.CurrentStatusDoma
+  - Global.DCeiling
+  - Global.DFloor
   - Global.DomaContainer
   - Global.DomaElement
   - Global.DomaManager
@@ -19,11 +19,12 @@ items:
   - Global.DrawDoor
   - Global.DrawWall
   - Global.DrawWindow
-  - Global.FloorDoma
+  - Global.DRoof
+  - Global.DWall
   - Global.FloorsDropdown
+  - Global.FunctionModel
   - Global.FunctionsManager
   - Global.GableWall
-  - Global.HoleDoma
   - Global.HoleInWall2D
   - Global.IFunctionDoma
   - Global.MainCameraController
@@ -32,12 +33,22 @@ items:
   - Global.PolyExtruder
   - Global.PolyExtruderDemo
   - Global.PolyExtruderDemo.ExampleData
-  - Global.RefreshWallCornersModel
+  - Global.Roof
+  - Global.SaveSystem
+  - Global.SCeiling
+  - Global.SelectedObject
+  - Global.SelectedObjectDoma
+  - Global.SelectionManager
+  - Global.SerializeSystem
+  - Global.SFloor
+  - Global.ShowObjectsOnFloorDropdown
+  - Global.SRoof
+  - Global.SWall
   - Global.Triangulation
   - Global.TriangulationTest
-  - Global.Wall2D
-  - Global.Wall3D
-  - Global.WallDoma
+  - Global.TriggerButton
+  - Global.TriggerObject
+  - Global.UvCalculator
   - Global.WallScript
   langs:
   - csharp
@@ -52,116 +63,46 @@ items:
   fullName.vb: ''
   name.vb: ''
 references:
-- uid: Global.FloorsDropdown
-  commentId: T:Global.FloorsDropdown
-  name: FloorsDropdown
-  nameWithType: FloorsDropdown
-  fullName: FloorsDropdown
-- uid: Global.AddHole
-  commentId: T:Global.AddHole
-  name: AddHole
-  nameWithType: AddHole
-  fullName: AddHole
-- uid: Global.WallScript
-  commentId: T:Global.WallScript
-  name: WallScript
-  nameWithType: WallScript
-  fullName: WallScript
-- uid: Global.DomaManager
-  commentId: T:Global.DomaManager
-  name: DomaManager
-  nameWithType: DomaManager
-  fullName: DomaManager
-- uid: Global.HoleInWall2D
-  commentId: T:Global.HoleInWall2D
-  name: HoleInWall2D
-  nameWithType: HoleInWall2D
-  fullName: HoleInWall2D
+- uid: Global.SFloor
+  commentId: T:Global.SFloor
+  name: SFloor
+  nameWithType: SFloor
+  fullName: SFloor
+- uid: Global.SaveSystem
+  commentId: T:Global.SaveSystem
+  name: SaveSystem
+  nameWithType: SaveSystem
+  fullName: SaveSystem
 - uid: Global.PolyExtruder
   commentId: T:Global.PolyExtruder
   name: PolyExtruder
   nameWithType: PolyExtruder
   fullName: PolyExtruder
-- uid: Global.CameraManager
-  commentId: T:Global.CameraManager
-  name: CameraManager
-  nameWithType: CameraManager
-  fullName: CameraManager
-- uid: Global.DrawCeiling
-  commentId: T:Global.DrawCeiling
-  name: DrawCeiling
-  nameWithType: DrawCeiling
-  fullName: DrawCeiling
-- uid: Global.DrawWall
-  commentId: T:Global.DrawWall
-  name: DrawWall
-  nameWithType: DrawWall
-  fullName: DrawWall
-- uid: Global.TriangulationTest
-  commentId: T:Global.TriangulationTest
-  name: TriangulationTest
-  nameWithType: TriangulationTest
-  fullName: TriangulationTest
-- uid: Global.ObjectPositionValue
-  commentId: T:Global.ObjectPositionValue
-  name: ObjectPositionValue
-  nameWithType: ObjectPositionValue
-  fullName: ObjectPositionValue
-- uid: Global.CameraOrbit
-  commentId: T:Global.CameraOrbit
-  name: CameraOrbit
-  nameWithType: CameraOrbit
-  fullName: CameraOrbit
-- uid: Global.IFunctionDoma
-  commentId: T:Global.IFunctionDoma
-  name: IFunctionDoma
-  nameWithType: IFunctionDoma
-  fullName: IFunctionDoma
-- uid: Global.CeilingDoma
-  commentId: T:Global.CeilingDoma
-  name: CeilingDoma
-  nameWithType: CeilingDoma
-  fullName: CeilingDoma
-- uid: Global.Ceiling
-  commentId: T:Global.Ceiling
-  name: Ceiling
-  nameWithType: Ceiling
-  fullName: Ceiling
-- uid: Global.Ceiling2D
-  commentId: T:Global.Ceiling2D
-  name: Ceiling2D
-  nameWithType: Ceiling2D
-  fullName: Ceiling2D
-- uid: Global.Ceiling3D
-  commentId: T:Global.Ceiling3D
-  name: Ceiling3D
-  nameWithType: Ceiling3D
-  fullName: Ceiling3D
+- uid: Global.AppSystem
+  commentId: T:Global.AppSystem
+  name: AppSystem
+  nameWithType: AppSystem
+  fullName: AppSystem
 - uid: Global.MainCameraController
   commentId: T:Global.MainCameraController
   name: MainCameraController
   nameWithType: MainCameraController
   fullName: MainCameraController
-- uid: Global.DomaElement
-  commentId: T:Global.DomaElement
-  name: DomaElement
-  nameWithType: DomaElement
-  fullName: DomaElement
-- uid: Global.GableWall
-  commentId: T:Global.GableWall
-  name: GableWall
-  nameWithType: GableWall
-  fullName: GableWall
+- uid: Global.DCeiling
+  commentId: T:Global.DCeiling
+  name: DCeiling
+  nameWithType: DCeiling
+  fullName: DCeiling
 - uid: Global.FunctionsManager
   commentId: T:Global.FunctionsManager
   name: FunctionsManager
   nameWithType: FunctionsManager
   fullName: FunctionsManager
-- uid: Global.RefreshWallCornersModel
-  commentId: T:Global.RefreshWallCornersModel
-  name: RefreshWallCornersModel
-  nameWithType: RefreshWallCornersModel
-  fullName: RefreshWallCornersModel
+- uid: Global.FunctionModel
+  commentId: T:Global.FunctionModel
+  name: FunctionModel
+  nameWithType: FunctionModel
+  fullName: FunctionModel
 - uid: Global.PolyExtruderDemo
   commentId: T:Global.PolyExtruderDemo
   name: PolyExtruderDemo
@@ -172,51 +113,61 @@ references:
   name: PolyExtruderDemo.ExampleData
   nameWithType: PolyExtruderDemo.ExampleData
   fullName: PolyExtruderDemo.ExampleData
-- uid: Global.FloorDoma
-  commentId: T:Global.FloorDoma
-  name: FloorDoma
-  nameWithType: FloorDoma
-  fullName: FloorDoma
-- uid: Global.WallDoma
-  commentId: T:Global.WallDoma
-  name: WallDoma
-  nameWithType: WallDoma
-  fullName: WallDoma
-- uid: Global.Wall2D
-  commentId: T:Global.Wall2D
-  name: Wall2D
-  nameWithType: Wall2D
-  fullName: Wall2D
-- uid: Global.Wall3D
-  commentId: T:Global.Wall3D
-  name: Wall3D
-  nameWithType: Wall3D
-  fullName: Wall3D
-- uid: Global.HoleDoma
-  commentId: T:Global.HoleDoma
-  name: HoleDoma
-  nameWithType: HoleDoma
-  fullName: HoleDoma
-- uid: Global.CameraMoving
-  commentId: T:Global.CameraMoving
-  name: CameraMoving
-  nameWithType: CameraMoving
-  fullName: CameraMoving
-- uid: Global.DomaContainer
-  commentId: T:Global.DomaContainer
-  name: DomaContainer
-  nameWithType: DomaContainer
-  fullName: DomaContainer
-- uid: Global.DrawDoor
-  commentId: T:Global.DrawDoor
-  name: DrawDoor
-  nameWithType: DrawDoor
-  fullName: DrawDoor
 - uid: Global.Triangulation
   commentId: T:Global.Triangulation
   name: Triangulation
   nameWithType: Triangulation
   fullName: Triangulation
+- uid: Global.TriggerObject
+  commentId: T:Global.TriggerObject
+  name: TriggerObject
+  nameWithType: TriggerObject
+  fullName: TriggerObject
+- uid: Global.FloorsDropdown
+  commentId: T:Global.FloorsDropdown
+  name: FloorsDropdown
+  nameWithType: FloorsDropdown
+  fullName: FloorsDropdown
+- uid: Global.AddHole
+  commentId: T:Global.AddHole
+  name: AddHole
+  nameWithType: AddHole
+  fullName: AddHole
+- uid: Global.Roof
+  commentId: T:Global.Roof
+  name: Roof
+  nameWithType: Roof
+  fullName: Roof
+- uid: Global.SRoof
+  commentId: T:Global.SRoof
+  name: SRoof
+  nameWithType: SRoof
+  fullName: SRoof
+- uid: Global.WallScript
+  commentId: T:Global.WallScript
+  name: WallScript
+  nameWithType: WallScript
+  fullName: WallScript
+- uid: Global.ObjectPositionValue
+  commentId: T:Global.ObjectPositionValue
+  name: ObjectPositionValue
+  nameWithType: ObjectPositionValue
+  fullName: ObjectPositionValue
+- uid: Global.CurrentStatusDoma
+  commentId: T:Global.CurrentStatusDoma
+  name: CurrentStatusDoma
+  nameWithType: CurrentStatusDoma
+  fullName: CurrentStatusDoma
+- uid: Global.SelectedObjectDoma
+  commentId: T:Global.SelectedObjectDoma
+  name: SelectedObjectDoma
+  nameWithType: SelectedObjectDoma
+  fullName: SelectedObjectDoma
+- uid: Global.CameraMoving
+  commentId: T:Global.CameraMoving
+  name: CameraMoving
+  nameWithType: CameraMoving
+  fullName: CameraMoving
 - uid: Global.Area2DScript
   commentId: T:Global.Area2DScript
   name: Area2DScript
@@ -232,3 +183,118 @@ references:
   name: DrawWindow
   nameWithType: DrawWindow
   fullName: DrawWindow
+- uid: Global.CameraManager
+  commentId: T:Global.CameraManager
+  name: CameraManager
+  nameWithType: CameraManager
+  fullName: CameraManager
+- uid: Global.TriggerButton
+  commentId: T:Global.TriggerButton
+  name: TriggerButton
+  nameWithType: TriggerButton
+  fullName: TriggerButton
+- uid: Global.DrawCeiling
+  commentId: T:Global.DrawCeiling
+  name: DrawCeiling
+  nameWithType: DrawCeiling
+  fullName: DrawCeiling
+- uid: Global.UvCalculator
+  commentId: T:Global.UvCalculator
+  name: UvCalculator
+  nameWithType: UvCalculator
+  fullName: UvCalculator
+- uid: Global.DrawWall
+  commentId: T:Global.DrawWall
+  name: DrawWall
+  nameWithType: DrawWall
+  fullName: DrawWall
+- uid: Global.SerializeSystem
+  commentId: T:Global.SerializeSystem
+  name: SerializeSystem
+  nameWithType: SerializeSystem
+  fullName: SerializeSystem
+- uid: Global.TriangulationTest
+  commentId: T:Global.TriangulationTest
+  name: TriangulationTest
+  nameWithType: TriangulationTest
+  fullName: TriangulationTest
+- uid: Global.IFunctionDoma
+  commentId: T:Global.IFunctionDoma
+  name: IFunctionDoma
+  nameWithType: IFunctionDoma
+  fullName: IFunctionDoma
+- uid: Global.SelectedObject
+  commentId: T:Global.SelectedObject
+  name: SelectedObject
+  nameWithType: SelectedObject
+  fullName: SelectedObject
+- uid: Global.DFloor
+  commentId: T:Global.DFloor
+  name: DFloor
+  nameWithType: DFloor
+  fullName: DFloor
+- uid: Global.DomaContainer
+  commentId: T:Global.DomaContainer
+  name: DomaContainer
+  nameWithType: DomaContainer
+  fullName: DomaContainer
+- uid: Global.DrawDoor
+  commentId: T:Global.DrawDoor
+  name: DrawDoor
+  nameWithType: DrawDoor
+  fullName: DrawDoor
+- uid: Global.DomaManager
+  commentId: T:Global.DomaManager
+  name: DomaManager
+  nameWithType: DomaManager
+  fullName: DomaManager
+- uid: Global.HoleInWall2D
+  commentId: T:Global.HoleInWall2D
+  name: HoleInWall2D
+  nameWithType: HoleInWall2D
+  fullName: HoleInWall2D
+- uid: Global.CameraOrbit
+  commentId: T:Global.CameraOrbit
+  name: CameraOrbit
+  nameWithType: CameraOrbit
+  fullName: CameraOrbit
+- uid: Global.DRoof
+  commentId: T:Global.DRoof
+  name: DRoof
+  nameWithType: DRoof
+  fullName: DRoof
+- uid: Global.DomaElement
+  commentId: T:Global.DomaElement
+  name: DomaElement
+  nameWithType: DomaElement
+  fullName: DomaElement
+- uid: Global.SelectionManager
+  commentId: T:Global.SelectionManager
+  name: SelectionManager
+  nameWithType: SelectionManager
+  fullName: SelectionManager
+- uid: Global.GableWall
+  commentId: T:Global.GableWall
+  name: GableWall
+  nameWithType: GableWall
+  fullName: GableWall
+- uid: Global.SWall
+  commentId: T:Global.SWall
+  name: SWall
+  nameWithType: SWall
+  fullName: SWall
+- uid: Global.DWall
+  commentId: T:Global.DWall
+  name: DWall
+  nameWithType: DWall
+  fullName: DWall
+- uid: Global.SCeiling
+  commentId: T:Global.SCeiling
+  name: SCeiling
+  nameWithType: SCeiling
+  fullName: SCeiling
+- uid: Global.ShowObjectsOnFloorDropdown
+  commentId: T:Global.ShowObjectsOnFloorDropdown
+  name: ShowObjectsOnFloorDropdown
+  nameWithType: ShowObjectsOnFloorDropdown
+  fullName: ShowObjectsOnFloorDropdown

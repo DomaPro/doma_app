@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SelectionManager
+  commentId: T:Global.SelectionManager
+  id: SelectionManager
+  parent: Global
+  children:
+  - Global.SelectionManager.currentStatusDoma
+  - Global.SelectionManager.materialSelectedObject
+  - Global.SelectionManager.portalCamera2d
+  - Global.SelectionManager.portalCamera3d
+  langs:
+  - csharp
+  - vb
+  name: SelectionManager
+  nameWithType: SelectionManager
+  fullName: SelectionManager
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/SelectionManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: SelectionManager
+    path: ../Assets/Code/Scripts/Managers/SelectionManager.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class SelectionManager : MonoBehaviour'
+    content.vb: >-
+      Public Class SelectionManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SelectionManager.currentStatusDoma
+  commentId: F:Global.SelectionManager.currentStatusDoma
+  id: currentStatusDoma
+  parent: Global.SelectionManager
+  langs:
+  - csharp
+  - vb
+  name: currentStatusDoma
+  nameWithType: SelectionManager.currentStatusDoma
+  fullName: SelectionManager.currentStatusDoma
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/SelectionManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: currentStatusDoma
+    path: ../Assets/Code/Scripts/Managers/SelectionManager.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Header("Current Status Doma")]
+
+      public CurrentStatusDoma currentStatusDoma
+    return:
+      type: Global.CurrentStatusDoma
+    content.vb: >-
+      <Header("Current Status Doma")>
+
+      Public currentStatusDoma As CurrentStatusDoma
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Current Status Doma
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SelectionManager.portalCamera2d
+  commentId: F:Global.SelectionManager.portalCamera2d
+  id: portalCamera2d
+  parent: Global.SelectionManager
+  langs:
+  - csharp
+  - vb
+  name: portalCamera2d
+  nameWithType: SelectionManager.portalCamera2d
+  fullName: SelectionManager.portalCamera2d
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/SelectionManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: portalCamera2d
+    path: ../Assets/Code/Scripts/Managers/SelectionManager.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Camera portalCamera2d
+    return:
+      type: UnityEngine.Camera
+    content.vb: Public portalCamera2d As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SelectionManager.portalCamera3d
+  commentId: F:Global.SelectionManager.portalCamera3d
+  id: portalCamera3d
+  parent: Global.SelectionManager
+  langs:
+  - csharp
+  - vb
+  name: portalCamera3d
+  nameWithType: SelectionManager.portalCamera3d
+  fullName: SelectionManager.portalCamera3d
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/SelectionManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: portalCamera3d
+    path: ../Assets/Code/Scripts/Managers/SelectionManager.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Camera portalCamera3d
+    return:
+      type: UnityEngine.Camera
+    content.vb: Public portalCamera3d As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SelectionManager.materialSelectedObject
+  commentId: F:Global.SelectionManager.materialSelectedObject
+  id: materialSelectedObject
+  parent: Global.SelectionManager
+  langs:
+  - csharp
+  - vb
+  name: materialSelectedObject
+  nameWithType: SelectionManager.materialSelectedObject
+  fullName: SelectionManager.materialSelectedObject
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/SelectionManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: materialSelectedObject
+    path: ../Assets/Code/Scripts/Managers/SelectionManager.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Material materialSelectedObject
+    return:
+      type: UnityEngine.Material
+    content.vb: Public materialSelectedObject As Material
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.CurrentStatusDoma
+  commentId: T:Global.CurrentStatusDoma
+  name: CurrentStatusDoma
+  nameWithType: CurrentStatusDoma
+  fullName: CurrentStatusDoma
+- uid: UnityEngine.Camera
+  commentId: T:UnityEngine.Camera
+  parent: UnityEngine
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: UnityEngine.Camera
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material

@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SelectedObject
+  commentId: T:Global.SelectedObject
+  id: SelectedObject
+  parent: Global
+  children:
+  - Global.SelectedObject.#ctor(UnityEngine.GameObject)
+  - Global.SelectedObject.ObjectInstance
+  - Global.SelectedObject.OriginalMaterial
+  langs:
+  - csharp
+  - vb
+  name: SelectedObject
+  nameWithType: SelectedObject
+  fullName: SelectedObject
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SelectedObject.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: SelectedObject
+    path: ../Assets/Code/Scripts/ModelSystem/SelectedObject.cs
+    startLine: 3
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public class SelectedObject
+    content.vb: Public Class SelectedObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SelectedObject.ObjectInstance
+  commentId: P:Global.SelectedObject.ObjectInstance
+  id: ObjectInstance
+  parent: Global.SelectedObject
+  langs:
+  - csharp
+  - vb
+  name: ObjectInstance
+  nameWithType: SelectedObject.ObjectInstance
+  fullName: SelectedObject.ObjectInstance
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SelectedObject.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: ObjectInstance
+    path: ../Assets/Code/Scripts/ModelSystem/SelectedObject.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject ObjectInstance { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property ObjectInstance As GameObject
+  overload: Global.SelectedObject.ObjectInstance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SelectedObject.OriginalMaterial
+  commentId: P:Global.SelectedObject.OriginalMaterial
+  id: OriginalMaterial
+  parent: Global.SelectedObject
+  langs:
+  - csharp
+  - vb
+  name: OriginalMaterial
+  nameWithType: SelectedObject.OriginalMaterial
+  fullName: SelectedObject.OriginalMaterial
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SelectedObject.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: OriginalMaterial
+    path: ../Assets/Code/Scripts/ModelSystem/SelectedObject.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Material OriginalMaterial { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property OriginalMaterial As Material
+  overload: Global.SelectedObject.OriginalMaterial*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SelectedObject.#ctor(UnityEngine.GameObject)
+  commentId: M:Global.SelectedObject.#ctor(UnityEngine.GameObject)
+  id: '#ctor(UnityEngine.GameObject)'
+  parent: Global.SelectedObject
+  langs:
+  - csharp
+  - vb
+  name: SelectedObject(GameObject)
+  nameWithType: SelectedObject.SelectedObject(GameObject)
+  fullName: SelectedObject.SelectedObject(UnityEngine.GameObject)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SelectedObject.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/SelectedObject.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public SelectedObject(GameObject objectInstance)
+    parameters:
+    - id: objectInstance
+      type: UnityEngine.GameObject
+    content.vb: Public Sub New(objectInstance As GameObject)
+  overload: Global.SelectedObject.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SelectedObject.ObjectInstance*
+  commentId: Overload:Global.SelectedObject.ObjectInstance
+  name: ObjectInstance
+  nameWithType: SelectedObject.ObjectInstance
+  fullName: SelectedObject.ObjectInstance
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.SelectedObject.OriginalMaterial*
+  commentId: Overload:Global.SelectedObject.OriginalMaterial
+  name: OriginalMaterial
+  nameWithType: SelectedObject.OriginalMaterial
+  fullName: SelectedObject.OriginalMaterial
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: Global.SelectedObject.#ctor*
+  commentId: Overload:Global.SelectedObject.#ctor
+  name: SelectedObject
+  nameWithType: SelectedObject.SelectedObject
+  fullName: SelectedObject.SelectedObject

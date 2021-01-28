@@ -95,7 +95,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: getColorArray
     path: ../Assets/Code/Scripts/Managers/Functions/AddHole.cs
-    startLine: 243
+    startLine: 234
   assemblies:
   - Assembly-CSharp
   namespace: Global

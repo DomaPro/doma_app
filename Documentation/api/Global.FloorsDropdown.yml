@@ -5,6 +5,7 @@ items:
   id: FloorsDropdown
   parent: Global
   children:
+  - Global.FloorsDropdown.currentStatusDoma
   - Global.FloorsDropdown.SetDropdownIndex(System.Int32)
   langs:
   - csharp
@@ -20,7 +21,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: FloorsDropdown
     path: ../Assets/Code/Scripts/Others/FloorsDropdown.cs
-    startLine: 7
+    startLine: 5
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -41,6 +42,49 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: Global.FloorsDropdown.currentStatusDoma
+  commentId: F:Global.FloorsDropdown.currentStatusDoma
+  id: currentStatusDoma
+  parent: Global.FloorsDropdown
+  langs:
+  - csharp
+  - vb
+  name: currentStatusDoma
+  nameWithType: FloorsDropdown.currentStatusDoma
+  fullName: FloorsDropdown.currentStatusDoma
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Others/FloorsDropdown.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: currentStatusDoma
+    path: ../Assets/Code/Scripts/Others/FloorsDropdown.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Header("Current Status Doma")]
+
+      public CurrentStatusDoma currentStatusDoma
+    return:
+      type: Global.CurrentStatusDoma
+    content.vb: >-
+      <Header("Current Status Doma")>
+
+      Public currentStatusDoma As CurrentStatusDoma
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Current Status Doma
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: Global.FloorsDropdown.SetDropdownIndex(System.Int32)
   commentId: M:Global.FloorsDropdown.SetDropdownIndex(System.Int32)
   id: SetDropdownIndex(System.Int32)
@@ -59,7 +103,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: SetDropdownIndex
     path: ../Assets/Code/Scripts/Others/FloorsDropdown.cs
-    startLine: 43
+    startLine: 42
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -129,6 +173,11 @@ references:
   name: UnityEngine
   nameWithType: UnityEngine
   fullName: UnityEngine
+- uid: Global.CurrentStatusDoma
+  commentId: T:Global.CurrentStatusDoma
+  name: CurrentStatusDoma
+  nameWithType: CurrentStatusDoma
+  fullName: CurrentStatusDoma
 - uid: Global.FloorsDropdown.SetDropdownIndex*
   commentId: Overload:Global.FloorsDropdown.SetDropdownIndex
   name: SetDropdownIndex

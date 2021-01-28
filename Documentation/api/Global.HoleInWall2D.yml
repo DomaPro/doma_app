@@ -8,8 +8,7 @@ items:
   - Global.HoleInWall2D.domaElement
   - Global.HoleInWall2D.mousePosition
   - Global.HoleInWall2D.objectWall2D
-  - Global.HoleInWall2D.Wall2D
-  - Global.HoleInWall2D.Wall3D
+  - Global.HoleInWall2D.Wall
   langs:
   - csharp
   - vb
@@ -24,7 +23,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: HoleInWall2D
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 271
+    startLine: 414
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -57,7 +56,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: objectWall2D
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 273
+    startLine: 416
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -92,7 +91,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: mousePosition
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 274
+    startLine: 417
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -127,7 +126,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: domaElement
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 275
+    startLine: 418
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -144,70 +143,35 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Global.HoleInWall2D.Wall2D
-  commentId: P:Global.HoleInWall2D.Wall2D
-  id: Wall2D
+- uid: Global.HoleInWall2D.Wall
+  commentId: P:Global.HoleInWall2D.Wall
+  id: Wall
   parent: Global.HoleInWall2D
   langs:
   - csharp
   - vb
-  name: Wall2D
-  nameWithType: HoleInWall2D.Wall2D
-  fullName: HoleInWall2D.Wall2D
+  name: Wall
+  nameWithType: HoleInWall2D.Wall
+  fullName: HoleInWall2D.Wall
   type: Property
   source:
     remote:
       path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
-    id: Wall2D
+    id: Wall
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 276
+    startLine: 420
   assemblies:
   - Assembly-CSharp
   namespace: Global
   syntax:
-    content: public Wall2D Wall2D { get; set; }
+    content: public DWall Wall { get; set; }
     parameters: []
     return:
-      type: Global.Wall2D
-    content.vb: Public Property Wall2D As Wall2D
-  overload: Global.HoleInWall2D.Wall2D*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: Global.HoleInWall2D.Wall3D
-  commentId: P:Global.HoleInWall2D.Wall3D
-  id: Wall3D
-  parent: Global.HoleInWall2D
-  langs:
-  - csharp
-  - vb
-  name: Wall3D
-  nameWithType: HoleInWall2D.Wall3D
-  fullName: HoleInWall2D.Wall3D
-  type: Property
-  source:
-    remote:
-      path: Assets/Code/Scripts/Managers/DomaManager.cs
-      branch: master
-      repo: https://github.com/DomaPro/doma_app.git
-    id: Wall3D
-    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 277
-  assemblies:
-  - Assembly-CSharp
-  namespace: Global
-  syntax:
-    content: public Wall3D Wall3D { get; set; }
-    parameters: []
-    return:
-      type: Global.Wall3D
-    content.vb: Public Property Wall3D As Wall3D
-  overload: Global.HoleInWall2D.Wall3D*
+      type: Global.DWall
+    content.vb: Public Property Wall As DWall
+  overload: Global.HoleInWall2D.Wall*
   modifiers.csharp:
   - public
   - get
@@ -275,23 +239,13 @@ references:
   name: DomaElement
   nameWithType: DomaElement
   fullName: DomaElement
-- uid: Global.HoleInWall2D.Wall2D*
-  commentId: Overload:Global.HoleInWall2D.Wall2D
-  name: Wall2D
-  nameWithType: HoleInWall2D.Wall2D
-  fullName: HoleInWall2D.Wall2D
-- uid: Global.Wall2D
-  commentId: T:Global.Wall2D
-  name: Wall2D
-  nameWithType: Wall2D
-  fullName: Wall2D
-- uid: Global.HoleInWall2D.Wall3D*
-  commentId: Overload:Global.HoleInWall2D.Wall3D
-  name: Wall3D
-  nameWithType: HoleInWall2D.Wall3D
-  fullName: HoleInWall2D.Wall3D
-- uid: Global.Wall3D
-  commentId: T:Global.Wall3D
-  name: Wall3D
-  nameWithType: Wall3D
-  fullName: Wall3D
+- uid: Global.HoleInWall2D.Wall*
+  commentId: Overload:Global.HoleInWall2D.Wall
+  name: Wall
+  nameWithType: HoleInWall2D.Wall
+  fullName: HoleInWall2D.Wall
+- uid: Global.DWall
+  commentId: T:Global.DWall
+  name: DWall
+  nameWithType: DWall
+  fullName: DWall

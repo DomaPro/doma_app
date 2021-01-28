@@ -1,0 +1,771 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SWall
+  commentId: T:Global.SWall
+  id: SWall
+  parent: Global
+  children:
+  - Global.SWall.#ctor(DWall)
+  - Global.SWall.BottomLevel
+  - Global.SWall.EndPoint
+  - Global.SWall.FloorId
+  - Global.SWall.Height
+  - Global.SWall.Id
+  - Global.SWall.Material
+  - Global.SWall.Name
+  - Global.SWall.StartPoint
+  - Global.SWall.Tag
+  - Global.SWall.Triangles3D
+  - Global.SWall.Vertices3D
+  - Global.SWall.Width
+  langs:
+  - csharp
+  - vb
+  name: SWall
+  nameWithType: SWall
+  fullName: SWall
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: SWall
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SWall
+    content.vb: >-
+      <Serializable>
+
+      Public Class SWall
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SWall.Id
+  commentId: P:Global.SWall.Id
+  id: Id
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SWall.Id
+  fullName: SWall.Id
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Id
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: Global.SWall.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SWall.FloorId
+  commentId: P:Global.SWall.FloorId
+  id: FloorId
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: FloorId
+  nameWithType: SWall.FloorId
+  fullName: SWall.FloorId
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: FloorId
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Guid FloorId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property FloorId As Guid
+  overload: Global.SWall.FloorId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SWall.Name
+  commentId: P:Global.SWall.Name
+  id: Name
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SWall.Name
+  fullName: SWall.Name
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Name
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Global.SWall.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SWall.Tag
+  commentId: P:Global.SWall.Tag
+  id: Tag
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: SWall.Tag
+  fullName: SWall.Tag
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Tag
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Tag { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tag As String
+  overload: Global.SWall.Tag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SWall.StartPoint
+  commentId: P:Global.SWall.StartPoint
+  id: StartPoint
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: StartPoint
+  nameWithType: SWall.StartPoint
+  fullName: SWall.StartPoint
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: StartPoint
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float[] StartPoint { get; set; }
+    parameters: []
+    return:
+      type: System.Single[]
+    content.vb: Public Property StartPoint As Single()
+  overload: Global.SWall.StartPoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SWall.EndPoint
+  commentId: P:Global.SWall.EndPoint
+  id: EndPoint
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: EndPoint
+  nameWithType: SWall.EndPoint
+  fullName: SWall.EndPoint
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: EndPoint
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float[] EndPoint { get; set; }
+    parameters: []
+    return:
+      type: System.Single[]
+    content.vb: Public Property EndPoint As Single()
+  overload: Global.SWall.EndPoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SWall.Width
+  commentId: P:Global.SWall.Width
+  id: Width
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: SWall.Width
+  fullName: SWall.Width
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Width
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float Width { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Width As Single
+  overload: Global.SWall.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SWall.Height
+  commentId: P:Global.SWall.Height
+  id: Height
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: SWall.Height
+  fullName: SWall.Height
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Height
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float Height { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Height As Single
+  overload: Global.SWall.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SWall.BottomLevel
+  commentId: P:Global.SWall.BottomLevel
+  id: BottomLevel
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: BottomLevel
+  nameWithType: SWall.BottomLevel
+  fullName: SWall.BottomLevel
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: BottomLevel
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float BottomLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BottomLevel As Single
+  overload: Global.SWall.BottomLevel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SWall.Material
+  commentId: P:Global.SWall.Material
+  id: Material
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: SWall.Material
+  fullName: SWall.Material
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Material
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Material { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Material As String
+  overload: Global.SWall.Material*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SWall.Triangles3D
+  commentId: P:Global.SWall.Triangles3D
+  id: Triangles3D
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: Triangles3D
+  nameWithType: SWall.Triangles3D
+  fullName: SWall.Triangles3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Triangles3D
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 19
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int[] Triangles3D { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property Triangles3D As Integer()
+  overload: Global.SWall.Triangles3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SWall.Vertices3D
+  commentId: P:Global.SWall.Vertices3D
+  id: Vertices3D
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: Vertices3D
+  nameWithType: SWall.Vertices3D
+  fullName: SWall.Vertices3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Vertices3D
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<float[]> Vertices3D { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Single[]}
+    content.vb: Public Property Vertices3D As List(Of Single())
+  overload: Global.SWall.Vertices3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SWall.#ctor(DWall)
+  commentId: M:Global.SWall.#ctor(DWall)
+  id: '#ctor(DWall)'
+  parent: Global.SWall
+  langs:
+  - csharp
+  - vb
+  name: SWall(DWall)
+  nameWithType: SWall.SWall(DWall)
+  fullName: SWall.SWall(DWall)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SWall.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public SWall(DWall dWall)
+    parameters:
+    - id: dWall
+      type: Global.DWall
+    content.vb: Public Sub New(dWall As DWall)
+  overload: Global.SWall.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SWall.Id*
+  commentId: Overload:Global.SWall.Id
+  name: Id
+  nameWithType: SWall.Id
+  fullName: SWall.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Global.SWall.FloorId*
+  commentId: Overload:Global.SWall.FloorId
+  name: FloorId
+  nameWithType: SWall.FloorId
+  fullName: SWall.FloorId
+- uid: Global.SWall.Name*
+  commentId: Overload:Global.SWall.Name
+  name: Name
+  nameWithType: SWall.Name
+  fullName: SWall.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.SWall.Tag*
+  commentId: Overload:Global.SWall.Tag
+  name: Tag
+  nameWithType: SWall.Tag
+  fullName: SWall.Tag
+- uid: Global.SWall.StartPoint*
+  commentId: Overload:Global.SWall.StartPoint
+  name: StartPoint
+  nameWithType: SWall.StartPoint
+  fullName: SWall.StartPoint
+- uid: System.Single[]
+  isExternal: true
+  name: Single[]
+  nameWithType: Single[]
+  fullName: System.Single[]
+  nameWithType.vb: Single()
+  fullName.vb: System.Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.SWall.EndPoint*
+  commentId: Overload:Global.SWall.EndPoint
+  name: EndPoint
+  nameWithType: SWall.EndPoint
+  fullName: SWall.EndPoint
+- uid: Global.SWall.Width*
+  commentId: Overload:Global.SWall.Width
+  name: Width
+  nameWithType: SWall.Width
+  fullName: SWall.Width
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.SWall.Height*
+  commentId: Overload:Global.SWall.Height
+  name: Height
+  nameWithType: SWall.Height
+  fullName: SWall.Height
+- uid: Global.SWall.BottomLevel*
+  commentId: Overload:Global.SWall.BottomLevel
+  name: BottomLevel
+  nameWithType: SWall.BottomLevel
+  fullName: SWall.BottomLevel
+- uid: Global.SWall.Material*
+  commentId: Overload:Global.SWall.Material
+  name: Material
+  nameWithType: SWall.Material
+  fullName: SWall.Material
+- uid: Global.SWall.Triangles3D*
+  commentId: Overload:Global.SWall.Triangles3D
+  name: Triangles3D
+  nameWithType: SWall.Triangles3D
+  fullName: SWall.Triangles3D
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.SWall.Vertices3D*
+  commentId: Overload:Global.SWall.Vertices3D
+  name: Vertices3D
+  nameWithType: SWall.Vertices3D
+  fullName: SWall.Vertices3D
+- uid: System.Collections.Generic.List{System.Single[]}
+  commentId: T:System.Collections.Generic.List{System.Single[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Single[]>
+  nameWithType: List<Single[]>
+  fullName: System.Collections.Generic.List<System.Single[]>
+  nameWithType.vb: List(Of Single())
+  fullName.vb: System.Collections.Generic.List(Of System.Single())
+  name.vb: List(Of Single())
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.SWall.#ctor*
+  commentId: Overload:Global.SWall.#ctor
+  name: SWall
+  nameWithType: SWall.SWall
+  fullName: SWall.SWall
+- uid: Global.DWall
+  commentId: T:Global.DWall
+  name: DWall
+  nameWithType: DWall
+  fullName: DWall

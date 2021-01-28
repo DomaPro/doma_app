@@ -6,9 +6,11 @@ items:
   parent: Global
   children:
   - Global.MiniCameraOrbit.distanceCameraToObjects
+  - Global.MiniCameraOrbit.moveSpeed
   - Global.MiniCameraOrbit.speedRotationHorizontal
   - Global.MiniCameraOrbit.target
   - Global.MiniCameraOrbit.V3Equal(UnityEngine.Vector3,UnityEngine.Vector3)
+  - Global.MiniCameraOrbit.zoomSpeed
   langs:
   - csharp
   - vb
@@ -137,6 +139,68 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: Global.MiniCameraOrbit.zoomSpeed
+  commentId: F:Global.MiniCameraOrbit.zoomSpeed
+  id: zoomSpeed
+  parent: Global.MiniCameraOrbit
+  langs:
+  - csharp
+  - vb
+  name: zoomSpeed
+  nameWithType: MiniCameraOrbit.zoomSpeed
+  fullName: MiniCameraOrbit.zoomSpeed
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Cameras/MiniCameraOrbit.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: zoomSpeed
+    path: ../Assets/Code/Scripts/Cameras/MiniCameraOrbit.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float zoomSpeed
+    return:
+      type: System.Single
+    content.vb: Public zoomSpeed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniCameraOrbit.moveSpeed
+  commentId: F:Global.MiniCameraOrbit.moveSpeed
+  id: moveSpeed
+  parent: Global.MiniCameraOrbit
+  langs:
+  - csharp
+  - vb
+  name: moveSpeed
+  nameWithType: MiniCameraOrbit.moveSpeed
+  fullName: MiniCameraOrbit.moveSpeed
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Cameras/MiniCameraOrbit.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: moveSpeed
+    path: ../Assets/Code/Scripts/Cameras/MiniCameraOrbit.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float moveSpeed
+    return:
+      type: System.Single
+    content.vb: Public moveSpeed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: Global.MiniCameraOrbit.V3Equal(UnityEngine.Vector3,UnityEngine.Vector3)
   commentId: M:Global.MiniCameraOrbit.V3Equal(UnityEngine.Vector3,UnityEngine.Vector3)
   id: V3Equal(UnityEngine.Vector3,UnityEngine.Vector3)
@@ -155,7 +219,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: V3Equal
     path: ../Assets/Code/Scripts/Cameras/MiniCameraOrbit.cs
-    startLine: 58
+    startLine: 82
   assemblies:
   - Assembly-CSharp
   namespace: Global

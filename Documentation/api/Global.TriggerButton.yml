@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TriggerButton
+  commentId: T:Global.TriggerButton
+  id: TriggerButton
+  parent: Global
+  children:
+  - Global.TriggerButton.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  - Global.TriggerButton.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  langs:
+  - csharp
+  - vb
+  name: TriggerButton
+  nameWithType: TriggerButton
+  fullName: TriggerButton
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/Triggers/TriggerButton.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: TriggerButton
+    path: ../Assets/Code/Scripts/Triggers/TriggerButton.cs
+    startLine: 3
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class TriggerButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IEventSystemHandler'
+    content.vb: >-
+      Public Class TriggerButton
+          Inherits MonoBehaviour
+          Implements IPointerEnterHandler, IPointerExitHandler, IEventSystemHandler
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TriggerButton.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  commentId: M:Global.TriggerButton.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  id: OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  parent: Global.TriggerButton
+  langs:
+  - csharp
+  - vb
+  name: OnPointerEnter(PointerEventData)
+  nameWithType: TriggerButton.OnPointerEnter(PointerEventData)
+  fullName: TriggerButton.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Triggers/TriggerButton.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: OnPointerEnter
+    path: ../Assets/Code/Scripts/Triggers/TriggerButton.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void OnPointerEnter(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: UnityEngine.EventSystems.PointerEventData
+    content.vb: Public Sub OnPointerEnter(eventData As PointerEventData)
+  overload: Global.TriggerButton.OnPointerEnter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TriggerButton.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  commentId: M:Global.TriggerButton.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  id: OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  parent: Global.TriggerButton
+  langs:
+  - csharp
+  - vb
+  name: OnPointerExit(PointerEventData)
+  nameWithType: TriggerButton.OnPointerExit(PointerEventData)
+  fullName: TriggerButton.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Triggers/TriggerButton.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: OnPointerExit
+    path: ../Assets/Code/Scripts/Triggers/TriggerButton.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void OnPointerExit(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: UnityEngine.EventSystems.PointerEventData
+    content.vb: Public Sub OnPointerExit(eventData As PointerEventData)
+  overload: Global.TriggerButton.OnPointerExit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.TriggerButton.OnPointerEnter*
+  commentId: Overload:Global.TriggerButton.OnPointerEnter
+  name: OnPointerEnter
+  nameWithType: TriggerButton.OnPointerEnter
+  fullName: TriggerButton.OnPointerEnter
+- uid: UnityEngine.EventSystems.PointerEventData
+  commentId: T:UnityEngine.EventSystems.PointerEventData
+  parent: UnityEngine.EventSystems
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: UnityEngine.EventSystems.PointerEventData
+- uid: UnityEngine.EventSystems
+  commentId: N:UnityEngine.EventSystems
+  isExternal: true
+  name: UnityEngine.EventSystems
+  nameWithType: UnityEngine.EventSystems
+  fullName: UnityEngine.EventSystems
+- uid: Global.TriggerButton.OnPointerExit*
+  commentId: Overload:Global.TriggerButton.OnPointerExit
+  name: OnPointerExit
+  nameWithType: TriggerButton.OnPointerExit
+  fullName: TriggerButton.OnPointerExit

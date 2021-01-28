@@ -1,0 +1,488 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SerializeSystem
+  commentId: T:Global.SerializeSystem
+  id: SerializeSystem
+  parent: Global
+  children:
+  - Global.SerializeSystem.#ctor(AppSystem)
+  - Global.SerializeSystem.Ceilings
+  - Global.SerializeSystem.Floors
+  - Global.SerializeSystem.Roofs
+  - Global.SerializeSystem.Walls
+  langs:
+  - csharp
+  - vb
+  name: SerializeSystem
+  nameWithType: SerializeSystem
+  fullName: SerializeSystem
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/SerializeSystem.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: SerializeSystem
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/SerializeSystem.cs
+    startLine: 3
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SerializeSystem
+    content.vb: >-
+      <Serializable>
+
+      Public Class SerializeSystem
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SerializeSystem.Floors
+  commentId: P:Global.SerializeSystem.Floors
+  id: Floors
+  parent: Global.SerializeSystem
+  langs:
+  - csharp
+  - vb
+  name: Floors
+  nameWithType: SerializeSystem.Floors
+  fullName: SerializeSystem.Floors
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/SerializeSystem.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Floors
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/SerializeSystem.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<SFloor> Floors { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SFloor}
+    content.vb: Public Property Floors As List(Of SFloor)
+  overload: Global.SerializeSystem.Floors*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SerializeSystem.Walls
+  commentId: P:Global.SerializeSystem.Walls
+  id: Walls
+  parent: Global.SerializeSystem
+  langs:
+  - csharp
+  - vb
+  name: Walls
+  nameWithType: SerializeSystem.Walls
+  fullName: SerializeSystem.Walls
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/SerializeSystem.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Walls
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/SerializeSystem.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<SWall> Walls { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SWall}
+    content.vb: Public Property Walls As List(Of SWall)
+  overload: Global.SerializeSystem.Walls*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SerializeSystem.Ceilings
+  commentId: P:Global.SerializeSystem.Ceilings
+  id: Ceilings
+  parent: Global.SerializeSystem
+  langs:
+  - csharp
+  - vb
+  name: Ceilings
+  nameWithType: SerializeSystem.Ceilings
+  fullName: SerializeSystem.Ceilings
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/SerializeSystem.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Ceilings
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/SerializeSystem.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<SCeiling> Ceilings { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SCeiling}
+    content.vb: Public Property Ceilings As List(Of SCeiling)
+  overload: Global.SerializeSystem.Ceilings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SerializeSystem.Roofs
+  commentId: P:Global.SerializeSystem.Roofs
+  id: Roofs
+  parent: Global.SerializeSystem
+  langs:
+  - csharp
+  - vb
+  name: Roofs
+  nameWithType: SerializeSystem.Roofs
+  fullName: SerializeSystem.Roofs
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/SerializeSystem.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Roofs
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/SerializeSystem.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<SRoof> Roofs { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SRoof}
+    content.vb: Public Property Roofs As List(Of SRoof)
+  overload: Global.SerializeSystem.Roofs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SerializeSystem.#ctor(AppSystem)
+  commentId: M:Global.SerializeSystem.#ctor(AppSystem)
+  id: '#ctor(AppSystem)'
+  parent: Global.SerializeSystem
+  langs:
+  - csharp
+  - vb
+  name: SerializeSystem(AppSystem)
+  nameWithType: SerializeSystem.SerializeSystem(AppSystem)
+  fullName: SerializeSystem.SerializeSystem(AppSystem)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/SerializeSystem.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/SerializeSystem.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public SerializeSystem(AppSystem appSystem)
+    parameters:
+    - id: appSystem
+      type: Global.AppSystem
+    content.vb: Public Sub New(appSystem As AppSystem)
+  overload: Global.SerializeSystem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SerializeSystem.Floors*
+  commentId: Overload:Global.SerializeSystem.Floors
+  name: Floors
+  nameWithType: SerializeSystem.Floors
+  fullName: SerializeSystem.Floors
+- uid: System.Collections.Generic.List{SFloor}
+  commentId: T:System.Collections.Generic.List{SFloor}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<SFloor>
+  nameWithType: List<SFloor>
+  fullName: System.Collections.Generic.List<SFloor>
+  nameWithType.vb: List(Of SFloor)
+  fullName.vb: System.Collections.Generic.List(Of SFloor)
+  name.vb: List(Of SFloor)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.SFloor
+    name: SFloor
+    nameWithType: SFloor
+    fullName: SFloor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.SFloor
+    name: SFloor
+    nameWithType: SFloor
+    fullName: SFloor
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.SerializeSystem.Walls*
+  commentId: Overload:Global.SerializeSystem.Walls
+  name: Walls
+  nameWithType: SerializeSystem.Walls
+  fullName: SerializeSystem.Walls
+- uid: System.Collections.Generic.List{SWall}
+  commentId: T:System.Collections.Generic.List{SWall}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<SWall>
+  nameWithType: List<SWall>
+  fullName: System.Collections.Generic.List<SWall>
+  nameWithType.vb: List(Of SWall)
+  fullName.vb: System.Collections.Generic.List(Of SWall)
+  name.vb: List(Of SWall)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.SWall
+    name: SWall
+    nameWithType: SWall
+    fullName: SWall
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.SWall
+    name: SWall
+    nameWithType: SWall
+    fullName: SWall
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.SerializeSystem.Ceilings*
+  commentId: Overload:Global.SerializeSystem.Ceilings
+  name: Ceilings
+  nameWithType: SerializeSystem.Ceilings
+  fullName: SerializeSystem.Ceilings
+- uid: System.Collections.Generic.List{SCeiling}
+  commentId: T:System.Collections.Generic.List{SCeiling}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<SCeiling>
+  nameWithType: List<SCeiling>
+  fullName: System.Collections.Generic.List<SCeiling>
+  nameWithType.vb: List(Of SCeiling)
+  fullName.vb: System.Collections.Generic.List(Of SCeiling)
+  name.vb: List(Of SCeiling)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.SCeiling
+    name: SCeiling
+    nameWithType: SCeiling
+    fullName: SCeiling
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.SCeiling
+    name: SCeiling
+    nameWithType: SCeiling
+    fullName: SCeiling
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.SerializeSystem.Roofs*
+  commentId: Overload:Global.SerializeSystem.Roofs
+  name: Roofs
+  nameWithType: SerializeSystem.Roofs
+  fullName: SerializeSystem.Roofs
+- uid: System.Collections.Generic.List{SRoof}
+  commentId: T:System.Collections.Generic.List{SRoof}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<SRoof>
+  nameWithType: List<SRoof>
+  fullName: System.Collections.Generic.List<SRoof>
+  nameWithType.vb: List(Of SRoof)
+  fullName.vb: System.Collections.Generic.List(Of SRoof)
+  name.vb: List(Of SRoof)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.SRoof
+    name: SRoof
+    nameWithType: SRoof
+    fullName: SRoof
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.SRoof
+    name: SRoof
+    nameWithType: SRoof
+    fullName: SRoof
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.SerializeSystem.#ctor*
+  commentId: Overload:Global.SerializeSystem.#ctor
+  name: SerializeSystem
+  nameWithType: SerializeSystem.SerializeSystem
+  fullName: SerializeSystem.SerializeSystem
+- uid: Global.AppSystem
+  commentId: T:Global.AppSystem
+  name: AppSystem
+  nameWithType: AppSystem
+  fullName: AppSystem

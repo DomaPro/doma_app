@@ -5,9 +5,7 @@ items:
   id: GableWall
   parent: Global
   children:
-  - Global.GableWall.GetTRSMatrix(UnityEngine.Transform)
   - Global.GableWall.KneeWall
-  - Global.GableWall.LerpByDistance(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
   - Global.GableWall.material
   langs:
   - csharp
@@ -106,80 +104,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Global.GableWall.LerpByDistance(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-  commentId: M:Global.GableWall.LerpByDistance(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-  id: LerpByDistance(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-  parent: Global.GableWall
-  langs:
-  - csharp
-  - vb
-  name: LerpByDistance(Vector3, Vector3, Single)
-  nameWithType: GableWall.LerpByDistance(Vector3, Vector3, Single)
-  fullName: GableWall.LerpByDistance(UnityEngine.Vector3, UnityEngine.Vector3, System.Single)
-  type: Method
-  source:
-    remote:
-      path: Assets/Code/Scripts/Managers/Functions/GableWall.cs
-      branch: master
-      repo: https://github.com/DomaPro/doma_app.git
-    id: LerpByDistance
-    path: ../Assets/Code/Scripts/Managers/Functions/GableWall.cs
-    startLine: 150
-  assemblies:
-  - Assembly-CSharp
-  namespace: Global
-  syntax:
-    content: public Vector3 LerpByDistance(Vector3 A, Vector3 B, float x)
-    parameters:
-    - id: A
-      type: UnityEngine.Vector3
-    - id: B
-      type: UnityEngine.Vector3
-    - id: x
-      type: System.Single
-    return:
-      type: UnityEngine.Vector3
-    content.vb: Public Function LerpByDistance(A As Vector3, B As Vector3, x As Single) As Vector3
-  overload: Global.GableWall.LerpByDistance*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: Global.GableWall.GetTRSMatrix(UnityEngine.Transform)
-  commentId: M:Global.GableWall.GetTRSMatrix(UnityEngine.Transform)
-  id: GetTRSMatrix(UnityEngine.Transform)
-  parent: Global.GableWall
-  langs:
-  - csharp
-  - vb
-  name: GetTRSMatrix(Transform)
-  nameWithType: GableWall.GetTRSMatrix(Transform)
-  fullName: GableWall.GetTRSMatrix(UnityEngine.Transform)
-  type: Method
-  source:
-    remote:
-      path: Assets/Code/Scripts/Managers/Functions/GableWall.cs
-      branch: master
-      repo: https://github.com/DomaPro/doma_app.git
-    id: GetTRSMatrix
-    path: ../Assets/Code/Scripts/Managers/Functions/GableWall.cs
-    startLine: 195
-  assemblies:
-  - Assembly-CSharp
-  namespace: Global
-  syntax:
-    content: public Matrix4x4 GetTRSMatrix(Transform transform)
-    parameters:
-    - id: transform
-      type: UnityEngine.Transform
-    return:
-      type: UnityEngine.Matrix4x4
-    content.vb: Public Function GetTRSMatrix(transform As Transform) As Matrix4x4
-  overload: Global.GableWall.GetTRSMatrix*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: Global
   name: Global
@@ -249,34 +173,3 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: Global.GableWall.LerpByDistance*
-  commentId: Overload:Global.GableWall.LerpByDistance
-  name: LerpByDistance
-  nameWithType: GableWall.LerpByDistance
-  fullName: GableWall.LerpByDistance
-- uid: UnityEngine.Vector3
-  commentId: T:UnityEngine.Vector3
-  parent: UnityEngine
-  isExternal: true
-  name: Vector3
-  nameWithType: Vector3
-  fullName: UnityEngine.Vector3
-- uid: Global.GableWall.GetTRSMatrix*
-  commentId: Overload:Global.GableWall.GetTRSMatrix
-  name: GetTRSMatrix
-  nameWithType: GableWall.GetTRSMatrix
-  fullName: GableWall.GetTRSMatrix
-- uid: UnityEngine.Transform
-  commentId: T:UnityEngine.Transform
-  parent: UnityEngine
-  isExternal: true
-  name: Transform
-  nameWithType: Transform
-  fullName: UnityEngine.Transform
-- uid: UnityEngine.Matrix4x4
-  commentId: T:UnityEngine.Matrix4x4
-  parent: UnityEngine
-  isExternal: true
-  name: Matrix4x4
-  nameWithType: Matrix4x4
-  fullName: UnityEngine.Matrix4x4

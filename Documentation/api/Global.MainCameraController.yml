@@ -5,7 +5,9 @@ items:
   id: MainCameraController
   parent: Global
   children:
-  - Global.MainCameraController.portalCamera
+  - Global.MainCameraController.materialSelectedObject
+  - Global.MainCameraController.portalCamera2d
+  - Global.MainCameraController.portalCamera3d
   - Global.MainCameraController.texture2DView
   langs:
   - csharp
@@ -21,7 +23,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: MainCameraController
     path: ../Assets/Code/Scripts/Cameras/MainCameraController.cs
-    startLine: 6
+    startLine: 7
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -42,33 +44,64 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Global.MainCameraController.portalCamera
-  commentId: F:Global.MainCameraController.portalCamera
-  id: portalCamera
+- uid: Global.MainCameraController.portalCamera2d
+  commentId: F:Global.MainCameraController.portalCamera2d
+  id: portalCamera2d
   parent: Global.MainCameraController
   langs:
   - csharp
   - vb
-  name: portalCamera
-  nameWithType: MainCameraController.portalCamera
-  fullName: MainCameraController.portalCamera
+  name: portalCamera2d
+  nameWithType: MainCameraController.portalCamera2d
+  fullName: MainCameraController.portalCamera2d
   type: Field
   source:
     remote:
       path: Assets/Code/Scripts/Cameras/MainCameraController.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
-    id: portalCamera
+    id: portalCamera2d
     path: ../Assets/Code/Scripts/Cameras/MainCameraController.cs
-    startLine: 8
+    startLine: 9
   assemblies:
   - Assembly-CSharp
   namespace: Global
   syntax:
-    content: public Camera portalCamera
+    content: public Camera portalCamera2d
     return:
       type: UnityEngine.Camera
-    content.vb: Public portalCamera As Camera
+    content.vb: Public portalCamera2d As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MainCameraController.portalCamera3d
+  commentId: F:Global.MainCameraController.portalCamera3d
+  id: portalCamera3d
+  parent: Global.MainCameraController
+  langs:
+  - csharp
+  - vb
+  name: portalCamera3d
+  nameWithType: MainCameraController.portalCamera3d
+  fullName: MainCameraController.portalCamera3d
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Cameras/MainCameraController.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: portalCamera3d
+    path: ../Assets/Code/Scripts/Cameras/MainCameraController.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Camera portalCamera3d
+    return:
+      type: UnityEngine.Camera
+    content.vb: Public portalCamera3d As Camera
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -91,7 +124,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: texture2DView
     path: ../Assets/Code/Scripts/Cameras/MainCameraController.cs
-    startLine: 9
+    startLine: 11
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -100,6 +133,37 @@ items:
     return:
       type: UnityEngine.UI.RawImage
     content.vb: Public texture2DView As RawImage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MainCameraController.materialSelectedObject
+  commentId: F:Global.MainCameraController.materialSelectedObject
+  id: materialSelectedObject
+  parent: Global.MainCameraController
+  langs:
+  - csharp
+  - vb
+  name: materialSelectedObject
+  nameWithType: MainCameraController.materialSelectedObject
+  fullName: MainCameraController.materialSelectedObject
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Cameras/MainCameraController.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: materialSelectedObject
+    path: ../Assets/Code/Scripts/Cameras/MainCameraController.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Material materialSelectedObject
+    return:
+      type: UnityEngine.Material
+    content.vb: Public materialSelectedObject As Material
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -179,3 +243,10 @@ references:
   name: UnityEngine.UI
   nameWithType: UnityEngine.UI
   fullName: UnityEngine.UI
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material

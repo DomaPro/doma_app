@@ -5,6 +5,7 @@ items:
   id: CameraManager
   parent: Global
   children:
+  - Global.CameraManager.camera3D
   - Global.CameraManager.cameraOffset
   - Global.CameraManager.farZoomLimit
   - Global.CameraManager.lookAtOffset
@@ -376,6 +377,37 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: Global.CameraManager.camera3D
+  commentId: F:Global.CameraManager.camera3D
+  id: camera3D
+  parent: Global.CameraManager
+  langs:
+  - csharp
+  - vb
+  name: camera3D
+  nameWithType: CameraManager.camera3D
+  fullName: CameraManager.camera3D
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Cameras/CameraManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: camera3D
+    path: ../Assets/Code/Scripts/Cameras/CameraManager.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Camera camera3D
+    return:
+      type: UnityEngine.Camera
+    content.vb: Public camera3D As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: Global
   name: Global
@@ -452,3 +484,10 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
+- uid: UnityEngine.Camera
+  commentId: T:UnityEngine.Camera
+  parent: UnityEngine
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: UnityEngine.Camera

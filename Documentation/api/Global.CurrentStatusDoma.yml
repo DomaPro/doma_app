@@ -1,0 +1,766 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CurrentStatusDoma
+  commentId: T:Global.CurrentStatusDoma
+  id: CurrentStatusDoma
+  parent: Global
+  children:
+  - Global.CurrentStatusDoma.activeFloor
+  - Global.CurrentStatusDoma.appSystem
+  - Global.CurrentStatusDoma.GetCeilingByGameObject2D(UnityEngine.GameObject)
+  - Global.CurrentStatusDoma.GetCeilingByGameObject3D(UnityEngine.GameObject)
+  - Global.CurrentStatusDoma.GetFloorBelow(System.Guid)
+  - Global.CurrentStatusDoma.GetFloorIndex(System.Guid)
+  - Global.CurrentStatusDoma.GetPointsForWallsOnFloor(System.Guid[])
+  - Global.CurrentStatusDoma.GetRoofByGameObject2D(UnityEngine.GameObject)
+  - Global.CurrentStatusDoma.GetRoofByGameObject3D(UnityEngine.GameObject)
+  - Global.CurrentStatusDoma.GetWallByGameObject2D(UnityEngine.GameObject)
+  - Global.CurrentStatusDoma.GetWallByGameObject3D(UnityEngine.GameObject)
+  - Global.CurrentStatusDoma.selectedObject
+  - Global.CurrentStatusDoma.ShowWalls2dOnFloors(System.Guid[])
+  langs:
+  - csharp
+  - vb
+  name: CurrentStatusDoma
+  nameWithType: CurrentStatusDoma
+  fullName: CurrentStatusDoma
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: CurrentStatusDoma
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [CreateAssetMenu]
+
+      public class CurrentStatusDoma : ScriptableObject
+    content.vb: >-
+      <CreateAssetMenu>
+
+      Public Class CurrentStatusDoma
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  attributes:
+  - type: UnityEngine.CreateAssetMenuAttribute
+    ctor: UnityEngine.CreateAssetMenuAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CurrentStatusDoma.appSystem
+  commentId: F:Global.CurrentStatusDoma.appSystem
+  id: appSystem
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: appSystem
+  nameWithType: CurrentStatusDoma.appSystem
+  fullName: CurrentStatusDoma.appSystem
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: appSystem
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public AppSystem appSystem
+    return:
+      type: Global.AppSystem
+    content.vb: Public appSystem As AppSystem
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CurrentStatusDoma.activeFloor
+  commentId: F:Global.CurrentStatusDoma.activeFloor
+  id: activeFloor
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: activeFloor
+  nameWithType: CurrentStatusDoma.activeFloor
+  fullName: CurrentStatusDoma.activeFloor
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: activeFloor
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DFloor activeFloor
+    return:
+      type: Global.DFloor
+    content.vb: Public activeFloor As DFloor
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CurrentStatusDoma.selectedObject
+  commentId: F:Global.CurrentStatusDoma.selectedObject
+  id: selectedObject
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: selectedObject
+  nameWithType: CurrentStatusDoma.selectedObject
+  fullName: CurrentStatusDoma.selectedObject
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: selectedObject
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public SelectedObject selectedObject
+    return:
+      type: Global.SelectedObject
+    content.vb: Public selectedObject As SelectedObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CurrentStatusDoma.GetWallByGameObject2D(UnityEngine.GameObject)
+  commentId: M:Global.CurrentStatusDoma.GetWallByGameObject2D(UnityEngine.GameObject)
+  id: GetWallByGameObject2D(UnityEngine.GameObject)
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: GetWallByGameObject2D(GameObject)
+  nameWithType: CurrentStatusDoma.GetWallByGameObject2D(GameObject)
+  fullName: CurrentStatusDoma.GetWallByGameObject2D(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GetWallByGameObject2D
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DWall GetWallByGameObject2D(GameObject gameObject)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    return:
+      type: Global.DWall
+    content.vb: Public Function GetWallByGameObject2D(gameObject As GameObject) As DWall
+  overload: Global.CurrentStatusDoma.GetWallByGameObject2D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CurrentStatusDoma.GetWallByGameObject3D(UnityEngine.GameObject)
+  commentId: M:Global.CurrentStatusDoma.GetWallByGameObject3D(UnityEngine.GameObject)
+  id: GetWallByGameObject3D(UnityEngine.GameObject)
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: GetWallByGameObject3D(GameObject)
+  nameWithType: CurrentStatusDoma.GetWallByGameObject3D(GameObject)
+  fullName: CurrentStatusDoma.GetWallByGameObject3D(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GetWallByGameObject3D
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DWall GetWallByGameObject3D(GameObject gameObject)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    return:
+      type: Global.DWall
+    content.vb: Public Function GetWallByGameObject3D(gameObject As GameObject) As DWall
+  overload: Global.CurrentStatusDoma.GetWallByGameObject3D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CurrentStatusDoma.GetCeilingByGameObject2D(UnityEngine.GameObject)
+  commentId: M:Global.CurrentStatusDoma.GetCeilingByGameObject2D(UnityEngine.GameObject)
+  id: GetCeilingByGameObject2D(UnityEngine.GameObject)
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: GetCeilingByGameObject2D(GameObject)
+  nameWithType: CurrentStatusDoma.GetCeilingByGameObject2D(GameObject)
+  fullName: CurrentStatusDoma.GetCeilingByGameObject2D(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GetCeilingByGameObject2D
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 28
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DCeiling GetCeilingByGameObject2D(GameObject gameObject)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    return:
+      type: Global.DCeiling
+    content.vb: Public Function GetCeilingByGameObject2D(gameObject As GameObject) As DCeiling
+  overload: Global.CurrentStatusDoma.GetCeilingByGameObject2D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CurrentStatusDoma.GetCeilingByGameObject3D(UnityEngine.GameObject)
+  commentId: M:Global.CurrentStatusDoma.GetCeilingByGameObject3D(UnityEngine.GameObject)
+  id: GetCeilingByGameObject3D(UnityEngine.GameObject)
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: GetCeilingByGameObject3D(GameObject)
+  nameWithType: CurrentStatusDoma.GetCeilingByGameObject3D(GameObject)
+  fullName: CurrentStatusDoma.GetCeilingByGameObject3D(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GetCeilingByGameObject3D
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 34
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DCeiling GetCeilingByGameObject3D(GameObject gameObject)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    return:
+      type: Global.DCeiling
+    content.vb: Public Function GetCeilingByGameObject3D(gameObject As GameObject) As DCeiling
+  overload: Global.CurrentStatusDoma.GetCeilingByGameObject3D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CurrentStatusDoma.GetRoofByGameObject2D(UnityEngine.GameObject)
+  commentId: M:Global.CurrentStatusDoma.GetRoofByGameObject2D(UnityEngine.GameObject)
+  id: GetRoofByGameObject2D(UnityEngine.GameObject)
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: GetRoofByGameObject2D(GameObject)
+  nameWithType: CurrentStatusDoma.GetRoofByGameObject2D(GameObject)
+  fullName: CurrentStatusDoma.GetRoofByGameObject2D(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GetRoofByGameObject2D
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 40
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DRoof GetRoofByGameObject2D(GameObject gameObject)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    return:
+      type: Global.DRoof
+    content.vb: Public Function GetRoofByGameObject2D(gameObject As GameObject) As DRoof
+  overload: Global.CurrentStatusDoma.GetRoofByGameObject2D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CurrentStatusDoma.GetRoofByGameObject3D(UnityEngine.GameObject)
+  commentId: M:Global.CurrentStatusDoma.GetRoofByGameObject3D(UnityEngine.GameObject)
+  id: GetRoofByGameObject3D(UnityEngine.GameObject)
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: GetRoofByGameObject3D(GameObject)
+  nameWithType: CurrentStatusDoma.GetRoofByGameObject3D(GameObject)
+  fullName: CurrentStatusDoma.GetRoofByGameObject3D(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GetRoofByGameObject3D
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 46
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DRoof GetRoofByGameObject3D(GameObject gameObject)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    return:
+      type: Global.DRoof
+    content.vb: Public Function GetRoofByGameObject3D(gameObject As GameObject) As DRoof
+  overload: Global.CurrentStatusDoma.GetRoofByGameObject3D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CurrentStatusDoma.GetPointsForWallsOnFloor(System.Guid[])
+  commentId: M:Global.CurrentStatusDoma.GetPointsForWallsOnFloor(System.Guid[])
+  id: GetPointsForWallsOnFloor(System.Guid[])
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: GetPointsForWallsOnFloor(Guid[])
+  nameWithType: CurrentStatusDoma.GetPointsForWallsOnFloor(Guid[])
+  fullName: CurrentStatusDoma.GetPointsForWallsOnFloor(System.Guid[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GetPointsForWallsOnFloor
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 52
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<Vector3> GetPointsForWallsOnFloor(Guid[] floors)
+    parameters:
+    - id: floors
+      type: System.Guid[]
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Vector3}
+    content.vb: Public Function GetPointsForWallsOnFloor(floors As Guid()) As List(Of Vector3)
+  overload: Global.CurrentStatusDoma.GetPointsForWallsOnFloor*
+  nameWithType.vb: CurrentStatusDoma.GetPointsForWallsOnFloor(Guid())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CurrentStatusDoma.GetPointsForWallsOnFloor(System.Guid())
+  name.vb: GetPointsForWallsOnFloor(Guid())
+- uid: Global.CurrentStatusDoma.GetFloorBelow(System.Guid)
+  commentId: M:Global.CurrentStatusDoma.GetFloorBelow(System.Guid)
+  id: GetFloorBelow(System.Guid)
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: GetFloorBelow(Guid)
+  nameWithType: CurrentStatusDoma.GetFloorBelow(Guid)
+  fullName: CurrentStatusDoma.GetFloorBelow(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GetFloorBelow
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 66
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DFloor GetFloorBelow(Guid floorId)
+    parameters:
+    - id: floorId
+      type: System.Guid
+    return:
+      type: Global.DFloor
+    content.vb: Public Function GetFloorBelow(floorId As Guid) As DFloor
+  overload: Global.CurrentStatusDoma.GetFloorBelow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CurrentStatusDoma.GetFloorIndex(System.Guid)
+  commentId: M:Global.CurrentStatusDoma.GetFloorIndex(System.Guid)
+  id: GetFloorIndex(System.Guid)
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: GetFloorIndex(Guid)
+  nameWithType: CurrentStatusDoma.GetFloorIndex(Guid)
+  fullName: CurrentStatusDoma.GetFloorIndex(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GetFloorIndex
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 74
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int GetFloorIndex(Guid floorId)
+    parameters:
+    - id: floorId
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Public Function GetFloorIndex(floorId As Guid) As Integer
+  overload: Global.CurrentStatusDoma.GetFloorIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CurrentStatusDoma.ShowWalls2dOnFloors(System.Guid[])
+  commentId: M:Global.CurrentStatusDoma.ShowWalls2dOnFloors(System.Guid[])
+  id: ShowWalls2dOnFloors(System.Guid[])
+  parent: Global.CurrentStatusDoma
+  langs:
+  - csharp
+  - vb
+  name: ShowWalls2dOnFloors(Guid[])
+  nameWithType: CurrentStatusDoma.ShowWalls2dOnFloors(Guid[])
+  fullName: CurrentStatusDoma.ShowWalls2dOnFloors(System.Guid[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: ShowWalls2dOnFloors
+    path: ../Assets/Code/ScriptableObjects/CurrentStatusDoma.cs
+    startLine: 79
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void ShowWalls2dOnFloors(Guid[] floorIds)
+    parameters:
+    - id: floorIds
+      type: System.Guid[]
+    content.vb: Public Sub ShowWalls2dOnFloors(floorIds As Guid())
+  overload: Global.CurrentStatusDoma.ShowWalls2dOnFloors*
+  nameWithType.vb: CurrentStatusDoma.ShowWalls2dOnFloors(Guid())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CurrentStatusDoma.ShowWalls2dOnFloors(System.Guid())
+  name.vb: ShowWalls2dOnFloors(Guid())
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.AppSystem
+  commentId: T:Global.AppSystem
+  name: AppSystem
+  nameWithType: AppSystem
+  fullName: AppSystem
+- uid: Global.DFloor
+  commentId: T:Global.DFloor
+  name: DFloor
+  nameWithType: DFloor
+  fullName: DFloor
+- uid: Global.SelectedObject
+  commentId: T:Global.SelectedObject
+  name: SelectedObject
+  nameWithType: SelectedObject
+  fullName: SelectedObject
+- uid: Global.CurrentStatusDoma.GetWallByGameObject2D*
+  commentId: Overload:Global.CurrentStatusDoma.GetWallByGameObject2D
+  name: GetWallByGameObject2D
+  nameWithType: CurrentStatusDoma.GetWallByGameObject2D
+  fullName: CurrentStatusDoma.GetWallByGameObject2D
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Global.DWall
+  commentId: T:Global.DWall
+  name: DWall
+  nameWithType: DWall
+  fullName: DWall
+- uid: Global.CurrentStatusDoma.GetWallByGameObject3D*
+  commentId: Overload:Global.CurrentStatusDoma.GetWallByGameObject3D
+  name: GetWallByGameObject3D
+  nameWithType: CurrentStatusDoma.GetWallByGameObject3D
+  fullName: CurrentStatusDoma.GetWallByGameObject3D
+- uid: Global.CurrentStatusDoma.GetCeilingByGameObject2D*
+  commentId: Overload:Global.CurrentStatusDoma.GetCeilingByGameObject2D
+  name: GetCeilingByGameObject2D
+  nameWithType: CurrentStatusDoma.GetCeilingByGameObject2D
+  fullName: CurrentStatusDoma.GetCeilingByGameObject2D
+- uid: Global.DCeiling
+  commentId: T:Global.DCeiling
+  name: DCeiling
+  nameWithType: DCeiling
+  fullName: DCeiling
+- uid: Global.CurrentStatusDoma.GetCeilingByGameObject3D*
+  commentId: Overload:Global.CurrentStatusDoma.GetCeilingByGameObject3D
+  name: GetCeilingByGameObject3D
+  nameWithType: CurrentStatusDoma.GetCeilingByGameObject3D
+  fullName: CurrentStatusDoma.GetCeilingByGameObject3D
+- uid: Global.CurrentStatusDoma.GetRoofByGameObject2D*
+  commentId: Overload:Global.CurrentStatusDoma.GetRoofByGameObject2D
+  name: GetRoofByGameObject2D
+  nameWithType: CurrentStatusDoma.GetRoofByGameObject2D
+  fullName: CurrentStatusDoma.GetRoofByGameObject2D
+- uid: Global.DRoof
+  commentId: T:Global.DRoof
+  name: DRoof
+  nameWithType: DRoof
+  fullName: DRoof
+- uid: Global.CurrentStatusDoma.GetRoofByGameObject3D*
+  commentId: Overload:Global.CurrentStatusDoma.GetRoofByGameObject3D
+  name: GetRoofByGameObject3D
+  nameWithType: CurrentStatusDoma.GetRoofByGameObject3D
+  fullName: CurrentStatusDoma.GetRoofByGameObject3D
+- uid: Global.CurrentStatusDoma.GetPointsForWallsOnFloor*
+  commentId: Overload:Global.CurrentStatusDoma.GetPointsForWallsOnFloor
+  name: GetPointsForWallsOnFloor
+  nameWithType: CurrentStatusDoma.GetPointsForWallsOnFloor
+  fullName: CurrentStatusDoma.GetPointsForWallsOnFloor
+- uid: System.Guid[]
+  isExternal: true
+  name: Guid[]
+  nameWithType: Guid[]
+  fullName: System.Guid[]
+  nameWithType.vb: Guid()
+  fullName.vb: System.Guid()
+  name.vb: Guid()
+  spec.csharp:
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.List{UnityEngine.Vector3}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Vector3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Vector3>
+  nameWithType: List<Vector3>
+  fullName: System.Collections.Generic.List<UnityEngine.Vector3>
+  nameWithType.vb: List(Of Vector3)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Vector3)
+  name.vb: List(Of Vector3)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.CurrentStatusDoma.GetFloorBelow*
+  commentId: Overload:Global.CurrentStatusDoma.GetFloorBelow
+  name: GetFloorBelow
+  nameWithType: CurrentStatusDoma.GetFloorBelow
+  fullName: CurrentStatusDoma.GetFloorBelow
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Global.CurrentStatusDoma.GetFloorIndex*
+  commentId: Overload:Global.CurrentStatusDoma.GetFloorIndex
+  name: GetFloorIndex
+  nameWithType: CurrentStatusDoma.GetFloorIndex
+  fullName: CurrentStatusDoma.GetFloorIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.CurrentStatusDoma.ShowWalls2dOnFloors*
+  commentId: Overload:Global.CurrentStatusDoma.ShowWalls2dOnFloors
+  name: ShowWalls2dOnFloors
+  nameWithType: CurrentStatusDoma.ShowWalls2dOnFloors
+  fullName: CurrentStatusDoma.ShowWalls2dOnFloors

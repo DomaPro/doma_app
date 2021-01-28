@@ -5,32 +5,50 @@ items:
   id: DomaManager
   parent: Global
   children:
-  - Global.DomaManager.ActiveDomaFloor
   - Global.DomaManager.area2D
   - Global.DomaManager.area3D
+  - Global.DomaManager.bottomBar
   - Global.DomaManager.box2DContainer
   - Global.DomaManager.box3DContainer
   - Global.DomaManager.cameraFor2DView
   - Global.DomaManager.cameraFor3DView
-  - Global.DomaManager.CeilingDomas
-  - Global.DomaManager.DomaFloors
+  - Global.DomaManager.currentStatusDoma
   - Global.DomaManager.Enable2DView
   - Global.DomaManager.Enable3DView
+  - Global.DomaManager.fileNameTextBox
   - Global.DomaManager.gameObjectCircleTip
-  - Global.DomaManager.GetAllPoints2DWallsOnTags(System.String[])
   - Global.DomaManager.GetObjectPositionValue(UnityEngine.GameObject)
-  - Global.DomaManager.GetWallDomaByGameObject(UnityEngine.GameObject)
+  - Global.DomaManager.GetReferencesToInstances
+  - Global.DomaManager.heightInput
   - Global.DomaManager.HoleInWall2D
   - Global.DomaManager.ImageToolTipPoint
   - Global.DomaManager.Instance
+  - Global.DomaManager.IsPointerOverUIButton
+  - Global.DomaManager.leftBox
+  - Global.DomaManager.lengthWallText
+  - Global.DomaManager.lightFor2DView
+  - Global.DomaManager.lightFor3DView
+  - Global.DomaManager.lightForMini3DView
+  - Global.DomaManager.LoadData(System.String)
+  - Global.DomaManager.maxMini3DView
+  - Global.DomaManager.MaxMini3DView
   - Global.DomaManager.miniBox3DContainer
+  - Global.DomaManager.miniBox3DRenderTexture
   - Global.DomaManager.miniCameraFor3DView
   - Global.DomaManager.mousePosition2D
+  - Global.DomaManager.RectUIMousePositionForSelection
+  - Global.DomaManager.RemoveAllInstances(System.Collections.Generic.List{UnityEngine.GameObject})
   - Global.DomaManager.ResetDataFunctionNow
+  - Global.DomaManager.savedFilesTextBox
+  - Global.DomaManager.SelectedObject
   - Global.DomaManager.SetActiveFloorById(System.Int32)
-  - Global.DomaManager.Show2DObjectsOnTags(System.String[])
+  - Global.DomaManager.ShowSavedFiles
+  - Global.DomaManager.spaceInput
   - Global.DomaManager.switchMini3DView
   - Global.DomaManager.SwitchMini3DView
+  - Global.DomaManager.topBar
+  - Global.DomaManager.TypeRoof
+  - Global.DomaManager.widthInput
   langs:
   - csharp
   - vb
@@ -45,7 +63,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: DomaManager
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 13
+    startLine: 15
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -86,7 +104,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: Instance
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 16
+    startLine: 18
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -123,7 +141,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: box2DContainer
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 21
+    startLine: 23
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -166,7 +184,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: box3DContainer
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 22
+    startLine: 24
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -197,7 +215,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: miniBox3DContainer
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 23
+    startLine: 25
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -206,6 +224,130 @@ items:
     return:
       type: UnityEngine.UI.RawImage
     content.vb: Public miniBox3DContainer As RawImage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.miniBox3DRenderTexture
+  commentId: F:Global.DomaManager.miniBox3DRenderTexture
+  id: miniBox3DRenderTexture
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: miniBox3DRenderTexture
+  nameWithType: DomaManager.miniBox3DRenderTexture
+  fullName: DomaManager.miniBox3DRenderTexture
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: miniBox3DRenderTexture
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 26
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public RenderTexture miniBox3DRenderTexture
+    return:
+      type: UnityEngine.RenderTexture
+    content.vb: Public miniBox3DRenderTexture As RenderTexture
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.leftBox
+  commentId: F:Global.DomaManager.leftBox
+  id: leftBox
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: leftBox
+  nameWithType: DomaManager.leftBox
+  fullName: DomaManager.leftBox
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: leftBox
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject leftBox
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public leftBox As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.topBar
+  commentId: F:Global.DomaManager.topBar
+  id: topBar
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: topBar
+  nameWithType: DomaManager.topBar
+  fullName: DomaManager.topBar
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: topBar
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 28
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject topBar
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public topBar As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.bottomBar
+  commentId: F:Global.DomaManager.bottomBar
+  id: bottomBar
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: bottomBar
+  nameWithType: DomaManager.bottomBar
+  fullName: DomaManager.bottomBar
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: bottomBar
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 29
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject bottomBar
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public bottomBar As GameObject
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -228,7 +370,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: cameraFor2DView
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 26
+    startLine: 32
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -271,7 +413,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: cameraFor3DView
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 27
+    startLine: 33
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -302,7 +444,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: miniCameraFor3DView
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 28
+    startLine: 34
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -333,7 +475,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: switchMini3DView
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 31
+    startLine: 37
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -358,6 +500,37 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: Global.DomaManager.maxMini3DView
+  commentId: F:Global.DomaManager.maxMini3DView
+  id: maxMini3DView
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: maxMini3DView
+  nameWithType: DomaManager.maxMini3DView
+  fullName: DomaManager.maxMini3DView
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: maxMini3DView
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 38
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Image maxMini3DView
+    return:
+      type: UnityEngine.UI.Image
+    content.vb: Public maxMini3DView As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: Global.DomaManager.area2D
   commentId: F:Global.DomaManager.area2D
   id: area2D
@@ -376,7 +549,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: area2D
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 34
+    startLine: 41
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -419,7 +592,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: area3D
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 35
+    startLine: 42
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -450,7 +623,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: ImageToolTipPoint
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 38
+    startLine: 45
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -475,6 +648,340 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: Global.DomaManager.currentStatusDoma
+  commentId: F:Global.DomaManager.currentStatusDoma
+  id: currentStatusDoma
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: currentStatusDoma
+  nameWithType: DomaManager.currentStatusDoma
+  fullName: DomaManager.currentStatusDoma
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: currentStatusDoma
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 48
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Header("Current Status Doma")]
+
+      public CurrentStatusDoma currentStatusDoma
+    return:
+      type: Global.CurrentStatusDoma
+    content.vb: >-
+      <Header("Current Status Doma")>
+
+      Public currentStatusDoma As CurrentStatusDoma
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Current Status Doma
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.lightFor2DView
+  commentId: F:Global.DomaManager.lightFor2DView
+  id: lightFor2DView
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: lightFor2DView
+  nameWithType: DomaManager.lightFor2DView
+  fullName: DomaManager.lightFor2DView
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: lightFor2DView
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 51
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Header("Lights")]
+
+      public Light lightFor2DView
+    return:
+      type: UnityEngine.Light
+    content.vb: >-
+      <Header("Lights")>
+
+      Public lightFor2DView As Light
+  attributes:
+  - type: UnityEngine.HeaderAttribute
+    ctor: UnityEngine.HeaderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Lights
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.lightFor3DView
+  commentId: F:Global.DomaManager.lightFor3DView
+  id: lightFor3DView
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: lightFor3DView
+  nameWithType: DomaManager.lightFor3DView
+  fullName: DomaManager.lightFor3DView
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: lightFor3DView
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 52
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Light lightFor3DView
+    return:
+      type: UnityEngine.Light
+    content.vb: Public lightFor3DView As Light
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.lightForMini3DView
+  commentId: F:Global.DomaManager.lightForMini3DView
+  id: lightForMini3DView
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: lightForMini3DView
+  nameWithType: DomaManager.lightForMini3DView
+  fullName: DomaManager.lightForMini3DView
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: lightForMini3DView
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 53
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Light lightForMini3DView
+    return:
+      type: UnityEngine.Light
+    content.vb: Public lightForMini3DView As Light
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.fileNameTextBox
+  commentId: F:Global.DomaManager.fileNameTextBox
+  id: fileNameTextBox
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: fileNameTextBox
+  nameWithType: DomaManager.fileNameTextBox
+  fullName: DomaManager.fileNameTextBox
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: fileNameTextBox
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 55
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public TMP_InputField fileNameTextBox
+    return:
+      type: TMPro.TMP_InputField
+    content.vb: Public fileNameTextBox As TMP_InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.savedFilesTextBox
+  commentId: F:Global.DomaManager.savedFilesTextBox
+  id: savedFilesTextBox
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: savedFilesTextBox
+  nameWithType: DomaManager.savedFilesTextBox
+  fullName: DomaManager.savedFilesTextBox
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: savedFilesTextBox
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 56
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public TMP_Text savedFilesTextBox
+    return:
+      type: TMPro.TMP_Text
+    content.vb: Public savedFilesTextBox As TMP_Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.lengthWallText
+  commentId: F:Global.DomaManager.lengthWallText
+  id: lengthWallText
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: lengthWallText
+  nameWithType: DomaManager.lengthWallText
+  fullName: DomaManager.lengthWallText
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: lengthWallText
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 57
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public TMP_Text lengthWallText
+    return:
+      type: TMPro.TMP_Text
+    content.vb: Public lengthWallText As TMP_Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.widthInput
+  commentId: F:Global.DomaManager.widthInput
+  id: widthInput
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: widthInput
+  nameWithType: DomaManager.widthInput
+  fullName: DomaManager.widthInput
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: widthInput
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 59
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public TMP_InputField widthInput
+    return:
+      type: TMPro.TMP_InputField
+    content.vb: Public widthInput As TMP_InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.heightInput
+  commentId: F:Global.DomaManager.heightInput
+  id: heightInput
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: heightInput
+  nameWithType: DomaManager.heightInput
+  fullName: DomaManager.heightInput
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: heightInput
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 60
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public TMP_InputField heightInput
+    return:
+      type: TMPro.TMP_InputField
+    content.vb: Public heightInput As TMP_InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.spaceInput
+  commentId: F:Global.DomaManager.spaceInput
+  id: spaceInput
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: spaceInput
+  nameWithType: DomaManager.spaceInput
+  fullName: DomaManager.spaceInput
+  type: Field
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: spaceInput
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 61
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public TMP_InputField spaceInput
+    return:
+      type: TMPro.TMP_InputField
+    content.vb: Public spaceInput As TMP_InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: Global.DomaManager.mousePosition2D
   commentId: F:Global.DomaManager.mousePosition2D
   id: mousePosition2D
@@ -493,7 +1000,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: mousePosition2D
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 43
+    startLine: 66
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -524,7 +1031,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: HoleInWall2D
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 45
+    startLine: 68
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -559,7 +1066,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: gameObjectCircleTip
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 47
+    startLine: 70
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -590,7 +1097,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: ResetDataFunctionNow
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 50
+    startLine: 73
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -607,111 +1114,275 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Global.DomaManager.DomaFloors
-  commentId: P:Global.DomaManager.DomaFloors
-  id: DomaFloors
+- uid: Global.DomaManager.TypeRoof
+  commentId: P:Global.DomaManager.TypeRoof
+  id: TypeRoof
   parent: Global.DomaManager
   langs:
   - csharp
   - vb
-  name: DomaFloors
-  nameWithType: DomaManager.DomaFloors
-  fullName: DomaManager.DomaFloors
+  name: TypeRoof
+  nameWithType: DomaManager.TypeRoof
+  fullName: DomaManager.TypeRoof
   type: Property
   source:
     remote:
       path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
-    id: DomaFloors
+    id: TypeRoof
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 56
+    startLine: 75
   assemblies:
   - Assembly-CSharp
   namespace: Global
-  summary: "\nTest dokumentacji Doma Piętra\n"
-  example: []
   syntax:
-    content: public List<FloorDoma> DomaFloors { get; set; }
+    content: public int TypeRoof { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{FloorDoma}
-    content.vb: Public Property DomaFloors As List(Of FloorDoma)
-  overload: Global.DomaManager.DomaFloors*
+      type: System.Int32
+    content.vb: Public Property TypeRoof As Integer
+  overload: Global.DomaManager.TypeRoof*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: Global.DomaManager.ActiveDomaFloor
-  commentId: P:Global.DomaManager.ActiveDomaFloor
-  id: ActiveDomaFloor
+- uid: Global.DomaManager.IsPointerOverUIButton
+  commentId: P:Global.DomaManager.IsPointerOverUIButton
+  id: IsPointerOverUIButton
   parent: Global.DomaManager
   langs:
   - csharp
   - vb
-  name: ActiveDomaFloor
-  nameWithType: DomaManager.ActiveDomaFloor
-  fullName: DomaManager.ActiveDomaFloor
+  name: IsPointerOverUIButton
+  nameWithType: DomaManager.IsPointerOverUIButton
+  fullName: DomaManager.IsPointerOverUIButton
   type: Property
   source:
     remote:
       path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
-    id: ActiveDomaFloor
+    id: IsPointerOverUIButton
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 57
+    startLine: 77
   assemblies:
   - Assembly-CSharp
   namespace: Global
   syntax:
-    content: public FloorDoma ActiveDomaFloor { get; set; }
+    content: public bool IsPointerOverUIButton { get; set; }
     parameters: []
     return:
-      type: Global.FloorDoma
-    content.vb: Public Property ActiveDomaFloor As FloorDoma
-  overload: Global.DomaManager.ActiveDomaFloor*
+      type: System.Boolean
+    content.vb: Public Property IsPointerOverUIButton As Boolean
+  overload: Global.DomaManager.IsPointerOverUIButton*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: Global.DomaManager.CeilingDomas
-  commentId: P:Global.DomaManager.CeilingDomas
-  id: CeilingDomas
+- uid: Global.DomaManager.SelectedObject
+  commentId: P:Global.DomaManager.SelectedObject
+  id: SelectedObject
   parent: Global.DomaManager
   langs:
   - csharp
   - vb
-  name: CeilingDomas
-  nameWithType: DomaManager.CeilingDomas
-  fullName: DomaManager.CeilingDomas
+  name: SelectedObject
+  nameWithType: DomaManager.SelectedObject
+  fullName: DomaManager.SelectedObject
   type: Property
   source:
     remote:
       path: Assets/Code/Scripts/Managers/DomaManager.cs
       branch: master
       repo: https://github.com/DomaPro/doma_app.git
-    id: CeilingDomas
+    id: SelectedObject
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 59
+    startLine: 79
   assemblies:
   - Assembly-CSharp
   namespace: Global
   syntax:
-    content: public List<CeilingDoma> CeilingDomas { get; set; }
+    content: public SelectedObjectDoma SelectedObject { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{CeilingDoma}
-    content.vb: Public Property CeilingDomas As List(Of CeilingDoma)
-  overload: Global.DomaManager.CeilingDomas*
+      type: Global.SelectedObjectDoma
+    content.vb: Public Property SelectedObject As SelectedObjectDoma
+  overload: Global.DomaManager.SelectedObject*
   modifiers.csharp:
   - public
   - get
   - set
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.RectUIMousePositionForSelection
+  commentId: P:Global.DomaManager.RectUIMousePositionForSelection
+  id: RectUIMousePositionForSelection
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: RectUIMousePositionForSelection
+  nameWithType: DomaManager.RectUIMousePositionForSelection
+  fullName: DomaManager.RectUIMousePositionForSelection
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: RectUIMousePositionForSelection
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 81
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3 RectUIMousePositionForSelection { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Property RectUIMousePositionForSelection As Vector3
+  overload: Global.DomaManager.RectUIMousePositionForSelection*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.RemoveAllInstances(System.Collections.Generic.List{UnityEngine.GameObject})
+  commentId: M:Global.DomaManager.RemoveAllInstances(System.Collections.Generic.List{UnityEngine.GameObject})
+  id: RemoveAllInstances(System.Collections.Generic.List{UnityEngine.GameObject})
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: RemoveAllInstances(List<GameObject>)
+  nameWithType: DomaManager.RemoveAllInstances(List<GameObject>)
+  fullName: DomaManager.RemoveAllInstances(System.Collections.Generic.List<UnityEngine.GameObject>)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: RemoveAllInstances
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 130
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void RemoveAllInstances(List<GameObject> referencesToObjectsForRemove)
+    parameters:
+    - id: referencesToObjectsForRemove
+      type: System.Collections.Generic.List{UnityEngine.GameObject}
+    content.vb: Public Sub RemoveAllInstances(referencesToObjectsForRemove As List(Of GameObject))
+  overload: Global.DomaManager.RemoveAllInstances*
+  nameWithType.vb: DomaManager.RemoveAllInstances(List(Of GameObject))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DomaManager.RemoveAllInstances(System.Collections.Generic.List(Of UnityEngine.GameObject))
+  name.vb: RemoveAllInstances(List(Of GameObject))
+- uid: Global.DomaManager.GetReferencesToInstances
+  commentId: M:Global.DomaManager.GetReferencesToInstances
+  id: GetReferencesToInstances
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: GetReferencesToInstances()
+  nameWithType: DomaManager.GetReferencesToInstances()
+  fullName: DomaManager.GetReferencesToInstances()
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GetReferencesToInstances
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 142
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public List<GameObject> GetReferencesToInstances()
+    return:
+      type: System.Collections.Generic.List{UnityEngine.GameObject}
+    content.vb: Public Function GetReferencesToInstances As List(Of GameObject)
+  overload: Global.DomaManager.GetReferencesToInstances*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.LoadData(System.String)
+  commentId: M:Global.DomaManager.LoadData(System.String)
+  id: LoadData(System.String)
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: LoadData(String)
+  nameWithType: DomaManager.LoadData(String)
+  fullName: DomaManager.LoadData(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: LoadData
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 178
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void LoadData(string nameFile)
+    parameters:
+    - id: nameFile
+      type: System.String
+    content.vb: Public Sub LoadData(nameFile As String)
+  overload: Global.DomaManager.LoadData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.ShowSavedFiles
+  commentId: M:Global.DomaManager.ShowSavedFiles
+  id: ShowSavedFiles
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: ShowSavedFiles()
+  nameWithType: DomaManager.ShowSavedFiles()
+  fullName: DomaManager.ShowSavedFiles()
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: ShowSavedFiles
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 224
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void ShowSavedFiles()
+    content.vb: Public Sub ShowSavedFiles
+  overload: Global.DomaManager.ShowSavedFiles*
+  modifiers.csharp:
+  - public
   modifiers.vb:
   - Public
 - uid: Global.DomaManager.SetActiveFloorById(System.Int32)
@@ -732,7 +1403,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: SetActiveFloorById
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 115
+    startLine: 245
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -746,115 +1417,6 @@ items:
       description: Numer indeksu kondygnacji
     content.vb: Public Sub SetActiveFloorById(id As Integer)
   overload: Global.DomaManager.SetActiveFloorById*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: Global.DomaManager.Show2DObjectsOnTags(System.String[])
-  commentId: M:Global.DomaManager.Show2DObjectsOnTags(System.String[])
-  id: Show2DObjectsOnTags(System.String[])
-  parent: Global.DomaManager
-  langs:
-  - csharp
-  - vb
-  name: Show2DObjectsOnTags(String[])
-  nameWithType: DomaManager.Show2DObjectsOnTags(String[])
-  fullName: DomaManager.Show2DObjectsOnTags(System.String[])
-  type: Method
-  source:
-    remote:
-      path: Assets/Code/Scripts/Managers/DomaManager.cs
-      branch: master
-      repo: https://github.com/DomaPro/doma_app.git
-    id: Show2DObjectsOnTags
-    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 121
-  assemblies:
-  - Assembly-CSharp
-  namespace: Global
-  syntax:
-    content: public void Show2DObjectsOnTags(string[] floorTags)
-    parameters:
-    - id: floorTags
-      type: System.String[]
-    content.vb: Public Sub Show2DObjectsOnTags(floorTags As String())
-  overload: Global.DomaManager.Show2DObjectsOnTags*
-  nameWithType.vb: DomaManager.Show2DObjectsOnTags(String())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: DomaManager.Show2DObjectsOnTags(System.String())
-  name.vb: Show2DObjectsOnTags(String())
-- uid: Global.DomaManager.GetAllPoints2DWallsOnTags(System.String[])
-  commentId: M:Global.DomaManager.GetAllPoints2DWallsOnTags(System.String[])
-  id: GetAllPoints2DWallsOnTags(System.String[])
-  parent: Global.DomaManager
-  langs:
-  - csharp
-  - vb
-  name: GetAllPoints2DWallsOnTags(String[])
-  nameWithType: DomaManager.GetAllPoints2DWallsOnTags(String[])
-  fullName: DomaManager.GetAllPoints2DWallsOnTags(System.String[])
-  type: Method
-  source:
-    remote:
-      path: Assets/Code/Scripts/Managers/DomaManager.cs
-      branch: master
-      repo: https://github.com/DomaPro/doma_app.git
-    id: GetAllPoints2DWallsOnTags
-    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 153
-  assemblies:
-  - Assembly-CSharp
-  namespace: Global
-  syntax:
-    content: public List<Vector3> GetAllPoints2DWallsOnTags(string[] floorTags)
-    parameters:
-    - id: floorTags
-      type: System.String[]
-    return:
-      type: System.Collections.Generic.List{UnityEngine.Vector3}
-    content.vb: Public Function GetAllPoints2DWallsOnTags(floorTags As String()) As List(Of Vector3)
-  overload: Global.DomaManager.GetAllPoints2DWallsOnTags*
-  nameWithType.vb: DomaManager.GetAllPoints2DWallsOnTags(String())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: DomaManager.GetAllPoints2DWallsOnTags(System.String())
-  name.vb: GetAllPoints2DWallsOnTags(String())
-- uid: Global.DomaManager.GetWallDomaByGameObject(UnityEngine.GameObject)
-  commentId: M:Global.DomaManager.GetWallDomaByGameObject(UnityEngine.GameObject)
-  id: GetWallDomaByGameObject(UnityEngine.GameObject)
-  parent: Global.DomaManager
-  langs:
-  - csharp
-  - vb
-  name: GetWallDomaByGameObject(GameObject)
-  nameWithType: DomaManager.GetWallDomaByGameObject(GameObject)
-  fullName: DomaManager.GetWallDomaByGameObject(UnityEngine.GameObject)
-  type: Method
-  source:
-    remote:
-      path: Assets/Code/Scripts/Managers/DomaManager.cs
-      branch: master
-      repo: https://github.com/DomaPro/doma_app.git
-    id: GetWallDomaByGameObject
-    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 168
-  assemblies:
-  - Assembly-CSharp
-  namespace: Global
-  syntax:
-    content: public WallDoma GetWallDomaByGameObject(GameObject gameObject)
-    parameters:
-    - id: gameObject
-      type: UnityEngine.GameObject
-    return:
-      type: Global.WallDoma
-    content.vb: Public Function GetWallDomaByGameObject(gameObject As GameObject) As WallDoma
-  overload: Global.DomaManager.GetWallDomaByGameObject*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -877,7 +1439,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: Enable2DView
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 173
+    startLine: 250
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -907,7 +1469,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: Enable3DView
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 189
+    startLine: 284
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -937,7 +1499,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: SwitchMini3DView
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 205
+    startLine: 318
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -945,6 +1507,36 @@ items:
     content: public void SwitchMini3DView()
     content.vb: Public Sub SwitchMini3DView
   overload: Global.DomaManager.SwitchMini3DView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DomaManager.MaxMini3DView
+  commentId: M:Global.DomaManager.MaxMini3DView
+  id: MaxMini3DView
+  parent: Global.DomaManager
+  langs:
+  - csharp
+  - vb
+  name: MaxMini3DView()
+  nameWithType: DomaManager.MaxMini3DView()
+  fullName: DomaManager.MaxMini3DView()
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/Managers/DomaManager.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: MaxMini3DView
+    path: ../Assets/Code/Scripts/Managers/DomaManager.cs
+    startLine: 336
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void MaxMini3DView()
+    content.vb: Public Sub MaxMini3DView
+  overload: Global.DomaManager.MaxMini3DView*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -967,7 +1559,7 @@ items:
       repo: https://github.com/DomaPro/doma_app.git
     id: GetObjectPositionValue
     path: ../Assets/Code/Scripts/Managers/DomaManager.cs
-    startLine: 223
+    startLine: 364
   assemblies:
   - Assembly-CSharp
   namespace: Global
@@ -1062,13 +1654,13 @@ references:
   name: UnityEngine.UI
   nameWithType: UnityEngine.UI
   fullName: UnityEngine.UI
-- uid: UnityEngine.Camera
-  commentId: T:UnityEngine.Camera
+- uid: UnityEngine.RenderTexture
+  commentId: T:UnityEngine.RenderTexture
   parent: UnityEngine
   isExternal: true
-  name: Camera
-  nameWithType: Camera
-  fullName: UnityEngine.Camera
+  name: RenderTexture
+  nameWithType: RenderTexture
+  fullName: UnityEngine.RenderTexture
 - uid: UnityEngine.GameObject
   commentId: T:UnityEngine.GameObject
   parent: UnityEngine
@@ -1076,6 +1668,13 @@ references:
   name: GameObject
   nameWithType: GameObject
   fullName: UnityEngine.GameObject
+- uid: UnityEngine.Camera
+  commentId: T:UnityEngine.Camera
+  parent: UnityEngine
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: UnityEngine.Camera
 - uid: UnityEngine.UI.Image
   commentId: T:UnityEngine.UI.Image
   parent: UnityEngine.UI
@@ -1090,6 +1689,38 @@ references:
   name: Sprite
   nameWithType: Sprite
   fullName: UnityEngine.Sprite
+- uid: Global.CurrentStatusDoma
+  commentId: T:Global.CurrentStatusDoma
+  name: CurrentStatusDoma
+  nameWithType: CurrentStatusDoma
+  fullName: CurrentStatusDoma
+- uid: UnityEngine.Light
+  commentId: T:UnityEngine.Light
+  parent: UnityEngine
+  isExternal: true
+  name: Light
+  nameWithType: Light
+  fullName: UnityEngine.Light
+- uid: TMPro.TMP_InputField
+  commentId: T:TMPro.TMP_InputField
+  parent: TMPro
+  isExternal: true
+  name: TMP_InputField
+  nameWithType: TMP_InputField
+  fullName: TMPro.TMP_InputField
+- uid: TMPro
+  commentId: N:TMPro
+  isExternal: true
+  name: TMPro
+  nameWithType: TMPro
+  fullName: TMPro
+- uid: TMPro.TMP_Text
+  commentId: T:TMPro.TMP_Text
+  parent: TMPro
+  isExternal: true
+  name: TMP_Text
+  nameWithType: TMP_Text
+  fullName: TMPro.TMP_Text
 - uid: UnityEngine.Vector3
   commentId: T:UnityEngine.Vector3
   parent: UnityEngine
@@ -1119,21 +1750,53 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: Global.DomaManager.DomaFloors*
-  commentId: Overload:Global.DomaManager.DomaFloors
-  name: DomaFloors
-  nameWithType: DomaManager.DomaFloors
-  fullName: DomaManager.DomaFloors
-- uid: System.Collections.Generic.List{FloorDoma}
-  commentId: T:System.Collections.Generic.List{FloorDoma}
+- uid: Global.DomaManager.TypeRoof*
+  commentId: Overload:Global.DomaManager.TypeRoof
+  name: TypeRoof
+  nameWithType: DomaManager.TypeRoof
+  fullName: DomaManager.TypeRoof
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.DomaManager.IsPointerOverUIButton*
+  commentId: Overload:Global.DomaManager.IsPointerOverUIButton
+  name: IsPointerOverUIButton
+  nameWithType: DomaManager.IsPointerOverUIButton
+  fullName: DomaManager.IsPointerOverUIButton
+- uid: Global.DomaManager.SelectedObject*
+  commentId: Overload:Global.DomaManager.SelectedObject
+  name: SelectedObject
+  nameWithType: DomaManager.SelectedObject
+  fullName: DomaManager.SelectedObject
+- uid: Global.SelectedObjectDoma
+  commentId: T:Global.SelectedObjectDoma
+  name: SelectedObjectDoma
+  nameWithType: SelectedObjectDoma
+  fullName: SelectedObjectDoma
+- uid: Global.DomaManager.RectUIMousePositionForSelection*
+  commentId: Overload:Global.DomaManager.RectUIMousePositionForSelection
+  name: RectUIMousePositionForSelection
+  nameWithType: DomaManager.RectUIMousePositionForSelection
+  fullName: DomaManager.RectUIMousePositionForSelection
+- uid: Global.DomaManager.RemoveAllInstances*
+  commentId: Overload:Global.DomaManager.RemoveAllInstances
+  name: RemoveAllInstances
+  nameWithType: DomaManager.RemoveAllInstances
+  fullName: DomaManager.RemoveAllInstances
+- uid: System.Collections.Generic.List{UnityEngine.GameObject}
+  commentId: T:System.Collections.Generic.List{UnityEngine.GameObject}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
-  name: List<FloorDoma>
-  nameWithType: List<FloorDoma>
-  fullName: System.Collections.Generic.List<FloorDoma>
-  nameWithType.vb: List(Of FloorDoma)
-  fullName.vb: System.Collections.Generic.List(Of FloorDoma)
-  name.vb: List(Of FloorDoma)
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: System.Collections.Generic.List<UnityEngine.GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.GameObject)
+  name.vb: List(Of GameObject)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -1143,10 +1806,11 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: Global.FloorDoma
-    name: FloorDoma
-    nameWithType: FloorDoma
-    fullName: FloorDoma
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1159,10 +1823,11 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: Global.FloorDoma
-    name: FloorDoma
-    nameWithType: FloorDoma
-    fullName: FloorDoma
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -1211,165 +1876,33 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
-- uid: Global.DomaManager.ActiveDomaFloor*
-  commentId: Overload:Global.DomaManager.ActiveDomaFloor
-  name: ActiveDomaFloor
-  nameWithType: DomaManager.ActiveDomaFloor
-  fullName: DomaManager.ActiveDomaFloor
-- uid: Global.FloorDoma
-  commentId: T:Global.FloorDoma
-  name: FloorDoma
-  nameWithType: FloorDoma
-  fullName: FloorDoma
-- uid: Global.DomaManager.CeilingDomas*
-  commentId: Overload:Global.DomaManager.CeilingDomas
-  name: CeilingDomas
-  nameWithType: DomaManager.CeilingDomas
-  fullName: DomaManager.CeilingDomas
-- uid: System.Collections.Generic.List{CeilingDoma}
-  commentId: T:System.Collections.Generic.List{CeilingDoma}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  name: List<CeilingDoma>
-  nameWithType: List<CeilingDoma>
-  fullName: System.Collections.Generic.List<CeilingDoma>
-  nameWithType.vb: List(Of CeilingDoma)
-  fullName.vb: System.Collections.Generic.List(Of CeilingDoma)
-  name.vb: List(Of CeilingDoma)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Global.CeilingDoma
-    name: CeilingDoma
-    nameWithType: CeilingDoma
-    fullName: CeilingDoma
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Global.CeilingDoma
-    name: CeilingDoma
-    nameWithType: CeilingDoma
-    fullName: CeilingDoma
-  - name: )
-    nameWithType: )
-    fullName: )
+- uid: Global.DomaManager.GetReferencesToInstances*
+  commentId: Overload:Global.DomaManager.GetReferencesToInstances
+  name: GetReferencesToInstances
+  nameWithType: DomaManager.GetReferencesToInstances
+  fullName: DomaManager.GetReferencesToInstances
+- uid: Global.DomaManager.LoadData*
+  commentId: Overload:Global.DomaManager.LoadData
+  name: LoadData
+  nameWithType: DomaManager.LoadData
+  fullName: DomaManager.LoadData
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.DomaManager.ShowSavedFiles*
+  commentId: Overload:Global.DomaManager.ShowSavedFiles
+  name: ShowSavedFiles
+  nameWithType: DomaManager.ShowSavedFiles
+  fullName: DomaManager.ShowSavedFiles
 - uid: Global.DomaManager.SetActiveFloorById*
   commentId: Overload:Global.DomaManager.SetActiveFloorById
   name: SetActiveFloorById
   nameWithType: DomaManager.SetActiveFloorById
   fullName: DomaManager.SetActiveFloorById
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: Global.DomaManager.Show2DObjectsOnTags*
-  commentId: Overload:Global.DomaManager.Show2DObjectsOnTags
-  name: Show2DObjectsOnTags
-  nameWithType: DomaManager.Show2DObjectsOnTags
-  fullName: DomaManager.Show2DObjectsOnTags
-- uid: System.String[]
-  isExternal: true
-  name: String[]
-  nameWithType: String[]
-  fullName: System.String[]
-  nameWithType.vb: String()
-  fullName.vb: System.String()
-  name.vb: String()
-  spec.csharp:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: Global.DomaManager.GetAllPoints2DWallsOnTags*
-  commentId: Overload:Global.DomaManager.GetAllPoints2DWallsOnTags
-  name: GetAllPoints2DWallsOnTags
-  nameWithType: DomaManager.GetAllPoints2DWallsOnTags
-  fullName: DomaManager.GetAllPoints2DWallsOnTags
-- uid: System.Collections.Generic.List{UnityEngine.Vector3}
-  commentId: T:System.Collections.Generic.List{UnityEngine.Vector3}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
-  name: List<Vector3>
-  nameWithType: List<Vector3>
-  fullName: System.Collections.Generic.List<UnityEngine.Vector3>
-  nameWithType.vb: List(Of Vector3)
-  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Vector3)
-  name.vb: List(Of Vector3)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    nameWithType: Vector3
-    fullName: UnityEngine.Vector3
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    nameWithType: List
-    fullName: System.Collections.Generic.List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: UnityEngine.Vector3
-    name: Vector3
-    nameWithType: Vector3
-    fullName: UnityEngine.Vector3
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Global.DomaManager.GetWallDomaByGameObject*
-  commentId: Overload:Global.DomaManager.GetWallDomaByGameObject
-  name: GetWallDomaByGameObject
-  nameWithType: DomaManager.GetWallDomaByGameObject
-  fullName: DomaManager.GetWallDomaByGameObject
-- uid: Global.WallDoma
-  commentId: T:Global.WallDoma
-  name: WallDoma
-  nameWithType: WallDoma
-  fullName: WallDoma
 - uid: Global.DomaManager.Enable2DView*
   commentId: Overload:Global.DomaManager.Enable2DView
   name: Enable2DView
@@ -1385,6 +1918,11 @@ references:
   name: SwitchMini3DView
   nameWithType: DomaManager.SwitchMini3DView
   fullName: DomaManager.SwitchMini3DView
+- uid: Global.DomaManager.MaxMini3DView*
+  commentId: Overload:Global.DomaManager.MaxMini3DView
+  name: MaxMini3DView
+  nameWithType: DomaManager.MaxMini3DView
+  fullName: DomaManager.MaxMini3DView
 - uid: Global.DomaManager.GetObjectPositionValue*
   commentId: Overload:Global.DomaManager.GetObjectPositionValue
   name: GetObjectPositionValue

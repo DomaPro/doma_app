@@ -1,0 +1,853 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DCeiling
+  commentId: T:Global.DCeiling
+  id: DCeiling
+  parent: Global
+  children:
+  - Global.DCeiling.#ctor(SCeiling)
+  - Global.DCeiling.#ctor(System.Single,System.Single,UnityEngine.Material,UnityEngine.Vector3[])
+  - Global.DCeiling.DrawCeiling2D
+  - Global.DCeiling.DrawCeiling3D
+  - Global.DCeiling.GetTRSMatrix(UnityEngine.Transform)
+  - Global.DCeiling.Height
+  - Global.DCeiling.Id
+  - Global.DCeiling.Instance2D
+  - Global.DCeiling.Instance3D
+  - Global.DCeiling.LevelBottom
+  - Global.DCeiling.Material
+  - Global.DCeiling.Name
+  - Global.DCeiling.Points
+  - Global.DCeiling.Tag
+  - Global.DCeiling.Triangles3D
+  - Global.DCeiling.Vertices3D
+  langs:
+  - csharp
+  - vb
+  name: DCeiling
+  nameWithType: DCeiling
+  fullName: DCeiling
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DCeiling
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class DCeiling : MonoBehaviour'
+    content.vb: >-
+      Public Class DCeiling
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DCeiling.Id
+  commentId: P:Global.DCeiling.Id
+  id: Id
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: DCeiling.Id
+  fullName: DCeiling.Id
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Id
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: Global.DCeiling.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.Name
+  commentId: P:Global.DCeiling.Name
+  id: Name
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DCeiling.Name
+  fullName: DCeiling.Name
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Name
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Global.DCeiling.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.Tag
+  commentId: P:Global.DCeiling.Tag
+  id: Tag
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: DCeiling.Tag
+  fullName: DCeiling.Tag
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Tag
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Tag { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tag As String
+  overload: Global.DCeiling.Tag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.Height
+  commentId: P:Global.DCeiling.Height
+  id: Height
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: DCeiling.Height
+  fullName: DCeiling.Height
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Height
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float Height { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Height As Single
+  overload: Global.DCeiling.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.LevelBottom
+  commentId: P:Global.DCeiling.LevelBottom
+  id: LevelBottom
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: LevelBottom
+  nameWithType: DCeiling.LevelBottom
+  fullName: DCeiling.LevelBottom
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: LevelBottom
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 12
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float LevelBottom { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property LevelBottom As Single
+  overload: Global.DCeiling.LevelBottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.Material
+  commentId: P:Global.DCeiling.Material
+  id: Material
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: DCeiling.Material
+  fullName: DCeiling.Material
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Material
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Material Material { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Property Material As Material
+  overload: Global.DCeiling.Material*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.Points
+  commentId: P:Global.DCeiling.Points
+  id: Points
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: Points
+  nameWithType: DCeiling.Points
+  fullName: DCeiling.Points
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Points
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3[] Points { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3[]
+    content.vb: Public Property Points As Vector3()
+  overload: Global.DCeiling.Points*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.Triangles3D
+  commentId: P:Global.DCeiling.Triangles3D
+  id: Triangles3D
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: Triangles3D
+  nameWithType: DCeiling.Triangles3D
+  fullName: DCeiling.Triangles3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Triangles3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public int[] Triangles3D { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property Triangles3D As Integer()
+  overload: Global.DCeiling.Triangles3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.Vertices3D
+  commentId: P:Global.DCeiling.Vertices3D
+  id: Vertices3D
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: Vertices3D
+  nameWithType: DCeiling.Vertices3D
+  fullName: DCeiling.Vertices3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Vertices3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Vector3[] Vertices3D { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.Vector3[]
+    content.vb: Public Property Vertices3D As Vector3()
+  overload: Global.DCeiling.Vertices3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.Instance2D
+  commentId: P:Global.DCeiling.Instance2D
+  id: Instance2D
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: Instance2D
+  nameWithType: DCeiling.Instance2D
+  fullName: DCeiling.Instance2D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Instance2D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 19
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject Instance2D { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property Instance2D As GameObject
+  overload: Global.DCeiling.Instance2D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.Instance3D
+  commentId: P:Global.DCeiling.Instance3D
+  id: Instance3D
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: Instance3D
+  nameWithType: DCeiling.Instance3D
+  fullName: DCeiling.Instance3D
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Instance3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject Instance3D { get; set; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Property Instance3D As GameObject
+  overload: Global.DCeiling.Instance3D*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.#ctor(System.Single,System.Single,UnityEngine.Material,UnityEngine.Vector3[])
+  commentId: M:Global.DCeiling.#ctor(System.Single,System.Single,UnityEngine.Material,UnityEngine.Vector3[])
+  id: '#ctor(System.Single,System.Single,UnityEngine.Material,UnityEngine.Vector3[])'
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: DCeiling(Single, Single, Material, Vector3[])
+  nameWithType: DCeiling.DCeiling(Single, Single, Material, Vector3[])
+  fullName: DCeiling.DCeiling(System.Single, System.Single, UnityEngine.Material, UnityEngine.Vector3[])
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DCeiling(float height, float levelBottom, Material material, Vector3[] points)
+    parameters:
+    - id: height
+      type: System.Single
+    - id: levelBottom
+      type: System.Single
+    - id: material
+      type: UnityEngine.Material
+    - id: points
+      type: UnityEngine.Vector3[]
+    content.vb: Public Sub New(height As Single, levelBottom As Single, material As Material, points As Vector3())
+  overload: Global.DCeiling.#ctor*
+  nameWithType.vb: DCeiling.DCeiling(Single, Single, Material, Vector3())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DCeiling.DCeiling(System.Single, System.Single, UnityEngine.Material, UnityEngine.Vector3())
+  name.vb: DCeiling(Single, Single, Material, Vector3())
+- uid: Global.DCeiling.#ctor(SCeiling)
+  commentId: M:Global.DCeiling.#ctor(SCeiling)
+  id: '#ctor(SCeiling)'
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: DCeiling(SCeiling)
+  nameWithType: DCeiling.DCeiling(SCeiling)
+  fullName: DCeiling.DCeiling(SCeiling)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 33
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public DCeiling(SCeiling sCeiling)
+    parameters:
+    - id: sCeiling
+      type: Global.SCeiling
+    content.vb: Public Sub New(sCeiling As SCeiling)
+  overload: Global.DCeiling.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.DrawCeiling2D
+  commentId: M:Global.DCeiling.DrawCeiling2D
+  id: DrawCeiling2D
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: DrawCeiling2D()
+  nameWithType: DCeiling.DrawCeiling2D()
+  fullName: DCeiling.DrawCeiling2D()
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DrawCeiling2D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 59
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject DrawCeiling2D()
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function DrawCeiling2D As GameObject
+  overload: Global.DCeiling.DrawCeiling2D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.DrawCeiling3D
+  commentId: M:Global.DCeiling.DrawCeiling3D
+  id: DrawCeiling3D
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: DrawCeiling3D()
+  nameWithType: DCeiling.DrawCeiling3D()
+  fullName: DCeiling.DrawCeiling3D()
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: DrawCeiling3D
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 101
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public GameObject DrawCeiling3D()
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function DrawCeiling3D As GameObject
+  overload: Global.DCeiling.DrawCeiling3D*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DCeiling.GetTRSMatrix(UnityEngine.Transform)
+  commentId: M:Global.DCeiling.GetTRSMatrix(UnityEngine.Transform)
+  id: GetTRSMatrix(UnityEngine.Transform)
+  parent: Global.DCeiling
+  langs:
+  - csharp
+  - vb
+  name: GetTRSMatrix(Transform)
+  nameWithType: DCeiling.GetTRSMatrix(Transform)
+  fullName: DCeiling.GetTRSMatrix(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: GetTRSMatrix
+    path: ../Assets/Code/Scripts/ModelSystem/AppSystem/Items/DCeiling.cs
+    startLine: 154
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Matrix4x4 GetTRSMatrix(Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    return:
+      type: UnityEngine.Matrix4x4
+    content.vb: Public Function GetTRSMatrix(transform As Transform) As Matrix4x4
+  overload: Global.DCeiling.GetTRSMatrix*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.DCeiling.Id*
+  commentId: Overload:Global.DCeiling.Id
+  name: Id
+  nameWithType: DCeiling.Id
+  fullName: DCeiling.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Global.DCeiling.Name*
+  commentId: Overload:Global.DCeiling.Name
+  name: Name
+  nameWithType: DCeiling.Name
+  fullName: DCeiling.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.DCeiling.Tag*
+  commentId: Overload:Global.DCeiling.Tag
+  name: Tag
+  nameWithType: DCeiling.Tag
+  fullName: DCeiling.Tag
+- uid: Global.DCeiling.Height*
+  commentId: Overload:Global.DCeiling.Height
+  name: Height
+  nameWithType: DCeiling.Height
+  fullName: DCeiling.Height
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.DCeiling.LevelBottom*
+  commentId: Overload:Global.DCeiling.LevelBottom
+  name: LevelBottom
+  nameWithType: DCeiling.LevelBottom
+  fullName: DCeiling.LevelBottom
+- uid: Global.DCeiling.Material*
+  commentId: Overload:Global.DCeiling.Material
+  name: Material
+  nameWithType: DCeiling.Material
+  fullName: DCeiling.Material
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: Global.DCeiling.Points*
+  commentId: Overload:Global.DCeiling.Points
+  name: Points
+  nameWithType: DCeiling.Points
+  fullName: DCeiling.Points
+- uid: UnityEngine.Vector3[]
+  isExternal: true
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: UnityEngine.Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: UnityEngine.Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.DCeiling.Triangles3D*
+  commentId: Overload:Global.DCeiling.Triangles3D
+  name: Triangles3D
+  nameWithType: DCeiling.Triangles3D
+  fullName: DCeiling.Triangles3D
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.DCeiling.Vertices3D*
+  commentId: Overload:Global.DCeiling.Vertices3D
+  name: Vertices3D
+  nameWithType: DCeiling.Vertices3D
+  fullName: DCeiling.Vertices3D
+- uid: Global.DCeiling.Instance2D*
+  commentId: Overload:Global.DCeiling.Instance2D
+  name: Instance2D
+  nameWithType: DCeiling.Instance2D
+  fullName: DCeiling.Instance2D
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Global.DCeiling.Instance3D*
+  commentId: Overload:Global.DCeiling.Instance3D
+  name: Instance3D
+  nameWithType: DCeiling.Instance3D
+  fullName: DCeiling.Instance3D
+- uid: Global.DCeiling.#ctor*
+  commentId: Overload:Global.DCeiling.#ctor
+  name: DCeiling
+  nameWithType: DCeiling.DCeiling
+  fullName: DCeiling.DCeiling
+- uid: Global.SCeiling
+  commentId: T:Global.SCeiling
+  name: SCeiling
+  nameWithType: SCeiling
+  fullName: SCeiling
+- uid: Global.DCeiling.DrawCeiling2D*
+  commentId: Overload:Global.DCeiling.DrawCeiling2D
+  name: DrawCeiling2D
+  nameWithType: DCeiling.DrawCeiling2D
+  fullName: DCeiling.DrawCeiling2D
+- uid: Global.DCeiling.DrawCeiling3D*
+  commentId: Overload:Global.DCeiling.DrawCeiling3D
+  name: DrawCeiling3D
+  nameWithType: DCeiling.DrawCeiling3D
+  fullName: DCeiling.DrawCeiling3D
+- uid: Global.DCeiling.GetTRSMatrix*
+  commentId: Overload:Global.DCeiling.GetTRSMatrix
+  name: GetTRSMatrix
+  nameWithType: DCeiling.GetTRSMatrix
+  fullName: DCeiling.GetTRSMatrix
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: UnityEngine.Matrix4x4
+  commentId: T:UnityEngine.Matrix4x4
+  parent: UnityEngine
+  isExternal: true
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: UnityEngine.Matrix4x4

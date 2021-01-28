@@ -1,0 +1,337 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SFloor
+  commentId: T:Global.SFloor
+  id: SFloor
+  parent: Global
+  children:
+  - Global.SFloor.#ctor(DFloor)
+  - Global.SFloor.Height
+  - Global.SFloor.Id
+  - Global.SFloor.LevelBottom
+  - Global.SFloor.Name
+  - Global.SFloor.Tag
+  langs:
+  - csharp
+  - vb
+  name: SFloor
+  nameWithType: SFloor
+  fullName: SFloor
+  type: Class
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: SFloor
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+    startLine: 2
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SFloor
+    content.vb: >-
+      <Serializable>
+
+      Public Class SFloor
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SFloor.Id
+  commentId: P:Global.SFloor.Id
+  id: Id
+  parent: Global.SFloor
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SFloor.Id
+  fullName: SFloor.Id
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Id
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: Global.SFloor.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SFloor.Name
+  commentId: P:Global.SFloor.Name
+  id: Name
+  parent: Global.SFloor
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SFloor.Name
+  fullName: SFloor.Name
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Name
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Global.SFloor.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SFloor.Tag
+  commentId: P:Global.SFloor.Tag
+  id: Tag
+  parent: Global.SFloor
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: SFloor.Tag
+  fullName: SFloor.Tag
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Tag
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string Tag { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tag As String
+  overload: Global.SFloor.Tag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SFloor.Height
+  commentId: P:Global.SFloor.Height
+  id: Height
+  parent: Global.SFloor
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: SFloor.Height
+  fullName: SFloor.Height
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: Height
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float Height { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Height As Single
+  overload: Global.SFloor.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SFloor.LevelBottom
+  commentId: P:Global.SFloor.LevelBottom
+  id: LevelBottom
+  parent: Global.SFloor
+  langs:
+  - csharp
+  - vb
+  name: LevelBottom
+  nameWithType: SFloor.LevelBottom
+  fullName: SFloor.LevelBottom
+  type: Property
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: LevelBottom
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public float LevelBottom { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property LevelBottom As Single
+  overload: Global.SFloor.LevelBottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SFloor.#ctor(DFloor)
+  commentId: M:Global.SFloor.#ctor(DFloor)
+  id: '#ctor(DFloor)'
+  parent: Global.SFloor
+  langs:
+  - csharp
+  - vb
+  name: SFloor(DFloor)
+  nameWithType: SFloor.SFloor(DFloor)
+  fullName: SFloor.SFloor(DFloor)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+      branch: master
+      repo: https://github.com/DomaPro/doma_app.git
+    id: .ctor
+    path: ../Assets/Code/Scripts/ModelSystem/SerializeSystem/Items/SFloor.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public SFloor(DFloor dFloor)
+    parameters:
+    - id: dFloor
+      type: Global.DFloor
+    content.vb: Public Sub New(dFloor As DFloor)
+  overload: Global.SFloor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SFloor.Id*
+  commentId: Overload:Global.SFloor.Id
+  name: Id
+  nameWithType: SFloor.Id
+  fullName: SFloor.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Global.SFloor.Name*
+  commentId: Overload:Global.SFloor.Name
+  name: Name
+  nameWithType: SFloor.Name
+  fullName: SFloor.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.SFloor.Tag*
+  commentId: Overload:Global.SFloor.Tag
+  name: Tag
+  nameWithType: SFloor.Tag
+  fullName: SFloor.Tag
+- uid: Global.SFloor.Height*
+  commentId: Overload:Global.SFloor.Height
+  name: Height
+  nameWithType: SFloor.Height
+  fullName: SFloor.Height
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.SFloor.LevelBottom*
+  commentId: Overload:Global.SFloor.LevelBottom
+  name: LevelBottom
+  nameWithType: SFloor.LevelBottom
+  fullName: SFloor.LevelBottom
+- uid: Global.SFloor.#ctor*
+  commentId: Overload:Global.SFloor.#ctor
+  name: SFloor
+  nameWithType: SFloor.SFloor
+  fullName: SFloor.SFloor
+- uid: Global.DFloor
+  commentId: T:Global.DFloor
+  name: DFloor
+  nameWithType: DFloor
+  fullName: DFloor
